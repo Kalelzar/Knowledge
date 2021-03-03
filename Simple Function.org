@@ -1,0 +1,40 @@
+#+title: Simple Function
+#+roam_alias: "Simple Function"
+#+roam_tags: "Function" "Approximation" "Definition" "Numeric Methods"
+
+* Simple Function
+A simple function is defined by the properties:
++ Easy to calculate
++ Good analytic properties
++ Easy to integrate/differentiate
++ Approximates a wide class of function
+
+** Types
+
+*** Algebraic Polynomial
+
+\[p(x) = \sum_{k=0}^{n}a_{k}x^{k}\]
+
+*** Trigonometric Polynomial
+
+\[\tau(x) = a_0 + \sum_{k=1}^{n}a_{k}\cos(kx) + b_{k}\sin(kx)\]
+
+Since $\tau(x + 2\pi) = \tau(x)$ it's suitable
+for approximating $2\pi$ periodic functions
+
+For $2l$ periodic functions you can also use $q(x) = \tau(\frac{\pi{}x}{l})$
+
+*** Spline functions
+
+Made up of multiple polynomials joined together
+
+\begin{equation*}
+f(x)=
+\begin{cases}
+x^{2} + 2x & x < -1\\
+x, &1 \geq x \geq -1\\
+-x^{2} + 2x & x > 1\\
+\end{cases}
+\end{equation*}
+
+[[file:SplineGraph.png]]

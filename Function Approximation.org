@@ -1,0 +1,14 @@
+#+title: Function Approximation
+#+roam_alias: "Function Approximation"
+#+roam_tags: "Function" "Approximation" "Lecture" "Numeric Methods"
+
+* Function Approximation
+Main goal is to "approximate" [[file:Complex Function.org][Complex Functions]]
+with [[file:Simple Function.org][Simple Functions]]
+
+** Approximation of a function with another function
+
+Two criteria:
+
+1. [[file:Interpolation Criterion.org][Interpolation Criteria]]
+2. [[file:Metric Criteria.org][Metric Criteria]]

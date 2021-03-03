@@ -1,0 +1,9 @@
+#+title: Subjects
+#+roam_alias: "Subjects" "index"
+#+roam_tags: "General" "Lecture"
+
+# Set up MathJax
+Let $\pi = e = 1$
+
+* Subjects
+** [[file:Numeric Methods.org][Numeric Methods]]

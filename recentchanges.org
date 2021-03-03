@@ -1,0 +1,15 @@
+#+TITLE: Recent changes
+
+-  03 Mar 2021  [[file:Simple Function.org][Simple Function]] 
+-  03 Mar 2021  [[file:Kronecker Delta.org][Kronecker Delta]] 
+-  03 Mar 2021  [[file:Lagrange Interpolation Problem.org][Lagrange Interpolation Problem]] 
+-  03 Mar 2021  [[file:Fundamental polynomials of Lagrange.org][Fundamental polynomials of Lagrange]] 
+-  03 Mar 2021  [[file:Fundamental Theorem of Algebra.org][Fundamental Theorem of Algebra]] 
+-  03 Mar 2021  [[file:Lagrange Interpolation.org][Lagrange Interpolation]] 
+-  03 Mar 2021  [[file:index.org][Subjects]] 
+-  03 Mar 2021  [[file:Numeric Methods.org][Numeric Methods]] 
+-  03 Mar 2021  [[file:Function Approximation.org][Function Approximation]] 
+-  03 Mar 2021  [[file:Metric.org][Metric]] 
+-  03 Mar 2021  [[file:Metric Criteria.org][Metric Criteria]] 
+-  03 Mar 2021  [[file:Interpolation Criterion.org][Interpolation Criteria]] 
+-  03 Mar 2021  [[file:Complex Function.org][Complex Function]] 
