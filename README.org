@@ -1,6 +1,1 @@
-#+TITLE: index
-#+roam_alias: README
-
-A personal wiki powered by org-publish and org-roam
-
-I store notes from lectures and seminars in [[file:Subjects.org][Subjects]]
+index.org
