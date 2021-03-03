@@ -1,5 +1,5 @@
 #+title: Subjects
-#+roam_alias: "Subjects" "index"
+#+roam_alias: "Subjects"
 #+roam_tags: "General" "Lecture"
 
 # Set up MathJax
