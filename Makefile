@@ -5,25 +5,20 @@
 
 .PHONY: all publish publish_no_init
 
-all: setup graph republish
-
-setup
-	@echo "Setting up Publish..."
-	cp css/ ../Publish/css -rf
-	cp js/ ../Publiss/js -rf
+all: graph republish
 
 graph: publish.el
 	@echo "Graphing..."
-	emacs --batch --load publish.el --funcall commonplace/build-graph-json
+	emacs --batch --load publish.el --funcall knowledge/build-graph-json
 	@chmod 755 graph.svg
 
 publish: publish.el
 	@echo "Publishing..."
-	emacs --batch --load publish.el --funcall commonplace/publish
+	emacs --batch --load publish.el --funcall knowledge/publish
 
 republish: publish.el
 	@echo "Republishing all files..."
-	emacs --batch --load publish.el --funcall commonplace/republish
+	emacs --batch --load publish.el --funcall knowledge/republish
 
 publish_no_init: publish.el
 	@echo "Publishing... with --no-init."
