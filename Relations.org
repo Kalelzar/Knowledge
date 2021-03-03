@@ -1,0 +1,149 @@
+#+title: Relations
+#+roam_alias: "Relations"
+#+roam_tags: "Discrete Structures" "Lecture" "Relation"
+* Relations
+
+*** [[file:Relation.org][Definition]]
+
+*** Properties
+
+**** [[file:Reflexive Relation.org][Reflexive]]
+**** [[file:Anti-reflexive relation.org][Anti-reflexive]]
+**** [[file:Symmetric Relation.org][Symmetric]]
+**** [[file:Anti-symmetric Relation.org][Anti-symmetric]]
+**** [[file:Strongly Anti-symmetric Relation.org][Strongly anti-symmetric]]
+**** [[file:Transitive Relation.org][Transitive]]
+*** Closures
+Let $R \subseteq A^{2}$
+**** Reflexive
+The reflexive closure of R is the smallest set
+$R' \subseteq A^{2}$ such that $R' \supseteq R$ and $R'$ is a
+reflexive relation.
+
+(Smallest set means that $\forall{}R'' \subseteq A^{2}$ such that
+ $R'' \supseteq R$ and $R''$ is a reflexive relation
+\Rightarrow $R'' \supseteq R'$
+**** Transitive
+The transitive closure of R is the smallest set
+$R' \subseteq A^{2}$ such that $R' \supseteq R$ and $R'$ is a
+transitive relation.
+**** Symmetric
+The symmetric closure of R is the smallest set
+$R' \subseteq A^{2}$ such that $R' \supseteq R$ and $R'$ is a
+symmetric relation.
+**** Algorithm for constructing closures
+Let $A$ be finite and relations are represented by matrices.
+***** Reflexive
+Convert all 0 along the main diagonal to 1
+
+|---+---+---+---+---+---+---|
+| 0 | 1 | 1 |   | 1 | 1 | 1 |
+| 0 | 1 | 1 | \Rightarrow | 0 | 1 | 1 |
+| 0 | 1 | 0 |   | 0 | 1 | 1 |
+|---+---+---+---+---+---+---|
+
+***** Symmetric
+Check for pairs (0,1) (1,0) in cells symmetric along
+the main diagonal.
+Turn all 0 to 1
+
+|---+---+---+---+---+---+---|
+| 0 | 1 | 1 |   | 0 | 1 | 1 |
+| 0 | 1 | 1 | \Rightarrow | 1 | 1 | 1 |
+| 0 | 1 | 0 |   | 1 | 1 | 0 |
+|---+---+---+---+---+---+---|
+
+***** Transitive
+This is a lot harder.
+(Something like mulvertexlying the matrix with itself (n-1) times)
+
+*** Relation of equivalence
+
+A relation of equivalence is one that is reflexive, symmetric and transitive.
+
+**** Family
+
+Let $R \subseteq A^2$ be a relation of equivalence.
+Then the family $\{[a] | a \in A\}$ is a partition of A
+
+**** Classes of equivalence
+
+Let $R \subseteq A^2$ be a relation of equivalence.
+Let $\{[a] | a \in A\}$ be a partition of A.
+Then each $[a]$ is a class of equivalence of R.
+
+*** Partial order
+
+A relation is a partial order when it is reflexive,
+anti-symmetric and transitive.
+
+*** Linear order
+
+A relation is a linear order when it is reflexive,
+strongly anti-symmetric and transitive.
+
+Obviously all linear orders are partial orders.
+The opposite is not always true. (Think squares and rectangles)
+
+*** Linear extension
+
+Let $R \subseteq A^{2}$ be a partial order, $R' \subseteq A^{2}$
+is a linear order and $R\subseteq R'$.
+
+Then R' is a linear extension of R.
+
+
+For $A = \{a_1,\cdots,a_{n}\}$ the number of linear extensions can vary greatly.
+
+From 1 (R is a linear order) to n! (there are no comparable elements in R)
+
+*** Chains
+
+Let $R \subseteq A^{2}$ is a *random* relation and $A = \{a_1,\cdots,a_{n}\}$.
+
+A chain is any sequence
+
+\[ a_{i_{0}}, a_{i_{1}}, \cdots, a_{i_{k}} \]
+
+where $i_0, \cdots, i_k \in \{1, \cdots, m\}$, if $a_{i_{j}}Ra_{i_{j+1}}$
+and $a_{i_{j}}\neq{}a_{i_{j+1}}$ for $0\leq j < k$, $k\geq0$.
+
+A single element is also a chain.
+
+**** Contour
+
+If $a_{i_0} = a_{i_k}$ and $k>1$ then the chain is a contour.
+
+A single element is not a contour.
+
+**** Theorem - Partial orders have no contours.
+:LOGBOOK:
+- State "NEW"        from              [2020-08-29 Sat 13:06]
+:END:
+
+Let $R \subseteq A^{2}$ be reflexive and transitive.
+Then R is a partial order \Leftrightarrow it has no contours.
+
+
+**** Maximum and minimum in a partial order
+Let $R \subseteq A^{2}$
+
+$\forall a \in A$ we say that it is *minimum* in R if
+$\lnot\exists{}b\in{}A,b\neq{}a: bRa$
+
+$\forall a \in A$ we say that it is *maximum* in R if
+$\lnot\exists{}b\in{}A,b\neq{}a: aRb$
+
+There may be more than one minimum/maximum elements
+
+There also may be none
+
+**** Maximum and minimum in a linear order
+
+If A is a finite set then there are exactly one minimum
+and maximum elements (which coincide if the set has exactly one element.
+
+The opposite is not true. There may be exactly one
+min/max elements in a partial order.
+
+If A is infinite then there may not be a maximum/minimum element.

@@ -6,4 +6,9 @@
 Let $\pi = e = 1$
 
 * Subjects
-** [[file:Numeric Methods.org][Numeric Methods]]
+** Year 1
+*** Semester 1
+**** [[file:Discrete Structures.org][Discrete Structures]]
+** Year 2
+*** Semester 2
+**** [[file:Numeric Methods.org][Numeric Methods]]

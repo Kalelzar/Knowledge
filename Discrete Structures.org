@@ -1,0 +1,7 @@
+#+title: Discrete Structures
+#+roam_alias: "Discrete Structures"
+#+roam_tags: "Discrete Structures" "Lecture"
+* Discrete Structures
+** [[file:Logical Operators.org][Logical Operators]]
+** [[file:Logical Equivalences.org][Logical Equivalences]]
+** [[file:Relations.org][Relations]]

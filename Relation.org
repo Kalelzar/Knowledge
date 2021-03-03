@@ -1,0 +1,13 @@
+#+title: Relation
+#+roam_alias: "Relation"
+#+roam_tags: "Discrete Structures" "Definition" "Relation"
+* Relation
+Let $n>=1$ and $A_{1}, A_{2}, \cdots, A_{n}$ are sets respectively
+called 'first domain', 'second domain', \cdots, 'nth-domain'
+
+A relation over the [[file:Descartes Product.org][Descartes Product]] $A_{1} \times A_{2} \times \cdots \times A_{n}$
+we call every set:
+
+\[ R \subseteq A_{1} \times A_{2} \times \cdots \times A_{n} \]
+
+We say that R has an arity of n.

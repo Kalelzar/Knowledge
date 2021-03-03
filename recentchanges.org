@@ -1,5 +1,17 @@
 #+TITLE: Recent changes
 
+-  03 Mar 2021  [[file:Relations.org][Relations]] 
+-  03 Mar 2021  [[file:Transitive Relation.org][Transitive Relation]] 
+-  03 Mar 2021  [[file:Strongly Anti-symmetric Relation.org][Strongly Anti-symmetric Relation]] 
+-  03 Mar 2021  [[file:Anti-symmetric Relation.org][Anti-symmetric Relation]] 
+-  03 Mar 2021  [[file:Symmetric Relation.org][Symmetric Relation]] 
+-  03 Mar 2021  [[file:Anti-reflexive relation.org][Anti-reflexive relation]] 
+-  03 Mar 2021  [[file:Reflexive Relation.org][Reflexive Relation]] 
+-  03 Mar 2021  [[file:Relation.org][Relation]] 
+-  03 Mar 2021  [[file:Discrete Structures.org][Discrete Structures]] 
+-  03 Mar 2021  [[file:Descartes Product.org][Descartes Product]] 
+-  03 Mar 2021  [[file:Logical Equivalences.org][Logical Equivalences]] 
+-  03 Mar 2021  [[file:Logical Operators.org][Logical Operators]] 
 -  03 Mar 2021  [[file:README.org][index]] 
 -  03 Mar 2021  [[file:index.org][index]] 
 -  03 Mar 2021  [[file:Subjects.org][Subjects]] 
