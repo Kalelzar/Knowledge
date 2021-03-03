@@ -37,7 +37,7 @@
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
 
-                <a href='/home/kalelzar/Documents/Knowledge/index.html'><img src='/images/home.png' /></a>
+                <a href='/home/kalelzar/Documents/Publish/index.html'><img src='/images/home.png' /></a>
 
                 <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
                 <div class='menu-main-container'><ul id='primary-menu' class='menu'>
@@ -54,12 +54,12 @@
 (setq knowledge/head-extra "
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/dark.css' rel='stylesheet'>
-<link rel='stylesheet' type='text/css' href='/home/kalelzar/Documents/Knowledge/css/style.css'/>
+<link rel='stylesheet' type='text/css' href='/css/style.css'/>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
-<script src='/home/kalelzar/Documents/Knowledge/js/URI.js'></script>
-<script src='/home/kalelzar/Documents/Knowledge/js/page.js'></script>
+<script src='/js/URI.js'></script>
+<script src='/js/page.js'></script>
 <script src='https://unpkg.com/tippy.js@6'></script>")
 
 
@@ -82,11 +82,11 @@
 
 (defun knowledge/configure-local ()
   (interactive)
-  (knowledge/configure "~/Documents/Knowledge" "~/Documents/Knowledge")
+  (knowledge/configure "~/Documents/Knowledge" "~/Documents/Publish")
   )
 
 (defun knowledge/publish ()
-  (knowledge/configure "~/Documents/Knowledge" "~/Documents/Knowledge")
+  (knowledge/configure "~/Documents/Knowledge" "~/Documents/Publish")
 
   (rassq-delete-all 'html-mode auto-mode-alist)
   (rassq-delete-all 'web-mode auto-mode-alist)
@@ -96,7 +96,7 @@
 ;; republish all files, even if no changes made to the page content.
 ;; (for example, if you want backlinks to be regenerated).
 (defun knowledge/republish ()
-  (knowledge/configure "~/Documents/Knowledge" "~/Documents/Knowledge")
+  (knowledge/configure "~/Documents/Knowledge" "~/Documents/Publish")
 
 	(let ((current-prefix-arg 4))
     (rassq-delete-all 'web-mode auto-mode-alist)
