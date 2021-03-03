@@ -54,12 +54,12 @@
 (setq knowledge/head-extra "
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
-<link rel='stylesheet' type='text/css' href='/css/style.css'/>
+<link rel='stylesheet' type='text/css' href='/Knowledge/css/style.css'/>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
-<script src='/js/URI.js'></script>
-<script src='/js/page.js'></script>
+<script src='/Knowledge/js/URI.js'></script>
+<script src='/Knowledge/js/page.js'></script>
 <script src='https://unpkg.com/tippy.js@6'></script>")
 
 
