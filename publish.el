@@ -37,7 +37,7 @@
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
 
-                <a href='index.html'><img src='/images/home.png' /></a>
+                <a href='index.html'><img src='/Knowledge/images/home.png' /></a>
 
                 <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
                 <div class='menu-main-container'><ul id='primary-menu' class='menu'>
