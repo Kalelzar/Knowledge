@@ -36,3 +36,5 @@ then p(x) is the solution to [[file:Lagrange Interpolation Problem.org][the Lagr
 \[p(x_i) =_{(2)}\sum_{k=0}^{n}y_{k}l_{k,n}(x_i) =^{(3)}\sum_{k=0}^{n}y_{k}\delta_{ki}(x_i) = y_i\], $i = \overline{0,n}$
 
 \Rightarrow $p(x)$ is a solution to [[file:Lagrange Interpolation Problem.org][Lagrange Interpolation Problem]]
+also known as [[file:Formula of Lagrange for Interpolation.org][Formula of Lagrange for Interpolation]].
+[[file:Formula of Lagrange for Interpolation.org][Formula of Lagrange for Interpolation]]

@@ -14,64 +14,15 @@
 **** [[file:Strongly Anti-symmetric Relation.org][Strongly anti-symmetric]]
 **** [[file:Transitive Relation.org][Transitive]]
 *** Closures
-Let $R \subseteq A^{2}$
-**** Reflexive
-The reflexive closure of R is the smallest set
-$R' \subseteq A^{2}$ such that $R' \supseteq R$ and $R'$ is a
-reflexive relation.
-
-(Smallest set means that $\forall{}R'' \subseteq A^{2}$ such that
- $R'' \supseteq R$ and $R''$ is a reflexive relation
-\Rightarrow $R'' \supseteq R'$
-**** Transitive
-The transitive closure of R is the smallest set
-$R' \subseteq A^{2}$ such that $R' \supseteq R$ and $R'$ is a
-transitive relation.
-**** Symmetric
-The symmetric closure of R is the smallest set
-$R' \subseteq A^{2}$ such that $R' \supseteq R$ and $R'$ is a
-symmetric relation.
+**** [[file:Reflexive Closure.org][Reflexive]]
+**** [[file:Transitive Closure.org][Transitive]]
+**** [[file:Symmetric Closure.org][Symmetric]]
 **** Algorithm for constructing closures
-Let $A$ be finite and relations are represented by matrices.
-***** Reflexive
-Convert all 0 along the main diagonal to 1
-
-|---+---+---+---+---+---+---|
-| 0 | 1 | 1 |   | 1 | 1 | 1 |
-| 0 | 1 | 1 | \Rightarrow | 0 | 1 | 1 |
-| 0 | 1 | 0 |   | 0 | 1 | 1 |
-|---+---+---+---+---+---+---|
-
-***** Symmetric
-Check for pairs (0,1) (1,0) in cells symmetric along
-the main diagonal.
-Turn all 0 to 1
-
-|---+---+---+---+---+---+---|
-| 0 | 1 | 1 |   | 0 | 1 | 1 |
-| 0 | 1 | 1 | \Rightarrow | 1 | 1 | 1 |
-| 0 | 1 | 0 |   | 1 | 1 | 0 |
-|---+---+---+---+---+---+---|
-
-***** Transitive
-This is a lot harder.
-(Something like mulvertexlying the matrix with itself (n-1) times)
-
-*** Relation of equivalence
-
-A relation of equivalence is one that is reflexive, symmetric and transitive.
-
-**** Family
-
-Let $R \subseteq A^2$ be a relation of equivalence.
-Then the family $\{[a] | a \in A\}$ is a partition of A
-
-**** Classes of equivalence
-
-Let $R \subseteq A^2$ be a relation of equivalence.
-Let $\{[a] | a \in A\}$ be a partition of A.
-Then each $[a]$ is a class of equivalence of R.
-
+***** [[id:4415fce8-7a8d-41b0-b465-3c1ac77095bc][Reflexive]]
+***** [[id:9ba7e28e-c547-45fa-96d8-cc4fb314b71f][Symmetric]]
+***** [[id:9d3d939a-81be-4bba-90bf-898c3e651435][Transitive]]
+*** [[file:Relation of Equivalence.org][Relation of equivalence]]
+**** [[file:Class of equivalence.org][Classes of equivalence]]
 *** Partial order
 
 A relation is a partial order when it is reflexive,
