@@ -1,5 +1,16 @@
 #+TITLE: Recent changes
 
+-  04 Mar 2021  [[file:Evaluating Interpolation Error.org][Evaluating Interpolation Error]] 
+-  04 Mar 2021  [[file:Formula of Lagrange for Interpolation.org][Formula of Lagrange for Interpolation]] 
+-  04 Mar 2021  [[file:Extrapolation.org][Extrapolation]] 
+-  04 Mar 2021  [[file:Class of equivalence.org][Class of equivalence]] 
+-  04 Mar 2021  [[file:Relation of Equivalence.org][Relation of Equivalence]] 
+-  04 Mar 2021  [[file:Partition.org][Partition]] 
+-  04 Mar 2021  [[file:Transitive Closure.org][Transitive Closure]] 
+-  04 Mar 2021  [[file:Symmetric Closure.org][Symmetric Closure]] 
+-  03 Mar 2021  [[file:Reflexive Closure.org][Reflexive Closure]] 
+-  03 Mar 2021  [[file:Set.org][Set]] 
+-  03 Mar 2021  [[file:Matrix.org][Matrix]] 
 -  03 Mar 2021  [[file:index.org][index]] 
 -  03 Mar 2021  [[file:Symmetric Relation.org][Symmetric Relation]] 
 -  03 Mar 2021  [[file:Transitive Relation.org][Transitive Relation]] 
