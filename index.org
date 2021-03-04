@@ -1,6 +1,11 @@
 #+TITLE: index
 #+roam_alias: README
+#+roam_tags: "index"
 
 A personal wiki powered by org-publish and org-roam
 
 I store notes from lectures and seminars in [[file:Subjects.org][Subjects]]
+
+* Known Bugs
+[[file:MathJax.org][MathJax]] doesn't process the pages that show up when you
+click on links. Refreshing the page helps but is inconsistent.

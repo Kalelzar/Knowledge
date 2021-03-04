@@ -763,7 +763,7 @@ body {
   margin: 0 auto;
   line-height:1.6;
   font-size:18px;
-  color:#444;
+  color: #c4c7c7;
   padding:0;
   font-family: Nunito, arial, sans;
   box-sizing: border-box;
@@ -793,7 +793,7 @@ a:not(h1) {
 }
 
 .outline-2, #table-of-contents, #postamble {
-  border-top: 1px solid #444;
+  border-top: 1px solid #c4c7c7;
 }
 
 blockquote {
@@ -998,8 +998,8 @@ a:hover {
 
 code {
   white-space: pre;
-  background: #eeeeee;
-  border: 1px solid #bbb;
+  background: #132020;
+  border: 1px solid #b75867;
   border-radius: 4px;
   max-width: 100%;
   overflow: auto;
