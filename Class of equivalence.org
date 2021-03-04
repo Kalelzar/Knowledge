@@ -1,0 +1,12 @@
+#+title: Class of equivalence
+#+roam_alias: "Class of equivalence"
+#+roam_tags: "Discrete Structures" "Definition" "Relation"
+* Class of equivalence
+Let $R \in A^2$ be a [[file:Relation of Equivalence.org][Relation of Equivalence]].
+
+Then the class of equivalence of element $a \in A$ are
+defined by the [[file:Set.org][Set]] $[a] = \{ b \in A | aRb\}$.
+
+
+The classes of equivalence of the relation are
+[[file:Partition.org][Partitions]] of the Set $A$

@@ -1,0 +1,16 @@
+#+title: Transitive Closure
+#+roam_alias: "Transitive Closure"
+#+roam_tags: "Discrete Structures" "Definition" "Closure" "Relation"
+* Transitive Closure
+
+Let $R \in A^n$
+
+The transitive closure of $R$ is the smallest set
+$R' \subseteq A^{n}$ such that $R' \supseteq R$ and $R'$ is a
+[[file:Transitive Relation.org][transitive relation]].
+* Algorithm for construction
+:PROPERTIES:
+:ID:       9d3d939a-81be-4bba-90bf-898c3e651435
+:END:
+This is a lot harder.
+(Something like multiplying the matrix with itself (n-1) times)

@@ -1,0 +1,30 @@
+#+title: Symmetric Closure
+#+roam_alias: "Symmetric Closure"
+#+roam_tags: "Discrete Structures" "Definition" "Closure" "Relation"
+* Symmetric Closure
+
+Let $R \in A^n$
+
+The symmetric closure of R is the smallest set
+$R' \subseteq A^{n}$ such that $R' \supseteq R$ and $R'$ is a
+[[file:Symmetric Relation.org][symmetric relation]].
+
+* Algorithm for construction
+:PROPERTIES:
+:ID:       9ba7e28e-c547-45fa-96d8-cc4fb314b71f
+:END:
+
+Let $A$ be a finite [[file:Set.org][set]] and
+$R \in A^n$ is a [[file:Relation.org][relation]] represented by a [[file:Matrix.org][matrix]]
+
+Check for pairs (0,1) (1,0) in cells symmetric along
+the main diagonal.
+Turn all 0 to 1
+
+** Example
+
+|---+---+---+---+---+---+---|
+| 0 | 1 | 1 |   | 0 | 1 | 1 |
+| 0 | 1 | 1 | \Rightarrow | 1 | 1 | 1 |
+| 0 | 1 | 0 |   | 1 | 1 | 0 |
+|---+---+---+---+---+---+---|
