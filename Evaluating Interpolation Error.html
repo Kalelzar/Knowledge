@@ -2,7 +2,7 @@
                 <head><!-- 2021-03-04 Thu 19:20 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fundamental polynomials of Lagrange</title>
+<title>Evaluating Interpolation Error</title>
 <meta name="generator" content="Org mode">
 
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
@@ -57,80 +57,119 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<h1 class="title">Fundamental polynomials of Lagrange</h1> <a class='rooter' href='Fundamental polynomials of Lagrange.html'>*</a>
-</header>
-<section id="outline-container-orge79fb74" class="outline-2">
-<h2 id="orge79fb74"><span class="section-number-2">1</span> Fundamental polynomials of Lagrange</h2>
+<h1 class="title">Evaluating Interpolation Error</h1> <a class='rooter' href='Evaluating Interpolation Error.html'>*</a>
+</header><section id="outline-container-org10687a1" class="outline-2">
+<h2 id="org10687a1"><span class="section-number-2">1</span> Evaluating Interpolation Error</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-\(l_{k,n}(x_i) = \delta_{ki}\) (<a href="Kronecker Delta.html">Kronecker Delta)</a>
+Let [a,n] be a finite interval and \(x_0, \dots, x_n\) &isin; [a,b], x<sub>i</sub> &ne; x<sub>j</sub>, i&ne;j
+</p>
+
+<p>
+Let f be differentiatiable in [a,b] n+1 times
+</p>
+
+<p>
+Then &forall;x &isin; [a,b] &exist;&zeta; = &zeta;(x) &isin; [a,b] such that
+</p>
+
+<p>
+\[
+ f(x) - L_{n}(f;x) = \frac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)
+\]
+</p>
+
+<p>
+usually applied as
+</p>
+
+<p>
+\[|f(x) - L_{n}(f;x)| = |\frac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)|\]
+</p>
+
+
+<p>
+\(|f^{(n+1)}(\zeta)| \leq M_{n+1}\), \(M_{n+1} \in R\)
+</p>
+
+<p>
+\[|f(x) - L_{n}(f;x)| \le \frac{M_{(n+1)}}{(n+1)!}|(x-x_0)(x-x_{1})\dots(x - x_n)|\]
 </p>
 </div>
 </section>
-
-<section id="outline-container-org9c25b92" class="outline-2">
-<h2 id="org9c25b92"><span class="section-number-2">2</span> Solved Problems</h2>
+<section id="outline-container-org6c21464" class="outline-2">
+<h2 id="org6c21464"><span class="section-number-2">2</span> Solved Problems</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org6d18135" class="outline-3">
-<h3 id="org6d18135"><span class="section-number-3">2.1</span> Problem 1</h3>
+<div id="outline-container-org0869136" class="outline-3">
+<h3 id="org0869136"><span class="section-number-3">2.1</span> Problem 1</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
-Let \(l_{k,n}(x_i)\), \(k\in\overline{0,n}\) are the Fundamental polynomials of
-Lagrange for the knots \(x_0, \dots, x_n\)
+Find the error when approximating f(x) = 1/(1+x) in the interval [0, 1]
+with <a href="Lagrange Interpolation.html">Lagrange Interpolation</a> using
+two reference points 0, 1.
 </p>
 
 <p>
-Then \(\sum_{k=0}^{n}l_{kn}(x) = 1, \forall{}x\)
+Evaluate the (abs) error from above in [0, 1]
 </p>
-</div>
 
-<div id="outline-container-org443fc25" class="outline-4">
-<h4 id="org443fc25"><span class="section-number-4">2.1.1</span> Solution</h4>
-<div class="outline-text-4" id="text-2-1-1">
+
 <p>
-Let \(f(x) = 1\)
+\[|R(x)| = |f(x) - L_{1}_{}(f;x)| = |\frac{f^{''}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})|\]
 </p>
 
 <p>
-f(x) &isin; &pi;<sub>n</sub> &rArr; f(x) &equiv; L<sub>n</sub>(f;x) &equiv; 1         }
-                                       } &rArr; &sum;<sub>k=0</sub><sup>n</sup>l<sub>nk</sub>(x) = L<sub>n</sub>(f;x) = 1
-L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>f(x<sub>k</sub>)l<sub>kn</sub>(x) = &sum;<sub>k=0</sub><sup>n</sup>1*l<sub>kn</sub>(x)  }
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org3074e46" class="outline-3">
-<h3 id="org3074e46"><span class="section-number-3">2.2</span> Problem 2</h3>
-<div class="outline-text-3" id="text-2-2">
-<p>
-Prove that \(\sum_{k=0}^{n}x_k^{m}l_{kn}(x) = x^{m}\), \(m=\overline{0,n}\)
-</p>
-</div>
-
-<div id="outline-container-org4f15a08" class="outline-4">
-<h4 id="org4f15a08"><span class="section-number-4">2.2.1</span> Solution</h4>
-<div class="outline-text-4" id="text-2-2-1">
-<p>
-Let \(f(x) = x^m\), \(m = \overline{0,n}\)
+A) \(R(0.75) = ?\)
 </p>
 
 <p>
-f(x) &isin; &pi;<sub>n</sub>, m = \overline{0,n} &rArr; (x) &equiv; L<sub>n</sub>(f;x) = x<sup>m</sup>, \(m = \overline{0,n}\)
-                                            } &rArr; L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>x<sub>k</sub><sup>m</sup>l<sub>kn</sub>(x) = x<sup>m</sup>, \(m = \overline{0,n}\)
-L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>f(x<sub>k</sub>)l<sub>kn</sub>(x) = &sum;<sub>k=0</sub><sup>n</sup>x<sub>k</sub><sup>m</sup>l<sub>kn</sub>(x)
+\(f'(x) = -(1+x)^{-2}, f''(x) = 2(1+x)^{-3}\)
 </p>
-</div>
+
+<p>
+\(|R(x) | = |(1+\zeta)^{-3}x(x-1)|\)
+</p>
+
+<p>
+\(|R(\frac{3}{4})| = |(1 + \zeta)^{-3}||\frac{-3}{16}|\), \(\zeta \in [0,1]\)
+</p>
+
+<p>
+\(|R(\frac{3}{4})| <= \max_{x\in[0,1]}\limits{}|(1 + x)^{-3}|\frac{3}{16} = \frac{3}{16}\)
+</p>
+
+
+
+<p>
+\(L_n(f,x) = \sum_{k=0}^{1}f(x_k)l_k(x)\)
+</p>
+
+<p>
+\(l_0(x) = \frac{x - x_1}{x_0 - x_1} = -(x-1)\)
+\(l_1(x) = \frac{x - x_0}{x_1 - x_0} = x\)
+</p>
+
+<p>
+\(L_n(f,x) = -f(x_0)(x-1) + f(x_1)x = -(x-1) + \frac{1}{2x} = 1 - \frac{1}{2x}\)
+</p>
+
+<p>
+\(L_n(f, 0.75) = 1 - \frac{1}{2}\frac{3}{4} = 1 - \frac{3}{8} = \frac{5}{8}\)
+\(f(0.75) = \frac{1}{(\frac{7}{4})} = \frac{4}{7}\)
+</p>
+
+<p>
+\(|L_n(f,0.75) - f(0.75)| = |\frac{5}{8} - \frac{4}{7}| = |\frac{35}{56} - \frac{32}{56}| = \frac{3}{56}\)
+</p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-orgc6c85ab" class="outline-2">
-<h2 id="orgc6c85ab"><span class="section-number-2">3</span> Backlinks</h2>
+<section id="outline-container-org6ca8225" class="outline-2">
+<h2 id="org6ca8225"><span class="section-number-2">3</span> Backlinks</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
-<li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>
 <li><a href="recentchanges.html">Recent changes</a></li>
 </ul>
 </div>
