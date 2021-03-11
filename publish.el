@@ -54,7 +54,7 @@
 (setq knowledge/head-extra "
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
-<link rel='stylesheet' type='text/css' href='/Knowledge/css/style.css'/>
+<link rel='stylesheet' type='text/css' href='css/style.css'/>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
@@ -178,6 +178,18 @@
        "" (org-roam-db-query [:select [source] :from links :where (= dest $s1)] file))
     ""))
 
+(defun knowledge/org-roam--tags-html (title)
+  (let ((file (concat (f-expand org-roam-directory) "/" (substring-no-properties title) ".org")))
+    (concat "<div class=\"tags\">\n"
+          (--reduce
+           (concat acc "\n" it)
+           (--map (format "<a class=\"tag\" href=\"org-protocol://roam-tag?tag=%s\">%s</a>" it it)
+                  (-flatten (org-roam-db-query [:select [tags]
+                                                        :from tags
+                                                        :where (= file $s1)]
+                                               file))))
+          "\n</div>")))
+
 (defun knowledge/org-export-preprocessor (backend)
   (let ((links (knowledge/org-roam--backlinks-list (buffer-file-name))))
     (unless (string= links "")
@@ -201,8 +213,7 @@
              (org-html--build-meta-info info)
              (org-html--build-head info)
              (org-html--build-mathjax-config info)
-             "</head>
-                <body>"
+             "</head>\n<body>\n"
              (org-html--build-pre/postamble 'preamble info)
              "<div class='grid-container'><div class='ds-grid'>"
              (unless (string= (org-export-data (plist-get info :title) info) "The Map")
@@ -219,10 +230,11 @@
                  (when title
                    (format
                     (if html5-fancy
-                        "<header>\n<h1 class=\"title\">%s</h1> <a class='rooter' href='%s'>*</a>\n%s</header>"
-                      "<h1 class=\"title\">%s%s<a class='rooter' href='%s'>*</a></h1>\n")
-                    (org-export-data title info)
+                        "<header>\n<a class='rooter' href='%s'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
+                      "<h1 class=\"title\"><a class='rooter' href='%s'></a>%s</h1>\n%s\n%s\n")
                     (file-name-nondirectory (plist-get info :output-file))
+                    (org-export-data title info)
+                    (knowledge/org-roam--tags-html (org-export-data title info))
                     (if subtitle
                         (format
                          (if html5-fancy
