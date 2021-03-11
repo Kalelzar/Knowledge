@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-04 Thu 19:20 -->
+                <head><!-- 2021-03-11 Thu 15:03 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Evaluating Interpolation Error</title>
@@ -7,7 +7,7 @@
 
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
-<link rel='stylesheet' type='text/css' href='/Knowledge/css/style.css'/>
+<link rel='stylesheet' type='text/css' href='css/style.css'/>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
@@ -37,7 +37,8 @@
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
-                <body><div id="preamble" class="status">
+<body>
+<div id="preamble" class="status">
 
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
@@ -57,9 +58,15 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<h1 class="title">Evaluating Interpolation Error</h1> <a class='rooter' href='Evaluating Interpolation Error.html'>*</a>
-</header><section id="outline-container-org10687a1" class="outline-2">
-<h2 id="org10687a1"><span class="section-number-2">1</span> Evaluating Interpolation Error</h2>
+<a class='rooter' href='Evaluating Interpolation Error.html'></a> <h1 class="title">Evaluating Interpolation Error</h1>
+<div class="tags">
+<a class="tag" href="org-protocol://roam-tag?tag=Numeric Methods">Numeric Methods</a>
+<a class="tag" href="org-protocol://roam-tag?tag=Theorem">Theorem</a>
+<a class="tag" href="org-protocol://roam-tag?tag=Interpolation">Interpolation</a>
+</div>
+</header>
+<section id="outline-container-org9ff3ce7" class="outline-2">
+<h2 id="org9ff3ce7"><span class="section-number-2">1</span> Evaluating Interpolation Error</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Let [a,n] be a finite interval and \(x_0, \dots, x_n\) &isin; [a,b], x<sub>i</sub> &ne; x<sub>j</sub>, i&ne;j
@@ -75,21 +82,18 @@ Then &forall;x &isin; [a,b] &exist;&zeta; = &zeta;(x) &isin; [a,b] such that
 
 <p>
 \[
- f(x) - L_{n}(f;x) = \frac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)
+ f(x) - L_{n}(f;x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)
 \]
 </p>
 
 <p>
 usually applied as
-</p>
-
-<p>
-\[|f(x) - L_{n}(f;x)| = |\frac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)|\]
+\[|f(x) - L_{n}(f;x)| = |\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)|\]
 </p>
 
 
 <p>
-\(|f^{(n+1)}(\zeta)| \leq M_{n+1}\), \(M_{n+1} \in R\)
+\(|f^{(n+1)}(\xi)| \leq M_{n+1}\), \(M_{n+1} \in R\)
 </p>
 
 <p>
@@ -97,12 +101,12 @@ usually applied as
 </p>
 </div>
 </section>
-<section id="outline-container-org6c21464" class="outline-2">
-<h2 id="org6c21464"><span class="section-number-2">2</span> Solved Problems</h2>
+<section id="outline-container-org6db95ae" class="outline-2">
+<h2 id="org6db95ae"><span class="section-number-2">2</span> Solved Problems</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org0869136" class="outline-3">
-<h3 id="org0869136"><span class="section-number-3">2.1</span> Problem 1</h3>
+<div id="outline-container-orgedea409" class="outline-3">
+<h3 id="orgedea409"><span class="section-number-3">2.1</span> Problem 1</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Find the error when approximating f(x) = 1/(1+x) in the interval [0, 1]
@@ -116,7 +120,7 @@ Evaluate the (abs) error from above in [0, 1]
 
 
 <p>
-\[|R(x)| = |f(x) - L_{1}_{}(f;x)| = |\frac{f^{''}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})|\]
+\[|R(x)| = |f(x) - L_{1}_{}(f;x)| = |\frac{f^{''}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})|\]
 </p>
 
 <p>
@@ -128,11 +132,11 @@ A) \(R(0.75) = ?\)
 </p>
 
 <p>
-\(|R(x) | = |(1+\zeta)^{-3}x(x-1)|\)
+\(|R(x) | = |(1+\xi)^{-3}x(x-1)|\)
 </p>
 
 <p>
-\(|R(\frac{3}{4})| = |(1 + \zeta)^{-3}||\frac{-3}{16}|\), \(\zeta \in [0,1]\)
+\(|R(\frac{3}{4})| = |(1 + \xi)^{-3}||\frac{-3}{16}|\), \(\xi \in [0,1]\)
 </p>
 
 <p>
@@ -166,8 +170,8 @@ A) \(R(0.75) = ?\)
 </div>
 </section>
 
-<section id="outline-container-org6ca8225" class="outline-2">
-<h2 id="org6ca8225"><span class="section-number-2">3</span> Backlinks</h2>
+<section id="outline-container-org1c7da03" class="outline-2">
+<h2 id="org1c7da03"><span class="section-number-2">3</span> Backlinks</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li><a href="recentchanges.html">Recent changes</a></li>

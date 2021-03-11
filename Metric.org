@@ -1,6 +1,6 @@
 #+title: Metric
 #+roam_alias: "Metric" "Distance"
-#+roam_tags: "metric"
+#+roam_tags: "Metric"
 
 * Metric
 
