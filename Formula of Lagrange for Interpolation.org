@@ -4,9 +4,9 @@
 * Formula of Lagrange for Interpolation
 
 
-P(x) = \sum_{k=0}^{n}l_k(x)y_k
+$P(x) = \sum_{k=0}^{n}l_k(x)y_k$
 
-l_k(x_i) = \delta_{ik} ([[file:Kronecker Delta.org][Kronecker Delta]])
+$l_k(x_i) = \delta_{ik$} ([[file:Kronecker Delta.org][Kronecker Delta]])
 * Solved Problems
 ** Problem 1
 Let f(x) = \frac{1}{1+x}

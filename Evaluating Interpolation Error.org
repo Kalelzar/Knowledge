@@ -1,6 +1,7 @@
 #+title: Evaluating Interpolation Error
 #+roam_alias: "Evaluating Interpolation Error"
 #+roam_tags: "Numeric Methods" "Theorem" "Interpolation"
+
 * Evaluating Interpolation Error
 
 Let [a,n] be a finite interval and $x_0, \dots, x_n$ \in [a,b], x_i \ne x_j, i\ne{}j
@@ -10,15 +11,14 @@ Let f be differentiatiable in [a,b] n+1 times
 Then \forall{}x \in [a,b] \exists{}\zeta = \zeta(x) \in [a,b] such that
 
 \[
- f(x) - L_{n}(f;x) = \frac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)
+ f(x) - L_{n}(f;x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)
 \]
 
 usually applied as
+\[|f(x) - L_{n}(f;x)| = |\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)|\]
 
-\[|f(x) - L_{n}(f;x)| = |\frac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)|\]
 
-
-$|f^{(n+1)}(\zeta)| \leq M_{n+1}$, $M_{n+1} \in R$
+$|f^{(n+1)}(\xi)| \leq M_{n+1}$, $M_{n+1} \in R$
 
 \[|f(x) - L_{n}(f;x)| \le \frac{M_{(n+1)}}{(n+1)!}|(x-x_0)(x-x_{1})\dots(x - x_n)|\]
 * Solved Problems
@@ -30,15 +30,15 @@ two reference points 0, 1.
 Evaluate the (abs) error from above in [0, 1]
 
 
-\[|R(x)| = |f(x) - L_{1}_{}(f;x)| = |\frac{f^{''}(\zeta)}{(n+1)!}(x-x_0)(x-x_{1})|\]
+\[|R(x)| = |f(x) - L_{1}_{}(f;x)| = |\frac{f^{''}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})|\]
 
 A) $R(0.75) = ?$
 
 $f'(x) = -(1+x)^{-2}, f''(x) = 2(1+x)^{-3}$
 
-$|R(x) | = |(1+\zeta)^{-3}x(x-1)|$
+$|R(x) | = |(1+\xi)^{-3}x(x-1)|$
 
-$|R(\frac{3}{4})| = |(1 + \zeta)^{-3}||\frac{-3}{16}|$, $\zeta \in [0,1]$
+$|R(\frac{3}{4})| = |(1 + \xi)^{-3}||\frac{-3}{16}|$, $\xi \in [0,1]$
 
 $|R(\frac{3}{4})| <= \max_{x\in[0,1]}\limits{}|(1 + x)^{-3}|\frac{3}{16} = \frac{3}{16}$
 

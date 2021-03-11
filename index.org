@@ -1,6 +1,7 @@
 #+TITLE: index
 #+roam_alias: README
+#+roam_tags: "General"
 
-A personal wiki powered by org-publish and org-roam
+A personal wiki powered by org-publish and [[file:Org Roam.org][org-roam]]
 
 I store notes from lectures and seminars in [[file:Subjects.org][Subjects]]
