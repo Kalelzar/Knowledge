@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="en">
+                <head><!-- 2021-03-12 Fri 19:34 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2<sup>N</sup> is not countable</title>
+<meta name="generator" content="Org mode">
+
+<link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
+<link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
+<link rel='stylesheet' type='text/css' href='css/style.css'/>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
+<script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
+<script src='js/URI.js'></script>
+<script src='js/page.js'></script>
+<script src='https://unpkg.com/tippy.js@6'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
+        <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
+
+                <a href='index.html'><img src='/Knowledge/images/home.png' /></a>
+
+                <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
+                <div class='menu-main-container'><ul id='primary-menu' class='menu'>
+<!-- <li id='menu-item-6884' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-6884'><a href='https://doubleloop.net'>stream</a></li>
+<li id='menu-item-6883' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-6883'><a class='active' href='https://knowledge.doubleloop.net'>garden</a></li>
+<li id='menu-item-7220' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-7220'><a href='https://doubleloop.net/about/'>about</a></li> -->
+</ul></div>                </nav><!-- #site-navigation -->
+            </span>
+
+            				    <p class='text-lg w-full hidden sm:block sm:w-1/2 sm:text-right ml-5 sm:ml-0 mr-1'>tech</p>
+					</div><!-- .site-branding -->
+</div>
+<div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
+<header>
+<a class='rooter' href='2^N is not countable.html'></a> <h1 class="title">2<sup>N</sup> is not countable</h1>
+<div class="tags">
+
+
+</div>
+</header><section id="outline-container-org0e740c7" class="outline-2">
+<h2 id="org0e740c7"><span class="section-number-2">1</span> 2<sup>N</sup> is not countable</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+We assume that \(2^{N}\) is countable.
+Let \(A_{0}, A_{1}, \dots\) are all elements of \(2^{N}\) in order.
+</p>
+
+<p>
+\(\forall{}i : A_{i} \leftrightarrow \{a_{i,0}, a_{i,1}, \dots\}\)
+where \(\forall{}i,j : a_{i,j} = 0 \lor a_{i,j} = 1\)
+</p>
+
+<p>
+Since \(2^{N}\) is countable we can put all \(a_{i,j}\) in a table
+</p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">\(A_0\)</td>
+<td class="org-left">\(a_{0,0}\)</td>
+<td class="org-left">\(a_{0,1}\)</td>
+<td class="org-left">\(a_{0,2}\)</td>
+<td class="org-left">\(a_{0,3}\)</td>
+<td class="org-left">\(\dots\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(A_1\)</td>
+<td class="org-left">\(a_{1,0}\)</td>
+<td class="org-left">\(a_{1,1}\)</td>
+<td class="org-left">\(a_{1,2}\)</td>
+<td class="org-left">\(a_{1,3}\)</td>
+<td class="org-left">\(\dots\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(A_2\)</td>
+<td class="org-left">\(a_{2,0}\)</td>
+<td class="org-left">\(a_{2,1}\)</td>
+<td class="org-left">\(a_{2,2}\)</td>
+<td class="org-left">\(a_{2,3}\)</td>
+<td class="org-left">\(\dots\)</td>
+</tr>
+
+<tr>
+<td class="org-left">\(A_3\)</td>
+<td class="org-left">\(a_{3,0}\)</td>
+<td class="org-left">\(a_{3,1}\)</td>
+<td class="org-left">\(a_{3,2}\)</td>
+<td class="org-left">\(a_{3,3}\)</td>
+<td class="org-left">\(\dots\)</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>
+let \(S_d\) be the sequence \(\forall i \{a_{i,i}\}\) which corresponds to the primary
+diagonal of the table.
+</p>
+
+<p>
+We construct the bitwise inversion of \(A_D\) &rarr; \(A_{d}\)
+</p>
+
+<p>
+Since \(S_d\) is a sequence constructed with 0 and 1 then it also
+is a characteristic sequence of some \(A_{d}\) therefore it should also
+exist in some row of the table.
+</p>
+
+<p>
+But \(\forall i : A_{i} = \{a_{i,0}, a_{i,1}, \dotsc, a_{i, i}, \dotsc\}\)
+</p>
+
+<p>
+and we know that \(A_{d} = \{\overline{a_{0,0}}, \overline{a_{1,1}}, \dotsc, \overline{a_{i,i}}, \dotsc\}\)
+</p>
+
+<p>
+as such \(\forall i : A_{i} \neq A_{d}\)
+</p>
+
+<p>
+since \(\forall i, a_{i,i} \in A_i,  b_{i,i} \in A_d \land b_{i,i} = \overline{a_{i,i}}\)
+</p>
+
+<p>
+and obviously \(a_{i,i} \neq \overline{a_{i,i}}\)
+</p>
+
+<p>
+Therefore \(A_{d}\) cannot exist anywere in the table and consequently
+\(2^{N}\) is not countable.
+</p>
+</div>
+</section>
+</div>
+<div id='temp-network' style='display:none'></div></div></div></div></body>
+              </html>
