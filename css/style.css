@@ -351,10 +351,10 @@ summary {
  * Format tags
  */
 
+
 .tag {
   background: #b75867;
   color: #132020;
-  margin: 2px;
   border-style: solid;
   border-width: 1px;
   border-radius: 20px;
@@ -366,20 +366,25 @@ summary {
 }
 
 .tags {
- display: flex;
- flex-wrap: wrap;
- flex-direction: row-reverse;
+  height: 100%;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
 
 .title {
- flex-basis: -moz-available;
+  flex-basis: -moz-available;
 }
 
 .rooter {
   background-color: #b75867;
   border-radius: 50%;
-  width: 1em;
-  height: 1em;
+  max-width: 1em;
+  min-width: 1em;
+  max-height: 1em;
+  min-height: 1em;
   margin-right: 5px;
 }
 
@@ -808,6 +813,35 @@ body {
   background-color: #132020;
 }
 
+section.tagged{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+section.tagged > div {
+    flex: 1 1 35%;
+}
+
+
+h2.tagged {
+    flex: 1 1 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #182525;
+    text-align: center;
+}
+
+h2.tagged > a {
+    color: #c4c7c7;
+    background-color: #347172;
+    border-radius: 15% 0 0 15%;
+    padding: 10px 8px;
+    flex-grow: 1;
+}
+
 @media (min-width: 640px) {
   #preamble, .grid-container {
     margin-left: 2.5rem;
@@ -1100,7 +1134,7 @@ footer {
   margin-top: 0;
 }
 
-section:last-child a {
+section:last-child a:not(.tag):not(.tagged) {
   flex: 100%;
   color: #7c5cae;
 }

@@ -58,8 +58,8 @@
 <script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
 <script src='https://unpkg.com/@popperjs/core@2'></script>
-<script src='/Knowledge/js/URI.js'></script>
-<script src='/Knowledge/js/page.js'></script>
+<script src='js/URI.js'></script>
+<script src='js/page.js'></script>
 <script src='https://unpkg.com/tippy.js@6'></script>")
 
 
@@ -91,6 +91,7 @@
   (rassq-delete-all 'html-mode auto-mode-alist)
   (rassq-delete-all 'web-mode auto-mode-alist)
   (fset 'web-mode (symbol-function 'fundamental-mode))
+  (knowledge/make-tag-pages)
   (call-interactively 'org-publish-all))
 
 ;; republish all files, even if no changes made to the page content.
@@ -101,6 +102,7 @@
 	(let ((current-prefix-arg 4))
     (rassq-delete-all 'web-mode auto-mode-alist)
     (fset 'web-mode (symbol-function 'fundamental-mode))
+    (knowledge/make-tag-pages)
     (call-interactively 'org-publish-all)))
 
 (defun knowledge/publish-gitlab ()
@@ -178,17 +180,78 @@
        "" (org-roam-db-query [:select [source] :from links :where (= dest $s1)] file))
     ""))
 
-(defun knowledge/org-roam--tags-html (title)
-  (let ((file (concat (f-expand org-roam-directory) "/" (substring-no-properties title) ".org")))
-    (concat "<div class=\"tags\">\n"
+(defun knowledge/tag-html (file)
+  "Return html for tags of FILE."
+  (concat "<div class=\"tags\">\n"
           (--reduce
            (concat acc "\n" it)
-           (--map (format "<a class=\"tag\" href=\"org-protocol://roam-tag?tag=%s\">%s</a>" it it)
-                  (-flatten (org-roam-db-query [:select [tags]
-                                                        :from tags
-                                                        :where (= file $s1)]
-                                               file))))
-          "\n</div>")))
+           (--map (format "<a class=\"tag\" href=\"tag_%s.html\">%s</a>" it it)
+                  (knowledge/get-tags-of-file file)))
+          "\n</div>"))
+
+(defun knowledge/org-roam--tags-html (title)
+  (let ((file (concat (f-expand org-roam-directory) "/" (substring-no-properties title) ".org")))
+    (knowledge/tag-html file)))
+
+(defun knowledge/get-tags ()
+  "Return a list of all tags used in the roam-db."
+  (-uniq
+   (-flatten
+    (org-roam-db-query [:select [tags]
+                                :from tags]))))
+
+(defun knowledge/get-file-with-tag (tag)
+  "Return all files tagged with TAG."
+  (-sort
+   #'string-lessp
+   (-flatten
+   (org-roam-db-query [:select [file]
+                               :from tags
+                               :where (like tags:tags $r1)]
+                      (format "%%%s%%" tag)))))
+
+(defun knowledge/get-tags-of-file (file)
+  "Return all tags of FILE."
+  (-sort
+   #'string-lessp
+   (-flatten
+    (org-roam-db-query [:select [tags]
+                                :from tags
+                                :where (= file $s1)]
+                       file))))
+
+(defun make-tag-page (tag)
+  "Generate html page for TAG."
+  (with-temp-file
+      (concat knowledge/project-dir "/tag_" tag ".html")
+    (insert "<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n")
+    (insert (concat "<title>Tagged: " tag "</title>"))
+    (insert knowledge/head-extra)
+    (insert "</head>\n<body>")
+    (insert knowledge/preamble)
+    (insert "<div class='grid-container'><div class='ds-grid'><div class='page'><div id=\"content\">\n")
+    (insert "<header>")
+    (insert (format "<a class='rooter' href='tag_%s.html'></a>" tag))
+    (insert (format "<h1 class='title'>Tagged: %s</h1>" tag))
+    (insert "</header>")
+    (dolist (file (knowledge/get-file-with-tag tag))
+      (insert "<section class=\"outline-2 tagged\">")
+      (insert (format "<h2 class=\"tagged\"><a href=\"%s.html\" class=\"tagged\">%s</a></h2>" (f-base file) (f-base file)))
+      (insert "<div class='outline-text-2'>")
+      (insert (knowledge/tag-html file))
+      (insert "</div>")
+      (insert "</section>")
+      )
+    (insert "</div></div></div></div>")
+    (insert "</body>\n</html>")
+    ))
+
+
+(defun knowledge/make-tag-pages ()
+  "Generate html pages for each tag."
+  (dolist (tag (knowledge/get-tags))
+    (make-tag-page tag)))
+
 
 (defun knowledge/org-export-preprocessor (backend)
   (let ((links (knowledge/org-roam--backlinks-list (buffer-file-name))))
