@@ -1,0 +1,11 @@
+#+title: Functions
+#+roam_alias: "Functions"
+#+roam_tags: "Discrete Structures" "Lecture" "Function" "Relations"
+
+* Functions
+
+$X = \{x_i\}_{i=1}^n$
+$Y = \{y_i\}_{i=1}^n$
+
+** [[file:Partial function.org][Partial function]]
+** [[file:Total function.org][Total function]]

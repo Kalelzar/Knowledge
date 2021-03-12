@@ -1,0 +1,13 @@
+#+title: Principle of division
+#+roam_alias: "Principle of division"
+#+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
+* Principle of division
+Let $A$ be a [[file:Set.org][set]].
+
+Let $R \subseteq A^2$ be a [[file:Relation of Equivalence.org][relation of equivalence]]
+
+Let $A$ have $k$ [[file:Class of equivalence.org][classes of equivalence]] and each class has a cardinality of m.
+
+Then
+
+\[m = \frac{|A|}{k}\]

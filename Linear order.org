@@ -1,0 +1,18 @@
+#+title: Linear order
+#+roam_alias: "Linear order"
+#+roam_tags: "Discrete Structures" "Definition" "Order" "Relation"
+* Linear order
+A [[file:Relation.org][relation]] is a linear order when it is [[file:Reflexive Relation.org][reflexive]],
+[[file:Strongly Anti-symmetric Relation.org][strongly anti-symmetric]] and [[file:Transitive Relation.org][transitive]].
+
+Obviously all linear orders are [[file:Partial order.org][partial orders]].
+The opposite is not always true. (Think squares and rectangles)
+** Maximum and minimum in a linear order
+
+If A is a finite set then there are exactly one minimum
+and maximum elements (which coincide if the set has exactly one element.
+
+The opposite is not true. There may be exactly one
+min/max elements in a linear order.
+
+If A is infinite then there may not be a maximum/minimum element.

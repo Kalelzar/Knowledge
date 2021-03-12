@@ -1,0 +1,6 @@
+#+title: Injective function
+#+roam_alias: "Injective function"
+#+roam_tags: "Linear Algebra" "Definition" "Function"
+* Injective function
+The function $f: A \rightarrow B$ is injective when:
+$(\forall{}a\in{}A)[\exists{}!b\in{}B | f(a) = b]$

@@ -5,3 +5,6 @@
 ** [[file:Logical Operators.org][Logical Operators]]
 ** [[file:Logical Equivalences.org][Logical Equivalences]]
 ** [[file:Relations.org][Relations]]
+** [[file:Functions.org][Functions]]
+** [[file:Combinatorics.org][Combinatorics]]
+** [[file:Recurrent Equations.org][Recurrent Equations]]
