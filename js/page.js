@@ -119,7 +119,7 @@ function fetchNote(href, level, animate = false) {
           }
 
           if (window.MathJax) {
-            window.MathJax.typeset();
+            window.MathJax.Hub.Queue(["Typeset", MathJax.Hub, element])
           }
         }.bind(null, element, level),
         10
@@ -168,10 +168,10 @@ let tippyOptions = {
 
 function createPreview(link, html, overrideOptions) {
   level = Number(link.dataset.level);
-    iframe = document.createElement('iframe');
-    iframe.width = "400px";
-    iframe.height = "300px";
-    iframe.srcdoc = html;
+  iframe = document.createElement('iframe');
+  iframe.width = "400px";
+  iframe.height = "300px";
+  iframe.srcdoc = html;
   tip = tippy(
     link,
     Object.assign(

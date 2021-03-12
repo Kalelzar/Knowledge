@@ -1,5 +1,5 @@
 #+TITLE: index
-#+roam_alias: README
+#+roam_alias: index
 #+roam_tags: "index"
 
 A personal wiki powered by org-publish and [[file:Org Roam.org][org-roam]]
@@ -8,6 +8,3 @@ I store notes from lectures and seminars in [[file:Subjects.org][Subjects]]
 
 * TODO
 ** Add short description to Tag files
-* Known Bugs
-[[file:MathJax.org][MathJax]] doesn't process the pages that show up when you
-click on links. Refreshing the page helps but is inconsistent.
