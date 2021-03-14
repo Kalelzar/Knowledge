@@ -1,0 +1,42 @@
+#+title: Chebyshev Polynomial
+#+roam_alias: "Chebyshev Polynomial"
+#+roam_tags: "Numeric Methods" "Definition" "Chebyshev" "Interpolation"
+* Chebyshev Polynomial
+Let $n=0,1,2,\dots$ then:
+\[
+T_n(x) = \cos(n\arccos{x}) \tag{$x\in[-1,1]$}
+\]
+is called a Chebyshev polynomial of degree $n$
+
+Obviously $T_0(x) = 1,\quad T_1(x) = x$
+** [[file:Recurrent Equations.org][Recurrent]] Connection
+\[
+T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x) \tag{$n=1,2,\dots$}
+\]
+*** Proof
+Let $\theta=\arccos(x)$
+
+Then:
+\[
+\begin{align*}
+T_{n}(x) &=\cos(n\theta)\\
+x &= \cos\theta\\
+\end{align*}
+\]
+
+
+The recurrent connection is equivalent to:
+\[
+\cos(n+1)\theta = 2\cos\theta\cos{}n\theta - cos(n-1)\theta \tag{*}
+\]
+
+\[
+\cos\alpha + \cos\beta = 2\cos{\frac{\alpha-\beta}{2}}\cos{\frac{\alpha+\beta}{2}}
+\]
+
+When $\alpha = (n+1)\theta, \quad \beta = (n-1)\theta \Rightarrow$
+
+\[
+\cos(n+1)\theta + \cos(n-1)\theta = 2\cos\theta\cos{n\theta} \Rightarrow (*)
+\]
+**

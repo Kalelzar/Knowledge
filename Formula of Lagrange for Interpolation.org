@@ -1,12 +1,30 @@
 #+title: Formula of Lagrange for Interpolation
 #+roam_alias: "Formula of Lagrange for Interpolation"
-#+roam_tags: "Numeric Methods" "Definition"
+#+roam_tags: "Numeric Methods" "Theorem" "Lagrange" "Interpolation"
+
+$L_{n}(f;x) = \sum_{k=0}^{n}l_k(x)f(x_k)$
+
+$l_k(x_i) = \delta_{ik}$ ([[file:Kronecker Delta.org][Kronecker Delta]]).
+
 * Formula of Lagrange for Interpolation
 
+Let $x_0, \dots, x_n$ ($x_i \neq x_j, i \neq j$)
 
-$P(x) = \sum_{k=0}^{n}l_k(x)y_k$
+and the function $f$ is defined for $x_i$.
 
-$l_k(x_i) = \delta_{ik$} ([[file:Kronecker Delta.org][Kronecker Delta]])
+
+Then $\exists!$ algebraic polynomial of degree $\leq n$ $L_n(f;x)$
+for which
+\[L_{n}(f;x_{i}) = f(x_{i}) & i = \overline{0,n}\]
+
+
+For $L_n(f;x)$ is true:
+
+$L_{n}(f;x) = \sum_{k=0}^{n}l_k(x)f(x_k)$
+
+$l_{k}(x_{i}) = \delta_{ik} = \frac{\omega(x)}{(x-x_{k})\omega'(x_{k})}$ for $\omega(x) = (x - x_{0})\dots(x-x_{n})$
+
+
 * Solved Problems
 ** Problem 1
 Let f(x) = \frac{1}{1+x}

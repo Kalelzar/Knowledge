@@ -6,7 +6,10 @@
 Let $x_0, ..., x_n$ such that $x_i \ne x_j$, $i \ne h$ - Knots of interpolation.
 Let $y_0, ..., y_n$ be values.
 Find $(1)$ $p(x_i) = y_i$,  $i = \overline{0,n}$
-** Singularity
+** Unique
+:PROPERTIES:
+:ID:       528f5e8b-6a96-44c8-86c7-3635791b7c59
+:END:
 
 Let's assume $\exists{}u,v \in \pi_{n}$ solve $(1)$, i.e $u(x_i)=v(x_{i})=y_{i}$, $i=\overline{0,n}$.
 
@@ -23,18 +26,30 @@ we know that $p(x) \equiv 0$, i.e $u(x) \equiv v(x)$. $\square$
 
 ** Existence
 
-We will construct the solution to the [[file:Lagrange Interpolation Problem.org][Lagrange Interpolation Problem]].
+We will construct the solution to the Lagrange Interpolation Problem.
 
 Let $p(x) = \sum_{k=0}^{n}\limits{}y_{k}l_{k,n}(x)$ where $l_{k,n}(x) \in \pi_{n}$ $(2)$
-1
+
 Let $l_{k,n}(x_i)$ - [[file:Fundamental polynomials of Lagrange.org][Fundamental polynomials of Lagrange]]
 $(3)$
 
 If we know $l_{k,n}(x)$, k=$i = \overline{0,n}$
-then p(x) is the solution to [[file:Lagrange Interpolation Problem.org][the Lagrange Interpolation Problem]]:
+then p(x) is the solution to the Lagrange Interpolation Problem:
 
 \[p(x_i) =_{(2)}\sum_{k=0}^{n}y_{k}l_{k,n}(x_i) =^{(3)}\sum_{k=0}^{n}y_{k}\delta_{ki}(x_i) = y_i\], $i = \overline{0,n}$
 
-\Rightarrow $p(x)$ is a solution to [[file:Lagrange Interpolation Problem.org][Lagrange Interpolation Problem]]
+\Rightarrow $p(x)$ is a solution to Lagrange Interpolation Problem
 also known as [[file:Formula of Lagrange for Interpolation.org][Formula of Lagrange for Interpolation]].
-[[file:Formula of Lagrange for Interpolation.org][Formula of Lagrange for Interpolation]]
+
+*** Constructing $l_k,n(x)$
+Let $l_{k,n}(x) \in \pi_{n}$ and $l_{k,n}$ has $n$ different zeroes:
+$x_{0}, \dots, x_{k-1}, x_{k+1}, \dots, x_{n}$ (due to $(3)$, defined via [[file:Kronecker Delta.org][Kronecker Delta]])
+
+
+Then:
+
+$l_{k,n}(x) = A(x-x_{0})\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_{n}) \Rightarrow A = \frac{1}{\prod_{i=0,i\neq{}k}^{n}\limits{}(x_{k}-x_{i})$
+
+Finally:
+
+$(4)$ $l_k,n(x) = \frac{(x-x_0)\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_n)}{(x_k-x_0)\dots(x_k-x_{k-1})(x_k-x_{k+1})\dots(x_k-x_n)} = \prod_{i=0,i\neq{}k}^{n}\limits{}\frac{x-x_{i}{(x_{k}-x_{i})}\square$
