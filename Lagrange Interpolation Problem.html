@@ -1,9 +1,10 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-13 Sat 14:24 -->
+                <head><!-- 2021-03-14 Sun 16:51 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lagrange Interpolation Problem</title>
 <meta name="generator" content="Org mode">
+<meta name="author" content="Kalelzar">
 
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
@@ -59,16 +60,16 @@
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
 <a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Lagrange Interpolation Problem'></a>
-<a class='circle rooter' href='Lagrange Interpolation Problem'></a> <h1 class="title">Lagrange Interpolation Problem</h1>
+<a class='circle rooter' href='Lagrange Interpolation Problem.html'></a> <h1 class="title">Lagrange Interpolation Problem</h1>
 <div class="tags">
 <a class="tag" href="tag_Definition.html">Definition</a>
 <a class="tag" href="tag_Interpolation.html">Interpolation</a>
 <a class="tag" href="tag_Lagrange.html">Lagrange</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
 </div>
-</header>
-<section id="outline-container-org1b39f7a" class="outline-2">
-<h2 id="org1b39f7a"><span class="section-number-2">1</span> Lagrange Interpolation Problem</h2>
+</header><section class="outline-2"><img src="dot/Lagrange Interpolation Problem.dot.svg"></img></section>
+<section id="outline-container-org45cb480" class="outline-2">
+<h2 id="org45cb480"><span class="section-number-2">1</span> Lagrange Interpolation Problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Let \(x_0, ..., x_n\) such that \(x_i \ne x_j\), \(i \ne h\) - Knots of interpolation.
@@ -76,8 +77,8 @@ Let \(y_0, ..., y_n\) be values.
 Find \((1)\) \(p(x_i) = y_i\),  \(i = \overline{0,n}\)
 </p>
 </div>
-<div id="outline-container-org7bb692b" class="outline-3">
-<h3 id="org7bb692b"><span class="section-number-3">1.1</span> Singularity</h3>
+<div id="outline-container-orgaa6fddc" class="outline-3">
+<h3 id="orgaa6fddc"><span class="section-number-3">1.1</span> Unique</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Let's assume \(\exists{}u,v \in \pi_{n}\) solve \((1)\), i.e \(u(x_i)=v(x_{i})=y_{i}\), \(i=\overline{0,n}\).
@@ -104,23 +105,25 @@ we know that \(p(x) \equiv 0\), i.e \(u(x) \equiv v(x)\). \(\square\)
 </div>
 </div>
 
-<div id="outline-container-orgbdd1683" class="outline-3">
-<h3 id="orgbdd1683"><span class="section-number-3">1.2</span> Existence</h3>
+<div id="outline-container-org0c44e41" class="outline-3">
+<h3 id="org0c44e41"><span class="section-number-3">1.2</span> Existence</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
-We will construct the solution to the <a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a>.
+We will construct the solution to the Lagrange Interpolation Problem.
 </p>
 
 <p>
 Let \(p(x) = \sum_{k=0}^{n}\limits{}y_{k}l_{k,n}(x)\) where \(l_{k,n}(x) \in \pi_{n}\) \((2)\)
-1
+</p>
+
+<p>
 Let \(l_{k,n}(x_i)\) - <a href="Fundamental polynomials of Lagrange.html">Fundamental polynomials of Lagrange</a>
 \((3)\)
 </p>
 
 <p>
 If we know \(l_{k,n}(x)\), k=\(i = \overline{0,n}\)
-then p(x) is the solution to <a href="Lagrange Interpolation Problem.html">the Lagrange Interpolation Problem</a>:
+then p(x) is the solution to the Lagrange Interpolation Problem:
 </p>
 
 <p>
@@ -128,23 +131,48 @@ then p(x) is the solution to <a href="Lagrange Interpolation Problem.html">the L
 </p>
 
 <p>
-&rArr; \(p(x)\) is a solution to <a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a>
+&rArr; \(p(x)\) is a solution to Lagrange Interpolation Problem
 also known as <a href="Formula of Lagrange for Interpolation.html">Formula of Lagrange for Interpolation</a>.
-<a href="Formula of Lagrange for Interpolation.html">Formula of Lagrange for Interpolation</a>
 </p>
+</div>
+
+<div id="outline-container-org40c4fb3" class="outline-4">
+<h4 id="org40c4fb3"><span class="section-number-4">1.2.1</span> Constructing \(l_k,n(x)\)</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+Let \(l_{k,n}(x) \in \pi_{n}\) and \(l_{k,n}\) has \(n\) different zeroes:
+\(x_{0}, \dots, x_{k-1}, x_{k+1}, \dots, x_{n}\) (due to \((3)\), defined via <a href="Kronecker Delta.html">Kronecker Delta</a>)
+</p>
+
+
+<p>
+Then:
+</p>
+
+<p>
+\(l_{k,n}(x) = A(x-x_{0})\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_{n}) \Rightarrow A = \frac{1}{\prod_{i=0,i\neq{}k}^{n}\limits{}(x_{k}-x_{i})\)
+</p>
+
+<p>
+Finally:
+</p>
+
+<p>
+\((4)\) \(l_k,n(x) = \frac{(x-x_0)\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_n)}{(x_k-x_0)\dots(x_k-x_{k-1})(x_k-x_{k+1})\dots(x_k-x_n)} = \prod_{i=0,i\neq{}k}^{n}\limits{}\frac{x-x_{i}{(x_{k}-x_{i})}\square\)
+</p>
+</div>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org11d2d4c" class="outline-2">
-<h2 id="org11d2d4c"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-orgd658ffd" class="outline-2">
+<h2 id="orgd658ffd"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="Lagrange Interpolation.html">Lagrange Interpolation</a></li>
-<li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>
-<li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>
-<li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>
 <li><a href="recentchanges.html">Recent changes</a></li>
+<li><a href="Lagrange Interpolation Polynomial.html">Lagrange Interpolation Polynomial</a></li>
+<li><a href="The Lagrange Interpolation Polynomial of a Polynomial is itself.html">The Lagrange Interpolation Polynomial of a Polynomial is itself</a></li>
 </ul>
 </div>
 </section>

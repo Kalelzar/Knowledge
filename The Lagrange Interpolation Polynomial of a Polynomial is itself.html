@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-14 Sun 16:51 -->
+                <head><!-- 2021-03-14 Sun 16:50 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Simple Function</title>
+<title>The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
 <meta name="generator" content="Org mode">
 <meta name="author" content="Kalelzar">
 
@@ -59,93 +59,59 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Simple Function'></a>
-<a class='circle rooter' href='Simple Function.html'></a> <h1 class="title">Simple Function</h1>
+<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=The Lagrange Interpolation Polynomial of a Polynomial is itself'></a>
+<a class='circle rooter' href='The Lagrange Interpolation Polynomial of a Polynomial is itself.html'></a> <h1 class="title">The Lagrange Interpolation Polynomial of a Polynomial is itself</h1>
 <div class="tags">
-<a class="tag" href="tag_Approximation.html">Approximation</a>
-<a class="tag" href="tag_Definition.html">Definition</a>
-<a class="tag" href="tag_Function.html">Function</a>
+<a class="tag" href="tag_Interpolation.html">Interpolation</a>
+<a class="tag" href="tag_Lagrange.html">Lagrange</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
+<a class="tag" href="tag_Theorem.html">Theorem</a>
 </div>
-</header><section class="outline-2"><img src="dot/Simple Function.dot.svg"></img></section>
-<section id="outline-container-orgd2b6265" class="outline-2">
-<h2 id="orgd2b6265"><span class="section-number-2">1</span> Simple Function</h2>
+</header><section class="outline-2"><img src="dot/The Lagrange Interpolation Polynomial of a Polynomial is itself.dot.svg"></img></section><p>
+If \(f \in \pi_{n}\) then \(L_{n}(f;x) = f(x)\)
+</p>
+
+<section id="outline-container-orgc4e6dd1" class="outline-2">
+<h2 id="orgc4e6dd1"><span class="section-number-2">1</span> The <a href="Lagrange Interpolation Polynomial.html">Lagrange Interpolation Polynomial</a> of a Polynomial is itself</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-A simple function is defined by the properties:
-</p>
-<ul class="org-ul">
-<li>Easy to calculate</li>
-<li>Good analytic properties</li>
-<li>Easy to integrate/differentiate</li>
-<li>Approximates a wide class of function</li>
-</ul>
-</div>
-
-<div id="outline-container-org17ee7bd" class="outline-3">
-<h3 id="org17ee7bd"><span class="section-number-3">1.1</span> Types</h3>
-<div class="outline-text-3" id="text-1-1">
-</div>
-<div id="outline-container-org7ab1bd1" class="outline-4">
-<h4 id="org7ab1bd1"><span class="section-number-4">1.1.1</span> Algebraic Polynomial</h4>
-<div class="outline-text-4" id="text-1-1-1">
-<p>
-\[p(x) = \sum_{k=0}^{n}a_{k}x^{k}\]
-</p>
-</div>
-</div>
-
-<div id="outline-container-org1c95882" class="outline-4">
-<h4 id="org1c95882"><span class="section-number-4">1.1.2</span> Trigonometric Polynomial</h4>
-<div class="outline-text-4" id="text-1-1-2">
-<p>
-\[\tau(x) = a_0 + \sum_{k=1}^{n}a_{k}\cos(kx) + b_{k}\sin(kx)\]
+If \(f \in \pi_{n}\) then \(L_{n}(f;x) = f(x)\)
 </p>
 
 <p>
-Since \(\tau(x + 2\pi) = \tau(x)\) it's suitable
-for approximating \(2\pi\) periodic functions
+On both sides there are polynomials from \(\pi_{n}\) which interpolate the same
+table.
 </p>
+
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">x<sub>0</sub></td>
+<td class="org-left">&ctdot;</td>
+<td class="org-left">x<sub>n</sub></td>
+</tr>
+
+<tr>
+<td class="org-left">f(x<sub>0</sub>)</td>
+<td class="org-left">&ctdot;</td>
+<td class="org-left">f(x<sub>n</sub>)</td>
+</tr>
+</tbody>
+</table>
 
 <p>
-For \(2l\) periodic functions you can also use \(q(x) = \tau(\frac{\pi{}x}{l})\)
+From <a href="Lagrange Interpolation Problem.html#ID-528f5e8b-6a96-44c8-86c7-3635791b7c59">the uniqueness of the Lagrange interpolation problem</a>
+\(\Rightarrow L_{n}(f;x) = f(x)\)
 </p>
-</div>
-</div>
-
-<div id="outline-container-orga90ac86" class="outline-4">
-<h4 id="orga90ac86"><span class="section-number-4">1.1.3</span> Spline functions</h4>
-<div class="outline-text-4" id="text-1-1-3">
-<p>
-Made up of multiple polynomials joined together
-</p>
-
-\begin{equation*}
-f(x)=
-\begin{cases}
-x^{2} + 2x & x < -1\\
-x, &1 \geq x \geq -1\\
--x^{2} + 2x & x > 1\\
-\end{cases}
-\end{equation*}
-
-
-<figure>
-<img src="SplineGraph.png" alt="SplineGraph.png">
-
-</figure>
-</div>
-</div>
-</div>
-</section>
-
-<section id="outline-container-org70dd1ed" class="outline-2">
-<h2 id="org70dd1ed"><span class="section-number-2">2</span> Backlinks</h2>
-<div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li><a href="Function Approximation.html">Function Approximation</a></li>
-<li><a href="recentchanges.html">Recent changes</a></li>
-</ul>
 </div>
 </section>
 </div>

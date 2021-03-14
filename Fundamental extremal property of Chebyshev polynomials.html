@@ -1,8 +1,8 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-14 Sun 16:51 -->
+                <head><!-- 2021-03-14 Sun 16:50 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Simple Function</title>
+<title>Fundamental extremal property of Chebyshev polynomials</title>
 <meta name="generator" content="Org mode">
 <meta name="author" content="Kalelzar">
 
@@ -59,93 +59,61 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Simple Function'></a>
-<a class='circle rooter' href='Simple Function.html'></a> <h1 class="title">Simple Function</h1>
+<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Fundamental extremal property of Chebyshev polynomials'></a>
+<a class='circle rooter' href='Fundamental extremal property of Chebyshev polynomials.html'></a> <h1 class="title">Fundamental extremal property of Chebyshev polynomials</h1>
 <div class="tags">
-<a class="tag" href="tag_Approximation.html">Approximation</a>
-<a class="tag" href="tag_Definition.html">Definition</a>
-<a class="tag" href="tag_Function.html">Function</a>
+<a class="tag" href="tag_Chebyshev.html">Chebyshev</a>
+<a class="tag" href="tag_Interpolation.html">Interpolation</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
+<a class="tag" href="tag_Theorem.html">Theorem</a>
 </div>
-</header><section class="outline-2"><img src="dot/Simple Function.dot.svg"></img></section>
-<section id="outline-container-orgd2b6265" class="outline-2">
-<h2 id="orgd2b6265"><span class="section-number-2">1</span> Simple Function</h2>
+</header><section class="outline-2"><img src="dot/Fundamental extremal property of Chebyshev polynomials.dot.svg"></img></section><section id="outline-container-org3f04a51" class="outline-2">
+<h2 id="org3f04a51"><span class="section-number-2">1</span> Fundamental extremal property of Chebyshev polynomials</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-A simple function is defined by the properties:
+Let \(n \geq 1\)
 </p>
-<ul class="org-ul">
-<li>Easy to calculate</li>
-<li>Good analytic properties</li>
-<li>Easy to integrate/differentiate</li>
-<li>Approximates a wide class of function</li>
-</ul>
-</div>
 
-<div id="outline-container-org17ee7bd" class="outline-3">
-<h3 id="org17ee7bd"><span class="section-number-3">1.1</span> Types</h3>
+<p>
+\(\forall{}P(x) = 2^{n-1}x^n + \cdots\) is true \(\max_{x\in[-1,1]}\limits{}{\lvert{}P(x)\rvert{}\geq\max_{x\in[-1,1]}\limits{}{\lvert{}T_{n}(x)\rvert{}} = 1\)
+</p>
+
+<p>
+The equality is reached \(\Leftrightarrow P(x) \equiv T_{n}(x)\)
+</p>
+</div>
+<div id="outline-container-orgaddffbd" class="outline-3">
+<h3 id="orgaddffbd"><span class="section-number-3">1.1</span> Proof</h3>
 <div class="outline-text-3" id="text-1-1">
-</div>
-<div id="outline-container-org7ab1bd1" class="outline-4">
-<h4 id="org7ab1bd1"><span class="section-number-4">1.1.1</span> Algebraic Polynomial</h4>
-<div class="outline-text-4" id="text-1-1-1">
 <p>
-\[p(x) = \sum_{k=0}^{n}a_{k}x^{k}\]
+We will prove that if
+\(P(x) = 2^{n-1}x^n + \cdots : \max_{x \in [-1, 1]}\limits{}\lvert{}P(x)\rvert{} \leq 1\)
+then \(P(x) = T_{n}(x)\)
 </p>
-</div>
-</div>
 
-<div id="outline-container-org1c95882" class="outline-4">
-<h4 id="org1c95882"><span class="section-number-4">1.1.2</span> Trigonometric Polynomial</h4>
-<div class="outline-text-4" id="text-1-1-2">
+
 <p>
-\[\tau(x) = a_0 + \sum_{k=1}^{n}a_{k}\cos(kx) + b_{k}\sin(kx)\]
+Let \(Q(x) = T_n(x) - P(x)\)
 </p>
 
 <p>
-Since \(\tau(x + 2\pi) = \tau(x)\) it's suitable
-for approximating \(2\pi\) periodic functions
+\(Q \in \pi_{n-1}\)
 </p>
 
 <p>
-For \(2l\) periodic functions you can also use \(q(x) = \tau(\frac{\pi{}x}{l})\)
+We will prove that \(Q\) has \(n\) zeroes in \([-1, 1]\) from where \(Q \equiv 0 \Rightarrow P \equiv T_{n}\)
 </p>
-</div>
-</div>
 
-<div id="outline-container-orga90ac86" class="outline-4">
-<h4 id="orga90ac86"><span class="section-number-4">1.1.3</span> Spline functions</h4>
-<div class="outline-text-4" id="text-1-1-3">
+
 <p>
-Made up of multiple polynomials joined together
+Let \(\eta_k, \quad k = \overline{1, n}\) be the <a href="Extreme points of Chebyshev polynomials.html">extreme points of a Chebyshev polynomial</a>.
 </p>
 
-\begin{equation*}
-f(x)=
-\begin{cases}
-x^{2} + 2x & x < -1\\
-x, &1 \geq x \geq -1\\
--x^{2} + 2x & x > 1\\
-\end{cases}
-\end{equation*}
-
-
-<figure>
-<img src="SplineGraph.png" alt="SplineGraph.png">
-
-</figure>
+<p>
+Then \(Q(\eta_k) = T_{n}(\eta_{k}) - P(\eta_{k}) = (-1)^k - P(\eta_k)\)
+\(\lvert{}P(\eta_k)\rvert{} \leq 1 \Rightarrow \text{sign}Q(\eta_k) = (-1)^{k} or Q(\eta_k) = 0\)
+</p>
 </div>
-</div>
-</div>
-</section>
-
-<section id="outline-container-org70dd1ed" class="outline-2">
-<h2 id="org70dd1ed"><span class="section-number-2">2</span> Backlinks</h2>
-<div class="outline-text-2" id="text-2">
-<ul class="org-ul">
-<li><a href="Function Approximation.html">Function Approximation</a></li>
-<li><a href="recentchanges.html">Recent changes</a></li>
-</ul>
 </div>
 </section>
 </div>

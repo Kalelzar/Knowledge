@@ -2,7 +2,7 @@
                 <head><!-- 2021-03-14 Sun 16:51 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Matrix</title>
+<title>Rolle Theorem</title>
 <meta name="generator" content="Org mode">
 <meta name="author" content="Kalelzar">
 
@@ -15,6 +15,28 @@
 <script src='js/URI.js'></script>
 <script src='js/page.js'></script>
 <script src='https://unpkg.com/tippy.js@6'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -37,24 +59,33 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Matrix'></a>
-<a class='circle rooter' href='Matrix.html'></a> <h1 class="title">Matrix</h1>
+<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Rolle Theorem'></a>
+<a class='circle rooter' href='Rolle Theorem.html'></a> <h1 class="title">Rolle Theorem</h1>
 <div class="tags">
-<a class="tag" href="tag_Definition.html">Definition</a>
-<a class="tag" href="tag_Linear Algebra.html">Linear Algebra</a>
+<a class="tag" href="tag_Differential Analysis.html">Differential Analysis</a>
+<a class="tag" href="tag_Theorem.html">Theorem</a>
 </div>
-</header><section class="outline-2"><img src="dot/Matrix.dot.svg"></img></section><section id="outline-container-orgcbd1b2f" class="outline-2">
-<h2 id="orgcbd1b2f"><span class="section-number-2">1</span> Matrix</h2>
+</header><section class="outline-2"><img src="dot/Rolle Theorem.dot.svg"></img></section><p>
+Put simply if a function differentiable in \([a,b]\) has two points with
+the same functional value than atleast one point between them has a derivative
+of 0, that is to say 'What comes up, must come down' and vice versa.
+</p>
+
+<section id="outline-container-orgce44b89" class="outline-2">
+<h2 id="orgce44b89"><span class="section-number-2">1</span> Rolle Theorem</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Let \(f \in C^1[x_0, x_1]\)
+If \(f(x_0) = f(x_1) \Rightarrow \exists\xi \in [x_{0}, x_{1}]: f'(\xi)=0\)
+</p>
+</div>
 </section>
 
-<section id="outline-container-orgd8c2492" class="outline-2">
-<h2 id="orgd8c2492"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-orgca5e583" class="outline-2">
+<h2 id="orgca5e583"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
-<li><a href="Reflexive Closure.html">Reflexive Closure</a></li>
-<li><a href="Symmetric Closure.html">Symmetric Closure</a></li>
-<li><a href="Linear Algebra.html">Linear Algebra</a></li>
-<li><a href="recentchanges.html">Recent changes</a></li>
+<li><a href="Evaluating Interpolation Error.html">Evaluating Interpolation Error</a></li>
 </ul>
 </div>
 </section>

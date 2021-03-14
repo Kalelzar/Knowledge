@@ -2,7 +2,7 @@
                 <head><!-- 2021-03-14 Sun 16:51 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fundamental polynomials of Lagrange</title>
+<title>Chebyshev Polynomial</title>
 <meta name="generator" content="Org mode">
 <meta name="author" content="Kalelzar">
 
@@ -59,88 +59,91 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Fundamental polynomials of Lagrange'></a>
-<a class='circle rooter' href='Fundamental polynomials of Lagrange.html'></a> <h1 class="title">Fundamental polynomials of Lagrange</h1>
+<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Chebyshev Polynomial'></a>
+<a class='circle rooter' href='Chebyshev Polynomial.html'></a> <h1 class="title">Chebyshev Polynomial</h1>
 <div class="tags">
+<a class="tag" href="tag_Chebyshev.html">Chebyshev</a>
 <a class="tag" href="tag_Definition.html">Definition</a>
-<a class="tag" href="tag_Lagrange.html">Lagrange</a>
+<a class="tag" href="tag_Interpolation.html">Interpolation</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
-<a class="tag" href="tag_Polynomials.html">Polynomials</a>
 </div>
-</header><section class="outline-2"><img src="dot/Fundamental polynomials of Lagrange.dot.svg"></img></section>
-<section id="outline-container-org3ac43f9" class="outline-2">
-<h2 id="org3ac43f9"><span class="section-number-2">1</span> Fundamental polynomials of Lagrange</h2>
+</header><section class="outline-2"><img src="dot/Chebyshev Polynomial.dot.svg"></img></section><section id="outline-container-orgcca9c22" class="outline-2">
+<h2 id="orgcca9c22"><span class="section-number-2">1</span> Chebyshev Polynomial</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-\(l_{k,n}(x_i) = \delta_{ki}\) (<a href="Kronecker Delta.html">Kronecker Delta)</a>
+Let \(n=0,1,2,\dots\) then:
+\[
+T_n(x) = \cos(n\arccos{x}) \tag{$x\in[-1,1]$}
+\]
+is called a Chebyshev polynomial of degree \(n\)
 </p>
+
+<p>
+Obviously \(T_0(x) = 1,\quad T_1(x) = x\)
+</p>
+</div>
+<div id="outline-container-orgf3ba133" class="outline-3">
+<h3 id="orgf3ba133"><span class="section-number-3">1.1</span> <a href="Recurrent Equations.html">Recurrent</a> Connection</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+\[
+T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x) \tag{$n=1,2,\dots$}
+\]
+</p>
+</div>
+<div id="outline-container-orgaa95abe" class="outline-4">
+<h4 id="orgaa95abe"><span class="section-number-4">1.1.1</span> Proof</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+Let \(\theta=\arccos(x)\)
+</p>
+
+<p>
+Then:
+\[
+</p>
+\begin{align*}
+T_{n}(x) &=\cos(n\theta)\\
+x &= \cos\theta\\
+\end{align*}
+<p>
+\]
+</p>
+
+
+<p>
+The recurrent connection is equivalent to:
+\[
+\cos(n+1)\theta = 2\cos\theta\cos{}n\theta - cos(n-1)\theta \tag{*}
+\]
+</p>
+
+<p>
+\[
+\cos\alpha + \cos\beta = 2\cos{\frac{\alpha-\beta}{2}}\cos{\frac{\alpha+\beta}{2}}
+\]
+</p>
+
+<p>
+When \(\alpha = (n+1)\theta, \quad \beta = (n-1)\theta \Rightarrow\)
+</p>
+
+<p>
+\[
+\cos(n+1)\theta + \cos(n-1)\theta = 2\cos\theta\cos{n\theta} \Rightarrow (*)
+\]
+**
+</p>
+</div>
+</div>
 </div>
 </section>
 
-<section id="outline-container-orgf299564" class="outline-2">
-<h2 id="orgf299564"><span class="section-number-2">2</span> Solved Problems</h2>
+<section id="outline-container-org6781768" class="outline-2">
+<h2 id="org6781768"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-orge096bc0" class="outline-3">
-<h3 id="orge096bc0"><span class="section-number-3">2.1</span> Problem 1</h3>
-<div class="outline-text-3" id="text-2-1">
-<p>
-Let \(l_{k,n}(x_i)\), \(k\in\overline{0,n}\) are the Fundamental polynomials of
-Lagrange for the knots \(x_0, \dots, x_n\)
-</p>
-
-<p>
-Then \(\sum_{k=0}^{n}l_{kn}(x) = 1, \forall{}x\)
-</p>
-</div>
-
-<div id="outline-container-org9b259aa" class="outline-4">
-<h4 id="org9b259aa"><span class="section-number-4">2.1.1</span> Solution</h4>
-<div class="outline-text-4" id="text-2-1-1">
-<p>
-Let \(f(x) = 1\)
-</p>
-
-<p>
-f(x) &isin; &pi;<sub>n</sub> &rArr; f(x) &equiv; L<sub>n</sub>(f;x) &equiv; 1         }
-                                       } &rArr; &sum;<sub>k=0</sub><sup>n</sup>l<sub>nk</sub>(x) = L<sub>n</sub>(f;x) = 1
-L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>f(x<sub>k</sub>)l<sub>kn</sub>(x) = &sum;<sub>k=0</sub><sup>n</sup>1*l<sub>kn</sub>(x)  }
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org0b603e7" class="outline-3">
-<h3 id="org0b603e7"><span class="section-number-3">2.2</span> Problem 2</h3>
-<div class="outline-text-3" id="text-2-2">
-<p>
-Prove that \(\sum_{k=0}^{n}x_k^{m}l_{kn}(x) = x^{m}\), \(m=\overline{0,n}\)
-</p>
-</div>
-
-<div id="outline-container-orgb2430ab" class="outline-4">
-<h4 id="orgb2430ab"><span class="section-number-4">2.2.1</span> Solution</h4>
-<div class="outline-text-4" id="text-2-2-1">
-<p>
-Let \(f(x) = x^m\), \(m = \overline{0,n}\)
-</p>
-
-<p>
-f(x) &isin; &pi;<sub>n</sub>, m = \overline{0,n} &rArr; (x) &equiv; L<sub>n</sub>(f;x) = x<sup>m</sup>, \(m = \overline{0,n}\)
-                                            } &rArr; L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>x<sub>k</sub><sup>m</sup>l<sub>kn</sub>(x) = x<sup>m</sup>, \(m = \overline{0,n}\)
-L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>f(x<sub>k</sub>)l<sub>kn</sub>(x) = &sum;<sub>k=0</sub><sup>n</sup>x<sub>k</sub><sup>m</sup>l<sub>kn</sub>(x)
-</p>
-</div>
-</div>
-</div>
-</section>
-
-<section id="outline-container-org1cf70bf" class="outline-2">
-<h2 id="org1cf70bf"><span class="section-number-2">3</span> Backlinks</h2>
-<div class="outline-text-2" id="text-3">
 <ul class="org-ul">
-<li><a href="recentchanges.html">Recent changes</a></li>
-<li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>
+<li><a href="Extreme points of Chebyshev polynomials.html">Extreme points of Chebyshev polynomials</a></li>
 </ul>
 </div>
 </section>

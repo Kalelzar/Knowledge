@@ -2,7 +2,7 @@
                 <head><!-- 2021-03-14 Sun 16:51 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fundamental polynomials of Lagrange</title>
+<title>Extreme points of Chebyshev polynomials</title>
 <meta name="generator" content="Org mode">
 <meta name="author" content="Kalelzar">
 
@@ -59,88 +59,99 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Fundamental polynomials of Lagrange'></a>
-<a class='circle rooter' href='Fundamental polynomials of Lagrange.html'></a> <h1 class="title">Fundamental polynomials of Lagrange</h1>
+<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Extreme points of Chebyshev polynomials'></a>
+<a class='circle rooter' href='Extreme points of Chebyshev polynomials.html'></a> <h1 class="title">Extreme points of Chebyshev polynomials</h1>
 <div class="tags">
 <a class="tag" href="tag_Definition.html">Definition</a>
-<a class="tag" href="tag_Lagrange.html">Lagrange</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
-<a class="tag" href="tag_Polynomials.html">Polynomials</a>
 </div>
-</header><section class="outline-2"><img src="dot/Fundamental polynomials of Lagrange.dot.svg"></img></section>
-<section id="outline-container-org3ac43f9" class="outline-2">
-<h2 id="org3ac43f9"><span class="section-number-2">1</span> Fundamental polynomials of Lagrange</h2>
+</header><section class="outline-2"><img src="dot/Extreme points of Chebyshev polynomials.dot.svg"></img></section><section id="outline-container-org8804103" class="outline-2">
+<h2 id="org8804103"><span class="section-number-2">1</span> Extreme points of <a href="Chebyshev Polynomial.html">Chebyshev polynomials</a></h2>
 <div class="outline-text-2" id="text-1">
 <p>
-\(l_{k,n}(x_i) = \delta_{ki}\) (<a href="Kronecker Delta.html">Kronecker Delta)</a>
+By definition \(\lvert{}T_{n}(x)\rvert{} \leq 1 \qquad \forall{x} \in [-1, 1]\)
 </p>
+
+<p>
+The points in which \(\lvert{}T_{n}(x)\rvert{} = 1|0\) are extreme points.
+</p>
+</div>
+
+<div id="outline-container-orga5e4b06" class="outline-3">
+<h3 id="orga5e4b06"><span class="section-number-3">1.1</span> Min/Max</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+\[
+</p>
+\begin{align*}
+\lvert{}T_{n}(x)\rvert{} = 1 &\Leftrightarrow \lvert{}\cos(n\arccos{}x)\rvert{} = 1\\
+&\Leftrightarrow{}n\arccos{}x = k\pi\\
+&\Leftrightarrow{}\arccos{}x = \frac{k\pi}{n}
+\end{align*}
+<p>
+\]
+</p>
+
+<p>
+But \(\arccos x \in [0, \pi] \Rightarrow 0 \leq k \leq n\)
+then  \(x = \cos{\frac{k\pi}{n}} =: \eta_{k},\qquad k = \overline{0, n}\)
+</p>
+
+<p>
+\(\eta_k\) - extreme points of \(T_{n}(x)\)
+</p>
+
+<p>
+Since \(\cos{}x\) is descending in \([0,\pi] \Rightarrow -1 = \eta_{n} < \eta_{n-1} < \dots  < \eta_{1} < \eta_{0} = 1\)
+</p>
+
+<p>
+Also: \(T_{n}(\eta_{k}) = \cos(n\frac{k\pi}{n}) = \cos{}k\pi = (-1)^{k}\)
+</p>
+</div>
+</div>
+<div id="outline-container-org9b79309" class="outline-3">
+<h3 id="org9b79309"><span class="section-number-3">1.2</span> Zero</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+From \(T_n(\eta_k)T_n(\eta_{k-1}) < 0, \qquad k = \overline{1, n} \Rightarrow\)
+\(T_{n}(x)\) has a zero \(\xi_{k} \in (\eta_{k}, \eta_{k-1}), \qquad k = \overline{1, n}\)
+</p>
+
+<p>
+Therefore since \(T_{n}(x) \in \pi_{n}\) these are all its zeroes.
+</p>
+
+
+<p>
+\[
+</p>
+\begin{align*}
+\lvert{}T_{n}(x)\rvert{} = 0 &\Leftrightarrow \lvert{}\cos(n\arccos{}x)\rvert{} = 0\\
+&\Leftrightarrow{}n\arccos{}x = (2k-1)\frac{\pi}{2}\\
+&\Leftrightarrow{}\arccos{}x = \frac{(2k-1)\pi}{2n}
+\end{align*}
+<p>
+\]
+</p>
+
+<p>
+But \(\arccos x \in [0, \pi] \Rightarrow 1 \leq k \leq n\)
+then  \(x = \cos{\frac{(2k-1)\pi}{2n}} =: \xi_{k},\qquad k = \overline{1, n}\)
+</p>
+
+<p>
+Just as above: \(-1 < \xi_{n} < \dots < \xi_{1} < 1\)
+</p>
+</div>
 </div>
 </section>
 
-<section id="outline-container-orgf299564" class="outline-2">
-<h2 id="orgf299564"><span class="section-number-2">2</span> Solved Problems</h2>
+<section id="outline-container-org62c246c" class="outline-2">
+<h2 id="org62c246c"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-orge096bc0" class="outline-3">
-<h3 id="orge096bc0"><span class="section-number-3">2.1</span> Problem 1</h3>
-<div class="outline-text-3" id="text-2-1">
-<p>
-Let \(l_{k,n}(x_i)\), \(k\in\overline{0,n}\) are the Fundamental polynomials of
-Lagrange for the knots \(x_0, \dots, x_n\)
-</p>
-
-<p>
-Then \(\sum_{k=0}^{n}l_{kn}(x) = 1, \forall{}x\)
-</p>
-</div>
-
-<div id="outline-container-org9b259aa" class="outline-4">
-<h4 id="org9b259aa"><span class="section-number-4">2.1.1</span> Solution</h4>
-<div class="outline-text-4" id="text-2-1-1">
-<p>
-Let \(f(x) = 1\)
-</p>
-
-<p>
-f(x) &isin; &pi;<sub>n</sub> &rArr; f(x) &equiv; L<sub>n</sub>(f;x) &equiv; 1         }
-                                       } &rArr; &sum;<sub>k=0</sub><sup>n</sup>l<sub>nk</sub>(x) = L<sub>n</sub>(f;x) = 1
-L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>f(x<sub>k</sub>)l<sub>kn</sub>(x) = &sum;<sub>k=0</sub><sup>n</sup>1*l<sub>kn</sub>(x)  }
-</p>
-</div>
-</div>
-</div>
-
-<div id="outline-container-org0b603e7" class="outline-3">
-<h3 id="org0b603e7"><span class="section-number-3">2.2</span> Problem 2</h3>
-<div class="outline-text-3" id="text-2-2">
-<p>
-Prove that \(\sum_{k=0}^{n}x_k^{m}l_{kn}(x) = x^{m}\), \(m=\overline{0,n}\)
-</p>
-</div>
-
-<div id="outline-container-orgb2430ab" class="outline-4">
-<h4 id="orgb2430ab"><span class="section-number-4">2.2.1</span> Solution</h4>
-<div class="outline-text-4" id="text-2-2-1">
-<p>
-Let \(f(x) = x^m\), \(m = \overline{0,n}\)
-</p>
-
-<p>
-f(x) &isin; &pi;<sub>n</sub>, m = \overline{0,n} &rArr; (x) &equiv; L<sub>n</sub>(f;x) = x<sup>m</sup>, \(m = \overline{0,n}\)
-                                            } &rArr; L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>x<sub>k</sub><sup>m</sup>l<sub>kn</sub>(x) = x<sup>m</sup>, \(m = \overline{0,n}\)
-L<sub>n</sub>(f;x) = &sum;<sub>k=0</sub><sup>n</sup>f(x<sub>k</sub>)l<sub>kn</sub>(x) = &sum;<sub>k=0</sub><sup>n</sup>x<sub>k</sub><sup>m</sup>l<sub>kn</sub>(x)
-</p>
-</div>
-</div>
-</div>
-</section>
-
-<section id="outline-container-org1cf70bf" class="outline-2">
-<h2 id="org1cf70bf"><span class="section-number-2">3</span> Backlinks</h2>
-<div class="outline-text-2" id="text-3">
 <ul class="org-ul">
-<li><a href="recentchanges.html">Recent changes</a></li>
-<li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>
+<li><a href="Fundamental extremal property of Chebyshev polynomials.html">Fundamental extremal property of Chebyshev polynomials</a></li>
 </ul>
 </div>
 </section>

@@ -302,9 +302,9 @@
                  (when title
                    (format
                     (if html5-fancy
-                        "<header>\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='circle rooter' href='%s'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
-                      "<h1 class=\"title\">\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='rooter' href='%s'></a>%s</h1>\n%s\n%s\n")
-                    (f-base (plist-get info :output-file))
+                        "<header>\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='circle rooter' href='%s.html'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
+                      "<h1 class=\"title\">\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='rooter' href='%s.html'></a>%s</h1>\n%s\n%s\n")
+                    (org-export-data title info)
                     (f-base (plist-get info :output-file))
                     (org-export-data title info)
                     (knowledge/org-roam--tags-html (org-export-data title info))
@@ -321,6 +321,8 @@
              ;;   (insert-file-contents "~/Documents/Knowledge/graph.json")
              ;;   (buffer-string))
              ;; "</script>"
+             (format "<section class=\"outline-2\"><img src=\"dot/%s.dot.svg\"></img></section>"
+                     (f-base (plist-get info :output-file)))
              (if (string= (org-export-data (plist-get info :title) info) "The Map")
                  (with-temp-buffer
                    ;(insert-file-contents (concat ,knowledge/project-dir "/graph.svg"))
