@@ -3,3 +3,4 @@ ltximg
 graph.svg
 graph.json
 graph.dot
+/dot/*.dot
