@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-12 Fri 19:34 -->
+                <head><!-- 2021-03-13 Sat 14:24 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Recurrent Equations</title>
@@ -58,18 +58,19 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='rooter' href='Recurrent Equations.html'></a> <h1 class="title">Recurrent Equations</h1>
+<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Recurrent Equations'></a>
+<a class='circle rooter' href='Recurrent Equations'></a> <h1 class="title">Recurrent Equations</h1>
 <div class="tags">
 <a class="tag" href="tag_Discrete Structures.html">Discrete Structures</a>
 <a class="tag" href="tag_Lecture.html">Lecture</a>
 <a class="tag" href="tag_Recursion.html">Recursion</a>
 </div>
-</header><section id="outline-container-org94ba59c" class="outline-2">
-<h2 id="org94ba59c"><span class="section-number-2">1</span> Recurrent Equations</h2>
+</header><section id="outline-container-org25ea2de" class="outline-2">
+<h2 id="org25ea2de"><span class="section-number-2">1</span> Recurrent Equations</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgf998c76" class="outline-3">
-<h3 id="orgf998c76"><span class="section-number-3">1.1</span> Definition</h3>
+<div id="outline-container-org5df6297" class="outline-3">
+<h3 id="org5df6297"><span class="section-number-3">1.1</span> Definition</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 A recurrent equation is any equation that is defined by
@@ -147,8 +148,8 @@ L(6) = L(5) + 6 = <code>22</code>
 </p>
 </div>
 </div>
-<div id="outline-container-org51230ab" class="outline-3">
-<h3 id="org51230ab"><span class="section-number-3">1.2</span> Method for solving homogeneous recurrent equations</h3>
+<div id="outline-container-orgfd98ec9" class="outline-3">
+<h3 id="orgfd98ec9"><span class="section-number-3">1.2</span> Method for solving homogeneous recurrent equations</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 \(a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k}\)
@@ -177,8 +178,8 @@ There should be \(k\) base cases given.
 a_{k-1} = q_{k-1}\]
 </p>
 </div>
-<div id="outline-container-org793f9c8" class="outline-4">
-<h4 id="org793f9c8"><span class="section-number-4">1.2.1</span> Characteristic equation</h4>
+<div id="outline-container-org3e91b77" class="outline-4">
+<h4 id="org3e91b77"><span class="section-number-4">1.2.1</span> Characteristic equation</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 We find/replace a<sub>(n-[0-9|k]+)</sub> with x^\1
@@ -201,8 +202,8 @@ This is the characteristic equation.
 </p>
 </div>
 </div>
-<div id="outline-container-org9db6534" class="outline-4">
-<h4 id="org9db6534"><span class="section-number-4">1.2.2</span> Finding the roots of the characteristic equation</h4>
+<div id="outline-container-org2789b7e" class="outline-4">
+<h4 id="org2789b7e"><span class="section-number-4">1.2.2</span> Finding the roots of the characteristic equation</h4>
 <div class="outline-text-4" id="text-1-2-2">
 <p>
 From the '<a href="Fundamental Theorem of Algebra.html">Fundamental theorem of algebra</a>' the
@@ -215,12 +216,12 @@ It is important that a multiset is used due to the possibility of equal roots.
 </p>
 </div>
 </div>
-<div id="outline-container-org38e5f0f" class="outline-4">
-<h4 id="org38e5f0f"><span class="section-number-4">1.2.3</span> General solution</h4>
+<div id="outline-container-orgdfbae26" class="outline-4">
+<h4 id="orgdfbae26"><span class="section-number-4">1.2.3</span> General solution</h4>
 <div class="outline-text-4" id="text-1-2-3">
 </div>
-<div id="outline-container-orgc3db9f6" class="outline-5">
-<h5 id="orgc3db9f6"><span class="section-number-5">1.2.3.1</span> For roots that are all unique</h5>
+<div id="outline-container-orgdccf860" class="outline-5">
+<h5 id="orgdccf860"><span class="section-number-5">1.2.3.1</span> For roots that are all unique</h5>
 <div class="outline-text-5" id="text-1-2-3-1">
 <p>
 \[a_n = A_{1}\alpha_1^n + A_{2}\alpha_2^{n} + \cdots + A_{k}\alpha_k^{n}\]
@@ -249,8 +250,8 @@ And by doing so we can find the <b>precise</b> solution of the recurrent equatio
 </p>
 </div>
 </div>
-<div id="outline-container-org7597830" class="outline-5">
-<h5 id="org7597830"><span class="section-number-5">1.2.3.2</span> When some roots are equal</h5>
+<div id="outline-container-org90926a5" class="outline-5">
+<h5 id="org90926a5"><span class="section-number-5">1.2.3.2</span> When some roots are equal</h5>
 <div class="outline-text-5" id="text-1-2-3-2">
 <p>
 Let the <a href="Set.html">set</a> (not multiset) of roots is \(\{\beta_i\}_{i=1}^t\) where t &le; k.
@@ -304,8 +305,8 @@ previous case since there are exactly \(k\) indexed constants \(A_{i,j}\).
 </div>
 </div>
 </div>
-<div id="outline-container-org7cdf268" class="outline-3">
-<h3 id="org7cdf268"><span class="section-number-3">1.3</span> Solving non-homogeneous recurrent equations.</h3>
+<div id="outline-container-orga319608" class="outline-3">
+<h3 id="orga319608"><span class="section-number-3">1.3</span> Solving non-homogeneous recurrent equations.</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 \(a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k} + p_{1}(n)*b_{1}^{n} + \cdots + p_{l}(n)*b_{l}^{n}\)
@@ -382,11 +383,12 @@ The rest proceeds as normal.
 </div>
 </section>
 
-<section id="outline-container-org9095cdd" class="outline-2">
-<h2 id="org9095cdd"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-orge0a8c01" class="outline-2">
+<h2 id="orge0a8c01"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="Discrete Structures.html">Discrete Structures</a></li>
+<li><a href="recentchanges.html">Recent changes</a></li>
 </ul>
 </div>
 </section>

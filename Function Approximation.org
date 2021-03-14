@@ -4,7 +4,7 @@
 
 * Function Approximation
 Main goal is to "approximate" [[file:Complex Function.org][Complex Functions]]
-with [[file:Simple Function.org][Simple Functions]]
+with [[file:Simple Function.org][Simple Functions]].
 
 ** Approximation of a function with another function
 

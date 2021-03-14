@@ -1,6 +1,6 @@
 #+title: Functions
 #+roam_alias: "Functions"
-#+roam_tags: "Discrete Structures" "Lecture" "Function" "Relations"
+#+roam_tags: "Discrete Structures" "Lecture" "Function" "Relation" "Meta:Collection"
 
 * Functions
 

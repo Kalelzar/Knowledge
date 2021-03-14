@@ -239,12 +239,11 @@
       (insert (format "<h2 class=\"tagged\"><a href=\"%s.html\" class=\"tagged\">%s</a></h2>" (f-base file) (f-base file)))
       (insert "<div class='outline-text-2'>")
       (insert (knowledge/tag-html file))
+;;      (insert (format "<p>%s</p>" (get-brief-description file)))
       (insert "</div>")
-      (insert "</section>")
-      )
+      (insert "</section>"))
     (insert "</div></div></div></div>")
-    (insert "</body>\n</html>")
-    ))
+    (insert "</body>\n</html>")))
 
 
 (defun knowledge/make-tag-pages ()
@@ -261,6 +260,16 @@
         (insert (concat "\n* Backlinks\n") links)))))
 
 (add-hook 'org-export-before-processing-hook 'knowledge/org-export-preprocessor)
+
+(defun get-brief-description (file)
+  (with-current-buffer
+      (find-file-noselect file)
+    (goto-char (point-min))
+    (while (re-search-forward "^#" (buffer-end 1) t) (next-line))
+    (re-search-forward "[[:space:]]+\\(\\(?:.*\n\\)*?.*\\.\\(?: \\|$\\)\\)" (buffer-end 1) t)
+    (when-let ((match (match-string 1)))
+      (replace-regexp-in-string "^*.+\n" "" (substring-no-properties match)))))
+
 
 ;; Fiddle with the HTML output.
 ;; TODO: note - a bad idea to override org-html-template!!
@@ -293,9 +302,10 @@
                  (when title
                    (format
                     (if html5-fancy
-                        "<header>\n<a class='rooter' href='%s'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
-                      "<h1 class=\"title\"><a class='rooter' href='%s'></a>%s</h1>\n%s\n%s\n")
-                    (file-name-nondirectory (plist-get info :output-file))
+                        "<header>\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='circle rooter' href='%s'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
+                      "<h1 class=\"title\">\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='rooter' href='%s'></a>%s</h1>\n%s\n%s\n")
+                    (f-base (plist-get info :output-file))
+                    (f-base (plist-get info :output-file))
                     (org-export-data title info)
                     (knowledge/org-roam--tags-html (org-export-data title info))
                     (if subtitle

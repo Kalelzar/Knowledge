@@ -1,6 +1,6 @@
 #+title: Relations
 #+roam_alias: "Relations"
-#+roam_tags: "Discrete Structures" "Lecture" "Relation"
+#+roam_tags: "Discrete Structures" "Lecture" "Relation" "Meta:Collection"
 * Relations
 *** [[file:Relation.org][Definition]]
 

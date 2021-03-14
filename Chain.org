@@ -13,5 +13,5 @@ and $a_{i_{j}}\neq{}a_{i_{j+1}}$ for $0\leq j < k$, $k\geq0$.
 
 A single element is also a chain.
 
-**** [[file:Contour.org][Contour]]
-**** [[file:Partial orders have no contours.org][Theorem - Partial orders have no contours]].
+** [[file:Contour.org][Contour]]
+** [[file:Partial orders have no contours.org][Theorem - Partial orders have no contours]].

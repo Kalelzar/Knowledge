@@ -1,6 +1,6 @@
 #+title: Combinatoric principles
 #+roam_alias: "Combinatoric principles"
-#+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
+#+roam_tags: "Discrete Structures" "Definition" "Combinatorics" "Meta:Collection"
 * Combinatoric principles
 ** [[file:Dirichlet principle.org][Dirichlet principle]]
 ** [[file:Principle of partitions.org][Principle of partitions]]
