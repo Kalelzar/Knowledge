@@ -12,7 +12,7 @@
 <!-- Combinatorics -->
 <g id="node1" class="node">
 <title>Combinatorics</title>
-<g id="a_node1"><a xlink:title="Combinatorics">
+<g id="a_node1"><a xlink:href="../Combinatorics.html" xlink:title="Combinatorics" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M656.5,-180C656.5,-180 582.5,-180 582.5,-180 576.5,-180 570.5,-174 570.5,-168 570.5,-168 570.5,-156 570.5,-156 570.5,-150 576.5,-144 582.5,-144 582.5,-144 656.5,-144 656.5,-144 662.5,-144 668.5,-150 668.5,-156 668.5,-156 668.5,-168 668.5,-168 668.5,-174 662.5,-180 656.5,-180"/>
 <text text-anchor="middle" x="619.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Combinatorics</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Combinatoric principles -->
 <g id="node2" class="node">
 <title>Combinatoric principles</title>
-<g id="a_node2"><a xlink:title="Combinatoric principles">
+<g id="a_node2"><a xlink:href="../Combinatoric principles.html" xlink:title="Combinatoric principles" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M599,-108C599,-108 472,-108 472,-108 466,-108 460,-102 460,-96 460,-96 460,-84 460,-84 460,-78 466,-72 472,-72 472,-72 599,-72 599,-72 605,-72 611,-78 611,-84 611,-84 611,-96 611,-96 611,-102 605,-108 599,-108"/>
 <text text-anchor="middle" x="535.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Combinatoric principles</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Discrete Structures -->
 <g id="node9" class="node">
 <title>Discrete Structures</title>
-<g id="a_node9"><a xlink:title="Discrete Structures">
+<g id="a_node9"><a xlink:href="../Discrete Structures.html" xlink:title="Discrete Structures" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="704.5" cy="-90" rx="75.2" ry="18"/>
 <text text-anchor="middle" x="704.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Discrete Structures</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Principle of inclusion and exclusion -->
 <g id="node3" class="node">
 <title>Principle of inclusion and exclusion</title>
-<g id="a_node3"><a xlink:title="Principle of inclusion and exclusion">
+<g id="a_node3"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M203,-36C203,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 203,0 203,0 209,0 215,-6 215,-12 215,-12 215,-24 215,-24 215,-30 209,-36 203,-36"/>
 <text text-anchor="middle" x="107.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of inclusion and exclusion</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Principle of division -->
 <g id="node4" class="node">
 <title>Principle of division</title>
-<g id="a_node4"><a xlink:title="Principle of division">
+<g id="a_node4"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M347.5,-36C347.5,-36 245.5,-36 245.5,-36 239.5,-36 233.5,-30 233.5,-24 233.5,-24 233.5,-12 233.5,-12 233.5,-6 239.5,0 245.5,0 245.5,0 347.5,0 347.5,0 353.5,0 359.5,-6 359.5,-12 359.5,-12 359.5,-24 359.5,-24 359.5,-30 353.5,-36 347.5,-36"/>
 <text text-anchor="middle" x="296.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of division</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Principle of the bijection -->
 <g id="node5" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node5"><a xlink:title="Principle of the bijection">
+<g id="a_node5"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M519.5,-36C519.5,-36 389.5,-36 389.5,-36 383.5,-36 377.5,-30 377.5,-24 377.5,-24 377.5,-12 377.5,-12 377.5,-6 383.5,0 389.5,0 389.5,0 519.5,0 519.5,0 525.5,0 531.5,-6 531.5,-12 531.5,-12 531.5,-24 531.5,-24 531.5,-30 525.5,-36 519.5,-36"/>
 <text text-anchor="middle" x="454.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Principle of products -->
 <g id="node6" class="node">
 <title>Principle of products</title>
-<g id="a_node6"><a xlink:title="Principle of products">
+<g id="a_node6"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M671.5,-36C671.5,-36 561.5,-36 561.5,-36 555.5,-36 549.5,-30 549.5,-24 549.5,-24 549.5,-12 549.5,-12 549.5,-6 555.5,0 561.5,0 561.5,0 671.5,0 671.5,0 677.5,0 683.5,-6 683.5,-12 683.5,-12 683.5,-24 683.5,-24 683.5,-30 677.5,-36 671.5,-36"/>
 <text text-anchor="middle" x="616.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of products</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Principle of partitions -->
 <g id="node7" class="node">
 <title>Principle of partitions</title>
-<g id="a_node7"><a xlink:title="Principle of partitions">
+<g id="a_node7"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M827,-36C827,-36 714,-36 714,-36 708,-36 702,-30 702,-24 702,-24 702,-12 702,-12 702,-6 708,0 714,0 714,0 827,0 827,0 833,0 839,-6 839,-12 839,-12 839,-24 839,-24 839,-30 833,-36 827,-36"/>
 <text text-anchor="middle" x="770.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Dirichlet principle -->
 <g id="node8" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node8"><a xlink:title="Dirichlet principle">
+<g id="a_node8"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M961.5,-36C961.5,-36 869.5,-36 869.5,-36 863.5,-36 857.5,-30 857.5,-24 857.5,-24 857.5,-12 857.5,-12 857.5,-6 863.5,0 869.5,0 869.5,0 961.5,0 961.5,0 967.5,0 973.5,-6 973.5,-12 973.5,-12 973.5,-24 973.5,-24 973.5,-30 967.5,-36 961.5,-36"/>
 <text text-anchor="middle" x="915.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>

@@ -12,7 +12,7 @@
 <!-- Simple Function -->
 <g id="node1" class="node">
 <title>Simple Function</title>
-<g id="a_node1"><a xlink:title="Simple Function">
+<g id="a_node1"><a xlink:href="../Simple Function.html" xlink:title="Simple Function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M164.5,-108C164.5,-108 78.5,-108 78.5,-108 72.5,-108 66.5,-102 66.5,-96 66.5,-96 66.5,-84 66.5,-84 66.5,-78 72.5,-72 78.5,-72 78.5,-72 164.5,-72 164.5,-72 170.5,-72 176.5,-78 176.5,-84 176.5,-84 176.5,-96 176.5,-96 176.5,-102 170.5,-108 164.5,-108"/>
 <text text-anchor="middle" x="121.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Simple Function</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- SplineGraph -->
 <g id="node2" class="node">
 <title>SplineGraph</title>
-<g id="a_node2"><a xlink:title="SplineGraph">
+<g id="a_node2"><a xlink:href="../SplineGraph.html" xlink:title="SplineGraph" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M75,-36C75,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 75,0 75,0 81,0 87,-6 87,-12 87,-12 87,-24 87,-24 87,-30 81,-36 75,-36"/>
 <text text-anchor="middle" x="43.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">SplineGraph</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Function Approximation -->
 <g id="node3" class="node">
 <title>Function Approximation</title>
-<g id="a_node3"><a xlink:title="Function Approximation">
+<g id="a_node3"><a xlink:href="../Function Approximation.html" xlink:title="Function Approximation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="199.5" cy="-18" rx="94.37" ry="18"/>
 <text text-anchor="middle" x="199.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Function Approximation</text>
 </a>

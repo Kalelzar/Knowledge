@@ -192,9 +192,16 @@ function initializePreviews(page, level) {
   level = level || pages.length;
 
   links = Array.prototype.slice.call(page.querySelectorAll("a:not(.rooter)"));
+  links = links.concat(Array.prototype
+                       .slice
+                       .call(page.querySelector("object")
+                             .contentWindow
+                             .document
+                             .querySelectorAll("a:not(.rooter)")))
 
   links.forEach(async function (element) {
     var rawHref = element.getAttribute("href");
+    if(!rawHref) rawHref = element.getAttribute("xlink:href")
     element.dataset.level = level;
 
     if (

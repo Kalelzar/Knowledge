@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-14 Sun 16:51 -->
+                <head><!-- 2021-03-15 Mon 09:36 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Combinatorics</title>
@@ -66,15 +66,16 @@
 <a class="tag" href="tag_Discrete Structures.html">Discrete Structures</a>
 <a class="tag" href="tag_Lecture.html">Lecture</a>
 </div>
-</header><section class="outline-2"><img src="dot/Combinatorics.dot.svg"></img></section><section id="outline-container-orgf96631a" class="outline-2">
-<h2 id="orgf96631a"><span class="section-number-2">1</span> Combinatorics</h2>
+</header><section class="outline-2"><h1 class="title">Graph</h1>
+<object data="dot/Combinatorics.dot.svg" type="image/svg+xml"></object></section><section id="outline-container-org9635895" class="outline-2">
+<h2 id="org9635895"><span class="section-number-2">1</span> Combinatorics</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-orgff04753" class="outline-3">
-<h3 id="orgff04753"><span class="section-number-3">1.1</span> <a href="Combinatoric principles.html">Combinatoric principles</a></h3>
+<div id="outline-container-org53a36b5" class="outline-3">
+<h3 id="org53a36b5"><span class="section-number-3">1.1</span> <a href="Combinatoric principles.html">Combinatoric principles</a></h3>
 </div>
-<div id="outline-container-orga30e3d5" class="outline-3">
-<h3 id="orga30e3d5"><span class="section-number-3">1.2</span> Types of combinatorial constructs</h3>
+<div id="outline-container-org980116a" class="outline-3">
+<h3 id="org980116a"><span class="section-number-3">1.2</span> Types of combinatorial constructs</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 \(A = \{1, 2, 3\}\)
@@ -113,8 +114,8 @@
 </p>
 </div>
 
-<div id="outline-container-org5a391ef" class="outline-4">
-<h4 id="org5a391ef"><span class="section-number-4">1.2.1</span> Ordered and repeating</h4>
+<div id="outline-container-org6128f22" class="outline-4">
+<h4 id="org6128f22"><span class="section-number-4">1.2.1</span> Ordered and repeating</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 Marked as \(K_{H,\Pi}(n,m)=|A^{m}|=n^{m}\)
@@ -125,10 +126,11 @@ Marked as \(K_{H,\Pi}(n,m)=|A^{m}|=n^{m}\)
 </p>
 
 <p>
-\[
-K_{H,\Pi}(3,2) =\\
-\{ \{1, 1\}, \{1, 2\}, \{1, 3\}, \{2, 1\}, \{2, 2\}, \{2, 3\}, \{3, 1\}, \{3, 2\}, \{3, 3\} \}
-\]
+\[\begin{align*}
+K_{H,\Pi}(3,2) =&\{ \{1, 1\}, \{1, 2\}, \{1, 3\},\\
+          &\{2, 1\}, \{2, 2\}, \{2, 3\},\\
+          &\{3, 1\}, \{3, 2\}, \{3, 3\} \}
+\end{align*}\]
 </p>
 
 <p>
@@ -137,8 +139,8 @@ K_{H,\Pi}(3,2) =\\
 </div>
 </div>
 
-<div id="outline-container-orgad58711" class="outline-4">
-<h4 id="orgad58711"><span class="section-number-4">1.2.2</span> Ordered and not repeating</h4>
+<div id="outline-container-org31b9650" class="outline-4">
+<h4 id="org31b9650"><span class="section-number-4">1.2.2</span> Ordered and not repeating</h4>
 <div class="outline-text-4" id="text-1-2-2">
 <p>
 \(|K_H(n,m)|=\prod_{k=0}^{m-1}\limits{}(n-k)=n^{\underline{m}}\)
@@ -155,8 +157,8 @@ K_{H,\Pi}(3,2) =\\
 </div>
 </div>
 
-<div id="outline-container-orgf6ebc00" class="outline-4">
-<h4 id="orgf6ebc00"><span class="section-number-4">1.2.3</span> Unordered and not repeating</h4>
+<div id="outline-container-orgf65e7d3" class="outline-4">
+<h4 id="orgf65e7d3"><span class="section-number-4">1.2.3</span> Unordered and not repeating</h4>
 <div class="outline-text-4" id="text-1-2-3">
 <p>
 \(|K(n,m)|=\frac{\prod_{k=0}^{m-1}(n-k)}{m!} = \frac{n!}{(n-m)!m!} = \binom{n}{m}\)
@@ -172,8 +174,8 @@ K_{H,\Pi}(3,2) =\\
 </div>
 </div>
 
-<div id="outline-container-orgfa17f68" class="outline-4">
-<h4 id="orgfa17f68"><span class="section-number-4">1.2.4</span> Unordered and repeating</h4>
+<div id="outline-container-org9c2f190" class="outline-4">
+<h4 id="org9c2f190"><span class="section-number-4">1.2.4</span> Unordered and repeating</h4>
 <div class="outline-text-4" id="text-1-2-4">
 <p>
 Marked as \(K_{\Pi}(n,m)=\binom{n-1 + m}{m}\)
@@ -187,8 +189,8 @@ Marked as \(K_{\Pi}(n,m)=\binom{n-1 + m}{m}\)
 </div>
 </div>
 
-<div id="outline-container-org7f0bbb8" class="outline-3">
-<h3 id="org7f0bbb8"><span class="section-number-3">1.3</span> Binomial</h3>
+<div id="outline-container-org9dad8df" class="outline-3">
+<h3 id="org9dad8df"><span class="section-number-3">1.3</span> Binomial</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 \(\binom{n}{m} = \frac{\prod_{k=0}^{m-1}(n-k)}{m!} = \frac{n!}{(n-m)!m!}\)
@@ -204,8 +206,8 @@ Marked as \(K_{\Pi}(n,m)=\binom{n-1 + m}{m}\)
 </div>
 </section>
 
-<section id="outline-container-org9628ea8" class="outline-2">
-<h2 id="org9628ea8"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-orgb326783" class="outline-2">
+<h2 id="orgb326783"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="Discrete Structures.html">Discrete Structures</a></li>

@@ -12,7 +12,7 @@
 <!-- Complex Function -->
 <g id="node1" class="node">
 <title>Complex Function</title>
-<g id="a_node1"><a xlink:title="Complex Function">
+<g id="a_node1"><a xlink:href="../Complex Function.html" xlink:title="Complex Function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M142.18,-108C142.18,-108 46.18,-108 46.18,-108 40.18,-108 34.18,-102 34.18,-96 34.18,-96 34.18,-84 34.18,-84 34.18,-78 40.18,-72 46.18,-72 46.18,-72 142.18,-72 142.18,-72 148.18,-72 154.18,-78 154.18,-84 154.18,-84 154.18,-96 154.18,-96 154.18,-102 148.18,-108 142.18,-108"/>
 <text text-anchor="middle" x="94.18" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Complex Function</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Function Approximation -->
 <g id="node2" class="node">
 <title>Function Approximation</title>
-<g id="a_node2"><a xlink:title="Function Approximation">
+<g id="a_node2"><a xlink:href="../Function Approximation.html" xlink:title="Function Approximation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="94.18" cy="-18" rx="94.37" ry="18"/>
 <text text-anchor="middle" x="94.18" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Function Approximation</text>
 </a>

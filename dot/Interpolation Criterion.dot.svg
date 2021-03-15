@@ -12,7 +12,7 @@
 <!-- Interpolation Criterion -->
 <g id="node1" class="node">
 <title>Interpolation Criterion</title>
-<g id="a_node1"><a xlink:title="Interpolation Criterion">
+<g id="a_node1"><a xlink:href="../Interpolation Criterion.html" xlink:title="Interpolation Criterion" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M153.68,-108C153.68,-108 34.68,-108 34.68,-108 28.68,-108 22.68,-102 22.68,-96 22.68,-96 22.68,-84 22.68,-84 22.68,-78 28.68,-72 34.68,-72 34.68,-72 153.68,-72 153.68,-72 159.68,-72 165.68,-78 165.68,-84 165.68,-84 165.68,-96 165.68,-96 165.68,-102 159.68,-108 153.68,-108"/>
 <text text-anchor="middle" x="94.18" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Interpolation Criterion</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Function Approximation -->
 <g id="node2" class="node">
 <title>Function Approximation</title>
-<g id="a_node2"><a xlink:title="Function Approximation">
+<g id="a_node2"><a xlink:href="../Function Approximation.html" xlink:title="Function Approximation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="94.18" cy="-18" rx="94.37" ry="18"/>
 <text text-anchor="middle" x="94.18" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Function Approximation</text>
 </a>

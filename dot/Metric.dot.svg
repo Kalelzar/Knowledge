@@ -12,7 +12,7 @@
 <!-- Metric -->
 <g id="node1" class="node">
 <title>Metric</title>
-<g id="a_node1"><a xlink:title="Metric">
+<g id="a_node1"><a xlink:href="../Metric.html" xlink:title="Metric" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M73.48,-108C73.48,-108 43.48,-108 43.48,-108 37.48,-108 31.48,-102 31.48,-96 31.48,-96 31.48,-84 31.48,-84 31.48,-78 37.48,-72 43.48,-72 43.48,-72 73.48,-72 73.48,-72 79.48,-72 85.48,-78 85.48,-84 85.48,-84 85.48,-96 85.48,-96 85.48,-102 79.48,-108 73.48,-108"/>
 <text text-anchor="middle" x="58.48" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Metric</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Metric Criteria -->
 <g id="node2" class="node">
 <title>Metric Criteria</title>
-<g id="a_node2"><a xlink:title="Metric Criteria">
+<g id="a_node2"><a xlink:href="../Metric Criteria.html" xlink:title="Metric Criteria" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="58.48" cy="-18" rx="58.46" ry="18"/>
 <text text-anchor="middle" x="58.48" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Metric Criteria</text>
 </a>

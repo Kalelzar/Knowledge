@@ -12,7 +12,7 @@
 <!-- Numeric Methods -->
 <g id="node1" class="node">
 <title>Numeric Methods</title>
-<g id="a_node1"><a xlink:title="Numeric Methods">
+<g id="a_node1"><a xlink:href="../Numeric Methods.html" xlink:title="Numeric Methods" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1047.35,-252C1047.35,-252 955.35,-252 955.35,-252 949.35,-252 943.35,-246 943.35,-240 943.35,-240 943.35,-228 943.35,-228 943.35,-222 949.35,-216 955.35,-216 955.35,-216 1047.35,-216 1047.35,-216 1053.35,-216 1059.35,-222 1059.35,-228 1059.35,-228 1059.35,-240 1059.35,-240 1059.35,-246 1053.35,-252 1047.35,-252"/>
 <text text-anchor="middle" x="1001.35" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Lagrange Interpolation -->
 <g id="node2" class="node">
 <title>Lagrange Interpolation</title>
-<g id="a_node2"><a xlink:title="Lagrange Interpolation">
+<g id="a_node2"><a xlink:href="../Lagrange Interpolation.html" xlink:title="Lagrange Interpolation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M652.85,-180C652.85,-180 529.85,-180 529.85,-180 523.85,-180 517.85,-174 517.85,-168 517.85,-168 517.85,-156 517.85,-156 517.85,-150 523.85,-144 529.85,-144 529.85,-144 652.85,-144 652.85,-144 658.85,-144 664.85,-150 664.85,-156 664.85,-156 664.85,-168 664.85,-168 664.85,-174 658.85,-180 652.85,-180"/>
 <text text-anchor="middle" x="591.35" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Function Approximation -->
 <g id="node4" class="node">
 <title>Function Approximation</title>
-<g id="a_node4"><a xlink:title="Function Approximation">
+<g id="a_node4"><a xlink:href="../Function Approximation.html" xlink:title="Function Approximation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1065.85,-180C1065.85,-180 936.85,-180 936.85,-180 930.85,-180 924.85,-174 924.85,-168 924.85,-168 924.85,-156 924.85,-156 924.85,-150 930.85,-144 936.85,-144 936.85,-144 1065.85,-144 1065.85,-144 1071.85,-144 1077.85,-150 1077.85,-156 1077.85,-156 1077.85,-168 1077.85,-168 1077.85,-174 1071.85,-180 1065.85,-180"/>
 <text text-anchor="middle" x="1001.35" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Function Approximation</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Subjects -->
 <g id="node9" class="node">
 <title>Subjects</title>
-<g id="a_node9"><a xlink:title="Subjects">
+<g id="a_node9"><a xlink:href="../Subjects.html" xlink:title="Subjects" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1136.35" cy="-162" rx="40.03" ry="18"/>
 <text text-anchor="middle" x="1136.35" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Subjects</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Lagrange Interpolation Problem -->
 <g id="node3" class="node">
 <title>Lagrange Interpolation Problem</title>
-<g id="a_node3"><a xlink:title="Lagrange Interpolation Problem">
+<g id="a_node3"><a xlink:href="../Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M408.85,-108C408.85,-108 233.85,-108 233.85,-108 227.85,-108 221.85,-102 221.85,-96 221.85,-96 221.85,-84 221.85,-84 221.85,-78 227.85,-72 233.85,-72 233.85,-72 408.85,-72 408.85,-72 414.85,-72 420.85,-78 420.85,-84 420.85,-84 420.85,-96 420.85,-96 420.85,-102 414.85,-108 408.85,-108"/>
 <text text-anchor="middle" x="321.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Extrapolation -->
 <g id="node10" class="node">
 <title>Extrapolation</title>
-<g id="a_node10"><a xlink:title="Extrapolation">
+<g id="a_node10"><a xlink:href="../Extrapolation.html" xlink:title="Extrapolation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="496.35" cy="-90" rx="57.5" ry="18"/>
 <text text-anchor="middle" x="496.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Extrapolation</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Evaluating Interpolation Error -->
 <g id="node11" class="node">
 <title>Evaluating Interpolation Error</title>
-<g id="a_node11"><a xlink:title="Evaluating Interpolation Error">
+<g id="a_node11"><a xlink:href="../Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="685.35" cy="-90" rx="113.77" ry="18"/>
 <text text-anchor="middle" x="685.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Evaluating Interpolation Error</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Lagrange Interpolation Polynomial -->
 <g id="node12" class="node">
 <title>Lagrange Interpolation Polynomial</title>
-<g id="a_node12"><a xlink:title="Lagrange Interpolation Polynomial">
+<g id="a_node12"><a xlink:href="../Lagrange Interpolation Polynomial.html" xlink:title="Lagrange Interpolation Polynomial" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="132.35" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="132.35" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Polynomial</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- The Lagrange Interpolation Polynomial of a Polynomial is itself -->
 <g id="node13" class="node">
 <title>The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
-<g id="a_node13"><a xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself">
+<g id="a_node13"><a xlink:href="../The Lagrange Interpolation Polynomial of a Polynomial is itself.html" xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="511.35" cy="-18" rx="229" ry="18"/>
 <text text-anchor="middle" x="511.35" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">The Lagrange Interpolation Polynomial of a Polynomial is itself</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Metric Criteria -->
 <g id="node5" class="node">
 <title>Metric Criteria</title>
-<g id="a_node5"><a xlink:title="Metric Criteria">
+<g id="a_node5"><a xlink:href="../Metric Criteria.html" xlink:title="Metric Criteria" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M899.85,-108C899.85,-108 828.85,-108 828.85,-108 822.85,-108 816.85,-102 816.85,-96 816.85,-96 816.85,-84 816.85,-84 816.85,-78 822.85,-72 828.85,-72 828.85,-72 899.85,-72 899.85,-72 905.85,-72 911.85,-78 911.85,-84 911.85,-84 911.85,-96 911.85,-96 911.85,-102 905.85,-108 899.85,-108"/>
 <text text-anchor="middle" x="864.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Metric Criteria</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- Interpolation Criterion -->
 <g id="node6" class="node">
 <title>Interpolation Criterion</title>
-<g id="a_node6"><a xlink:title="Interpolation Criterion">
+<g id="a_node6"><a xlink:href="../Interpolation Criterion.html" xlink:title="Interpolation Criterion" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1060.85,-108C1060.85,-108 941.85,-108 941.85,-108 935.85,-108 929.85,-102 929.85,-96 929.85,-96 929.85,-84 929.85,-84 929.85,-78 935.85,-72 941.85,-72 941.85,-72 1060.85,-72 1060.85,-72 1066.85,-72 1072.85,-78 1072.85,-84 1072.85,-84 1072.85,-96 1072.85,-96 1072.85,-102 1066.85,-108 1060.85,-108"/>
 <text text-anchor="middle" x="1001.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Interpolation Criterion</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- Simple Function -->
 <g id="node7" class="node">
 <title>Simple Function</title>
-<g id="a_node7"><a xlink:title="Simple Function">
+<g id="a_node7"><a xlink:href="../Simple Function.html" xlink:title="Simple Function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1189.35,-108C1189.35,-108 1103.35,-108 1103.35,-108 1097.35,-108 1091.35,-102 1091.35,-96 1091.35,-96 1091.35,-84 1091.35,-84 1091.35,-78 1097.35,-72 1103.35,-72 1103.35,-72 1189.35,-72 1189.35,-72 1195.35,-72 1201.35,-78 1201.35,-84 1201.35,-84 1201.35,-96 1201.35,-96 1201.35,-102 1195.35,-108 1189.35,-108"/>
 <text text-anchor="middle" x="1146.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Simple Function</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- Complex Function -->
 <g id="node8" class="node">
 <title>Complex Function</title>
-<g id="a_node8"><a xlink:title="Complex Function">
+<g id="a_node8"><a xlink:href="../Complex Function.html" xlink:title="Complex Function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1327.35,-108C1327.35,-108 1231.35,-108 1231.35,-108 1225.35,-108 1219.35,-102 1219.35,-96 1219.35,-96 1219.35,-84 1219.35,-84 1219.35,-78 1225.35,-72 1231.35,-72 1231.35,-72 1327.35,-72 1327.35,-72 1333.35,-72 1339.35,-78 1339.35,-84 1339.35,-84 1339.35,-96 1339.35,-96 1339.35,-102 1333.35,-108 1327.35,-108"/>
 <text text-anchor="middle" x="1279.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Complex Function</text>
 </a>

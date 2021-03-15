@@ -12,7 +12,7 @@
 <!-- Rolle Theorem -->
 <g id="node1" class="node">
 <title>Rolle Theorem</title>
-<g id="a_node1"><a xlink:title="Rolle Theorem">
+<g id="a_node1"><a xlink:href="../Rolle Theorem.html" xlink:title="Rolle Theorem" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M152.38,-108C152.38,-108 75.38,-108 75.38,-108 69.38,-108 63.38,-102 63.38,-96 63.38,-96 63.38,-84 63.38,-84 63.38,-78 69.38,-72 75.38,-72 75.38,-72 152.38,-72 152.38,-72 158.38,-72 164.38,-78 164.38,-84 164.38,-84 164.38,-96 164.38,-96 164.38,-102 158.38,-108 152.38,-108"/>
 <text text-anchor="middle" x="113.88" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Rolle Theorem</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Evaluating Interpolation Error -->
 <g id="node2" class="node">
 <title>Evaluating Interpolation Error</title>
-<g id="a_node2"><a xlink:title="Evaluating Interpolation Error">
+<g id="a_node2"><a xlink:href="../Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="113.88" cy="-18" rx="113.77" ry="18"/>
 <text text-anchor="middle" x="113.88" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Evaluating Interpolation Error</text>
 </a>

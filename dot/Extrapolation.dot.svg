@@ -12,7 +12,7 @@
 <!-- Extrapolation -->
 <g id="node1" class="node">
 <title>Extrapolation</title>
-<g id="a_node1"><a xlink:title="Extrapolation">
+<g id="a_node1"><a xlink:href="../Extrapolation.html" xlink:title="Extrapolation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M544.85,-252C544.85,-252 475.85,-252 475.85,-252 469.85,-252 463.85,-246 463.85,-240 463.85,-240 463.85,-228 463.85,-228 463.85,-222 469.85,-216 475.85,-216 475.85,-216 544.85,-216 544.85,-216 550.85,-216 556.85,-222 556.85,-228 556.85,-228 556.85,-240 556.85,-240 556.85,-246 550.85,-252 544.85,-252"/>
 <text text-anchor="middle" x="510.35" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Extrapolation</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Lagrange Interpolation -->
 <g id="node2" class="node">
 <title>Lagrange Interpolation</title>
-<g id="a_node2"><a xlink:title="Lagrange Interpolation">
+<g id="a_node2"><a xlink:href="../Lagrange Interpolation.html" xlink:title="Lagrange Interpolation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M571.85,-180C571.85,-180 448.85,-180 448.85,-180 442.85,-180 436.85,-174 436.85,-168 436.85,-168 436.85,-156 436.85,-156 436.85,-150 442.85,-144 448.85,-144 448.85,-144 571.85,-144 571.85,-144 577.85,-144 583.85,-150 583.85,-156 583.85,-156 583.85,-168 583.85,-168 583.85,-174 577.85,-180 571.85,-180"/>
 <text text-anchor="middle" x="510.35" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Lagrange Interpolation Problem -->
 <g id="node3" class="node">
 <title>Lagrange Interpolation Problem</title>
-<g id="a_node3"><a xlink:title="Lagrange Interpolation Problem">
+<g id="a_node3"><a xlink:href="../Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M408.85,-108C408.85,-108 233.85,-108 233.85,-108 227.85,-108 221.85,-102 221.85,-96 221.85,-96 221.85,-84 221.85,-84 221.85,-78 227.85,-72 233.85,-72 233.85,-72 408.85,-72 408.85,-72 414.85,-72 420.85,-78 420.85,-84 420.85,-84 420.85,-96 420.85,-96 420.85,-102 414.85,-108 408.85,-108"/>
 <text text-anchor="middle" x="321.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Numeric Methods -->
 <g id="node4" class="node">
 <title>Numeric Methods</title>
-<g id="a_node4"><a xlink:title="Numeric Methods">
+<g id="a_node4"><a xlink:href="../Numeric Methods.html" xlink:title="Numeric Methods" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="510.35" cy="-90" rx="71.32" ry="18"/>
 <text text-anchor="middle" x="510.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Evaluating Interpolation Error -->
 <g id="node5" class="node">
 <title>Evaluating Interpolation Error</title>
-<g id="a_node5"><a xlink:title="Evaluating Interpolation Error">
+<g id="a_node5"><a xlink:href="../Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="713.35" cy="-90" rx="113.77" ry="18"/>
 <text text-anchor="middle" x="713.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Evaluating Interpolation Error</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Lagrange Interpolation Polynomial -->
 <g id="node6" class="node">
 <title>Lagrange Interpolation Polynomial</title>
-<g id="a_node6"><a xlink:title="Lagrange Interpolation Polynomial">
+<g id="a_node6"><a xlink:href="../Lagrange Interpolation Polynomial.html" xlink:title="Lagrange Interpolation Polynomial" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="132.35" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="132.35" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Polynomial</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- The Lagrange Interpolation Polynomial of a Polynomial is itself -->
 <g id="node7" class="node">
 <title>The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
-<g id="a_node7"><a xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself">
+<g id="a_node7"><a xlink:href="../The Lagrange Interpolation Polynomial of a Polynomial is itself.html" xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="511.35" cy="-18" rx="229" ry="18"/>
 <text text-anchor="middle" x="511.35" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">The Lagrange Interpolation Polynomial of a Polynomial is itself</text>
 </a>

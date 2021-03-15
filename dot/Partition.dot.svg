@@ -12,7 +12,7 @@
 <!-- Partition -->
 <g id="node1" class="node">
 <title>Partition</title>
-<g id="a_node1"><a xlink:title="Partition">
+<g id="a_node1"><a xlink:href="../Partition.html" xlink:title="Partition" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M291.14,-108C291.14,-108 250.14,-108 250.14,-108 244.14,-108 238.14,-102 238.14,-96 238.14,-96 238.14,-84 238.14,-84 238.14,-78 244.14,-72 250.14,-72 250.14,-72 291.14,-72 291.14,-72 297.14,-72 303.14,-78 303.14,-84 303.14,-84 303.14,-96 303.14,-96 303.14,-102 297.14,-108 291.14,-108"/>
 <text text-anchor="middle" x="270.64" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Partition</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Class of equivalence -->
 <g id="node2" class="node">
 <title>Class of equivalence</title>
-<g id="a_node2"><a xlink:title="Class of equivalence">
+<g id="a_node2"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="80.64" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="80.64" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Class of equivalence</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Relation of Equivalence -->
 <g id="node3" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node3"><a xlink:title="Relation of Equivalence">
+<g id="a_node3"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="270.64" cy="-18" rx="91.95" ry="18"/>
 <text text-anchor="middle" x="270.64" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Principle of partitions -->
 <g id="node4" class="node">
 <title>Principle of partitions</title>
-<g id="a_node4"><a xlink:title="Principle of partitions">
+<g id="a_node4"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="464.64" cy="-18" rx="84.17" ry="18"/>
 <text text-anchor="middle" x="464.64" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>

@@ -12,7 +12,7 @@
 <!-- Principle of partitions -->
 <g id="node1" class="node">
 <title>Principle of partitions</title>
-<g id="a_node1"><a xlink:title="Principle of partitions">
+<g id="a_node1"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1080.22,-180C1080.22,-180 967.22,-180 967.22,-180 961.22,-180 955.22,-174 955.22,-168 955.22,-168 955.22,-156 955.22,-156 955.22,-150 961.22,-144 967.22,-144 967.22,-144 1080.22,-144 1080.22,-144 1086.22,-144 1092.22,-150 1092.22,-156 1092.22,-156 1092.22,-168 1092.22,-168 1092.22,-174 1086.22,-180 1080.22,-180"/>
 <text text-anchor="middle" x="1023.72" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Partition -->
 <g id="node2" class="node">
 <title>Partition</title>
-<g id="a_node2"><a xlink:title="Partition">
+<g id="a_node2"><a xlink:href="../Partition.html" xlink:title="Partition" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M302.22,-108C302.22,-108 261.22,-108 261.22,-108 255.22,-108 249.22,-102 249.22,-96 249.22,-96 249.22,-84 249.22,-84 249.22,-78 255.22,-72 261.22,-72 261.22,-72 302.22,-72 302.22,-72 308.22,-72 314.22,-78 314.22,-84 314.22,-84 314.22,-96 314.22,-96 314.22,-102 308.22,-108 302.22,-108"/>
 <text text-anchor="middle" x="281.72" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Partition</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Set -->
 <g id="node3" class="node">
 <title>Set</title>
-<g id="a_node3"><a xlink:title="Set">
+<g id="a_node3"><a xlink:href="../Set.html" xlink:title="Set" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1038.72,-108C1038.72,-108 1008.72,-108 1008.72,-108 1002.72,-108 996.72,-102 996.72,-96 996.72,-96 996.72,-84 996.72,-84 996.72,-78 1002.72,-72 1008.72,-72 1008.72,-72 1038.72,-72 1038.72,-72 1044.72,-72 1050.72,-78 1050.72,-84 1050.72,-84 1050.72,-96 1050.72,-96 1050.72,-102 1044.72,-108 1038.72,-108"/>
 <text text-anchor="middle" x="1023.72" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Set</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Combinatoric principles -->
 <g id="node4" class="node">
 <title>Combinatoric principles</title>
-<g id="a_node4"><a xlink:title="Combinatoric principles">
+<g id="a_node4"><a xlink:href="../Combinatoric principles.html" xlink:title="Combinatoric principles" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1161.72" cy="-90" rx="92.91" ry="18"/>
 <text text-anchor="middle" x="1161.72" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Combinatoric principles</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Class of equivalence -->
 <g id="node5" class="node">
 <title>Class of equivalence</title>
-<g id="a_node5"><a xlink:title="Class of equivalence">
+<g id="a_node5"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="281.72" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="281.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Class of equivalence</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Relation of Equivalence -->
 <g id="node6" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node6"><a xlink:title="Relation of Equivalence">
+<g id="a_node6"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="91.72" cy="-18" rx="91.95" ry="18"/>
 <text text-anchor="middle" x="91.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
@@ -108,7 +108,7 @@
 <!-- Reflexive Closure -->
 <g id="node7" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node7"><a xlink:title="Reflexive Closure">
+<g id="a_node7"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1114.72" cy="-18" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="1114.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -123,7 +123,7 @@
 <!-- Symmetric Closure -->
 <g id="node8" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node8"><a xlink:title="Symmetric Closure">
+<g id="a_node8"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1277.72" cy="-18" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="1277.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -138,7 +138,7 @@
 <!-- Recurrent Equations -->
 <g id="node9" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node9"><a xlink:title="Recurrent Equations">
+<g id="a_node9"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1451.72" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="1451.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>
@@ -153,7 +153,7 @@
 <!-- Principle of division -->
 <g id="node10" class="node">
 <title>Principle of division</title>
-<g id="a_node10"><a xlink:title="Principle of division">
+<g id="a_node10"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1627.72" cy="-18" rx="77.63" ry="18"/>
 <text text-anchor="middle" x="1627.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of division</text>
 </a>
@@ -168,7 +168,7 @@
 <!-- Principle of products -->
 <g id="node11" class="node">
 <title>Principle of products</title>
-<g id="a_node11"><a xlink:title="Principle of products">
+<g id="a_node11"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1805.72" cy="-18" rx="82.48" ry="18"/>
 <text text-anchor="middle" x="1805.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of products</text>
 </a>
@@ -183,7 +183,7 @@
 <!-- Dirichlet principle -->
 <g id="node12" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node12"><a xlink:title="Dirichlet principle">
+<g id="a_node12"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1977.72" cy="-18" rx="71.32" ry="18"/>
 <text text-anchor="middle" x="1977.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
@@ -198,7 +198,7 @@
 <!-- Principle of inclusion and exclusion -->
 <g id="node13" class="node">
 <title>Principle of inclusion and exclusion</title>
-<g id="a_node13"><a xlink:title="Principle of inclusion and exclusion">
+<g id="a_node13"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="512.72" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="512.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of inclusion and exclusion</text>
 </a>
@@ -213,7 +213,7 @@
 <!-- Differential Analysis -->
 <g id="node14" class="node">
 <title>Differential Analysis</title>
-<g id="a_node14"><a xlink:title="Differential Analysis">
+<g id="a_node14"><a xlink:href="../Differential Analysis.html" xlink:title="Differential Analysis" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="741.72" cy="-18" rx="78.36" ry="18"/>
 <text text-anchor="middle" x="741.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
 </a>
@@ -228,7 +228,7 @@
 <!-- Principle of the bijection -->
 <g id="node15" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node15"><a xlink:title="Principle of the bijection">
+<g id="a_node15"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="932.72" cy="-18" rx="94.6" ry="18"/>
 <text text-anchor="middle" x="932.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>

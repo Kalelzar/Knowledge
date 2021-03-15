@@ -12,7 +12,7 @@
 <!-- Chebyshev Polynomial -->
 <g id="node1" class="node">
 <title>Chebyshev Polynomial</title>
-<g id="a_node1"><a xlink:title="Chebyshev Polynomial">
+<g id="a_node1"><a xlink:href="../Chebyshev Polynomial.html" xlink:title="Chebyshev Polynomial" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M2238.06,-252C2238.06,-252 2117.06,-252 2117.06,-252 2111.06,-252 2105.06,-246 2105.06,-240 2105.06,-240 2105.06,-228 2105.06,-228 2105.06,-222 2111.06,-216 2117.06,-216 2117.06,-216 2238.06,-216 2238.06,-216 2244.06,-216 2250.06,-222 2250.06,-228 2250.06,-228 2250.06,-240 2250.06,-240 2250.06,-246 2244.06,-252 2238.06,-252"/>
 <text text-anchor="middle" x="2177.56" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Chebyshev Polynomial</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Recurrent Equations -->
 <g id="node2" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node2"><a xlink:title="Recurrent Equations">
+<g id="a_node2"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M2112.06,-180C2112.06,-180 2005.06,-180 2005.06,-180 1999.06,-180 1993.06,-174 1993.06,-168 1993.06,-168 1993.06,-156 1993.06,-156 1993.06,-150 1999.06,-144 2005.06,-144 2005.06,-144 2112.06,-144 2112.06,-144 2118.06,-144 2124.06,-150 2124.06,-156 2124.06,-156 2124.06,-168 2124.06,-168 2124.06,-174 2118.06,-180 2112.06,-180"/>
 <text text-anchor="middle" x="2058.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Extreme points of Chebyshev polynomials -->
 <g id="node6" class="node">
 <title>Extreme points of Chebyshev polynomials</title>
-<g id="a_node6"><a xlink:title="Extreme points of Chebyshev polynomials">
+<g id="a_node6"><a xlink:href="../Extreme points of Chebyshev polynomials.html" xlink:title="Extreme points of Chebyshev polynomials" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2297.56" cy="-162" rx="155.26" ry="18"/>
 <text text-anchor="middle" x="2297.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Extreme points of Chebyshev polynomials</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Set -->
 <g id="node3" class="node">
 <title>Set</title>
-<g id="a_node3"><a xlink:title="Set">
+<g id="a_node3"><a xlink:href="../Set.html" xlink:title="Set" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1062.56,-108C1062.56,-108 1032.56,-108 1032.56,-108 1026.56,-108 1020.56,-102 1020.56,-96 1020.56,-96 1020.56,-84 1020.56,-84 1020.56,-78 1026.56,-72 1032.56,-72 1032.56,-72 1062.56,-72 1062.56,-72 1068.56,-72 1074.56,-78 1074.56,-84 1074.56,-84 1074.56,-96 1074.56,-96 1074.56,-102 1068.56,-108 1062.56,-108"/>
 <text text-anchor="middle" x="1047.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Set</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Multiset -->
 <g id="node4" class="node">
 <title>Multiset</title>
-<g id="a_node4"><a xlink:title="Multiset">
+<g id="a_node4"><a xlink:href="../Multiset.html" xlink:title="Multiset" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M2000.56,-108C2000.56,-108 1962.56,-108 1962.56,-108 1956.56,-108 1950.56,-102 1950.56,-96 1950.56,-96 1950.56,-84 1950.56,-84 1950.56,-78 1956.56,-72 1962.56,-72 1962.56,-72 2000.56,-72 2000.56,-72 2006.56,-72 2012.56,-78 2012.56,-84 2012.56,-84 2012.56,-96 2012.56,-96 2012.56,-102 2006.56,-108 2000.56,-108"/>
 <text text-anchor="middle" x="1981.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Multiset</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Fundamental Theorem of Algebra -->
 <g id="node5" class="node">
 <title>Fundamental Theorem of Algebra</title>
-<g id="a_node5"><a xlink:title="Fundamental Theorem of Algebra">
+<g id="a_node5"><a xlink:href="../Fundamental Theorem of Algebra.html" xlink:title="Fundamental Theorem of Algebra" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M2228.06,-108C2228.06,-108 2043.06,-108 2043.06,-108 2037.06,-108 2031.06,-102 2031.06,-96 2031.06,-96 2031.06,-84 2031.06,-84 2031.06,-78 2037.06,-72 2043.06,-72 2043.06,-72 2228.06,-72 2228.06,-72 2234.06,-72 2240.06,-78 2240.06,-84 2240.06,-84 2240.06,-96 2240.06,-96 2240.06,-102 2234.06,-108 2228.06,-108"/>
 <text text-anchor="middle" x="2135.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental Theorem of Algebra</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Discrete Structures -->
 <g id="node7" class="node">
 <title>Discrete Structures</title>
-<g id="a_node7"><a xlink:title="Discrete Structures">
+<g id="a_node7"><a xlink:href="../Discrete Structures.html" xlink:title="Discrete Structures" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2333.56" cy="-90" rx="75.2" ry="18"/>
 <text text-anchor="middle" x="2333.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Discrete Structures</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Reflexive Closure -->
 <g id="node8" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node8"><a xlink:title="Reflexive Closure">
+<g id="a_node8"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="69.56" cy="-18" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="69.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Symmetric Closure -->
 <g id="node9" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node9"><a xlink:title="Symmetric Closure">
+<g id="a_node9"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="232.56" cy="-18" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="232.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Class of equivalence -->
 <g id="node10" class="node">
 <title>Class of equivalence</title>
-<g id="a_node10"><a xlink:title="Class of equivalence">
+<g id="a_node10"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="406.56" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="406.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Class of equivalence</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- Relation of Equivalence -->
 <g id="node11" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node11"><a xlink:title="Relation of Equivalence">
+<g id="a_node11"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="596.56" cy="-18" rx="91.95" ry="18"/>
 <text text-anchor="middle" x="596.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- Principle of division -->
 <g id="node12" class="node">
 <title>Principle of division</title>
-<g id="a_node12"><a xlink:title="Principle of division">
+<g id="a_node12"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="783.56" cy="-18" rx="77.63" ry="18"/>
 <text text-anchor="middle" x="783.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of division</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- Principle of products -->
 <g id="node13" class="node">
 <title>Principle of products</title>
-<g id="a_node13"><a xlink:title="Principle of products">
+<g id="a_node13"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="961.56" cy="-18" rx="82.48" ry="18"/>
 <text text-anchor="middle" x="961.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of products</text>
 </a>
@@ -201,7 +201,7 @@
 <!-- Dirichlet principle -->
 <g id="node14" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node14"><a xlink:title="Dirichlet principle">
+<g id="a_node14"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1133.56" cy="-18" rx="71.32" ry="18"/>
 <text text-anchor="middle" x="1133.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
@@ -216,7 +216,7 @@
 <!-- Principle of inclusion and exclusion -->
 <g id="node15" class="node">
 <title>Principle of inclusion and exclusion</title>
-<g id="a_node15"><a xlink:title="Principle of inclusion and exclusion">
+<g id="a_node15"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1355.56" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="1355.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of inclusion and exclusion</text>
 </a>
@@ -231,7 +231,7 @@
 <!-- Differential Analysis -->
 <g id="node16" class="node">
 <title>Differential Analysis</title>
-<g id="a_node16"><a xlink:title="Differential Analysis">
+<g id="a_node16"><a xlink:href="../Differential Analysis.html" xlink:title="Differential Analysis" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1584.56" cy="-18" rx="78.36" ry="18"/>
 <text text-anchor="middle" x="1584.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
 </a>
@@ -246,7 +246,7 @@
 <!-- Principle of partitions -->
 <g id="node17" class="node">
 <title>Principle of partitions</title>
-<g id="a_node17"><a xlink:title="Principle of partitions">
+<g id="a_node17"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1765.56" cy="-18" rx="84.17" ry="18"/>
 <text text-anchor="middle" x="1765.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>
@@ -261,7 +261,7 @@
 <!-- Principle of the bijection -->
 <g id="node18" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node18"><a xlink:title="Principle of the bijection">
+<g id="a_node18"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1962.56" cy="-18" rx="94.6" ry="18"/>
 <text text-anchor="middle" x="1962.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>
@@ -276,7 +276,7 @@
 <!-- Linear Algebra -->
 <g id="node19" class="node">
 <title>Linear Algebra</title>
-<g id="a_node19"><a xlink:title="Linear Algebra">
+<g id="a_node19"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2135.56" cy="-18" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="2135.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -291,7 +291,7 @@
 <!-- Lagrange Interpolation Problem -->
 <g id="node20" class="node">
 <title>Lagrange Interpolation Problem</title>
-<g id="a_node20"><a xlink:title="Lagrange Interpolation Problem">
+<g id="a_node20"><a xlink:href="../Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2336.56" cy="-18" rx="122.5" ry="18"/>
 <text text-anchor="middle" x="2336.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>

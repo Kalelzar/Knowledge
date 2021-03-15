@@ -12,7 +12,7 @@
 <!-- index -->
 <g id="node1" class="node">
 <title>index</title>
-<g id="a_node1"><a xlink:title="index">
+<g id="a_node1"><a xlink:href="../index.html" xlink:title="index" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M461,-180C461,-180 431,-180 431,-180 425,-180 419,-174 419,-168 419,-168 419,-156 419,-156 419,-150 425,-144 431,-144 431,-144 461,-144 461,-144 467,-144 473,-150 473,-156 473,-156 473,-168 473,-168 473,-174 467,-180 461,-180"/>
 <text text-anchor="middle" x="446" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">index</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Subjects -->
 <g id="node2" class="node">
 <title>Subjects</title>
-<g id="a_node2"><a xlink:title="Subjects">
+<g id="a_node2"><a xlink:href="../Subjects.html" xlink:title="Subjects" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M423.5,-108C423.5,-108 382.5,-108 382.5,-108 376.5,-108 370.5,-102 370.5,-96 370.5,-96 370.5,-84 370.5,-84 370.5,-78 376.5,-72 382.5,-72 382.5,-72 423.5,-72 423.5,-72 429.5,-72 435.5,-78 435.5,-84 435.5,-84 435.5,-96 435.5,-96 435.5,-102 429.5,-108 423.5,-108"/>
 <text text-anchor="middle" x="403" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Subjects</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Org Roam -->
 <g id="node7" class="node">
 <title>Org Roam</title>
-<g id="a_node7"><a xlink:title="Org Roam">
+<g id="a_node7"><a xlink:href="../Org Roam.html" xlink:title="Org Roam" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M556,-108C556,-108 508,-108 508,-108 502,-108 496,-102 496,-96 496,-96 496,-84 496,-84 496,-78 502,-72 508,-72 508,-72 556,-72 556,-72 562,-72 568,-78 568,-84 568,-84 568,-96 568,-96 568,-102 562,-108 556,-108"/>
 <text text-anchor="middle" x="532" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Org Roam</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Numeric Methods -->
 <g id="node3" class="node">
 <title>Numeric Methods</title>
-<g id="a_node3"><a xlink:title="Numeric Methods">
+<g id="a_node3"><a xlink:href="../Numeric Methods.html" xlink:title="Numeric Methods" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M104,-36C104,-36 12,-36 12,-36 6,-36 0,-30 0,-24 0,-24 0,-12 0,-12 0,-6 6,0 12,0 12,0 104,0 104,0 110,0 116,-6 116,-12 116,-12 116,-24 116,-24 116,-30 110,-36 104,-36"/>
 <text text-anchor="middle" x="58" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Discrete Structures -->
 <g id="node4" class="node">
 <title>Discrete Structures</title>
-<g id="a_node4"><a xlink:title="Discrete Structures">
+<g id="a_node4"><a xlink:href="../Discrete Structures.html" xlink:title="Discrete Structures" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M244,-36C244,-36 146,-36 146,-36 140,-36 134,-30 134,-24 134,-24 134,-12 134,-12 134,-6 140,0 146,0 146,0 244,0 244,0 250,0 256,-6 256,-12 256,-12 256,-24 256,-24 256,-30 250,-36 244,-36"/>
 <text text-anchor="middle" x="195" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Discrete Structures</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Differential Analysis -->
 <g id="node5" class="node">
 <title>Differential Analysis</title>
-<g id="a_node5"><a xlink:title="Differential Analysis">
+<g id="a_node5"><a xlink:href="../Differential Analysis.html" xlink:title="Differential Analysis" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M389.5,-36C389.5,-36 286.5,-36 286.5,-36 280.5,-36 274.5,-30 274.5,-24 274.5,-24 274.5,-12 274.5,-12 274.5,-6 280.5,0 286.5,0 286.5,0 389.5,0 389.5,0 395.5,0 401.5,-6 401.5,-12 401.5,-12 401.5,-24 401.5,-24 401.5,-30 395.5,-36 389.5,-36"/>
 <text text-anchor="middle" x="338" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Linear Algebra -->
 <g id="node6" class="node">
 <title>Linear Algebra</title>
-<g id="a_node6"><a xlink:title="Linear Algebra">
+<g id="a_node6"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M506,-36C506,-36 432,-36 432,-36 426,-36 420,-30 420,-24 420,-24 420,-12 420,-12 420,-6 426,0 432,0 432,0 506,0 506,0 512,0 518,-6 518,-12 518,-12 518,-24 518,-24 518,-30 512,-36 506,-36"/>
 <text text-anchor="middle" x="469" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- README -->
 <g id="node8" class="node">
 <title>README</title>
-<g id="a_node8"><a xlink:title="README">
+<g id="a_node8"><a xlink:href="../README.html" xlink:title="README" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="575" cy="-18" rx="38.57" ry="18"/>
 <text text-anchor="middle" x="575" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">README</text>
 </a>

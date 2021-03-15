@@ -12,7 +12,7 @@
 <!-- Lagrange Interpolation Problem -->
 <g id="node1" class="node">
 <title>Lagrange Interpolation Problem</title>
-<g id="a_node1"><a xlink:title="Lagrange Interpolation Problem">
+<g id="a_node1"><a xlink:href="../Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M718.2,-252C718.2,-252 543.2,-252 543.2,-252 537.2,-252 531.2,-246 531.2,-240 531.2,-240 531.2,-228 531.2,-228 531.2,-222 537.2,-216 543.2,-216 543.2,-216 718.2,-216 718.2,-216 724.2,-216 730.2,-222 730.2,-228 730.2,-228 730.2,-240 730.2,-240 730.2,-246 724.2,-252 718.2,-252"/>
 <text text-anchor="middle" x="630.7" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Kronecker Delta -->
 <g id="node2" class="node">
 <title>Kronecker Delta</title>
-<g id="a_node2"><a xlink:title="Kronecker Delta">
+<g id="a_node2"><a xlink:href="../Kronecker Delta.html" xlink:title="Kronecker Delta" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M305.2,-108C305.2,-108 222.2,-108 222.2,-108 216.2,-108 210.2,-102 210.2,-96 210.2,-96 210.2,-84 210.2,-84 210.2,-78 216.2,-72 222.2,-72 222.2,-72 305.2,-72 305.2,-72 311.2,-72 317.2,-78 317.2,-84 317.2,-84 317.2,-96 317.2,-96 317.2,-102 311.2,-108 305.2,-108"/>
 <text text-anchor="middle" x="263.7" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Kronecker Delta</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Formula of Lagrange for Interpolation -->
 <g id="node3" class="node">
 <title>Formula of Lagrange for Interpolation</title>
-<g id="a_node3"><a xlink:title="Formula of Lagrange for Interpolation">
+<g id="a_node3"><a xlink:href="../Formula of Lagrange for Interpolation.html" xlink:title="Formula of Lagrange for Interpolation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M241.2,-180C241.2,-180 34.2,-180 34.2,-180 28.2,-180 22.2,-174 22.2,-168 22.2,-168 22.2,-156 22.2,-156 22.2,-150 28.2,-144 34.2,-144 34.2,-144 241.2,-144 241.2,-144 247.2,-144 253.2,-150 253.2,-156 253.2,-156 253.2,-168 253.2,-168 253.2,-174 247.2,-180 241.2,-180"/>
 <text text-anchor="middle" x="137.7" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Formula of Lagrange for Interpolation</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Fundamental polynomials of Lagrange -->
 <g id="node4" class="node">
 <title>Fundamental polynomials of Lagrange</title>
-<g id="a_node4"><a xlink:title="Fundamental polynomials of Lagrange">
+<g id="a_node4"><a xlink:href="../Fundamental polynomials of Lagrange.html" xlink:title="Fundamental polynomials of Lagrange" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M495.7,-180C495.7,-180 283.7,-180 283.7,-180 277.7,-180 271.7,-174 271.7,-168 271.7,-168 271.7,-156 271.7,-156 271.7,-150 277.7,-144 283.7,-144 283.7,-144 495.7,-144 495.7,-144 501.7,-144 507.7,-150 507.7,-156 507.7,-156 507.7,-168 507.7,-168 507.7,-174 501.7,-180 495.7,-180"/>
 <text text-anchor="middle" x="389.7" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental polynomials of Lagrange</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Fundamental Theorem of Algebra -->
 <g id="node5" class="node">
 <title>Fundamental Theorem of Algebra</title>
-<g id="a_node5"><a xlink:title="Fundamental Theorem of Algebra">
+<g id="a_node5"><a xlink:href="../Fundamental Theorem of Algebra.html" xlink:title="Fundamental Theorem of Algebra" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M723.2,-180C723.2,-180 538.2,-180 538.2,-180 532.2,-180 526.2,-174 526.2,-168 526.2,-168 526.2,-156 526.2,-156 526.2,-150 532.2,-144 538.2,-144 538.2,-144 723.2,-144 723.2,-144 729.2,-144 735.2,-150 735.2,-156 735.2,-156 735.2,-168 735.2,-168 735.2,-174 729.2,-180 723.2,-180"/>
 <text text-anchor="middle" x="630.7" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental Theorem of Algebra</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Lagrange Interpolation -->
 <g id="node6" class="node">
 <title>Lagrange Interpolation</title>
-<g id="a_node6"><a xlink:title="Lagrange Interpolation">
+<g id="a_node6"><a xlink:href="../Lagrange Interpolation.html" xlink:title="Lagrange Interpolation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="843.7" cy="-162" rx="90.48" ry="18"/>
 <text text-anchor="middle" x="843.7" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Lagrange Interpolation Polynomial -->
 <g id="node7" class="node">
 <title>Lagrange Interpolation Polynomial</title>
-<g id="a_node7"><a xlink:title="Lagrange Interpolation Polynomial">
+<g id="a_node7"><a xlink:href="../Lagrange Interpolation Polynomial.html" xlink:title="Lagrange Interpolation Polynomial" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1084.7" cy="-162" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="1084.7" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Polynomial</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- The Lagrange Interpolation Polynomial of a Polynomial is itself -->
 <g id="node8" class="node">
 <title>The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
-<g id="a_node8"><a xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself">
+<g id="a_node8"><a xlink:href="../The Lagrange Interpolation Polynomial of a Polynomial is itself.html" xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1463.7" cy="-162" rx="229" ry="18"/>
 <text text-anchor="middle" x="1463.7" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">The Lagrange Interpolation Polynomial of a Polynomial is itself</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Linear Algebra -->
 <g id="node9" class="node">
 <title>Linear Algebra</title>
-<g id="a_node9"><a xlink:title="Linear Algebra">
+<g id="a_node9"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="329.7" cy="-18" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="329.7" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -159,7 +159,7 @@
 <!-- Recurrent Equations -->
 <g id="node10" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node10"><a xlink:title="Recurrent Equations">
+<g id="a_node10"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="630.7" cy="-90" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="630.7" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>

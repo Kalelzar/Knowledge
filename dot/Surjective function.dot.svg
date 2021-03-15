@@ -12,7 +12,7 @@
 <!-- Surjective function -->
 <g id="node1" class="node">
 <title>Surjective function</title>
-<g id="a_node1"><a xlink:title="Surjective function">
+<g id="a_node1"><a xlink:href="../Surjective function.html" xlink:title="Surjective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M183.33,-108C183.33,-108 85.33,-108 85.33,-108 79.33,-108 73.33,-102 73.33,-96 73.33,-96 73.33,-84 73.33,-84 73.33,-78 79.33,-72 85.33,-72 85.33,-72 183.33,-72 183.33,-72 189.33,-72 195.33,-78 195.33,-84 195.33,-84 195.33,-96 195.33,-96 195.33,-102 189.33,-108 183.33,-108"/>
 <text text-anchor="middle" x="134.33" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Surjective function</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Linear Algebra -->
 <g id="node2" class="node">
 <title>Linear Algebra</title>
-<g id="a_node2"><a xlink:title="Linear Algebra">
+<g id="a_node2"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="60.33" cy="-18" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="60.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Bijective function -->
 <g id="node3" class="node">
 <title>Bijective function</title>
-<g id="a_node3"><a xlink:title="Bijective function">
+<g id="a_node3"><a xlink:href="../Bijective function.html" xlink:title="Bijective function" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="209.33" cy="-18" rx="70.35" ry="18"/>
 <text text-anchor="middle" x="209.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Bijective function</text>
 </a>

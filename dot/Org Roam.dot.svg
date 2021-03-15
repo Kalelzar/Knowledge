@@ -12,7 +12,7 @@
 <!-- Org Roam -->
 <g id="node1" class="node">
 <title>Org Roam</title>
-<g id="a_node1"><a xlink:title="Org Roam">
+<g id="a_node1"><a xlink:href="../Org Roam.html" xlink:title="Org Roam" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M95.93,-108C95.93,-108 47.93,-108 47.93,-108 41.93,-108 35.93,-102 35.93,-96 35.93,-96 35.93,-84 35.93,-84 35.93,-78 41.93,-72 47.93,-72 47.93,-72 95.93,-72 95.93,-72 101.93,-72 107.93,-78 107.93,-84 107.93,-84 107.93,-96 107.93,-96 107.93,-102 101.93,-108 95.93,-108"/>
 <text text-anchor="middle" x="71.93" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Org Roam</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- index -->
 <g id="node2" class="node">
 <title>index</title>
-<g id="a_node2"><a xlink:title="index">
+<g id="a_node2"><a xlink:href="../index.html" xlink:title="index" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="28.93" cy="-18" rx="28.87" ry="18"/>
 <text text-anchor="middle" x="28.93" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">index</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- README -->
 <g id="node3" class="node">
 <title>README</title>
-<g id="a_node3"><a xlink:title="README">
+<g id="a_node3"><a xlink:href="../README.html" xlink:title="README" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="114.93" cy="-18" rx="38.57" ry="18"/>
 <text text-anchor="middle" x="114.93" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">README</text>
 </a>

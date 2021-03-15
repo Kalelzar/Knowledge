@@ -12,7 +12,7 @@
 <!-- Fundamental extremal property of Chebyshev polynomials -->
 <g id="node1" class="node">
 <title>Fundamental extremal property of Chebyshev polynomials</title>
-<g id="a_node1"><a xlink:title="Fundamental extremal property of Chebyshev polynomials">
+<g id="a_node1"><a xlink:href="../Fundamental extremal property of Chebyshev polynomials.html" xlink:title="Fundamental extremal property of Chebyshev polynomials" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M337,-180C337,-180 12,-180 12,-180 6,-180 0,-174 0,-168 0,-168 0,-156 0,-156 0,-150 6,-144 12,-144 12,-144 337,-144 337,-144 343,-144 349,-150 349,-156 349,-156 349,-168 349,-168 349,-174 343,-180 337,-180"/>
 <text text-anchor="middle" x="174.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental extremal property of Chebyshev polynomials</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Extreme points of Chebyshev polynomials -->
 <g id="node2" class="node">
 <title>Extreme points of Chebyshev polynomials</title>
-<g id="a_node2"><a xlink:title="Extreme points of Chebyshev polynomials">
+<g id="a_node2"><a xlink:href="../Extreme points of Chebyshev polynomials.html" xlink:title="Extreme points of Chebyshev polynomials" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M288.5,-108C288.5,-108 60.5,-108 60.5,-108 54.5,-108 48.5,-102 48.5,-96 48.5,-96 48.5,-84 48.5,-84 48.5,-78 54.5,-72 60.5,-72 60.5,-72 288.5,-72 288.5,-72 294.5,-72 300.5,-78 300.5,-84 300.5,-84 300.5,-96 300.5,-96 300.5,-102 294.5,-108 288.5,-108"/>
 <text text-anchor="middle" x="174.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Extreme points of Chebyshev polynomials</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Chebyshev Polynomial -->
 <g id="node3" class="node">
 <title>Chebyshev Polynomial</title>
-<g id="a_node3"><a xlink:title="Chebyshev Polynomial">
+<g id="a_node3"><a xlink:href="../Chebyshev Polynomial.html" xlink:title="Chebyshev Polynomial" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M235,-36C235,-36 114,-36 114,-36 108,-36 102,-30 102,-24 102,-24 102,-12 102,-12 102,-6 108,0 114,0 114,0 235,0 235,0 241,0 247,-6 247,-12 247,-12 247,-24 247,-24 247,-30 241,-36 235,-36"/>
 <text text-anchor="middle" x="174.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Chebyshev Polynomial</text>
 </a>

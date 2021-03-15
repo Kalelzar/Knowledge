@@ -15,9 +15,8 @@ and the function $f$ is defined for $x_i$.
 
 Then $\exists!$ algebraic polynomial of degree $\leq n$ $L_n(f;x)$
 for which
-\[
-L_{n}(f;x_{i}) = f(x_{i}) & i = \overline{0,n}
-\]
+
+\[L_{n}(f;x_{i}) = f(x_{i}) \qquad i = \overline{0,n}\]
 
 
 For $L_n(f;x)$ is true:

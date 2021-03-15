@@ -68,7 +68,7 @@
       (insert (--reduce
                (concat acc "\n" it)
                (--map
-                (format "\"%s\"[label=\"%s\",tooltip=\"%s\"];" it it it)
+                (format "\"%s\"[label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];" it it it it)
                 (-uniq
                  (-flatten connections)))))
       (insert "\n")
@@ -81,7 +81,7 @@
       (insert (--reduce
                (concat acc "\n" it)
                (--map
-                (format "\"%s\"[label=\"%s\",tooltip=\"%s\"];" it it it)
+                (format "\"%s\"[label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];" it it it it)
                 (-difference
                  (-uniq
                   (-flatten backlinks))
@@ -132,6 +132,7 @@
 
 (defun make-all-dot (depth)
   "Make dot files for all org-roam files at DEPTH."
+  (interactive "nDepth: ")
   (dolist (file
            (-flatten
             (org-roam-db-query [:select file

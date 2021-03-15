@@ -12,7 +12,7 @@
 <!-- Combinatoric principles -->
 <g id="node1" class="node">
 <title>Combinatoric principles</title>
-<g id="a_node1"><a xlink:title="Combinatoric principles">
+<g id="a_node1"><a xlink:href="../Combinatoric principles.html" xlink:title="Combinatoric principles" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M685,-396C685,-396 558,-396 558,-396 552,-396 546,-390 546,-384 546,-384 546,-372 546,-372 546,-366 552,-360 558,-360 558,-360 685,-360 685,-360 691,-360 697,-366 697,-372 697,-372 697,-384 697,-384 697,-390 691,-396 685,-396"/>
 <text text-anchor="middle" x="621.5" y="-374.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Combinatoric principles</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Principle of inclusion and exclusion -->
 <g id="node2" class="node">
 <title>Principle of inclusion and exclusion</title>
-<g id="a_node2"><a xlink:title="Principle of inclusion and exclusion">
+<g id="a_node2"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M717,-324C717,-324 526,-324 526,-324 520,-324 514,-318 514,-312 514,-312 514,-300 514,-300 514,-294 520,-288 526,-288 526,-288 717,-288 717,-288 723,-288 729,-294 729,-300 729,-300 729,-312 729,-312 729,-318 723,-324 717,-324"/>
 <text text-anchor="middle" x="621.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of inclusion and exclusion</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Principle of division -->
 <g id="node4" class="node">
 <title>Principle of division</title>
-<g id="a_node4"><a xlink:title="Principle of division">
+<g id="a_node4"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M175.5,-324C175.5,-324 73.5,-324 73.5,-324 67.5,-324 61.5,-318 61.5,-312 61.5,-312 61.5,-300 61.5,-300 61.5,-294 67.5,-288 73.5,-288 73.5,-288 175.5,-288 175.5,-288 181.5,-288 187.5,-294 187.5,-300 187.5,-300 187.5,-312 187.5,-312 187.5,-318 181.5,-324 175.5,-324"/>
 <text text-anchor="middle" x="124.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of division</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Principle of the bijection -->
 <g id="node7" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node7"><a xlink:title="Principle of the bijection">
+<g id="a_node7"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M889.5,-324C889.5,-324 759.5,-324 759.5,-324 753.5,-324 747.5,-318 747.5,-312 747.5,-312 747.5,-300 747.5,-300 747.5,-294 753.5,-288 759.5,-288 759.5,-288 889.5,-288 889.5,-288 895.5,-288 901.5,-294 901.5,-300 901.5,-300 901.5,-312 901.5,-312 901.5,-318 895.5,-324 889.5,-324"/>
 <text text-anchor="middle" x="824.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Principle of products -->
 <g id="node9" class="node">
 <title>Principle of products</title>
-<g id="a_node9"><a xlink:title="Principle of products">
+<g id="a_node9"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M483.5,-324C483.5,-324 373.5,-324 373.5,-324 367.5,-324 361.5,-318 361.5,-312 361.5,-312 361.5,-300 361.5,-300 361.5,-294 367.5,-288 373.5,-288 373.5,-288 483.5,-288 483.5,-288 489.5,-288 495.5,-294 495.5,-300 495.5,-300 495.5,-312 495.5,-312 495.5,-318 489.5,-324 483.5,-324"/>
 <text text-anchor="middle" x="428.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of products</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Principle of partitions -->
 <g id="node10" class="node">
 <title>Principle of partitions</title>
-<g id="a_node10"><a xlink:title="Principle of partitions">
+<g id="a_node10"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M331,-324C331,-324 218,-324 218,-324 212,-324 206,-318 206,-312 206,-312 206,-300 206,-300 206,-294 212,-288 218,-288 218,-288 331,-288 331,-288 337,-288 343,-294 343,-300 343,-300 343,-312 343,-312 343,-318 337,-324 331,-324"/>
 <text text-anchor="middle" x="274.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Dirichlet principle -->
 <g id="node12" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node12"><a xlink:title="Dirichlet principle">
+<g id="a_node12"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1023.5,-324C1023.5,-324 931.5,-324 931.5,-324 925.5,-324 919.5,-318 919.5,-312 919.5,-312 919.5,-300 919.5,-300 919.5,-294 925.5,-288 931.5,-288 931.5,-288 1023.5,-288 1023.5,-288 1029.5,-288 1035.5,-294 1035.5,-300 1035.5,-300 1035.5,-312 1035.5,-312 1035.5,-318 1029.5,-324 1023.5,-324"/>
 <text text-anchor="middle" x="977.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Combinatorics -->
 <g id="node14" class="node">
 <title>Combinatorics</title>
-<g id="a_node14"><a xlink:title="Combinatorics">
+<g id="a_node14"><a xlink:href="../Combinatorics.html" xlink:title="Combinatorics" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1113.5" cy="-306" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="1113.5" y="-302.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Combinatorics</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Set -->
 <g id="node3" class="node">
 <title>Set</title>
-<g id="a_node3"><a xlink:title="Set">
+<g id="a_node3"><a xlink:href="../Set.html" xlink:title="Set" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M465.5,-252C465.5,-252 435.5,-252 435.5,-252 429.5,-252 423.5,-246 423.5,-240 423.5,-240 423.5,-228 423.5,-228 423.5,-222 429.5,-216 435.5,-216 435.5,-216 465.5,-216 465.5,-216 471.5,-216 477.5,-222 477.5,-228 477.5,-228 477.5,-240 477.5,-240 477.5,-246 471.5,-252 465.5,-252"/>
 <text text-anchor="middle" x="450.5" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Set</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Class of equivalence -->
 <g id="node5" class="node">
 <title>Class of equivalence</title>
-<g id="a_node5"><a xlink:title="Class of equivalence">
+<g id="a_node5"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M175,-180C175,-180 68,-180 68,-180 62,-180 56,-174 56,-168 56,-168 56,-156 56,-156 56,-150 62,-144 68,-144 68,-144 175,-144 175,-144 181,-144 187,-150 187,-156 187,-156 187,-168 187,-168 187,-174 181,-180 175,-180"/>
 <text text-anchor="middle" x="121.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Class of equivalence</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- Relation of Equivalence -->
 <g id="node6" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node6"><a xlink:title="Relation of Equivalence">
+<g id="a_node6"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M137,-108C137,-108 12,-108 12,-108 6,-108 0,-102 0,-96 0,-96 0,-84 0,-84 0,-78 6,-72 12,-72 12,-72 137,-72 137,-72 143,-72 149,-78 149,-84 149,-84 149,-96 149,-96 149,-102 143,-108 137,-108"/>
 <text text-anchor="middle" x="74.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- Reflexive Closure -->
 <g id="node15" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node15"><a xlink:title="Reflexive Closure">
+<g id="a_node15"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="313.5" cy="-162" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="313.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- Symmetric Closure -->
 <g id="node16" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node16"><a xlink:title="Symmetric Closure">
+<g id="a_node16"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="476.5" cy="-162" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="476.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -201,7 +201,7 @@
 <!-- Recurrent Equations -->
 <g id="node17" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node17"><a xlink:title="Recurrent Equations">
+<g id="a_node17"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="650.5" cy="-162" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="650.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>
@@ -216,7 +216,7 @@
 <!-- Differential Analysis -->
 <g id="node18" class="node">
 <title>Differential Analysis</title>
-<g id="a_node18"><a xlink:title="Differential Analysis">
+<g id="a_node18"><a xlink:href="../Differential Analysis.html" xlink:title="Differential Analysis" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="827.5" cy="-162" rx="78.36" ry="18"/>
 <text text-anchor="middle" x="827.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
 </a>
@@ -255,7 +255,7 @@
 <!-- Relations -->
 <g id="node19" class="node">
 <title>Relations</title>
-<g id="a_node19"><a xlink:title="Relations">
+<g id="a_node19"><a xlink:href="../Relations.html" xlink:title="Relations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="125.5" cy="-18" rx="42.45" ry="18"/>
 <text text-anchor="middle" x="125.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relations</text>
 </a>
@@ -288,7 +288,7 @@
 <!-- Bijective function -->
 <g id="node8" class="node">
 <title>Bijective function</title>
-<g id="a_node8"><a xlink:title="Bijective function">
+<g id="a_node8"><a xlink:href="../Bijective function.html" xlink:title="Bijective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1025.5,-180C1025.5,-180 935.5,-180 935.5,-180 929.5,-180 923.5,-174 923.5,-168 923.5,-168 923.5,-156 923.5,-156 923.5,-150 929.5,-144 935.5,-144 935.5,-144 1025.5,-144 1025.5,-144 1031.5,-144 1037.5,-150 1037.5,-156 1037.5,-156 1037.5,-168 1037.5,-168 1037.5,-174 1031.5,-180 1025.5,-180"/>
 <text text-anchor="middle" x="980.5" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Bijective function</text>
 </a>
@@ -303,7 +303,7 @@
 <!-- Linear Algebra -->
 <g id="node20" class="node">
 <title>Linear Algebra</title>
-<g id="a_node20"><a xlink:title="Linear Algebra">
+<g id="a_node20"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1022.5" cy="-90" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="1022.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -330,7 +330,7 @@
 <!-- Partition -->
 <g id="node11" class="node">
 <title>Partition</title>
-<g id="a_node11"><a xlink:title="Partition">
+<g id="a_node11"><a xlink:href="../Partition.html" xlink:title="Partition" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M84,-252C84,-252 43,-252 43,-252 37,-252 31,-246 31,-240 31,-240 31,-228 31,-228 31,-222 37,-216 43,-216 43,-216 84,-216 84,-216 90,-216 96,-222 96,-228 96,-228 96,-240 96,-240 96,-246 90,-252 84,-252"/>
 <text text-anchor="middle" x="63.5" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Partition</text>
 </a>
@@ -363,7 +363,7 @@
 <!-- Injective function -->
 <g id="node13" class="node">
 <title>Injective function</title>
-<g id="a_node13"><a xlink:title="Injective function">
+<g id="a_node13"><a xlink:href="../Injective function.html" xlink:title="Injective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1025.5,-252C1025.5,-252 935.5,-252 935.5,-252 929.5,-252 923.5,-246 923.5,-240 923.5,-240 923.5,-228 923.5,-228 923.5,-222 929.5,-216 935.5,-216 935.5,-216 1025.5,-216 1025.5,-216 1031.5,-216 1037.5,-222 1037.5,-228 1037.5,-228 1037.5,-240 1037.5,-240 1037.5,-246 1031.5,-252 1025.5,-252"/>
 <text text-anchor="middle" x="980.5" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Injective function</text>
 </a>

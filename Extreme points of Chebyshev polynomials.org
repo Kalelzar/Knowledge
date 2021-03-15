@@ -7,13 +7,11 @@ By definition $\lvert{}T_{n}(x)\rvert{} \leq 1 \qquad \forall{x} \in [-1, 1]$
 The points in which $\lvert{}T_{n}(x)\rvert{} = 1|0$ are extreme points.
 
 ** Min/Max
-\[
-\begin{align*}
+\[\begin{align*}
 \lvert{}T_{n}(x)\rvert{} = 1 &\Leftrightarrow \lvert{}\cos(n\arccos{}x)\rvert{} = 1\\
 &\Leftrightarrow{}n\arccos{}x = k\pi\\
 &\Leftrightarrow{}\arccos{}x = \frac{k\pi}{n}
-\end{align*}
-\]
+\end{align*}\]
 
 But $\arccos x \in [0, \pi] \Rightarrow 0 \leq k \leq n$
 then  $x = \cos{\frac{k\pi}{n}} =: \eta_{k},\qquad k = \overline{0, n}$
@@ -30,13 +28,11 @@ $T_{n}(x)$ has a zero $\xi_{k} \in (\eta_{k}, \eta_{k-1}), \qquad k = \overline{
 Therefore since $T_{n}(x) \in \pi_{n}$ these are all its zeroes.
 
 
-\[
-\begin{align*}
+\[\begin{align*}
 \lvert{}T_{n}(x)\rvert{} = 0 &\Leftrightarrow \lvert{}\cos(n\arccos{}x)\rvert{} = 0\\
 &\Leftrightarrow{}n\arccos{}x = (2k-1)\frac{\pi}{2}\\
 &\Leftrightarrow{}\arccos{}x = \frac{(2k-1)\pi}{2n}
-\end{align*}
-\]
+\end{align*}\]
 
 But $\arccos x \in [0, \pi] \Rightarrow 1 \leq k \leq n$
 then  $x = \cos{\frac{(2k-1)\pi}{2n}} =: \xi_{k},\qquad k = \overline{1, n}$

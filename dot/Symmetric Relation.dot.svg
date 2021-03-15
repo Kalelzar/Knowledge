@@ -12,7 +12,7 @@
 <!-- Symmetric Relation -->
 <g id="node1" class="node">
 <title>Symmetric Relation</title>
-<g id="a_node1"><a xlink:title="Symmetric Relation">
+<g id="a_node1"><a xlink:href="../Symmetric Relation.html" xlink:title="Symmetric Relation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M407.72,-180C407.72,-180 303.72,-180 303.72,-180 297.72,-180 291.72,-174 291.72,-168 291.72,-168 291.72,-156 291.72,-156 291.72,-150 297.72,-144 303.72,-144 303.72,-144 407.72,-144 407.72,-144 413.72,-144 419.72,-150 419.72,-156 419.72,-156 419.72,-168 419.72,-168 419.72,-174 413.72,-180 407.72,-180"/>
 <text text-anchor="middle" x="355.72" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Relation</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Relation -->
 <g id="node2" class="node">
 <title>Relation</title>
-<g id="a_node2"><a xlink:title="Relation">
+<g id="a_node2"><a xlink:href="../Relation.html" xlink:title="Relation" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1018.72,-108C1018.72,-108 978.72,-108 978.72,-108 972.72,-108 966.72,-102 966.72,-96 966.72,-96 966.72,-84 966.72,-84 966.72,-78 972.72,-72 978.72,-72 978.72,-72 1018.72,-72 1018.72,-72 1024.72,-72 1030.72,-78 1030.72,-84 1030.72,-84 1030.72,-96 1030.72,-96 1030.72,-102 1024.72,-108 1018.72,-108"/>
 <text text-anchor="middle" x="998.72" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Symmetric Closure -->
 <g id="node4" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node4"><a xlink:title="Symmetric Closure">
+<g id="a_node4"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="75.72" cy="-18" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="75.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Relation of Equivalence -->
 <g id="node5" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node5"><a xlink:title="Relation of Equivalence">
+<g id="a_node5"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="260.72" cy="-18" rx="91.95" ry="18"/>
 <text text-anchor="middle" x="260.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Relations -->
 <g id="node6" class="node">
 <title>Relations</title>
-<g id="a_node6"><a xlink:title="Relations">
+<g id="a_node6"><a xlink:href="../Relations.html" xlink:title="Relations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="412.72" cy="-18" rx="42.45" ry="18"/>
 <text text-anchor="middle" x="412.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relations</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Descartes Product -->
 <g id="node3" class="node">
 <title>Descartes Product</title>
-<g id="a_node3"><a xlink:title="Descartes Product">
+<g id="a_node3"><a xlink:href="../Descartes Product.html" xlink:title="Descartes Product" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M961.22,-36C961.22,-36 866.22,-36 866.22,-36 860.22,-36 854.22,-30 854.22,-24 854.22,-24 854.22,-12 854.22,-12 854.22,-6 860.22,0 866.22,0 866.22,0 961.22,0 961.22,0 967.22,0 973.22,-6 973.22,-12 973.22,-12 973.22,-24 973.22,-24 973.22,-30 967.22,-36 961.22,-36"/>
 <text text-anchor="middle" x="913.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Descartes Product</text>
 </a>
@@ -114,7 +114,7 @@
 <!-- Anti&#45;symmetric Relation -->
 <g id="node7" class="node">
 <title>Anti&#45;symmetric Relation</title>
-<g id="a_node7"><a xlink:title="Anti&#45;symmetric Relation">
+<g id="a_node7"><a xlink:href="../Anti-symmetric Relation.html" xlink:title="Anti&#45;symmetric Relation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1084.72" cy="-18" rx="93.64" ry="18"/>
 <text text-anchor="middle" x="1084.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Anti&#45;symmetric Relation</text>
 </a>
@@ -129,7 +129,7 @@
 <!-- Transitive Relation -->
 <g id="node8" class="node">
 <title>Transitive Relation</title>
-<g id="a_node8"><a xlink:title="Transitive Relation">
+<g id="a_node8"><a xlink:href="../Transitive Relation.html" xlink:title="Transitive Relation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1270.72" cy="-18" rx="74.47" ry="18"/>
 <text text-anchor="middle" x="1270.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Transitive Relation</text>
 </a>
@@ -144,7 +144,7 @@
 <!-- Reflexive Relation -->
 <g id="node9" class="node">
 <title>Reflexive Relation</title>
-<g id="a_node9"><a xlink:title="Reflexive Relation">
+<g id="a_node9"><a xlink:href="../Reflexive Relation.html" xlink:title="Reflexive Relation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1435.72" cy="-18" rx="72.05" ry="18"/>
 <text text-anchor="middle" x="1435.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Relation</text>
 </a>
@@ -159,7 +159,7 @@
 <!-- Anti&#45;reflexive relation -->
 <g id="node10" class="node">
 <title>Anti&#45;reflexive relation</title>
-<g id="a_node10"><a xlink:title="Anti&#45;reflexive relation">
+<g id="a_node10"><a xlink:href="../Anti-reflexive relation.html" xlink:title="Anti&#45;reflexive relation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1610.72" cy="-18" rx="84.9" ry="18"/>
 <text text-anchor="middle" x="1610.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Anti&#45;reflexive relation</text>
 </a>
@@ -174,7 +174,7 @@
 <!-- Strongly Anti&#45;symmetric Relation -->
 <g id="node11" class="node">
 <title>Strongly Anti&#45;symmetric Relation</title>
-<g id="a_node11"><a xlink:title="Strongly Anti&#45;symmetric Relation">
+<g id="a_node11"><a xlink:href="../Strongly Anti-symmetric Relation.html" xlink:title="Strongly Anti&#45;symmetric Relation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1838.72" cy="-18" rx="124.93" ry="18"/>
 <text text-anchor="middle" x="1838.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Strongly Anti&#45;symmetric Relation</text>
 </a>
@@ -189,7 +189,7 @@
 <!-- Reflexive Closure -->
 <g id="node12" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node12"><a xlink:title="Reflexive Closure">
+<g id="a_node12"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2051.72" cy="-18" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="2051.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -204,7 +204,7 @@
 <!-- Chain -->
 <g id="node13" class="node">
 <title>Chain</title>
-<g id="a_node13"><a xlink:title="Chain">
+<g id="a_node13"><a xlink:href="../Chain.html" xlink:title="Chain" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2169.72" cy="-18" rx="30.33" ry="18"/>
 <text text-anchor="middle" x="2169.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Chain</text>
 </a>
@@ -219,7 +219,7 @@
 <!-- Partial function -->
 <g id="node14" class="node">
 <title>Partial function</title>
-<g id="a_node14"><a xlink:title="Partial function">
+<g id="a_node14"><a xlink:href="../Partial function.html" xlink:title="Partial function" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2281.72" cy="-18" rx="63.31" ry="18"/>
 <text text-anchor="middle" x="2281.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Partial function</text>
 </a>
@@ -234,7 +234,7 @@
 <!-- Linear order -->
 <g id="node15" class="node">
 <title>Linear order</title>
-<g id="a_node15"><a xlink:title="Linear order">
+<g id="a_node15"><a xlink:href="../Linear order.html" xlink:title="Linear order" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="525.72" cy="-18" rx="52.88" ry="18"/>
 <text text-anchor="middle" x="525.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear order</text>
 </a>
@@ -249,7 +249,7 @@
 <!-- Total function -->
 <g id="node16" class="node">
 <title>Total function</title>
-<g id="a_node16"><a xlink:title="Total function">
+<g id="a_node16"><a xlink:href="../Total function.html" xlink:title="Total function" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="654.72" cy="-18" rx="58.46" ry="18"/>
 <text text-anchor="middle" x="654.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Total function</text>
 </a>
@@ -264,7 +264,7 @@
 <!-- Partial order -->
 <g id="node17" class="node">
 <title>Partial order</title>
-<g id="a_node17"><a xlink:title="Partial order">
+<g id="a_node17"><a xlink:href="../Partial order.html" xlink:title="Partial order" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="783.72" cy="-18" rx="52.88" ry="18"/>
 <text text-anchor="middle" x="783.72" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Partial order</text>
 </a>

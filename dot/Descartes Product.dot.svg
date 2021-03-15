@@ -12,7 +12,7 @@
 <!-- Descartes Product -->
 <g id="node1" class="node">
 <title>Descartes Product</title>
-<g id="a_node1"><a xlink:title="Descartes Product">
+<g id="a_node1"><a xlink:href="../Descartes Product.html" xlink:title="Descartes Product" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M107,-108C107,-108 12,-108 12,-108 6,-108 0,-102 0,-96 0,-96 0,-84 0,-84 0,-78 6,-72 12,-72 12,-72 107,-72 107,-72 113,-72 119,-78 119,-84 119,-84 119,-96 119,-96 119,-102 113,-108 107,-108"/>
 <text text-anchor="middle" x="59.5" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Descartes Product</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Relation -->
 <g id="node2" class="node">
 <title>Relation</title>
-<g id="a_node2"><a xlink:title="Relation">
+<g id="a_node2"><a xlink:href="../Relation.html" xlink:title="Relation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="59.5" cy="-18" rx="39.3" ry="18"/>
 <text text-anchor="middle" x="59.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation</text>
 </a>

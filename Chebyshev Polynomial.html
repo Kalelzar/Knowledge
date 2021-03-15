@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-14 Sun 16:51 -->
+                <head><!-- 2021-03-15 Mon 09:36 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chebyshev Polynomial</title>
@@ -67,14 +67,13 @@
 <a class="tag" href="tag_Interpolation.html">Interpolation</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
 </div>
-</header><section class="outline-2"><img src="dot/Chebyshev Polynomial.dot.svg"></img></section><section id="outline-container-orgcca9c22" class="outline-2">
-<h2 id="orgcca9c22"><span class="section-number-2">1</span> Chebyshev Polynomial</h2>
+</header><section class="outline-2"><h1 class="title">Graph</h1>
+<object data="dot/Chebyshev Polynomial.dot.svg" type="image/svg+xml"></object></section><section id="outline-container-orgd90aa49" class="outline-2">
+<h2 id="orgd90aa49"><span class="section-number-2">1</span> Chebyshev Polynomial</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Let \(n=0,1,2,\dots\) then:
-\[
-T_n(x) = \cos(n\arccos{x}) \tag{$x\in[-1,1]$}
-\]
+\[T_n(x) = \cos(n\arccos{x}) \tag{$x\in[-1,1]$}\]
 is called a Chebyshev polynomial of degree \(n\)
 </p>
 
@@ -82,17 +81,15 @@ is called a Chebyshev polynomial of degree \(n\)
 Obviously \(T_0(x) = 1,\quad T_1(x) = x\)
 </p>
 </div>
-<div id="outline-container-orgf3ba133" class="outline-3">
-<h3 id="orgf3ba133"><span class="section-number-3">1.1</span> <a href="Recurrent Equations.html">Recurrent</a> Connection</h3>
+<div id="outline-container-org77ee670" class="outline-3">
+<h3 id="org77ee670"><span class="section-number-3">1.1</span> <a href="Recurrent Equations.html">Recurrent</a> Connection</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
-\[
-T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x) \tag{$n=1,2,\dots$}
-\]
+\[T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x) \tag{$n=1,2,\dots$}\]
 </p>
 </div>
-<div id="outline-container-orgaa95abe" class="outline-4">
-<h4 id="orgaa95abe"><span class="section-number-4">1.1.1</span> Proof</h4>
+<div id="outline-container-org551d777" class="outline-4">
+<h4 id="org551d777"><span class="section-number-4">1.1.1</span> Proof</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <p>
 Let \(\theta=\arccos(x)\)
@@ -100,28 +97,20 @@ Let \(\theta=\arccos(x)\)
 
 <p>
 Then:
-\[
 </p>
 \begin{align*}
 T_{n}(x) &=\cos(n\theta)\\
 x &= \cos\theta\\
 \end{align*}
-<p>
-\]
-</p>
 
 
 <p>
 The recurrent connection is equivalent to:
-\[
-\cos(n+1)\theta = 2\cos\theta\cos{}n\theta - cos(n-1)\theta \tag{*}
-\]
+\[\cos(n+1)\theta = 2\cos\theta\cos{}n\theta - cos(n-1)\theta \tag{*}\]
 </p>
 
 <p>
-\[
-\cos\alpha + \cos\beta = 2\cos{\frac{\alpha-\beta}{2}}\cos{\frac{\alpha+\beta}{2}}
-\]
+\[\cos\alpha + \cos\beta = 2\cos{\frac{\alpha-\beta}{2}}\cos{\frac{\alpha+\beta}{2}}\]
 </p>
 
 <p>
@@ -129,20 +118,18 @@ When \(\alpha = (n+1)\theta, \quad \beta = (n-1)\theta \Rightarrow\)
 </p>
 
 <p>
-\[
-\cos(n+1)\theta + \cos(n-1)\theta = 2\cos\theta\cos{n\theta} \Rightarrow (*)
-\]
-**
+\[\cos(n+1)\theta + \cos(n-1)\theta = 2\cos\theta\cos{n\theta} \Rightarrow (*)\]
 </p>
 </div>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org6781768" class="outline-2">
-<h2 id="org6781768"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-org813d3d0" class="outline-2">
+<h2 id="org813d3d0"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
+<li><a href="recentchanges.html">Recent changes</a></li>
 <li><a href="Extreme points of Chebyshev polynomials.html">Extreme points of Chebyshev polynomials</a></li>
 </ul>
 </div>

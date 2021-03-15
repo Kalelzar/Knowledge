@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-14 Sun 16:52 -->
+                <head><!-- 2021-03-15 Mon 09:36 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Formula of Lagrange for Interpolation</title>
@@ -67,7 +67,8 @@
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
 <a class="tag" href="tag_Theorem.html">Theorem</a>
 </div>
-</header><section class="outline-2"><img src="dot/Formula of Lagrange for Interpolation.dot.svg"></img></section><p>
+</header><section class="outline-2"><h1 class="title">Graph</h1>
+<object data="dot/Formula of Lagrange for Interpolation.dot.svg" type="image/svg+xml"></object></section><p>
 \(L_{n}(f;x) = \sum_{k=0}^{n}l_k(x)f(x_k)\)
 </p>
 
@@ -75,8 +76,8 @@
 \(l_k(x_i) = \delta_{ik}\) (<a href="Kronecker Delta.html">Kronecker Delta</a>).
 </p>
 
-<section id="outline-container-orgb6e9a42" class="outline-2">
-<h2 id="orgb6e9a42"><span class="section-number-2">1</span> Formula of Lagrange for Interpolation</h2>
+<section id="outline-container-org5f2697c" class="outline-2">
+<h2 id="org5f2697c"><span class="section-number-2">1</span> Formula of Lagrange for Interpolation</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Let \(x_0, \dots, x_n\) (\(x_i \neq x_j, i \neq j\))
@@ -90,9 +91,10 @@ and the function \(f\) is defined for \(x_i\).
 <p>
 Then \(\exists!\) algebraic polynomial of degree \(\leq n\) \(L_n(f;x)\)
 for which
-\[
-L_{n}(f;x_{i}) = f(x_{i}) & i = \overline{0,n}
-\]
+</p>
+
+<p>
+\[L_{n}(f;x_{i}) = f(x_{i}) \qquad i = \overline{0,n}\]
 </p>
 
 
@@ -111,12 +113,12 @@ For \(L_n(f;x)\) is true:
 </section>
 
 
-<section id="outline-container-org892397b" class="outline-2">
-<h2 id="org892397b"><span class="section-number-2">2</span> Solved Problems</h2>
+<section id="outline-container-orgfba2704" class="outline-2">
+<h2 id="orgfba2704"><span class="section-number-2">2</span> Solved Problems</h2>
 <div class="outline-text-2" id="text-2">
 </div>
-<div id="outline-container-org5412a61" class="outline-3">
-<h3 id="org5412a61"><span class="section-number-3">2.1</span> Problem 1</h3>
+<div id="outline-container-org9c668df" class="outline-3">
+<h3 id="org9c668df"><span class="section-number-3">2.1</span> Problem 1</h3>
 <div class="outline-text-3" id="text-2-1">
 <p>
 Let f(x) = \frac{1}{1+x}
@@ -134,8 +136,8 @@ Find f(0.75)
 Find the error between the exact and interpolated value.
 </p>
 </div>
-<div id="outline-container-orgdd14e16" class="outline-4">
-<h4 id="orgdd14e16"><span class="section-number-4">2.1.1</span> Solution</h4>
+<div id="outline-container-orgb23d53e" class="outline-4">
+<h4 id="orgb23d53e"><span class="section-number-4">2.1.1</span> Solution</h4>
 <div class="outline-text-4" id="text-2-1-1">
 <p>
 \(L_n(f;x) = \sum_{k=0}^{3}f(x_k)l_{k}(x) = f(x_0)l_0(x) + f(x_1)l_1(x) + f(x_2)l_2(x) + f(x_3)l_3(x)
@@ -153,8 +155,8 @@ Find the error between the exact and interpolated value.
 </div>
 </section>
 
-<section id="outline-container-org0ede676" class="outline-2">
-<h2 id="org0ede676"><span class="section-number-2">3</span> Backlinks</h2>
+<section id="outline-container-org3e7fc71" class="outline-2">
+<h2 id="org3e7fc71"><span class="section-number-2">3</span> Backlinks</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li><a href="Lagrange Interpolation Problem.html">Lagrange Interpolation Problem</a></li>

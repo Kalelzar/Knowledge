@@ -12,7 +12,7 @@
 <!-- Linear Algebra -->
 <g id="node1" class="node">
 <title>Linear Algebra</title>
-<g id="a_node1"><a xlink:title="Linear Algebra">
+<g id="a_node1"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M768.56,-252C768.56,-252 694.56,-252 694.56,-252 688.56,-252 682.56,-246 682.56,-240 682.56,-240 682.56,-228 682.56,-228 682.56,-222 688.56,-216 694.56,-216 694.56,-216 768.56,-216 768.56,-216 774.56,-216 780.56,-222 780.56,-228 780.56,-228 780.56,-240 780.56,-240 780.56,-246 774.56,-252 768.56,-252"/>
 <text text-anchor="middle" x="731.56" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Matrix -->
 <g id="node2" class="node">
 <title>Matrix</title>
-<g id="a_node2"><a xlink:title="Matrix">
+<g id="a_node2"><a xlink:href="../Matrix.html" xlink:title="Matrix" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M247.56,-180C247.56,-180 217.56,-180 217.56,-180 211.56,-180 205.56,-174 205.56,-168 205.56,-168 205.56,-156 205.56,-156 205.56,-150 211.56,-144 217.56,-144 217.56,-144 247.56,-144 247.56,-144 253.56,-144 259.56,-150 259.56,-156 259.56,-156 259.56,-168 259.56,-168 259.56,-174 253.56,-180 247.56,-180"/>
 <text text-anchor="middle" x="232.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Matrix</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Bijective function -->
 <g id="node3" class="node">
 <title>Bijective function</title>
-<g id="a_node3"><a xlink:title="Bijective function">
+<g id="a_node3"><a xlink:href="../Bijective function.html" xlink:title="Bijective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M648.56,-180C648.56,-180 558.56,-180 558.56,-180 552.56,-180 546.56,-174 546.56,-168 546.56,-168 546.56,-156 546.56,-156 546.56,-150 552.56,-144 558.56,-144 558.56,-144 648.56,-144 648.56,-144 654.56,-144 660.56,-150 660.56,-156 660.56,-156 660.56,-168 660.56,-168 660.56,-174 654.56,-180 648.56,-180"/>
 <text text-anchor="middle" x="603.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Bijective function</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Surjective function -->
 <g id="node4" class="node">
 <title>Surjective function</title>
-<g id="a_node4"><a xlink:title="Surjective function">
+<g id="a_node4"><a xlink:href="../Surjective function.html" xlink:title="Surjective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M436.56,-108C436.56,-108 338.56,-108 338.56,-108 332.56,-108 326.56,-102 326.56,-96 326.56,-96 326.56,-84 326.56,-84 326.56,-78 332.56,-72 338.56,-72 338.56,-72 436.56,-72 436.56,-72 442.56,-72 448.56,-78 448.56,-84 448.56,-84 448.56,-96 448.56,-96 448.56,-102 442.56,-108 436.56,-108"/>
 <text text-anchor="middle" x="387.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Surjective function</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Injective function -->
 <g id="node5" class="node">
 <title>Injective function</title>
-<g id="a_node5"><a xlink:title="Injective function">
+<g id="a_node5"><a xlink:href="../Injective function.html" xlink:title="Injective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M776.56,-108C776.56,-108 686.56,-108 686.56,-108 680.56,-108 674.56,-102 674.56,-96 674.56,-96 674.56,-84 674.56,-84 674.56,-78 680.56,-72 686.56,-72 686.56,-72 776.56,-72 776.56,-72 782.56,-72 788.56,-78 788.56,-84 788.56,-84 788.56,-96 788.56,-96 788.56,-102 782.56,-108 776.56,-108"/>
 <text text-anchor="middle" x="731.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Injective function</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Kronecker Delta -->
 <g id="node6" class="node">
 <title>Kronecker Delta</title>
-<g id="a_node6"><a xlink:title="Kronecker Delta">
+<g id="a_node6"><a xlink:href="../Kronecker Delta.html" xlink:title="Kronecker Delta" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1096.06,-180C1096.06,-180 1013.06,-180 1013.06,-180 1007.06,-180 1001.06,-174 1001.06,-168 1001.06,-168 1001.06,-156 1001.06,-156 1001.06,-150 1007.06,-144 1013.06,-144 1013.06,-144 1096.06,-144 1096.06,-144 1102.06,-144 1108.06,-150 1108.06,-156 1108.06,-156 1108.06,-168 1108.06,-168 1108.06,-174 1102.06,-180 1096.06,-180"/>
 <text text-anchor="middle" x="1054.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Kronecker Delta</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Fundamental Theorem of Algebra -->
 <g id="node7" class="node">
 <title>Fundamental Theorem of Algebra</title>
-<g id="a_node7"><a xlink:title="Fundamental Theorem of Algebra">
+<g id="a_node7"><a xlink:href="../Fundamental Theorem of Algebra.html" xlink:title="Fundamental Theorem of Algebra" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1529.06,-180C1529.06,-180 1344.06,-180 1344.06,-180 1338.06,-180 1332.06,-174 1332.06,-168 1332.06,-168 1332.06,-156 1332.06,-156 1332.06,-150 1338.06,-144 1344.06,-144 1344.06,-144 1529.06,-144 1529.06,-144 1535.06,-144 1541.06,-150 1541.06,-156 1541.06,-156 1541.06,-168 1541.06,-168 1541.06,-174 1535.06,-180 1529.06,-180"/>
 <text text-anchor="middle" x="1436.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental Theorem of Algebra</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Subjects -->
 <g id="node8" class="node">
 <title>Subjects</title>
-<g id="a_node8"><a xlink:title="Subjects">
+<g id="a_node8"><a xlink:href="../Subjects.html" xlink:title="Subjects" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1599.56" cy="-162" rx="40.03" ry="18"/>
 <text text-anchor="middle" x="1599.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Subjects</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Reflexive Closure -->
 <g id="node9" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node9"><a xlink:title="Reflexive Closure">
+<g id="a_node9"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="69.56" cy="-90" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="69.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Symmetric Closure -->
 <g id="node10" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node10"><a xlink:title="Symmetric Closure">
+<g id="a_node10"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="232.56" cy="-90" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="232.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -168,7 +168,7 @@
 <!-- Principle of the bijection -->
 <g id="node11" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node11"><a xlink:title="Principle of the bijection">
+<g id="a_node11"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="561.56" cy="-90" rx="94.6" ry="18"/>
 <text text-anchor="middle" x="561.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>
@@ -183,7 +183,7 @@
 <!-- Dirichlet principle -->
 <g id="node12" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node12"><a xlink:title="Dirichlet principle">
+<g id="a_node12"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="731.56" cy="-18" rx="71.32" ry="18"/>
 <text text-anchor="middle" x="731.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
@@ -198,7 +198,7 @@
 <!-- Fundamental polynomials of Lagrange -->
 <g id="node13" class="node">
 <title>Fundamental polynomials of Lagrange</title>
-<g id="a_node13"><a xlink:title="Fundamental polynomials of Lagrange">
+<g id="a_node13"><a xlink:href="../Fundamental polynomials of Lagrange.html" xlink:title="Fundamental polynomials of Lagrange" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="951.56" cy="-90" rx="145.06" ry="18"/>
 <text text-anchor="middle" x="951.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental polynomials of Lagrange</text>
 </a>
@@ -210,35 +210,35 @@
 <path fill="none" stroke="#ffffff" d="M1020.71,-137.99C1006.29,-128.19 989.77,-116.97 976.5,-107.95"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="1019.13,-141.15 1029.36,-143.88 1023.06,-135.36 1019.13,-141.15"/>
 </g>
-<!-- Formula of Lagrange for Interpolation -->
-<g id="node14" class="node">
-<title>Formula of Lagrange for Interpolation</title>
-<g id="a_node14"><a xlink:title="Formula of Lagrange for Interpolation">
-<ellipse fill="#273434" stroke="#b75867" cx="1256.56" cy="-90" rx="142.4" ry="18"/>
-<text text-anchor="middle" x="1256.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Formula of Lagrange for Interpolation</text>
-</a>
-</g>
-</g>
-<!-- Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation -->
-<g id="edge15" class="edge">
-<title>Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation</title>
-<path fill="none" stroke="#ffffff" d="M1113.49,-140.58C1144.34,-129.89 1181.56,-116.99 1210.31,-107.03"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="1112.02,-137.38 1103.72,-143.97 1114.31,-144 1112.02,-137.38"/>
-</g>
 <!-- Lagrange Interpolation Problem -->
-<g id="node15" class="node">
+<g id="node14" class="node">
 <title>Lagrange Interpolation Problem</title>
-<g id="a_node15"><a xlink:title="Lagrange Interpolation Problem">
+<g id="a_node14"><a xlink:href="../Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1539.56" cy="-90" rx="122.5" ry="18"/>
 <text text-anchor="middle" x="1539.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>
 </g>
 </g>
 <!-- Kronecker Delta&#45;&gt;Lagrange Interpolation Problem -->
-<g id="edge16" class="edge">
+<g id="edge15" class="edge">
 <title>Kronecker Delta&#45;&gt;Lagrange Interpolation Problem</title>
 <path fill="none" stroke="#ffffff" d="M1118.26,-151.81C1204.77,-139.32 1359.58,-116.98 1455.53,-103.13"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="1117.72,-148.35 1108.32,-153.24 1118.72,-155.28 1117.72,-148.35"/>
+</g>
+<!-- Formula of Lagrange for Interpolation -->
+<g id="node15" class="node">
+<title>Formula of Lagrange for Interpolation</title>
+<g id="a_node15"><a xlink:href="../Formula of Lagrange for Interpolation.html" xlink:title="Formula of Lagrange for Interpolation" target="_parent">
+<ellipse fill="#273434" stroke="#b75867" cx="1256.56" cy="-90" rx="142.4" ry="18"/>
+<text text-anchor="middle" x="1256.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Formula of Lagrange for Interpolation</text>
+</a>
+</g>
+</g>
+<!-- Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation -->
+<g id="edge16" class="edge">
+<title>Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation</title>
+<path fill="none" stroke="#ffffff" d="M1113.49,-140.58C1144.34,-129.89 1181.56,-116.99 1210.31,-107.03"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="1112.02,-137.38 1103.72,-143.97 1114.31,-144 1112.02,-137.38"/>
 </g>
 <!-- Fundamental Theorem of Algebra&#45;&gt;Lagrange Interpolation Problem -->
 <g id="edge18" class="edge">
@@ -249,7 +249,7 @@
 <!-- Recurrent Equations -->
 <g id="node16" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node16"><a xlink:title="Recurrent Equations">
+<g id="a_node16"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1760.56" cy="-90" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="1760.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>

@@ -12,7 +12,7 @@
 <!-- Matrix -->
 <g id="node1" class="node">
 <title>Matrix</title>
-<g id="a_node1"><a xlink:title="Matrix">
+<g id="a_node1"><a xlink:href="../Matrix.html" xlink:title="Matrix" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M247.56,-108C247.56,-108 217.56,-108 217.56,-108 211.56,-108 205.56,-102 205.56,-96 205.56,-96 205.56,-84 205.56,-84 205.56,-78 211.56,-72 217.56,-72 217.56,-72 247.56,-72 247.56,-72 253.56,-72 259.56,-78 259.56,-84 259.56,-84 259.56,-96 259.56,-96 259.56,-102 253.56,-108 247.56,-108"/>
 <text text-anchor="middle" x="232.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Matrix</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Reflexive Closure -->
 <g id="node2" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node2"><a xlink:title="Reflexive Closure">
+<g id="a_node2"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="69.56" cy="-18" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="69.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Symmetric Closure -->
 <g id="node3" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node3"><a xlink:title="Symmetric Closure">
+<g id="a_node3"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="232.56" cy="-18" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="232.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Linear Algebra -->
 <g id="node4" class="node">
 <title>Linear Algebra</title>
-<g id="a_node4"><a xlink:title="Linear Algebra">
+<g id="a_node4"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="386.56" cy="-18" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="386.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>

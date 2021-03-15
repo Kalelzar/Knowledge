@@ -12,7 +12,7 @@
 <!-- Injective function -->
 <g id="node1" class="node">
 <title>Injective function</title>
-<g id="a_node1"><a xlink:title="Injective function">
+<g id="a_node1"><a xlink:href="../Injective function.html" xlink:title="Injective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M266.41,-108C266.41,-108 176.41,-108 176.41,-108 170.41,-108 164.41,-102 164.41,-96 164.41,-96 164.41,-84 164.41,-84 164.41,-78 170.41,-72 176.41,-72 176.41,-72 266.41,-72 266.41,-72 272.41,-72 278.41,-78 278.41,-84 278.41,-84 278.41,-96 278.41,-96 278.41,-102 272.41,-108 266.41,-108"/>
 <text text-anchor="middle" x="221.41" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Injective function</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Dirichlet principle -->
 <g id="node2" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node2"><a xlink:title="Dirichlet principle">
+<g id="a_node2"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="71.41" cy="-18" rx="71.32" ry="18"/>
 <text text-anchor="middle" x="71.41" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Linear Algebra -->
 <g id="node3" class="node">
 <title>Linear Algebra</title>
-<g id="a_node3"><a xlink:title="Linear Algebra">
+<g id="a_node3"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="221.41" cy="-18" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="221.41" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Bijective function -->
 <g id="node4" class="node">
 <title>Bijective function</title>
-<g id="a_node4"><a xlink:title="Bijective function">
+<g id="a_node4"><a xlink:href="../Bijective function.html" xlink:title="Bijective function" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="370.41" cy="-18" rx="70.35" ry="18"/>
 <text text-anchor="middle" x="370.41" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Bijective function</text>
 </a>

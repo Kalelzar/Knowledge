@@ -12,7 +12,7 @@
 <!-- Dirichlet principle -->
 <g id="node1" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node1"><a xlink:title="Dirichlet principle">
+<g id="a_node1"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1218.33,-180C1218.33,-180 1126.33,-180 1126.33,-180 1120.33,-180 1114.33,-174 1114.33,-168 1114.33,-168 1114.33,-156 1114.33,-156 1114.33,-150 1120.33,-144 1126.33,-144 1126.33,-144 1218.33,-144 1218.33,-144 1224.33,-144 1230.33,-150 1230.33,-156 1230.33,-156 1230.33,-168 1230.33,-168 1230.33,-174 1224.33,-180 1218.33,-180"/>
 <text text-anchor="middle" x="1172.33" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Injective function -->
 <g id="node2" class="node">
 <title>Injective function</title>
-<g id="a_node2"><a xlink:title="Injective function">
+<g id="a_node2"><a xlink:href="../Injective function.html" xlink:title="Injective function" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M254.33,-108C254.33,-108 164.33,-108 164.33,-108 158.33,-108 152.33,-102 152.33,-96 152.33,-96 152.33,-84 152.33,-84 152.33,-78 158.33,-72 164.33,-72 164.33,-72 254.33,-72 254.33,-72 260.33,-72 266.33,-78 266.33,-84 266.33,-84 266.33,-96 266.33,-96 266.33,-102 260.33,-108 254.33,-108"/>
 <text text-anchor="middle" x="209.33" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Injective function</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Set -->
 <g id="node3" class="node">
 <title>Set</title>
-<g id="a_node3"><a xlink:title="Set">
+<g id="a_node3"><a xlink:href="../Set.html" xlink:title="Set" target="_parent">
 <path fill="#273434" stroke="#b75867" d="M1187.33,-108C1187.33,-108 1157.33,-108 1157.33,-108 1151.33,-108 1145.33,-102 1145.33,-96 1145.33,-96 1145.33,-84 1145.33,-84 1145.33,-78 1151.33,-72 1157.33,-72 1157.33,-72 1187.33,-72 1187.33,-72 1193.33,-72 1199.33,-78 1199.33,-84 1199.33,-84 1199.33,-96 1199.33,-96 1199.33,-102 1193.33,-108 1187.33,-108"/>
 <text text-anchor="middle" x="1172.33" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Set</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Combinatoric principles -->
 <g id="node4" class="node">
 <title>Combinatoric principles</title>
-<g id="a_node4"><a xlink:title="Combinatoric principles">
+<g id="a_node4"><a xlink:href="../Combinatoric principles.html" xlink:title="Combinatoric principles" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1310.33" cy="-90" rx="92.91" ry="18"/>
 <text text-anchor="middle" x="1310.33" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Combinatoric principles</text>
 </a>
@@ -66,7 +66,7 @@
 <!-- Linear Algebra -->
 <g id="node5" class="node">
 <title>Linear Algebra</title>
-<g id="a_node5"><a xlink:title="Linear Algebra">
+<g id="a_node5"><a xlink:href="../Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="60.33" cy="-18" rx="60.16" ry="18"/>
 <text text-anchor="middle" x="60.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
 </a>
@@ -81,7 +81,7 @@
 <!-- Bijective function -->
 <g id="node6" class="node">
 <title>Bijective function</title>
-<g id="a_node6"><a xlink:title="Bijective function">
+<g id="a_node6"><a xlink:href="../Bijective function.html" xlink:title="Bijective function" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="209.33" cy="-18" rx="70.35" ry="18"/>
 <text text-anchor="middle" x="209.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Bijective function</text>
 </a>
@@ -96,7 +96,7 @@
 <!-- Reflexive Closure -->
 <g id="node7" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node7"><a xlink:title="Reflexive Closure">
+<g id="a_node7"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="367.33" cy="-18" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="367.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
@@ -111,7 +111,7 @@
 <!-- Symmetric Closure -->
 <g id="node8" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node8"><a xlink:title="Symmetric Closure">
+<g id="a_node8"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="530.33" cy="-18" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="530.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
@@ -126,7 +126,7 @@
 <!-- Class of equivalence -->
 <g id="node9" class="node">
 <title>Class of equivalence</title>
-<g id="a_node9"><a xlink:title="Class of equivalence">
+<g id="a_node9"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="704.33" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="704.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Class of equivalence</text>
 </a>
@@ -141,7 +141,7 @@
 <!-- Relation of Equivalence -->
 <g id="node10" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node10"><a xlink:title="Relation of Equivalence">
+<g id="a_node10"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="894.33" cy="-18" rx="91.95" ry="18"/>
 <text text-anchor="middle" x="894.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
@@ -156,7 +156,7 @@
 <!-- Recurrent Equations -->
 <g id="node11" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node11"><a xlink:title="Recurrent Equations">
+<g id="a_node11"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1084.33" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="1084.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>
@@ -171,7 +171,7 @@
 <!-- Principle of division -->
 <g id="node12" class="node">
 <title>Principle of division</title>
-<g id="a_node12"><a xlink:title="Principle of division">
+<g id="a_node12"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1260.33" cy="-18" rx="77.63" ry="18"/>
 <text text-anchor="middle" x="1260.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of division</text>
 </a>
@@ -186,7 +186,7 @@
 <!-- Principle of products -->
 <g id="node13" class="node">
 <title>Principle of products</title>
-<g id="a_node13"><a xlink:title="Principle of products">
+<g id="a_node13"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1438.33" cy="-18" rx="82.48" ry="18"/>
 <text text-anchor="middle" x="1438.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of products</text>
 </a>
@@ -201,7 +201,7 @@
 <!-- Principle of inclusion and exclusion -->
 <g id="node14" class="node">
 <title>Principle of inclusion and exclusion</title>
-<g id="a_node14"><a xlink:title="Principle of inclusion and exclusion">
+<g id="a_node14"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1671.33" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="1671.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of inclusion and exclusion</text>
 </a>
@@ -216,7 +216,7 @@
 <!-- Differential Analysis -->
 <g id="node15" class="node">
 <title>Differential Analysis</title>
-<g id="a_node15"><a xlink:title="Differential Analysis">
+<g id="a_node15"><a xlink:href="../Differential Analysis.html" xlink:title="Differential Analysis" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1900.33" cy="-18" rx="78.36" ry="18"/>
 <text text-anchor="middle" x="1900.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
 </a>
@@ -231,7 +231,7 @@
 <!-- Principle of partitions -->
 <g id="node16" class="node">
 <title>Principle of partitions</title>
-<g id="a_node16"><a xlink:title="Principle of partitions">
+<g id="a_node16"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2081.33" cy="-18" rx="84.17" ry="18"/>
 <text text-anchor="middle" x="2081.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>
@@ -246,7 +246,7 @@
 <!-- Principle of the bijection -->
 <g id="node17" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node17"><a xlink:title="Principle of the bijection">
+<g id="a_node17"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="2278.33" cy="-18" rx="94.6" ry="18"/>
 <text text-anchor="middle" x="2278.33" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>
