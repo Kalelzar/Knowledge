@@ -311,8 +311,8 @@ summary {
  * Format tags
  */
 .tag {
-  background: #b75867;
-  color: #132020;
+  background: #923D4B;
+  color: #FFFFFF;
   border-style: solid;
   border-width: 1px;
   border-radius: 20px;
@@ -337,7 +337,7 @@ summary {
 }
 
 .rooter {
-  background-color: #b75867;
+  background-color: #923D4B;
 }
 
 .emacs-edit {
@@ -806,7 +806,7 @@ code {
 
 a:not(h1) {
   --text-opacity: 1;
-  color: #b75867;
+  color: #E797A7;
   text-decoration: underline;
 }
 
@@ -1079,7 +1079,7 @@ footer {
 
 section:last-child a:not(.tag):not(.tagged) {
   flex: 100%;
-  color: #7c5cae;
+  color: #BCA5D4;
 }
 
 dt {

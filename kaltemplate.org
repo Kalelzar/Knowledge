@@ -1,0 +1,11 @@
+#+title: kaltemplate
+#+roam_alias: "kaltemplate"
+#+roam_tags: "Project"
+* kaltemplate
+A system for managing configuration files on multiple systems
+** INACTIVE Deploy created configuration files
+:LOGBOOK:
+- State "INACTIVE"   from "SCHEDULED"  [2021-03-16 Tue 02:14]
+- State "SCHEDULED"  from "INACTIVE"   [2021-03-16 Tue 02:14]
+- State "INACTIVE"   from              [2021-03-16 Tue 02:14]
+:END:

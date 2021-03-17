@@ -37,7 +37,7 @@
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
 
-                <a href='index.html'><img src='/Knowledge/images/home.png' /></a>
+                <a href='index.html' aria-label=\"Return to index\"><img alt\"The Emacs logo with an integral symbol\" src='/Knowledge/images/home.png' /></a>
 
                 <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
                 <div class='menu-main-container'><ul id='primary-menu' class='menu'>
@@ -231,7 +231,7 @@
     (insert knowledge/preamble)
     (insert "<div class='grid-container'><div class='ds-grid'><div class='page'><div id=\"content\">\n")
     (insert "<header>")
-    (insert (format "<a class='rooter' href='tag_%s.html'></a>" tag))
+    (insert (format "<a aria-label=\"Set page as root\"class='rooter' href='tag_%s.html'></a>" tag))
     (insert (format "<h1 class='title'>Tagged: %s</h1>" tag))
     (insert "</header>")
     (dolist (file (knowledge/get-file-with-tag tag))
@@ -302,8 +302,8 @@
                  (when title
                    (format
                     (if html5-fancy
-                        "<header>\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='circle rooter' href='%s.html'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
-                      "<h1 class=\"title\">\n<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a class='rooter' href='%s.html'></a>%s</h1>\n%s\n%s\n")
+                        "<header>\n<a aria-label=\"Edit in emacs\" class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a aria-label=\"Set page as root\" class='circle rooter' href='%s.html'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
+                      "<h1 class=\"title\">\n<a aria-label=\"Edit in emacs\" class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a aria-label=\"Set page as root\" class='rooter' href='%s.html'></a>%s</h1>\n%s\n%s\n")
                     (org-export-data title info)
                     (f-base (plist-get info :output-file))
                     (org-export-data title info)

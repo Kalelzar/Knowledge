@@ -1,10 +1,9 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-15 Mon 09:36 -->
+                <head><!-- 2021-03-17 Wed 14:56 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Recurrent Equations</title>
 <meta name="generator" content="Org mode">
-<meta name="author" content="Kalelzar">
 
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
@@ -44,7 +43,7 @@
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
 
-                <a href='index.html'><img src='/Knowledge/images/home.png' /></a>
+                <a href='index.html' aria-label="Return to index"><img src='/Knowledge/images/home.png' /></a>
 
                 <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
                 <div class='menu-main-container'><ul id='primary-menu' class='menu'>
@@ -59,20 +58,20 @@
 </div>
 <div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
 <header>
-<a class='circle emacs-edit' href='org-protocol://roam-by-title?title=Recurrent Equations'></a>
-<a class='circle rooter' href='Recurrent Equations.html'></a> <h1 class="title">Recurrent Equations</h1>
+<a aria-label="Edit in emacs" class='circle emacs-edit' href='org-protocol://roam-by-title?title=Recurrent Equations'></a>
+<a aria-label="Set page as root" class='circle rooter' href='Recurrent Equations.html'></a> <h1 class="title">Recurrent Equations</h1>
 <div class="tags">
 <a class="tag" href="tag_Discrete Structures.html">Discrete Structures</a>
 <a class="tag" href="tag_Lecture.html">Lecture</a>
 <a class="tag" href="tag_Recursion.html">Recursion</a>
 </div>
 </header><section class="outline-2"><h1 class="title">Graph</h1>
-<object data="dot/Recurrent Equations.dot.svg" type="image/svg+xml"></object></section><section id="outline-container-orgaf69a3a" class="outline-2">
-<h2 id="orgaf69a3a"><span class="section-number-2">1</span> Recurrent Equations</h2>
+<object data="dot/Recurrent Equations.dot.svg" type="image/svg+xml"></object></section><section id="outline-container-orgd8a77da" class="outline-2">
+<h2 id="orgd8a77da"><span class="section-number-2">1</span> Recurrent Equations</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org16671f1" class="outline-3">
-<h3 id="org16671f1"><span class="section-number-3">1.1</span> Definition</h3>
+<div id="outline-container-orge5e2536" class="outline-3">
+<h3 id="orge5e2536"><span class="section-number-3">1.1</span> Definition</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 A recurrent equation is any equation that is defined by
@@ -150,8 +149,8 @@ L(6) = L(5) + 6 = <code>22</code>
 </p>
 </div>
 </div>
-<div id="outline-container-org2d3def9" class="outline-3">
-<h3 id="org2d3def9"><span class="section-number-3">1.2</span> Method for solving homogeneous recurrent equations</h3>
+<div id="outline-container-org700f83b" class="outline-3">
+<h3 id="org700f83b"><span class="section-number-3">1.2</span> Method for solving homogeneous recurrent equations</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 \(a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k}\)
@@ -180,8 +179,8 @@ There should be \(k\) base cases given.
 a_{k-1} = q_{k-1}\]
 </p>
 </div>
-<div id="outline-container-orge1ae32a" class="outline-4">
-<h4 id="orge1ae32a"><span class="section-number-4">1.2.1</span> Characteristic equation</h4>
+<div id="outline-container-org535196f" class="outline-4">
+<h4 id="org535196f"><span class="section-number-4">1.2.1</span> Characteristic equation</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 We find/replace a<sub>(n-[0-9|k]+)</sub> with x^\1
@@ -204,8 +203,8 @@ This is the characteristic equation.
 </p>
 </div>
 </div>
-<div id="outline-container-org093850d" class="outline-4">
-<h4 id="org093850d"><span class="section-number-4">1.2.2</span> Finding the roots of the characteristic equation</h4>
+<div id="outline-container-org6042350" class="outline-4">
+<h4 id="org6042350"><span class="section-number-4">1.2.2</span> Finding the roots of the characteristic equation</h4>
 <div class="outline-text-4" id="text-1-2-2">
 <p>
 From the '<a href="Fundamental Theorem of Algebra.html">Fundamental theorem of algebra</a>' the
@@ -218,12 +217,12 @@ It is important that a multiset is used due to the possibility of equal roots.
 </p>
 </div>
 </div>
-<div id="outline-container-orge7d2233" class="outline-4">
-<h4 id="orge7d2233"><span class="section-number-4">1.2.3</span> General solution</h4>
+<div id="outline-container-org3ce1351" class="outline-4">
+<h4 id="org3ce1351"><span class="section-number-4">1.2.3</span> General solution</h4>
 <div class="outline-text-4" id="text-1-2-3">
 </div>
-<div id="outline-container-orgf7af8c2" class="outline-5">
-<h5 id="orgf7af8c2"><span class="section-number-5">1.2.3.1</span> For roots that are all unique</h5>
+<div id="outline-container-org8ac5da6" class="outline-5">
+<h5 id="org8ac5da6"><span class="section-number-5">1.2.3.1</span> For roots that are all unique</h5>
 <div class="outline-text-5" id="text-1-2-3-1">
 <p>
 \[a_n = A_{1}\alpha_1^n + A_{2}\alpha_2^{n} + \cdots + A_{k}\alpha_k^{n}\]
@@ -252,8 +251,8 @@ And by doing so we can find the <b>precise</b> solution of the recurrent equatio
 </p>
 </div>
 </div>
-<div id="outline-container-org419d5ec" class="outline-5">
-<h5 id="org419d5ec"><span class="section-number-5">1.2.3.2</span> When some roots are equal</h5>
+<div id="outline-container-org4ac8501" class="outline-5">
+<h5 id="org4ac8501"><span class="section-number-5">1.2.3.2</span> When some roots are equal</h5>
 <div class="outline-text-5" id="text-1-2-3-2">
 <p>
 Let the <a href="Set.html">set</a> (not multiset) of roots is \(\{\beta_i\}_{i=1}^t\) where t &le; k.
@@ -307,8 +306,8 @@ previous case since there are exactly \(k\) indexed constants \(A_{i,j}\).
 </div>
 </div>
 </div>
-<div id="outline-container-org1a30d6d" class="outline-3">
-<h3 id="org1a30d6d"><span class="section-number-3">1.3</span> Solving non-homogeneous recurrent equations.</h3>
+<div id="outline-container-org0914ee4" class="outline-3">
+<h3 id="org0914ee4"><span class="section-number-3">1.3</span> Solving non-homogeneous recurrent equations.</h3>
 <div class="outline-text-3" id="text-1-3">
 <p>
 \(a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k} + p_{1}(n)*b_{1}^{n} + \cdots + p_{l}(n)*b_{l}^{n}\)
@@ -385,8 +384,8 @@ The rest proceeds as normal.
 </div>
 </section>
 
-<section id="outline-container-org48fa2e4" class="outline-2">
-<h2 id="org48fa2e4"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-orgdd83296" class="outline-2">
+<h2 id="orgdd83296"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="Discrete Structures.html">Discrete Structures</a></li>

@@ -1,0 +1,4 @@
+#+title: Analytic Geometry
+#+roam_alias: "Analytic Geometry"
+#+roam_tags: "Analytic Geometry" "Lecture"
+* Analytic Geometry
