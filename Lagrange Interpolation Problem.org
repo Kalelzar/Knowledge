@@ -48,8 +48,8 @@ $x_{0}, \dots, x_{k-1}, x_{k+1}, \dots, x_{n}$ (due to $(3)$, defined via [[file
 
 Then:
 
-$l_{k,n}(x) = A(x-x_{0})\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_{n}) \Rightarrow A = \frac{1}{\prod_{i=0,i\neq{}k}^{n}\limits{}(x_{k}-x_{i})$
+\[l_{k,n}(x) = A(x-x_{0})\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_{n}) \Rightarrow A = \frac{1}{\prod_{i=0,i\neq{}k}^{n}\limits{}(x_{k}-x_{i})}\]
 
 Finally:
 
-$(4)$ $l_k,n(x) = \frac{(x-x_0)\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_n)}{(x_k-x_0)\dots(x_k-x_{k-1})(x_k-x_{k+1})\dots(x_k-x_n)} = \prod_{i=0,i\neq{}k}^{n}\limits{}\frac{x-x_{i}{(x_{k}-x_{i})}\square$
+$(4)$ \[l_k,n(x) = \frac{(x-x_0)\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_n)}{(x_k-x_0)\dots(x_k-x_{k-1})(x_k-x_{k+1})\dots(x_k-x_n)} = \prod_{i=0,i\neq{}k}^{n}\limits{}\frac{x-x_{i}}{(x_{k}-x_{i})}\square\]

@@ -1,9 +1,10 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-17 Wed 14:56 -->
+                <head><!-- 2021-03-18 Thu 05:38 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lagrange Interpolation Problem</title>
 <meta name="generator" content="Org mode">
+<meta name="author" content="Kalelzar">
 
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
@@ -43,7 +44,7 @@
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
 
-                <a href='index.html' aria-label="Return to index"><img src='/Knowledge/images/home.png' /></a>
+                <a href='index.html' aria-label="Return to index"><img alt"The Emacs logo with an integral symbol" src='/Knowledge/images/home.png' /></a>
 
                 <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
                 <div class='menu-main-container'><ul id='primary-menu' class='menu'>
@@ -66,10 +67,10 @@
 <a class="tag" href="tag_Lagrange.html">Lagrange</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
 </div>
-</header><section class="outline-2"><h1 class="title">Graph</h1>
+</header><section class="outline-2 graph">
 <object data="dot/Lagrange Interpolation Problem.dot.svg" type="image/svg+xml"></object></section>
-<section id="outline-container-org41bcec9" class="outline-2">
-<h2 id="org41bcec9"><span class="section-number-2">1</span> Lagrange Interpolation Problem</h2>
+<section id="outline-container-org4d9f99f" class="outline-2">
+<h2 id="org4d9f99f"><span class="section-number-2">1</span> Lagrange Interpolation Problem</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Let \(x_0, ..., x_n\) such that \(x_i \ne x_j\), \(i \ne h\) - Knots of interpolation.
@@ -77,8 +78,8 @@ Let \(y_0, ..., y_n\) be values.
 Find \((1)\) \(p(x_i) = y_i\),  \(i = \overline{0,n}\)
 </p>
 </div>
-<div id="outline-container-orgb9fd7b3" class="outline-3">
-<h3 id="orgb9fd7b3"><span class="section-number-3">1.1</span> Unique</h3>
+<div id="outline-container-org94d01c8" class="outline-3">
+<h3 id="org94d01c8"><span class="section-number-3">1.1</span> Unique</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 Let's assume \(\exists{}u,v \in \pi_{n}\) solve \((1)\), i.e \(u(x_i)=v(x_{i})=y_{i}\), \(i=\overline{0,n}\).
@@ -105,8 +106,8 @@ we know that \(p(x) \equiv 0\), i.e \(u(x) \equiv v(x)\). \(\square\)
 </div>
 </div>
 
-<div id="outline-container-orgf3636f5" class="outline-3">
-<h3 id="orgf3636f5"><span class="section-number-3">1.2</span> Existence</h3>
+<div id="outline-container-org1823b73" class="outline-3">
+<h3 id="org1823b73"><span class="section-number-3">1.2</span> Existence</h3>
 <div class="outline-text-3" id="text-1-2">
 <p>
 We will construct the solution to the Lagrange Interpolation Problem.
@@ -136,8 +137,8 @@ also known as <a href="Formula of Lagrange for Interpolation.html">Formula of La
 </p>
 </div>
 
-<div id="outline-container-org41ee0d2" class="outline-4">
-<h4 id="org41ee0d2"><span class="section-number-4">1.2.1</span> Constructing \(l_k,n(x)\)</h4>
+<div id="outline-container-orgc44c63c" class="outline-4">
+<h4 id="orgc44c63c"><span class="section-number-4">1.2.1</span> Constructing \(l_k,n(x)\)</h4>
 <div class="outline-text-4" id="text-1-2-1">
 <p>
 Let \(l_{k,n}(x) \in \pi_{n}\) and \(l_{k,n}\) has \(n\) different zeroes:
@@ -150,7 +151,7 @@ Then:
 </p>
 
 <p>
-\(l_{k,n}(x) = A(x-x_{0})\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_{n}) \Rightarrow A = \frac{1}{\prod_{i=0,i\neq{}k}^{n}\limits{}(x_{k}-x_{i})\)
+\[l_{k,n}(x) = A(x-x_{0})\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_{n}) \Rightarrow A = \frac{1}{\prod_{i=0,i\neq{}k}^{n}\limits{}(x_{k}-x_{i})}\]
 </p>
 
 <p>
@@ -158,21 +159,21 @@ Finally:
 </p>
 
 <p>
-\((4)\) \(l_k,n(x) = \frac{(x-x_0)\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_n)}{(x_k-x_0)\dots(x_k-x_{k-1})(x_k-x_{k+1})\dots(x_k-x_n)} = \prod_{i=0,i\neq{}k}^{n}\limits{}\frac{x-x_{i}{(x_{k}-x_{i})}\square\)
+\((4)\) \[l_k,n(x) = \frac{(x-x_0)\dots(x-x_{k-1})(x-x_{k+1})\dots(x-x_n)}{(x_k-x_0)\dots(x_k-x_{k-1})(x_k-x_{k+1})\dots(x_k-x_n)} = \prod_{i=0,i\neq{}k}^{n}\limits{}\frac{x-x_{i}}{(x_{k}-x_{i})}\square\]
 </p>
 </div>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org94a93eb" class="outline-2">
-<h2 id="org94a93eb"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-org8d647a0" class="outline-2">
+<h2 id="org8d647a0"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
 <li><a href="Lagrange Interpolation.html">Lagrange Interpolation</a></li>
 <li><a href="Lagrange Interpolation Polynomial.html">Lagrange Interpolation Polynomial</a></li>
-<li><a href="recentchanges.html">Recent changes</a></li>
 <li><a href="The Lagrange Interpolation Polynomial of a Polynomial is itself.html">The Lagrange Interpolation Polynomial of a Polynomial is itself</a></li>
+<li><a href="recentchanges.html">Recent changes</a></li>
 </ul>
 </div>
 </section>

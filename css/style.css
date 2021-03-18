@@ -641,6 +641,7 @@ video {
 @media (min-width: 1024px) {
   .page {
       max-width: 49%;
+      width: 49%
   }
 }
 
@@ -653,6 +654,10 @@ video {
         height: 60%;
         width: 60%;
     }
+}
+
+.outline-2.graph {
+    padding: 2px;
 }
 
 .flex {

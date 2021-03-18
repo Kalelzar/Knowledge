@@ -1,15 +1,17 @@
 <!DOCTYPE html><html lang="en">
-                <head><!-- 2021-03-17 Wed 14:56 -->
+                <head><!-- 2021-03-18 Thu 05:38 -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chebyshev Polynomial</title>
 <meta name="generator" content="Org mode">
+<meta name="author" content="Kalelzar">
 
 <link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
 <link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
 <link rel='stylesheet' type='text/css' href='css/style.css'/>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='https://unpkg.com/vis-network@8.2.0/dist/vis-network.min.js'></script>
-<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
 <script src='js/URI.js'></script>
 <script src='js/page.js'></script>
 <script src='https://unpkg.com/tippy.js@6'></script>
@@ -42,7 +44,7 @@
 		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
         <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
 
-                <a href='index.html' aria-label="Return to index"><img src='/Knowledge/images/home.png' /></a>
+                <a href='index.html' aria-label="Return to index"><img alt"The Emacs logo with an integral symbol" src='/Knowledge/images/home.png' /></a>
 
                 <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
                 <div class='menu-main-container'><ul id='primary-menu' class='menu'>
@@ -65,9 +67,9 @@
 <a class="tag" href="tag_Interpolation.html">Interpolation</a>
 <a class="tag" href="tag_Numeric Methods.html">Numeric Methods</a>
 </div>
-</header><section class="outline-2"><h1 class="title">Graph</h1>
-<object data="dot/Chebyshev Polynomial.dot.svg" type="image/svg+xml"></object></section><section id="outline-container-org7e76728" class="outline-2">
-<h2 id="org7e76728"><span class="section-number-2">1</span> Chebyshev Polynomial</h2>
+</header><section class="outline-2 graph">
+<object data="dot/Chebyshev Polynomial.dot.svg" type="image/svg+xml"></object></section><section id="outline-container-org75ddfc9" class="outline-2">
+<h2 id="org75ddfc9"><span class="section-number-2">1</span> Chebyshev Polynomial</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Let \(n=0,1,2,\dots\) then:
@@ -79,15 +81,15 @@ is called a Chebyshev polynomial of degree \(n\)
 Obviously \(T_0(x) = 1,\quad T_1(x) = x\)
 </p>
 </div>
-<div id="outline-container-org96496cf" class="outline-3">
-<h3 id="org96496cf"><span class="section-number-3">1.1</span> <a href="Recurrent Equations.html">Recurrent</a> Connection</h3>
+<div id="outline-container-org00378a4" class="outline-3">
+<h3 id="org00378a4"><span class="section-number-3">1.1</span> <a href="Recurrent Equations.html">Recurrent</a> Connection</h3>
 <div class="outline-text-3" id="text-1-1">
 <p>
 \[T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x) \tag{$n=1,2,\dots$}\]
 </p>
 </div>
-<div id="outline-container-org8b7cb21" class="outline-4">
-<h4 id="org8b7cb21"><span class="section-number-4">1.1.1</span> Proof</h4>
+<div id="outline-container-orgcec8d4a" class="outline-4">
+<h4 id="orgcec8d4a"><span class="section-number-4">1.1.1</span> Proof</h4>
 <div class="outline-text-4" id="text-1-1-1">
 <p>
 Let \(\theta=\arccos(x)\)
@@ -123,12 +125,12 @@ When \(\alpha = (n+1)\theta, \quad \beta = (n-1)\theta \Rightarrow\)
 </div>
 </section>
 
-<section id="outline-container-org8e74eb7" class="outline-2">
-<h2 id="org8e74eb7"><span class="section-number-2">2</span> Backlinks</h2>
+<section id="outline-container-org376f80a" class="outline-2">
+<h2 id="org376f80a"><span class="section-number-2">2</span> Backlinks</h2>
 <div class="outline-text-2" id="text-2">
 <ul class="org-ul">
-<li><a href="recentchanges.html">Recent changes</a></li>
 <li><a href="Extreme points of Chebyshev polynomials.html">Extreme points of Chebyshev polynomials</a></li>
+<li><a href="recentchanges.html">Recent changes</a></li>
 </ul>
 </div>
 </section>
