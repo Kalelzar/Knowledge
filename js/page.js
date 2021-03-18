@@ -1,3 +1,4 @@
+'use strict';
 let pages = [window.location.pathname];
 let switchDirectionWindowWidth = 900;
 let animationLength = 200;
@@ -65,9 +66,15 @@ function drawBufferNetwork(roamData) {
 
 function stackNote(href, level) {
   level = Number(level) || pages.length;
+  if(href instanceof SVGAnimatedString){
+    href = href.baseVal;
+    if(href.indexOf("../") === 0){
+      href = href.substring(3);
+    }
+  }
   href = URI(href);
-  uri = URI(window.location);
-  stacks = [];
+  let uri = URI(window.location);
+  let stacks = [];
   if (uri.hasQuery("stackedNotes")) {
     stacks = uri.query(true).stackedNotes;
     if (!Array.isArray(stacks)) {
@@ -78,8 +85,8 @@ function stackNote(href, level) {
   stacks.push(href.path());
   uri.setQuery("stackedNotes", stacks);
 
-  old_stacks = stacks.slice(0, level - 1);
-  state = { stacks: old_stacks, level: level };
+  let old_stacks = stacks.slice(0, level - 1);
+  let state = { stacks: old_stacks, level: level };
   window.history.pushState(state, "", uri.href());
 }
 
@@ -95,6 +102,15 @@ function unstackNotes(level) {
 }
 
 function fetchNote(href, level, animate = false) {
+
+  if(href instanceof SVGAnimatedString){
+    href = href.baseVal;
+  }
+
+  if(href.indexOf("../") === 0){
+    href = href.substring(3);
+  }
+
   level = Number(level) || pages.length;
 
   const request = new Request(href);
@@ -146,7 +162,8 @@ function updateLinkStatuses() {
 }
 
 function destroyPreviews(page) {
-  links = Array.prototype.slice.call(page.querySelectorAll("a[data-uuid]"));
+  let links = Array.prototype.slice.call(page.querySelectorAll("a[data-uuid]"));
+
   links.forEach(function (link) {
     if (link.hasOwnProperty("_tippy")) {
       link._tippy.destroy();
@@ -167,12 +184,15 @@ let tippyOptions = {
 };
 
 function createPreview(link, html, overrideOptions) {
-  level = Number(link.dataset.level);
-  iframe = document.createElement('iframe');
+  if(link.href instanceof SVGAnimatedString){
+    return;
+  }
+  let level = Number(link.dataset.level);
+  let iframe = document.createElement('iframe');
   iframe.width = "400px";
   iframe.height = "300px";
   iframe.srcdoc = html;
-  tip = tippy(
+  let tip = tippy(
     link,
     Object.assign(
       {},
@@ -191,19 +211,20 @@ function createPreview(link, html, overrideOptions) {
 function initializePreviews(page, level) {
   level = level || pages.length;
 
-  links = Array.prototype.slice.call(page.querySelectorAll("a:not(.rooter)"));
-  links = links.concat(Array.prototype
-                       .slice
-                       .call(page.querySelector("object")
-                             .contentWindow
-                             .document
-                             .querySelectorAll("a:not(.rooter)")))
+  let links = Array.prototype.slice.call(page.querySelectorAll("a:not(.rooter)"));
 
-  links.forEach(async function (element) {
-    var rawHref = element.getAttribute("href");
-    if(!rawHref) rawHref = element.getAttribute("xlink:href")
+  let fetchHelper = async function (element) {
+    var rawHref = element.getAttribute("xlink:href");
+    if(!rawHref)
+      rawHref = element.getAttribute("href");
+    if(rawHref && rawHref.indexOf("../") === 0)
+      rawHref = rawHref.substring(3);
+
+    if(rawHref.indexOf("org-protocol://") === 0){
+      return;
+    }
+
     element.dataset.level = level;
-
     if (
       rawHref &&
       !(
@@ -214,7 +235,7 @@ function initializePreviews(page, level) {
         rawHref.includes(".svg")
       )
     ) {
-        var prefetchLink = element.href;
+        var prefetchLink = rawHref;//element.href;
         async function myFetch() {
             let response = await fetch(prefetchLink);
             let fragment = document.createElement("template");
@@ -232,14 +253,34 @@ function initializePreviews(page, level) {
                 if (!e.ctrlKey && !e.metaKey) {
                     e.preventDefault();
                     stackNote(element.href, this.dataset.level);
-                    fetchNote(element.href, this.dataset.level, (animate = true));
+                    fetchNote(element.href, this.dataset.level, true);
                 }
                 });
             };
         }
         return myFetch();
     }
-  });
+  }
+
+  let svg = page.querySelector("object");
+
+  let onsvgload = () => {
+      let svglinks = Array.prototype
+        .slice
+        .call(svg
+              .contentWindow
+              .document
+              .querySelectorAll("a"));
+      svglinks.forEach(fetchHelper);
+  };
+
+  if(!svg.contentWindow){
+    svg.onload = onsvgload;
+  }else{
+    onsvgload();
+  }
+
+  links.forEach(fetchHelper);
 }
 
 window.addEventListener("popstate", function (event) {
@@ -251,9 +292,9 @@ window.onload = function () {
   //loadNetworkNodes();
   initializePreviews(document.querySelector(".page"));
 
-  uri = URI(window.location);
+  let uri = URI(window.location);
   if (uri.hasQuery("stackedNotes")) {
-    stacks = uri.query(true).stackedNotes;
+    let stacks = uri.query(true).stackedNotes;
     if (!Array.isArray(stacks)) {
       stacks = [stacks];
     }

@@ -4,7 +4,7 @@
 * Fundamental extremal property of Chebyshev polynomials
 Let $n \geq 1$
 
-$\forall{}P(x) = 2^{n-1}x^n + \cdots$ is true $\max_{x\in[-1,1]}\limits{}{\lvert{}P(x)\rvert{}\geq\max_{x\in[-1,1]}\limits{}{\lvert{}T_{n}(x)\rvert{}} = 1$
+$\forall{}P(x) = 2^{n-1}x^n + \cdots$ is true $\max_{x\in[-1,1]}\limits{}(\lvert{}P(x)\rvert{})\geq\max_{x\in[-1,1]}\limits{}(\lvert{}T_{n}(x)\rvert{}) = 1$
 
 The equality is reached $\Leftrightarrow P(x) \equiv T_{n}(x)$
 ** Proof

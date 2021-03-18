@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Differential Analysis</title>
 <g id="a_node1"><a xlink:href="../Differential Analysis.html" xlink:title="Differential Analysis" target="_parent">
-<path fill="#273434" stroke="#b75867" d="M1056.06,-180C1056.06,-180 953.06,-180 953.06,-180 947.06,-180 941.06,-174 941.06,-168 941.06,-168 941.06,-156 941.06,-156 941.06,-150 947.06,-144 953.06,-144 953.06,-144 1056.06,-144 1056.06,-144 1062.06,-144 1068.06,-150 1068.06,-156 1068.06,-156 1068.06,-168 1068.06,-168 1068.06,-174 1062.06,-180 1056.06,-180"/>
-<text text-anchor="middle" x="1004.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
+<path fill="#273434" stroke="#b75867" d="M1099.06,-180C1099.06,-180 996.06,-180 996.06,-180 990.06,-180 984.06,-174 984.06,-168 984.06,-168 984.06,-156 984.06,-156 984.06,-150 990.06,-144 996.06,-144 996.06,-144 1099.06,-144 1099.06,-144 1105.06,-144 1111.06,-150 1111.06,-156 1111.06,-156 1111.06,-168 1111.06,-168 1111.06,-174 1105.06,-180 1099.06,-180"/>
+<text text-anchor="middle" x="1047.56" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Differential Analysis</text>
 </a>
 </g>
 </g>
@@ -30,8 +30,8 @@
 <!-- Differential Analysis&#45;&gt;Set -->
 <g id="edge1" class="edge">
 <title>Differential Analysis&#45;&gt;Set</title>
-<path fill="none" stroke="#b75867" d="M994.18,-143.7C989.3,-135.56 983.37,-125.69 977.98,-116.7"/>
-<polygon fill="#b75867" stroke="#b75867" points="980.97,-114.88 972.82,-108.1 974.97,-118.48 980.97,-114.88"/>
+<path fill="none" stroke="#b75867" d="M1026.55,-143.7C1015.85,-134.88 1002.67,-124.03 991.07,-114.47"/>
+<polygon fill="#b75867" stroke="#b75867" points="993.28,-111.76 983.33,-108.1 988.83,-117.16 993.28,-111.76"/>
 </g>
 <!-- Subjects -->
 <g id="node3" class="node">
@@ -45,170 +45,185 @@
 <!-- Differential Analysis&#45;&gt;Subjects -->
 <g id="edge2" class="edge">
 <title>Differential Analysis&#45;&gt;Subjects</title>
-<path fill="none" stroke="#ffffff" d="M1020.57,-134.94C1026.18,-125.8 1032.34,-115.78 1037.35,-107.62"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="1017.44,-133.34 1015.19,-143.7 1023.41,-137.01 1017.44,-133.34"/>
+<path fill="none" stroke="#ffffff" d="M1047.56,-133.67C1047.56,-125.05 1047.56,-115.79 1047.56,-108.1"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="1044.06,-133.7 1047.56,-143.7 1051.06,-133.7 1044.06,-133.7"/>
+</g>
+<!-- Knowledege Base -->
+<g id="node4" class="node">
+<title>Knowledege Base</title>
+<g id="a_node4"><a xlink:href="../Knowledege Base.html" xlink:title="Knowledege Base" target="_parent">
+<ellipse fill="#273434" stroke="#b75867" cx="1177.56" cy="-90" rx="72.05" ry="18"/>
+<text text-anchor="middle" x="1177.56" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Knowledege Base</text>
+</a>
+</g>
+</g>
+<!-- Differential Analysis&#45;&gt;Knowledege Base -->
+<g id="edge3" class="edge">
+<title>Differential Analysis&#45;&gt;Knowledege Base</title>
+<path fill="none" stroke="#ffffff" d="M1088.38,-139.02C1107.98,-128.46 1131.01,-116.07 1148.75,-106.51"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="1086.51,-136.05 1079.36,-143.88 1089.83,-142.22 1086.51,-136.05"/>
 </g>
 <!-- Reflexive Closure -->
-<g id="node4" class="node">
+<g id="node5" class="node">
 <title>Reflexive Closure</title>
-<g id="a_node4"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
+<g id="a_node5"><a xlink:href="../Reflexive Closure.html" xlink:title="Reflexive Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="69.56" cy="-18" rx="69.62" ry="18"/>
 <text text-anchor="middle" x="69.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Reflexive Closure</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Reflexive Closure -->
-<g id="edge3" class="edge">
+<g id="edge4" class="edge">
 <title>Set&#45;&gt;Reflexive Closure</title>
 <path fill="none" stroke="#ffffff" d="M925.2,-88.56C809.24,-86.75 445.41,-77.9 147.56,-36 138.09,-34.67 128.06,-32.82 118.46,-30.83"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="925.27,-92.06 935.33,-88.7 925.38,-85.06 925.27,-92.06"/>
 </g>
 <!-- Symmetric Closure -->
-<g id="node5" class="node">
+<g id="node6" class="node">
 <title>Symmetric Closure</title>
-<g id="a_node5"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
+<g id="a_node6"><a xlink:href="../Symmetric Closure.html" xlink:title="Symmetric Closure" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="232.56" cy="-18" rx="75.94" ry="18"/>
 <text text-anchor="middle" x="232.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Symmetric Closure</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Symmetric Closure -->
-<g id="edge4" class="edge">
+<g id="edge5" class="edge">
 <title>Set&#45;&gt;Symmetric Closure</title>
 <path fill="none" stroke="#ffffff" d="M925.22,-87.48C825.8,-83.09 546.61,-68.6 316.56,-36 306.69,-34.6 296.23,-32.77 286.17,-30.83"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="925.21,-90.98 935.36,-87.92 925.52,-83.99 925.21,-90.98"/>
 </g>
 <!-- Class of equivalence -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>Class of equivalence</title>
-<g id="a_node6"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
+<g id="a_node7"><a xlink:href="../Class of equivalence.html" xlink:title="Class of equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="406.56" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="406.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Class of equivalence</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Class of equivalence -->
-<g id="edge5" class="edge">
+<g id="edge6" class="edge">
 <title>Set&#45;&gt;Class of equivalence</title>
 <path fill="none" stroke="#ffffff" d="M925.37,-85.74C846.11,-78.59 654.79,-60.21 495.56,-36 485.45,-34.46 474.74,-32.61 464.38,-30.7"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="925.08,-89.23 935.36,-86.64 925.71,-82.26 925.08,-89.23"/>
 </g>
 <!-- Relation of Equivalence -->
-<g id="node7" class="node">
+<g id="node8" class="node">
 <title>Relation of Equivalence</title>
-<g id="a_node7"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
+<g id="a_node8"><a xlink:href="../Relation of Equivalence.html" xlink:title="Relation of Equivalence" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="596.56" cy="-18" rx="91.95" ry="18"/>
 <text text-anchor="middle" x="596.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Relation of Equivalence</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Relation of Equivalence -->
-<g id="edge6" class="edge">
+<g id="edge7" class="edge">
 <title>Set&#45;&gt;Relation of Equivalence</title>
 <path fill="none" stroke="#ffffff" d="M925.17,-81.85C862.66,-69.89 736.31,-45.73 659.78,-31.09"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="924.87,-85.35 935.35,-83.8 926.19,-78.48 924.87,-85.35"/>
 </g>
 <!-- Recurrent Equations -->
-<g id="node8" class="node">
+<g id="node9" class="node">
 <title>Recurrent Equations</title>
-<g id="a_node8"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
+<g id="a_node9"><a xlink:href="../Recurrent Equations.html" xlink:title="Recurrent Equations" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="786.56" cy="-18" rx="80.78" ry="18"/>
 <text text-anchor="middle" x="786.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Recurrent Equations</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Recurrent Equations -->
-<g id="edge7" class="edge">
+<g id="edge8" class="edge">
 <title>Set&#45;&gt;Recurrent Equations</title>
 <path fill="none" stroke="#ffffff" d="M925.84,-74.39C896.04,-62.54 854.2,-45.9 824.17,-33.96"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="924.86,-77.77 935.45,-78.22 927.45,-71.27 924.86,-77.77"/>
 </g>
 <!-- Principle of division -->
-<g id="node9" class="node">
+<g id="node10" class="node">
 <title>Principle of division</title>
-<g id="a_node9"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
+<g id="a_node10"><a xlink:href="../Principle of division.html" xlink:title="Principle of division" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="962.56" cy="-18" rx="77.63" ry="18"/>
 <text text-anchor="middle" x="962.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of division</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Principle of division -->
-<g id="edge8" class="edge">
+<g id="edge9" class="edge">
 <title>Set&#45;&gt;Principle of division</title>
 <path fill="none" stroke="#ffffff" d="M962.56,-61.67C962.56,-53.05 962.56,-43.79 962.56,-36.1"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="959.06,-61.7 962.56,-71.7 966.06,-61.7 959.06,-61.7"/>
 </g>
 <!-- Principle of products -->
-<g id="node10" class="node">
+<g id="node11" class="node">
 <title>Principle of products</title>
-<g id="a_node10"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
+<g id="a_node11"><a xlink:href="../Principle of products.html" xlink:title="Principle of products" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1140.56" cy="-18" rx="82.48" ry="18"/>
 <text text-anchor="middle" x="1140.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of products</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Principle of products -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <title>Set&#45;&gt;Principle of products</title>
 <path fill="none" stroke="#ffffff" d="M998.91,-72.01C1037.41,-55.9 1072.22,-43.04 1098.57,-33.63"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="997.43,-68.83 989.58,-75.94 1000.15,-75.28 997.43,-68.83"/>
 </g>
 <!-- Dirichlet principle -->
-<g id="node11" class="node">
+<g id="node12" class="node">
 <title>Dirichlet principle</title>
-<g id="a_node11"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
+<g id="a_node12"><a xlink:href="../Dirichlet principle.html" xlink:title="Dirichlet principle" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1312.56" cy="-18" rx="71.32" ry="18"/>
 <text text-anchor="middle" x="1312.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Dirichlet principle</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Dirichlet principle -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>Set&#45;&gt;Dirichlet principle</title>
 <path fill="none" stroke="#ffffff" d="M999.44,-72.22C1100.62,-42.1 1131.59,-54.2 1231.56,-36 1240.89,-34.3 1250.79,-32.35 1260.36,-30.39"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="998.3,-68.91 989.75,-75.17 1000.34,-75.6 998.3,-68.91"/>
 </g>
 <!-- Principle of inclusion and exclusion -->
-<g id="node12" class="node">
+<g id="node13" class="node">
 <title>Principle of inclusion and exclusion</title>
-<g id="a_node12"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
+<g id="a_node13"><a xlink:href="../Principle of inclusion and exclusion.html" xlink:title="Principle of inclusion and exclusion" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1534.56" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="1534.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of inclusion and exclusion</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Principle of inclusion and exclusion -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>Set&#45;&gt;Principle of inclusion and exclusion</title>
 <path fill="none" stroke="#ffffff" d="M999.5,-72.32C1170.09,-26.8 1220.94,-54.11 1392.56,-36 1407.99,-34.37 1424.35,-32.52 1440.27,-30.66"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="998.43,-68.98 989.7,-74.98 1000.27,-75.74 998.43,-68.98"/>
 </g>
 <!-- Principle of partitions -->
-<g id="node13" class="node">
+<g id="node14" class="node">
 <title>Principle of partitions</title>
-<g id="a_node13"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
+<g id="a_node14"><a xlink:href="../Principle of partitions.html" xlink:title="Principle of partitions" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1769.56" cy="-18" rx="84.17" ry="18"/>
 <text text-anchor="middle" x="1769.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of partitions</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Principle of partitions -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>Set&#45;&gt;Principle of partitions</title>
 <path fill="none" stroke="#ffffff" d="M999.73,-72.34C1292.67,0.1 1379.63,-70.49 1675.56,-36 1686.85,-34.68 1698.82,-32.86 1710.31,-30.88"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="998.52,-69.04 989.67,-74.86 1000.22,-75.83 998.52,-69.04"/>
 </g>
 <!-- Principle of the bijection -->
-<g id="node14" class="node">
+<g id="node15" class="node">
 <title>Principle of the bijection</title>
-<g id="a_node14"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
+<g id="a_node15"><a xlink:href="../Principle of the bijection.html" xlink:title="Principle of the bijection" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="1966.56" cy="-18" rx="94.6" ry="18"/>
 <text text-anchor="middle" x="1966.56" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Principle of the bijection</text>
 </a>
 </g>
 </g>
 <!-- Set&#45;&gt;Principle of the bijection -->
-<g id="edge13" class="edge">
+<g id="edge14" class="edge">
 <title>Set&#45;&gt;Principle of the bijection</title>
 <path fill="none" stroke="#ffffff" d="M999.64,-72.46C1201.22,-27.02 1674.56,-55.21 1862.56,-36 1874.94,-34.74 1888.08,-32.94 1900.7,-30.99"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="998.58,-69.12 989.66,-74.83 1000.2,-75.93 998.58,-69.12"/>

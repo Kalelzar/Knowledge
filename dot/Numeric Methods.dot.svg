@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Numeric Methods</title>
 <g id="a_node1"><a xlink:href="../Numeric Methods.html" xlink:title="Numeric Methods" target="_parent">
-<path fill="#273434" stroke="#b75867" d="M1047.35,-252C1047.35,-252 955.35,-252 955.35,-252 949.35,-252 943.35,-246 943.35,-240 943.35,-240 943.35,-228 943.35,-228 943.35,-222 949.35,-216 955.35,-216 955.35,-216 1047.35,-216 1047.35,-216 1053.35,-216 1059.35,-222 1059.35,-228 1059.35,-228 1059.35,-240 1059.35,-240 1059.35,-246 1053.35,-252 1047.35,-252"/>
-<text text-anchor="middle" x="1001.35" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
+<path fill="#273434" stroke="#b75867" d="M1114.35,-252C1114.35,-252 1022.35,-252 1022.35,-252 1016.35,-252 1010.35,-246 1010.35,-240 1010.35,-240 1010.35,-228 1010.35,-228 1010.35,-222 1016.35,-216 1022.35,-216 1022.35,-216 1114.35,-216 1114.35,-216 1120.35,-216 1126.35,-222 1126.35,-228 1126.35,-228 1126.35,-240 1126.35,-240 1126.35,-246 1120.35,-252 1114.35,-252"/>
+<text text-anchor="middle" x="1068.35" y="-230.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
 </a>
 </g>
 </g>
@@ -30,8 +30,8 @@
 <!-- Numeric Methods&#45;&gt;Lagrange Interpolation -->
 <g id="edge1" class="edge">
 <title>Numeric Methods&#45;&gt;Lagrange Interpolation</title>
-<path fill="none" stroke="#b75867" d="M943.04,-223.05C872.97,-211.08 754.89,-190.92 675.08,-177.3"/>
-<polygon fill="#b75867" stroke="#b75867" points="675.5,-173.82 665.06,-175.58 674.33,-180.72 675.5,-173.82"/>
+<path fill="none" stroke="#b75867" d="M1010.34,-224.49C926.53,-212.19 771.11,-189.38 674.94,-175.27"/>
+<polygon fill="#b75867" stroke="#b75867" points="675.36,-171.79 664.95,-173.8 674.34,-178.72 675.36,-171.79"/>
 </g>
 <!-- Function Approximation -->
 <g id="node4" class="node">
@@ -45,8 +45,8 @@
 <!-- Numeric Methods&#45;&gt;Function Approximation -->
 <g id="edge2" class="edge">
 <title>Numeric Methods&#45;&gt;Function Approximation</title>
-<path fill="none" stroke="#b75867" d="M1001.35,-215.7C1001.35,-207.98 1001.35,-198.71 1001.35,-190.11"/>
-<polygon fill="#b75867" stroke="#b75867" points="1004.85,-190.1 1001.35,-180.1 997.85,-190.1 1004.85,-190.1"/>
+<path fill="none" stroke="#b75867" d="M1051.79,-215.7C1043.68,-207.22 1033.76,-196.86 1024.88,-187.58"/>
+<polygon fill="#b75867" stroke="#b75867" points="1027.17,-184.91 1017.72,-180.1 1022.11,-189.75 1027.17,-184.91"/>
 </g>
 <!-- Subjects -->
 <g id="node9" class="node">
@@ -60,8 +60,23 @@
 <!-- Numeric Methods&#45;&gt;Subjects -->
 <g id="edge8" class="edge">
 <title>Numeric Methods&#45;&gt;Subjects</title>
-<path fill="none" stroke="#ffffff" d="M1043.54,-211.12C1065.61,-199.68 1091.9,-186.05 1110.86,-176.22"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="1041.64,-208.17 1034.38,-215.88 1044.86,-214.38 1041.64,-208.17"/>
+<path fill="none" stroke="#ffffff" d="M1092.22,-208.43C1101.82,-198.54 1112.62,-187.43 1121.13,-178.67"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="1089.62,-206.09 1085.16,-215.7 1094.64,-210.96 1089.62,-206.09"/>
+</g>
+<!-- Knowledege Base -->
+<g id="node10" class="node">
+<title>Knowledege Base</title>
+<g id="a_node10"><a xlink:href="../Knowledege Base.html" xlink:title="Knowledege Base" target="_parent">
+<ellipse fill="#273434" stroke="#b75867" cx="1266.35" cy="-162" rx="72.05" ry="18"/>
+<text text-anchor="middle" x="1266.35" y="-158.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Knowledege Base</text>
+</a>
+</g>
+</g>
+<!-- Numeric Methods&#45;&gt;Knowledege Base -->
+<g id="edge9" class="edge">
+<title>Numeric Methods&#45;&gt;Knowledege Base</title>
+<path fill="none" stroke="#ffffff" d="M1126.3,-212.51C1158.55,-201.11 1197.87,-187.21 1226.63,-177.04"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="1124.8,-209.33 1116.53,-215.97 1127.13,-215.93 1124.8,-209.33"/>
 </g>
 <!-- Lagrange Interpolation Problem -->
 <g id="node3" class="node">
@@ -79,61 +94,61 @@
 <polygon fill="#b75867" stroke="#b75867" points="397.91,-107.23 387.35,-108.11 396.15,-114.01 397.91,-107.23"/>
 </g>
 <!-- Extrapolation -->
-<g id="node10" class="node">
+<g id="node11" class="node">
 <title>Extrapolation</title>
-<g id="a_node10"><a xlink:href="../Extrapolation.html" xlink:title="Extrapolation" target="_parent">
+<g id="a_node11"><a xlink:href="../Extrapolation.html" xlink:title="Extrapolation" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="496.35" cy="-90" rx="57.5" ry="18"/>
 <text text-anchor="middle" x="496.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Extrapolation</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation&#45;&gt;Extrapolation -->
-<g id="edge9" class="edge">
+<g id="edge10" class="edge">
 <title>Lagrange Interpolation&#45;&gt;Extrapolation</title>
 <path fill="none" stroke="#ffffff" d="M559.64,-137.63C545.94,-127.54 530.26,-115.99 517.94,-106.91"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="557.74,-140.58 567.87,-143.7 561.89,-134.95 557.74,-140.58"/>
 </g>
 <!-- Evaluating Interpolation Error -->
-<g id="node11" class="node">
+<g id="node12" class="node">
 <title>Evaluating Interpolation Error</title>
-<g id="a_node11"><a xlink:href="../Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
+<g id="a_node12"><a xlink:href="../Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="685.35" cy="-90" rx="113.77" ry="18"/>
 <text text-anchor="middle" x="685.35" y="-86.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Evaluating Interpolation Error</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation&#45;&gt;Evaluating Interpolation Error -->
-<g id="edge10" class="edge">
+<g id="edge11" class="edge">
 <title>Lagrange Interpolation&#45;&gt;Evaluating Interpolation Error</title>
 <path fill="none" stroke="#ffffff" d="M622.86,-137.54C635.91,-127.82 650.76,-116.76 662.71,-107.86"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="620.52,-134.92 614.59,-143.7 624.7,-140.53 620.52,-134.92"/>
 </g>
 <!-- Lagrange Interpolation Polynomial -->
-<g id="node12" class="node">
+<g id="node13" class="node">
 <title>Lagrange Interpolation Polynomial</title>
-<g id="a_node12"><a xlink:href="../Lagrange Interpolation Polynomial.html" xlink:title="Lagrange Interpolation Polynomial" target="_parent">
+<g id="a_node13"><a xlink:href="../Lagrange Interpolation Polynomial.html" xlink:title="Lagrange Interpolation Polynomial" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="132.35" cy="-18" rx="132.2" ry="18"/>
 <text text-anchor="middle" x="132.35" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Polynomial</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Lagrange Interpolation Polynomial -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Lagrange Interpolation Polynomial</title>
 <path fill="none" stroke="#ffffff" d="M265.63,-68.36C236.96,-57.74 202.52,-44.99 175.84,-35.11"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="264.52,-71.68 275.12,-71.88 266.95,-65.12 264.52,-71.68"/>
 </g>
 <!-- The Lagrange Interpolation Polynomial of a Polynomial is itself -->
-<g id="node13" class="node">
+<g id="node14" class="node">
 <title>The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
-<g id="a_node13"><a xlink:href="../The Lagrange Interpolation Polynomial of a Polynomial is itself.html" xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself" target="_parent">
+<g id="a_node14"><a xlink:href="../The Lagrange Interpolation Polynomial of a Polynomial is itself.html" xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself" target="_parent">
 <ellipse fill="#273434" stroke="#b75867" cx="511.35" cy="-18" rx="229" ry="18"/>
 <text text-anchor="middle" x="511.35" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">The Lagrange Interpolation Polynomial of a Polynomial is itself</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;The Lagrange Interpolation Polynomial of a Polynomial is itself -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
 <path fill="none" stroke="#ffffff" d="M377.56,-68.29C405.76,-57.9 439.48,-45.48 466.01,-35.71"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="376,-65.13 367.83,-71.88 378.42,-71.7 376,-65.13"/>

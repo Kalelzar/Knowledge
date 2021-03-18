@@ -616,11 +616,45 @@ video {
     max-width: 1024px;
   }
 }
+
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
 }
+
+.page {
+  white-space: normal;
+  padding: 10px 10px;
+  padding-left: 0;
+  margin-right: 10px;
+  display: inline-block;
+  max-width: 100%;
+  height: 100% !important;
+  max-height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+@media (min-width: 1024px) {
+  .page {
+      max-width: 49%;
+  }
+}
+
+@media (orientation: portrait) {
+    p.text-lg {
+        font-size: 0.625rem;
+    }
+
+    #preamble img {
+        height: 60%;
+        width: 60%;
+    }
+}
+
 .flex {
   display: flex;
 }
@@ -978,22 +1012,6 @@ header {
 .ds-grid {
   max-width: 100%;
   flex-grow: 1;
-}
-
-.page {
-  white-space: normal;
-  padding: 10px 10px;
-  padding-left: 0;
-  margin-right: 10px;
-  display: inline-block;
-  width: 625px;
-  max-width: 100%;
-  height: 100% !important;
-  max-height: 100%;
-  overflow-y: auto;
-  scrollbar-width: none;
-  vertical-align: top;
-  box-sizing: border-box;
 }
 
 .page:last-child {
