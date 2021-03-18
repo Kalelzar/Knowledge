@@ -68,7 +68,9 @@
       (insert (--reduce
                (concat acc "\n" it)
                (--map
-                (format "\"%s\"[label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];" it it it it)
+                (if (string= (car connections) it)
+                    (format "\"%s\"[label=\"%s\",tooltip=\"%s\",target=\"_parent\"];" it it it)
+                    (format "\"%s\"[label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];" it it it it))
                 (-uniq
                  (-flatten connections)))))
       (insert "\n")
@@ -81,7 +83,9 @@
       (insert (--reduce
                (concat acc "\n" it)
                (--map
-                (format "\"%s\"[label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];" it it it it)
+                (if (string= (car connections) it)
+                    (format "\"%s\"[label=\"%s\",tooltip=\"%s\",target=\"_parent\"];" it it it)
+                    (format "\"%s\"[label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];" it it it it))
                 (-difference
                  (-uniq
                   (-flatten backlinks))
