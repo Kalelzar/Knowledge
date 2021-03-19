@@ -1,0 +1,14 @@
+@use '../abstracts/variables' as *;
+
+:root {
+
+  --clr-bg: #{$background-color};
+  --clr-fg: #{$foreground-color};
+
+  --clr-forward-link: #{$link-forward-color};
+  --clr-forward-link-transparent: #{$link-forward-color-transparent};
+
+  @each $heading-level, $color in $heading-bg-colors {
+    --clr-heading-#{$heading-level}-bg: #{$color}
+  }
+}

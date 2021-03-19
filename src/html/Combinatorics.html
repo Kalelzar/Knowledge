@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="en">
+                <head><!-- 2021-03-19 Fri 04:34 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Combinatorics</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Kalelzar">
+
+<link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
+<link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
+<link rel='stylesheet' href='https://unpkg.com/modern-css-reset/dist/reset.min.css'/>
+<link rel='stylesheet' href='../scss/style.scss'/>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
+<script src='../js/page.js'></script>
+<script src='https://unpkg.com/tippy.js@6'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
+        <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
+
+                <a href='index.html' aria-label="Return to index"><img alt"The Emacs logo with an integral symbol" src='../../res/img/home.png' /></a>
+
+                <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
+                <div class='menu-main-container'><ul id='primary-menu' class='menu'>
+</ul></div>                </nav><!-- #site-navigation -->
+            </span>
+
+            				    <p class='text-lg w-full hidden sm:block sm:w-1/2 sm:text-right ml-5 sm:ml-0 mr-1'>tech</p>
+					</div><!-- .site-branding -->
+</div>
+<div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
+<header>
+<a aria-label="Edit in emacs" class='circle emacs-edit' href='org-protocol://roam-by-title?title=Combinatorics'></a>
+<a aria-label="Set page as root" class='circle rooter' href='Combinatorics.html'></a> <h1 class="title">Combinatorics</h1>
+<div class="tags">
+<a class="tag" href="tag_Combinatorics.html">Combinatorics</a>
+<a class="tag" href="tag_Discrete Structures.html">Discrete Structures</a>
+<a class="tag" href="tag_Lecture.html">Lecture</a>
+</div>
+</header><section class="outline-2 graph">
+<object data="../..//res/graph/Combinatorics.svg" type="image/svg+xml"></object></section><section id="outline-container-orgeb076a5" class="outline-2">
+<h2 id="orgeb076a5"><span class="section-number-2">1</span> Combinatorics</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org5c8c2c0" class="outline-3">
+<h3 id="org5c8c2c0"><span class="section-number-3">1.1</span> <a href="Combinatoric principles.html">Combinatoric principles</a></h3>
+</div>
+<div id="outline-container-org032eb77" class="outline-3">
+<h3 id="org032eb77"><span class="section-number-3">1.2</span> Types of combinatorial constructs</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+\(A = \{1, 2, 3\}\)
+</p>
+
+<p>
+\(K_{NP}(3,2) = \{ \{1, 1\}, \{1, 2\}, \{1, 3\},
+             \{2, 1\}, \{2, 2\}, \{2, 3\},
+             \{3, 1\}, \{3, 2\}, \{3, 3\} \}\)
+</p>
+
+<p>
+\(|K_{NP}(3,2)| = n^m = 3^2 = 9\)
+</p>
+
+<p>
+\(K_N(3,2) = \{ \{1,2\}, \{1,3\}, \{2,1\},
+            \{2,3\}, \{3,1\}, \{3,2\} \}\)
+</p>
+
+<p>
+\(|K_N(3,2)| = \prod_{k=0}^{m-1} (n-k) = 3*2 = 6\)
+</p>
+
+<p>
+\(K(3,2) = \{ \{1,2\}, \{1,3\}, \{2,3\} \}\)
+</p>
+
+<p>
+\(|K(3,2)| = \frac{\prod_{k=1}^{m-1}(n-k)}{m!} = \frac{n!}{(n-m)!m!} = \binom{n}{m} = 3\)
+</p>
+
+<p>
+\(K_P(3,2) = \{\{1,1\}, \{1,2\}, \{2,2\}, \{1,3\}, \{2,3\}, \{3,3\}\}\)
+\(|K_{P}(3,2)| = \binom{n-1 + m}{m} = \binom{4}{2} = 6\)
+</p>
+</div>
+
+<div id="outline-container-org8e0eaed" class="outline-4">
+<h4 id="org8e0eaed"><span class="section-number-4">1.2.1</span> Ordered and repeating</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+Marked as \(K_{H,\Pi}(n,m)=|A^{m}|=n^{m}\)
+</p>
+
+<p>
+\(A = \{1, 2, 3\}\)
+</p>
+
+<p>
+\[\begin{align*}
+K_{H,\Pi}(3,2) =&\{ \{1, 1\}, \{1, 2\}, \{1, 3\},\\
+          &\{2, 1\}, \{2, 2\}, \{2, 3\},\\
+          &\{3, 1\}, \{3, 2\}, \{3, 3\} \}
+\end{align*}\]
+</p>
+
+<p>
+\(|K_{NP}(3,2)| = n^m = 3^2 = 9\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf74e7e0" class="outline-4">
+<h4 id="orgf74e7e0"><span class="section-number-4">1.2.2</span> Ordered and not repeating</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+\(|K_H(n,m)|=\prod_{k=0}^{m-1}\limits{}(n-k)=n^{\underline{m}}\)
+</p>
+
+<p>
+\(K_\Pi(3,2) = \{ \{1,2\}, \{1,3\}, \{2,1\},
+            \{2,3\}, \{3,1\}, \{3,2\} \}\)
+</p>
+
+<p>
+\(|K_\Pi(3,2)| = \prod_{k=0}^{m-1} (n-k) = 3*2 = 6\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1a52110" class="outline-4">
+<h4 id="org1a52110"><span class="section-number-4">1.2.3</span> Unordered and not repeating</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<p>
+\(|K(n,m)|=\frac{\prod_{k=0}^{m-1}(n-k)}{m!} = \frac{n!}{(n-m)!m!} = \binom{n}{m}\)
+</p>
+
+<p>
+\(K(3,2) = \{ \{1,2\}, \{1,3\}, \{2,3\} \}\)
+</p>
+
+<p>
+\(|K(3,2)| = \frac{\prod_{k=1}^{m-1}(n-k)}{m!} = \frac{n!}{(n-m)!m!} = \binom{n}{m} = 3\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org02902f7" class="outline-4">
+<h4 id="org02902f7"><span class="section-number-4">1.2.4</span> Unordered and repeating</h4>
+<div class="outline-text-4" id="text-1-2-4">
+<p>
+Marked as \(K_{\Pi}(n,m)=\binom{n-1 + m}{m}\)
+</p>
+
+<p>
+\(K_\Pi(3,2) = \{\{1,1\}, \{1,2\}, \{2,2\}, \{1,3\}, \{2,3\}, \{3,3\}\}\)
+\(|K_{\Pi}(3,2)| = \binom{n-1 + m}{m} = \binom{4}{2} = 6\)
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1baaa35" class="outline-3">
+<h3 id="org1baaa35"><span class="section-number-3">1.3</span> Binomial</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+\(\binom{n}{m} = \frac{\prod_{k=0}^{m-1}(n-k)}{m!} = \frac{n!}{(n-m)!m!}\)
+</p>
+
+\begin{equation}\binom{n}{0} + \binom{n}{1} + \cdots + \binom{n}{n-1} + \binom{n}{n} = 2^{n}\end{equation}
+
+
+<p>
+\(n,m \geq 1 \Rightarrow \binom{n}{m} = \binom{n-1}{m} + \binom{n-1}{m-1}\)
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orgf0162d5" class="outline-2">
+<h2 id="orgf0162d5"><span class="section-number-2">2</span> Backlinks</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><a href="Discrete Structures.html">Discrete Structures</a></li>
+<li><a href="recentchanges.html">Recent changes</a></li>
+</ul>
+</div>
+</section>
+</div>
+<div id='temp-network' style='display:none'></div></div></div></div></body>
+              </html>

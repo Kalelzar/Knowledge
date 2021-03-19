@@ -1,0 +1,4 @@
+#+title: Advanced Algebra
+#+roam_alias: "Advanced Algebra"
+#+roam_tags: "Advanced Algebra" "Lecture"
+* Advanced Algebra

@@ -1,0 +1,20 @@
+#+title: Metric
+#+roam_alias: "Metric" "Distance"
+#+roam_tags: "Metric"
+
+* Metric
+
+Also called distance.
+
+Let $\rho(f,g)$ be a function $F[\_] \rightarrow F[\_]$
+such that:
+
+1) $\rho(f, g) \ge 0$ ($\rho(f,g) = 0 \Leftrightarrow f = g$)
+2) $\rho(f, g) = \rho(g, f)$
+3) $\rho(f, g) \le \rho(f, h) + \rho(h, g)$
+
+** Examples
+
+1. $\rho(f,g) = \max_{x \in [a,b]}\limits{}|f(x) - g(x)|$
+
+2. $\rho(f,g) = \int_{a}^{b}\limits{}|f(x)-g(x)|dx$ (more suited for approximating by shape)

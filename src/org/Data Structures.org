@@ -1,0 +1,4 @@
+#+title: Data Structures
+#+roam_alias: "Data Structures"
+#+roam_tags: "Data Structures" "Lecture"
+* Data Structures

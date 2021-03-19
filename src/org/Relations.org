@@ -1,0 +1,27 @@
+#+title: Relations
+#+roam_alias: "Relations"
+#+roam_tags: "Discrete Structures" "Lecture" "Relation" "Meta:Collection"
+* Relations
+*** [[file:Relation.org][Definition]]
+
+*** Properties
+**** [[file:Reflexive Relation.org][Reflexive]]
+**** [[file:Anti-reflexive relation.org][Anti-reflexive]]
+**** [[file:Symmetric Relation.org][Symmetric]]
+**** [[file:Anti-symmetric Relation.org][Anti-symmetric]]
+**** [[file:Strongly Anti-symmetric Relation.org][Strongly anti-symmetric]]
+**** [[file:Transitive Relation.org][Transitive]]
+*** Closures
+**** [[file:Reflexive Closure.org][Reflexive]]
+**** [[file:Transitive Closure.org][Transitive]]
+**** [[file:Symmetric Closure.org][Symmetric]]
+**** Algorithm for constructing closures
+***** [[id:4415fce8-7a8d-41b0-b465-3c1ac77095bc][Reflexive]]
+***** [[id:9ba7e28e-c547-45fa-96d8-cc4fb314b71f][Symmetric]]
+***** [[id:9d3d939a-81be-4bba-90bf-898c3e651435][Transitive]]
+*** [[file:Relation of Equivalence.org][Relation of equivalence]]
+**** [[file:Class of equivalence.org][Classes of equivalence]]
+*** [[file:Partial order.org][Partial order]]
+*** [[file:Linear order.org][Linear order]]
+*** [[file:Linear extension.org][Linear extension]]
+*** [[file:Chain.org][Chains]]

@@ -1,0 +1,7 @@
+#+title: Principle of the bijection
+#+roam_alias: "Principle of the bijection"
+#+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
+* Principle of the bijection
+Let $A$ and $B$ be [[file:Set.org][sets]].
+
+$|A| = |B| \Leftrightarrow \exists{} f: A -> B$ for $f$ - [[file:Bijective function.org][bijection]]

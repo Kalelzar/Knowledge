@@ -1,0 +1,8 @@
+#+title: Numeric Methods
+#+roam_alias: "Numeric Methods"
+#+roam_tags: "Numeric Methods" "Lecture"
+
+* Numeric Methods
+** Lectures
+*** [[file:Function Approximation.org][Function Approximation]]
+*** [[file:Lagrange Interpolation.org][Lagrange Interpolation]]

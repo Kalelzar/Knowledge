@@ -1,0 +1,13 @@
+#+title: Complex Function
+#+roam_alias: "Complex Function"
+#+roam_tags: "Function" "Approximation" "Definition" "Numeric Methods"
+
+* Complex Function
+
+There are two types of complex functions:
+
+** Complex analytic expressions
+** Functions defined by a table
+
+ | x | x_0 | x_1 | x_2 | ... | x_n |
+ | y | y_0 | y_1 | y_2 | ... | y_n |

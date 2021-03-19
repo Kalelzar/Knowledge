@@ -1,0 +1,4 @@
+#+title: Partition
+#+roam_alias: "Partition"
+#+roam_tags: "Differential Analysis" "Definition" "Set"
+* Partition

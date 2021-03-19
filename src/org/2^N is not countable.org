@@ -1,0 +1,41 @@
+#+title: 2^N is not countable
+#+roam_alias: "2^N is not countable"
+#+roam_tags: "Discrete Structures" "Theorem"
+* 2^N is not countable
+We assume that $2^{N}$ is countable.
+Let $A_{0}, A_{1}, \dots$ are all elements of $2^{N}$ in order.
+
+$\forall{}i : A_{i} \leftrightarrow \{a_{i,0}, a_{i,1}, \dots\}$
+where $\forall{}i,j : a_{i,j} = 0 \lor a_{i,j} = 1$
+
+Since $2^{N}$ is countable we can put all $a_{i,j}$ in a table
+
+|-----+------+------+------+------+-----|
+| $A_0$ | $a_{0,0}$ | $a_{0,1}$ | $a_{0,2}$ | $a_{0,3}$ | $\dots$ |
+| $A_1$ | $a_{1,0}$ | $a_{1,1}$ | $a_{1,2}$ | $a_{1,3}$ | $\dots$ |
+| $A_2$ | $a_{2,0}$ | $a_{2,1}$ | $a_{2,2}$ | $a_{2,3}$ | $\dots$ |
+| $A_3$ | $a_{3,0}$ | $a_{3,1}$ | $a_{3,2}$ | $a_{3,3}$ | $\dots$ |
+|-----+------+------+------+------+-----|
+
+
+let $S_d$ be the sequence $\forall i \{a_{i,i}\}$ which corresponds to the primary
+diagonal of the table.
+
+We construct the bitwise inversion of $A_D$ \rightarrow $A_{d}$
+
+Since $S_d$ is a sequence constructed with 0 and 1 then it also
+is a characteristic sequence of some $A_{d}$ therefore it should also
+exist in some row of the table.
+
+But $\forall i : A_{i} = \{a_{i,0}, a_{i,1}, \dotsc, a_{i, i}, \dotsc\}$
+
+and we know that $A_{d} = \{\overline{a_{0,0}}, \overline{a_{1,1}}, \dotsc, \overline{a_{i,i}}, \dotsc\}$
+
+as such $\forall i : A_{i} \neq A_{d}$
+
+since $\forall i, a_{i,i} \in A_i,  b_{i,i} \in A_d \land b_{i,i} = \overline{a_{i,i}}$
+
+and obviously $a_{i,i} \neq \overline{a_{i,i}}$
+
+Therefore $A_{d}$ cannot exist anywere in the table and consequently
+$2^{N}$ is not countable.

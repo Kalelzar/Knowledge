@@ -1,0 +1,24 @@
+///Default background color.
+///@type Color
+$background-color: hsl(180, 25.49%, 10%);
+
+///Default foreground color.
+///@type Color
+$foreground-color: hsl(180, 2.61%, 77.45%);
+
+///Default link color for forward links.
+//@type Color
+$link-forward-color: hsl(350.53, 39.75%, 53.14%);
+
+///Default link color for forward links but semi-transparent
+///@type Color
+$link-forward-color-transparent: rgba($link-forward-color, 0.5);
+
+$heading-bg-colors: (
+  1: #347172,
+  2: #3e5754,
+  3: #333841,
+);
+
+
+///
