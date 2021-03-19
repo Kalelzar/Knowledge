@@ -1,0 +1,36 @@
+{
+  "name": "Knowledge",
+  "version": "1.0.0",
+  "description": "A personal wiki thing build from org-roam",
+  "main": "index.html",
+  "scripts": {
+    "serve": "parcel serve ./src/html/index.html",
+    "build": "parcel build ./src/html/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//Kalelzar/Knowledge"
+  },
+  "keywords": [],
+  "postcss": {
+    "syntax": "postcss-scss",
+    "map": false,
+    "plugins": {
+      "css-declaration-sorter": {
+        "order": "smacss"
+      }
+    }
+  },
+  "author": "Kalelzar",
+  "license": "none",
+  "dependencies": {
+    "urijs": "^1.19.6"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.8",
+    "stylelint": "^13.12.0",
+    "stylelint-config-sass-guidelines": "^8.0.0"
+  }
+}
