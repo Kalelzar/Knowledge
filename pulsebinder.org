@@ -1,5 +1,0 @@
-#+title: pulsebinder
-#+roam_alias: "pulsebinder"
-#+roam_tags: "Project" "PulseAudio"
-* pulsebinder
-A pulseaudio command-line mixer

@@ -1,4 +1,0 @@
-#+title: OOP
-#+roam_alias: "OOP"
-#+roam_tags: "OOP" "Lecture"
-* OOP

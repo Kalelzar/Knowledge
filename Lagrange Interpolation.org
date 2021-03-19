@@ -1,8 +1,0 @@
-#+title: Lagrange Interpolation
-#+roam_alias: "Lagrange Interpolation"
-#+roam_tags: "Lagrange" "Interpolation" "Lecture" "Numeric Methods"
-* Lagrange Interpolation
-
-Let $\pi_n = \{ \sum^{n}_{k=0}\limits{}a_{k}x^{k}:a_{k}\in\mathbb{R}, k = \overline{0,n}\}$
-- algebraic polynomials of degree $\le n$
-** [[file:Lagrange Interpolation Problem.org][Lagrange Interpolation Problem]]

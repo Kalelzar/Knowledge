@@ -1,5 +1,0 @@
-#+title: Fundamental Theorem of Algebra
-#+roam_alias: "Fundamental Theorem of Algebra"
-#+roam_tags: "Linear Algebra" "Theorem"
-
-* Fundamental Theorem of Algebra

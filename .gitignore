@@ -4,3 +4,5 @@ graph.svg
 graph.json
 graph.dot
 /dot/*.dot
+/.parcel-cache/
+/node_modules/

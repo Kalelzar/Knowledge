@@ -1,7 +1,0 @@
-#+title: Extrapolation
-#+roam_alias: "Extrapolation"
-#+roam_tags: "Numeric Methods" "Definition"
-* Extrapolation
-
-Using [[file:Lagrange Interpolation.org][interpolation]] on a function for a value outside of the defined range of
-interpolation knots is called extrapolation

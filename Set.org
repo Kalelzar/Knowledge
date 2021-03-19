@@ -1,4 +1,0 @@
-#+title: Set
-#+roam_alias: "Set"
-#+roam_tags: "Differential Analysis" "Definition"
-* Set

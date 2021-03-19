@@ -1,5 +1,0 @@
-#+title: Differential Analysis
-#+roam_alias: "Differential Analysis"
-#+roam_tags: "Differential Analysis" "Lecture"
-* Differential Analysis
-** [[file:Set.org][Set]]

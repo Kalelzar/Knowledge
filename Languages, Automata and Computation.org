@@ -1,4 +1,0 @@
-#+title: Languages, Automata and Computation
-#+roam_alias: "Languages, Automata and Computation"
-#+roam_tags: "LAC" "Lecture"
-* Languages, Automata and Computation

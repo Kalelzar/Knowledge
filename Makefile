@@ -3,26 +3,31 @@
 
 # Makefile for myblog
 
-.PHONY: all publish publish_no_init
+.PHONY: all publish
 
-all: graph republish
 
-graph: publish.el
-	@echo "Graphing..."
-	emacs --batch --load publish.el --funcall knowledge/build-graph-json
-	@chmod 755 graph.svg
 
-publish: publish.el
+init:
+	npm install
+
+npm-serve:
+	npm run serve
+
+format-scss:
+	postcss src/scss/**/*.scss --replace --config package.json
+
+serve: publish npm-serve
+serve-new: republish npm-serve
+
+all: republish
+
+publish: src/el/publish.el
 	@echo "Publishing..."
-	emacs --batch --load publish.el --funcall knowledge/publish
+	emacs --batch --load src/el/publish.el --funcall knowledge/publish
 
-republish: publish.el
+republish: src/el/publish.el
 	@echo "Republishing all files..."
-	emacs --batch --load publish.el --funcall knowledge/republish
-
-publish_no_init: publish.el
-	@echo "Publishing... with --no-init."
-	emacs --batch --no-init --load publish.el --funcall org-publish-all
+	emacs --batch --load src/el/publish.el --funcall knowledge/republish
 
 clean:
 	@echo "Cleaning up.."
