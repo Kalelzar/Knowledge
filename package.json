@@ -2,14 +2,13 @@
   "name": "Knowledge",
   "version": "1.0.0",
   "description": "A personal wiki thing build from org-roam",
-  "main": "index.html",
   "scripts": {
-    "serve": "parcel serve ./src/html/index.html -d docs",
-    "build": "parcel build ./src/html/index.html -d docs"
+    "serve": "parcel serve --public-url '/Knowledge/' --dist-dir docs ./src/html/index.html",
+    "build": "parcel build --public-url '/Knowledge/' --dist-dir docs ./src/html/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com//Kalelzar/Knowledge"
+    "url": "https://github.com/Kalelzar/Knowledge"
   },
   "keywords": [],
   "postcss": {

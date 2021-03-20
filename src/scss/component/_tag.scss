@@ -1,0 +1,49 @@
+.tag {
+  flex-grow: 1;
+  padding: 0px 5px 0px 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  background: var(--clr-tag-bg);
+  color: var(--clr-tag-fg);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tags {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100%;
+}
+
+section.tagged {
+  gap: 1em;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+section.tagged > div {
+  flex: 1 1 35%;
+}
+
+h2.tagged {
+  display: flex;
+  flex: 1 1 60%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-heading-tag-bg);
+  text-align: center;
+
+  & > a {
+    flex-grow: 1;
+    padding: 10px 8px;
+    border-radius: 15% 0 0 15%;
+    background-color: var(--clr-heading-1-bg);
+    color: var(--clr-fg);
+  }
+}

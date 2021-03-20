@@ -1,1 +1,1 @@
-(setq postcss-sorting-config-file "./postcss.config.js")
+;(setq postcss-sorting-config-file "./postcss.config.js")

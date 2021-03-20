@@ -14,10 +14,22 @@ $link-forward-color: hsl(350.53, 39.75%, 53.14%);
 ///@type Color
 $link-forward-color-transparent: rgba($link-forward-color, 0.5);
 
+$tag-background: #923D4B;
+$tag-foreground: #FFFFFF;
+
+$border-color: #a0aec0;
+
+$emacs-color: #7c5cae;
+
+$outline-bg-colors: (
+  2: #182525,
+);
+
 $heading-bg-colors: (
   1: #347172,
   2: #3e5754,
   3: #333841,
+  "tag": #182525,
 );
 
 

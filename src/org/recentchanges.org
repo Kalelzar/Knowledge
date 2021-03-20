@@ -77,7 +77,6 @@
 -  03 Mar 2021  [[file:Strongly Anti-symmetric Relation.org][Strongly Anti-symmetric Relation]] 
 -  03 Mar 2021  [[file:Numeric Methods.org][Numeric Methods]] 
 -  03 Mar 2021  [[file:Reflexive Relation.org][Reflexive Relation]] 
--  03 Mar 2021  [[file:README.org][index]] 
 -  03 Mar 2021  [[file:Metric Criteria.org][Metric Criteria]] 
 -  03 Mar 2021  [[file:Kronecker Delta.org][Kronecker Delta]] 
 -  03 Mar 2021  [[file:Logical Equivalences.org][Logical Equivalences]] 

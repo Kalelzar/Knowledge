@@ -4,3 +4,9 @@
 @use 'abstracts/root';
 @use 'base/base';
 @use 'base/typography';
+@use 'base/meta_classes';
+@use 'base/font_face';
+@use 'base/animation';
+@use 'component/tag';
+@use 'layout/grid';
+@use 'layout/outline';

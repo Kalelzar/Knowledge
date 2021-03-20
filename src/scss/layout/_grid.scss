@@ -1,0 +1,61 @@
+.grid-container {
+  scrollbar-width: none;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  overflow-x: auto !important;
+  white-space: nowrap;
+
+  @media only screen and (max-width: 600px) {
+      padding: 0;
+  }
+
+  @media (min-width: 640px) {
+    margin-left: 2.5rem;
+  }
+}
+
+.ds-grid {
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.page {
+  scrollbar-width: none;
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  height: 100% !important;
+  max-height: 100%;
+  margin-right: 10px;
+  padding: 10px 10px;
+  padding-left: 0;
+  overflow-y: auto;
+  vertical-align: top;
+  white-space: normal;
+
+  @media (min-width: 1024px) {
+    width: 49%;
+    min-width: 49%;
+    max-width: 49%;
+  }
+
+  &:last-child {
+     margin-right: 15px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 150px;
+  }
+
+
+  ul {
+    margin-left: 2rem;
+    list-style-position: outside;
+    list-style-type: disc;
+
+    ul li {
+    list-style-type: circle;
+    }
+  }
+}

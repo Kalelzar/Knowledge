@@ -75,7 +75,7 @@
     (-reduce
      #'s-concat
      (--map
-     (format "\"%s\" [label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];"
+      (format "\"%s\" [label=\"%s\",tooltip=\"%s\",URL=\"/Knowledge/%s.html\",target=\"_parent\"];"
              it it it it)
      (-distinct
      (-concat
@@ -87,7 +87,7 @@
     (-reduce
      #'s-concat
      (--map
-     (format "\"%s\" [label=\"%s\",tooltip=\"%s\",URL=\"../%s.html\",target=\"_parent\"];"
+     (format "\"%s\" [label=\"%s\",tooltip=\"%s\",URL=\"/Knowledge/%s.html\",target=\"_parent\"];"
              it it it it)
      (-distinct
      (cluster-back-links cluster))))))

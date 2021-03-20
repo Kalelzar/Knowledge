@@ -8,7 +8,17 @@
   --clr-forward-link: #{$link-forward-color};
   --clr-forward-link-transparent: #{$link-forward-color-transparent};
 
+  --clr-tag-bg: #{$tag-background};
+  --clr-tag-fg: #{$tag-foreground};
+
+  --clr-border: #{$border-color};
+  --clr-emacs: #{$emacs-color};
+
   @each $heading-level, $color in $heading-bg-colors {
     --clr-heading-#{$heading-level}-bg: #{$color}
+  }
+
+  @each $outline-level, $color in $outline-bg-colors {
+    --clr-outline-#{$outline-level}-bg: #{$color}
   }
 }
