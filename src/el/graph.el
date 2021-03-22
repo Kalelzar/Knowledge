@@ -1,7 +1,7 @@
 ;;; graph.el  -- A short package for generating partial graphs for org-roam
 ;;; Commentary:
 ;;; Code:
-(require 'org-roam-db)
+(require 'org-roam)
 (require 'dash)
 (require 'f)
 (require 'cl-lib)
@@ -76,7 +76,10 @@
      #'s-concat
      (--map
       (format "\"%s\" [label=\"%s\",tooltip=\"%s\",URL=\"/Knowledge/%s.html\",target=\"_parent\"];"
-             it it it it)
+             (slug-to-title it)
+             (slug-to-title it)
+             (slug-to-title it)
+             (f-base it))
      (-distinct
      (-concat
       (list (cluster-center-node cluster))
@@ -88,22 +91,29 @@
      #'s-concat
      (--map
      (format "\"%s\" [label=\"%s\",tooltip=\"%s\",URL=\"/Knowledge/%s.html\",target=\"_parent\"];"
-             it it it it)
+             (slug-to-title it)
+             (slug-to-title it)
+             (slug-to-title it)
+             (f-base it))
      (-distinct
      (cluster-back-links cluster))))))
 
 (defun export-cluster-as-dot (cluster forward-node-format forward-edge-format
                                       backward-node-format backward-edge-format)
   (unless (cluster-p cluster)
-    (error "Expected a cluster."))
+    (error "Expected a cluster"))
   (unless (cluster-node-format-p forward-node-format)
-    (error "Expected a node-format."))
+    (error "Expected a node-format"))
   (unless (cluster-edge-format-p forward-edge-format)
-    (error "Expected a edge-format."))
+    (error "Expected a edge-format"))
   (unless (cluster-node-format-p backward-node-format)
-    (error "Expected a node-format."))
+    (error "Expected a node-format"))
   (unless (cluster-edge-format-p backward-edge-format)
-    (error "Expected a edge-format."))
+    (error "Expected a edge-format"))
+
+  (message (format "Exporting cluster of %s"
+                   (slug-to-title
+                    (cluster-center-node cluster))))
 
   (s-concat
    (format "node [%s];" (format-to-dot forward-node-format))
@@ -126,20 +136,20 @@
                                      backward-node-format backward-edge-format
                                      graph-format)
   (unless (proper-list-p clusters)
-    (error "Expected a list."))
+    (error "Expected a list"))
   (unless (cluster-node-format-p forward-node-format)
-    (error "Expected a node-format."))
+    (error "Expected a node-format"))
   (unless (cluster-edge-format-p forward-edge-format)
-    (error "Expected a edge-format."))
+    (error "Expected a edge-format"))
   (unless (cluster-node-format-p backward-node-format)
-    (error "Expected a node-format."))
+    (error "Expected a node-format"))
   (unless (cluster-edge-format-p backward-edge-format)
-    (error "Expected a edge-format."))
+    (error "Expected a edge-format"))
   (unless (cluster-graph-format-p graph-format)
-    (error "Expected a graph-format."))
+    (error "Expected a graph-format"))
 
   (s-concat
-   (format "digraph \"%s\" {" (cluster-center-node (first clusters)))
+   (format "digraph \"%s\" {" (slug-to-title (cluster-center-node (first clusters))))
    (format "graph [%s];" (format-to-dot graph-format))
    (-reduce
     #'concat
@@ -154,9 +164,9 @@
 
 
 (defun roam-note-make-dot (roam-note)
-  (message (format "Generating dot graph for %s" roam-note))
+  (message (format "Generating dot graph for %s" (slug-to-title roam-note)))
   (f-write-text (export-clusters-as-dot-graph
-                 (-cluster-fork (build-cluster (f-base roam-note)))
+                 (-cluster-fork (build-cluster roam-note))
                  (make-cluster-node-format :fillcolor "#273434"
                                            :color "#b75867"
                                            :fontcolor "#c4c7c7")
@@ -176,35 +186,52 @@
                       (concat (f-base roam-note)
                               ".dot"))))
 
+(defun slug-to-title (slug)
+  (first
+   (-flatten (org-roam-db-query [:select title
+                                         :from titles
+                                         :where (= file $s1)]
+                                (f-join org-roam-directory slug)))))
+
+(defun title-to-slug (title)
+  (f-filename
+   (first
+    (-flatten (org-roam-db-query [:select file
+                                          :from titles
+                                          :where (= title $s1)]
+                                 title)))))
+
 (defun roam-note-make-dot-all ()
   (interactive)
-  (dolist (file (-flatten
-                (org-roam-db-query [:select file
-                                            :from files])))
+  (dolist (file (-map
+                 #'f-filename
+                 (-flatten
+                  (org-roam-db-query [:select file
+                                            :from files]))))
     (roam-note-make-dot file)))
 
 
 
-(defvar cluster-backlinks-exclude-filter '("recentchanges" "README" "Knowledge Base"))
+(defvar cluster-backlinks-exclude-filter '("recentchanges" "readme" "knowledge_base"))
 
 (defun build-cluster (center-node)
-  "Construct a cluster around CENTER_NODE."
-  (let* ((forward (-map
-                   #'f-base
+  "Construct a cluster around CENTER-NODE."
+  (let* ((forward (--map
+                   (f-filename (title-to-slug (f-base it)))
                    (-flatten
                     (org-roam-db-query [:select dest
                                                 :from links
                                                 :where (= source $s1)]
                                        (f-join org-roam-directory
-                                               (concat center-node ".org")))))))
+                                               (concat center-node)))))))
     (make-cluster
    :forward-links
    forward
    :back-links
    (let ((-compare-fn #'string=))
      (-difference
-      (-map
-       #'f-base
+      (--map
+       (f-filename (title-to-slug (f-base it)))
        (-flatten
         (org-roam-db-query [:select source
                                     :from links

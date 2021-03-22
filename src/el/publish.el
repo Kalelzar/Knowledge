@@ -26,6 +26,8 @@
 ;; Don't create backup files (those ending with ~) during the publish process.
 (setq make-backup-files nil)
 
+(toggle-debug-on-error)
+
 ;;;;;;;;;;;;;;;;;
 ;; org-publish ;;
 ;;;;;;;;;;;;;;;;;
@@ -140,23 +142,6 @@
         ;;  :publishing-function org-publish-attachment)
         )))
 
-(defun knowledge/org-roam-title-to-slug (title)
-  "Convert TITLE to a filename-suitable slug.  Use hyphens rather than underscores."
-  (cl-flet* ((nonspacing-mark-p (char)
-                                (eq 'Mn (get-char-code-property char 'general-category)))
-             (strip-nonspacing-marks (s)
-                                     (apply #'string (seq-remove #'nonspacing-mark-p
-                                                                 (ucs-normalize-NFD-string s))))
-             (cl-replace (title pair)
-                         (replace-regexp-in-string (car pair) (cdr pair) title)))
-    (let* ((pairs `(("[^[:alnum:][:digit:]]" . "-")  ;; convert anything not alphanumeric
-                    ("__*" . "-")  ;; remove sequential underscores
-                    ("^_" . "")  ;; remove starting underscore
-                    ("_$" . "")))  ;; remove ending underscore
-           (slug (-reduce-from #'cl-replace (strip-nonspacing-marks title) pairs)))
-      (downcase slug))))
-
-(setq org-roam-title-to-slug-function 'knowledge/org-roam-title-to-slug)
 
 ;; org-roam backlinks
 ;; see https://org-roam.readthedocs.io/en/master/org_export/
@@ -179,8 +164,23 @@
                   (knowledge/get-tags-of-file file)))
           "\n</div>"))
 
-(defun knowledge/org-roam--tags-html (title)
-  (let ((file (concat (f-expand org-roam-directory) "/" (substring-no-properties title) ".org")))
+(defun slug-to-title (slug)
+  (first
+   (-flatten (org-roam-db-query [:select title
+                                         :from titles
+                                         :where (= file $s1)]
+                                (f-join org-roam-directory slug)))))
+
+(defun title-to-slug (title)
+  (f-filename
+   (first
+    (-flatten (org-roam-db-query [:select file
+                                          :from titles
+                                          :where (= title $s1)]
+                                 title)))))
+
+(defun knowledge/org-roam--tags-html (slug)
+  (let ((file (f-join org-roam-directory (concat slug ".org"))))
     (knowledge/tag-html file)))
 
 (defun knowledge/get-tags ()
@@ -226,7 +226,7 @@
     (insert "</header>")
     (dolist (file (knowledge/get-file-with-tag tag))
       (insert "<section class=\"outline-2 tagged\">")
-      (insert (format "<h2 class=\"tagged\"><a href=\"%s.html\" class=\"tagged\">%s</a></h2>" (f-base file) (f-base file)))
+      (insert (format "<h2 class=\"tagged\"><a href=\"%s.html\" class=\"tagged\">%s</a></h2>" (f-base file) (slug-to-title (f-filename file))))
       (insert "<div class='outline-text-2'>")
       (insert (knowledge/tag-html file))
 ;;      (insert (format "<p>%s</p>" (get-brief-description file)))
@@ -287,6 +287,7 @@
              (when (plist-get info :with-title)
                (let ((title (and (plist-get info :with-title)
                                  (plist-get info :title)))
+                     (file (f-base (plist-get info :output-file)))
                      (subtitle (plist-get info :subtitle))
                      (html5-fancy (org-html--html5-fancy-p info)))
                  (when title
@@ -295,9 +296,9 @@
                         "<header>\n<a aria-label=\"Edit in emacs\" class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a aria-label=\"Set page as root\" class='circle rooter' href='%s.html'></a> <h1 class=\"title\">%s</h1>\n%s\n%s</header>"
                       "<h1 class=\"title\">\n<a aria-label=\"Edit in emacs\" class='circle emacs-edit' href='org-protocol://roam-by-title?title=%s'></a>\n<a aria-label=\"Set page as root\" class='rooter' href='%s.html'></a>%s</h1>\n%s\n%s\n")
                     (org-export-data title info)
-                    (f-base (plist-get info :output-file))
+                    file
                     (org-export-data title info)
-                    (knowledge/org-roam--tags-html (org-export-data title info))
+                    (knowledge/org-roam--tags-html file)
                     (if subtitle
                         (format
                          (if html5-fancy
