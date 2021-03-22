@@ -1,0 +1,12 @@
+#+title: Descartes Product
+#+startup: latexpreview
+#+roam_alias: "Descartes Product"
+#+roam_tags: "Discrete Structures" "Definition" "Set"
+* Descartes Product
+** In 2D
+A Descartes Product of two sets $A$, $B$
+is the set $C= A \times B$ of all
+possible ordered pairs $C = \{ (a,b) | a \in A \land b \in B\}$
+** In nD
+A Descartes Product of n sets $A_1, A_2, \dots, A_n$
+is the set $B = A_1 \times A_2 \times \cdots \times A_n = \{(a_1, a_2, \cdots, a_n) | (a_i \in A_i, i \in \overline{1,n}) \}$

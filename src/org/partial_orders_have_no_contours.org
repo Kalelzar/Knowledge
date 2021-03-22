@@ -1,0 +1,7 @@
+#+title: Partial orders have no contours
+#+startup: latexpreview
+#+roam_alias: "Partial orders have no contours"
+#+roam_tags: "Discrete Structures" "Theorem" "Relation"
+* Partial orders have no contours
+Let $R \subseteq A^{2}$ be [[file:Reflexive Relation.org][Reflexive Relation]] and [[file:Transitive Relation.org][Transitive Relation]].
+Then R is a [[file:Partial order.org][Partial order]] \Leftrightarrow it has no [[file:Contour.org][Contours]].

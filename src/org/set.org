@@ -1,0 +1,5 @@
+#+title: Set
+#+startup: latexpreview
+#+roam_alias: "Set"
+#+roam_tags: "Differential Analysis" "Definition"
+* Set

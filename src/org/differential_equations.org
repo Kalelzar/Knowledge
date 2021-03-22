@@ -1,0 +1,5 @@
+#+title: Differential Equations
+#+startup: latexpreview
+#+roam_alias: "Differential Equations"
+#+roam_tags: "Differential Equations" "Lecture"
+* Differential Equations

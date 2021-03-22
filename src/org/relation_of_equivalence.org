@@ -1,0 +1,14 @@
+#+title: Relation of Equivalence
+#+startup: latexpreview
+#+roam_alias: "Relation of Equivalence"
+#+roam_tags: "Discrete Structures" "Definition" "Relation"
+* Relation of Equivalence
+
+A relation of equivalence is a [[file:Relation.org][Relation]] that is
+[[file:Reflexive Relation.org][reflexive]],
+[[file:Symmetric Relation.org][symmetric]]
+and [[file:Transitive Relation.org][transitive]].
+
+Each relation of equivalence $R \in A^2$ [[file:Partition.org][partitions]]
+[[file:Set.org][the Set]] $A$ into
+[[file:Class of equivalence.org][Classes of equivalence]].

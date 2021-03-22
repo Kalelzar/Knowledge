@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Fundamental polynomials of Lagrange</title>
 <g id="a_node1"><a xlink:href="/Knowledge/Fundamental polynomials of Lagrange.html" xlink:title="Fundamental polynomials of Lagrange" target="_parent">
-<path fill="#273434" stroke="#b75867" d="M224,-81C224,-81 12,-81 12,-81 6,-81 0,-75 0,-69 0,-69 0,-57 0,-57 0,-51 6,-45 12,-45 12,-45 224,-45 224,-45 230,-45 236,-51 236,-57 236,-57 236,-69 236,-69 236,-75 230,-81 224,-81"/>
-<text text-anchor="middle" x="118" y="-59.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental polynomials of Lagrange</text>
+<path fill="#273434" stroke="#b75867" d="M224,-95C224,-95 12,-95 12,-95 6,-95 0,-89 0,-83 0,-83 0,-71 0,-71 0,-65 6,-59 12,-59 12,-59 224,-59 224,-59 230,-59 236,-65 236,-71 236,-71 236,-83 236,-83 236,-89 230,-95 224,-95"/>
+<text text-anchor="middle" x="118" y="-73.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental polynomials of Lagrange</text>
 </a>
 </g>
 </g>
@@ -22,151 +22,151 @@
 <g id="node2" class="node">
 <title>Kronecker Delta</title>
 <g id="a_node2"><a xlink:href="/Knowledge/Kronecker Delta.html" xlink:title="Kronecker Delta" target="_parent">
-<path fill="#273434" stroke="#b75867" d="M339,-71C339,-71 256,-71 256,-71 250,-71 244,-65 244,-59 244,-59 244,-47 244,-47 244,-41 250,-35 256,-35 256,-35 339,-35 339,-35 345,-35 351,-41 351,-47 351,-47 351,-59 351,-59 351,-65 345,-71 339,-71"/>
-<text text-anchor="middle" x="297.5" y="-49.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Kronecker Delta</text>
+<path fill="#273434" stroke="#b75867" d="M339,-85C339,-85 256,-85 256,-85 250,-85 244,-79 244,-73 244,-73 244,-61 244,-61 244,-55 250,-49 256,-49 256,-49 339,-49 339,-49 345,-49 351,-55 351,-61 351,-61 351,-73 351,-73 351,-79 345,-85 339,-85"/>
+<text text-anchor="middle" x="297.5" y="-63.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Kronecker Delta</text>
 </a>
 </g>
 </g>
 <!-- Fundamental polynomials of Lagrange&#45;&gt;Kronecker Delta -->
 <g id="edge1" class="edge">
 <title>Fundamental polynomials of Lagrange&#45;&gt;Kronecker Delta</title>
-<path fill="none" stroke="#b75867" d="M236.41,-56.39C236.56,-56.38 236.71,-56.37 236.87,-56.36"/>
-<polygon fill="#b75867" stroke="#b75867" points="233.86,-60.03 243.65,-55.98 233.47,-53.05 233.86,-60.03"/>
+<path fill="none" stroke="#b75867" d="M236.41,-70.39C236.56,-70.38 236.71,-70.37 236.87,-70.36"/>
+<polygon fill="#b75867" stroke="#b75867" points="233.86,-74.03 243.65,-69.98 233.47,-67.05 233.86,-74.03"/>
 </g>
 <!-- Lagrange Interpolation Problem -->
 <g id="node3" class="node">
 <title>Lagrange Interpolation Problem</title>
 <g id="a_node3"><a xlink:href="/Knowledge/Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
-<path fill="none" stroke="#b75867" d="M546,-91C546,-91 371,-91 371,-91 365,-91 359,-85 359,-79 359,-79 359,-67 359,-67 359,-61 365,-55 371,-55 371,-55 546,-55 546,-55 552,-55 558,-61 558,-67 558,-67 558,-79 558,-79 558,-85 552,-91 546,-91"/>
-<text text-anchor="middle" x="458.5" y="-69.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
+<path fill="none" stroke="#b75867" d="M546,-105C546,-105 371,-105 371,-105 365,-105 359,-99 359,-93 359,-93 359,-81 359,-81 359,-75 365,-69 371,-69 371,-69 546,-69 546,-69 552,-69 558,-75 558,-81 558,-81 558,-93 558,-93 558,-99 552,-105 546,-105"/>
+<text text-anchor="middle" x="458.5" y="-83.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>
 </g>
 </g>
 <!-- Fundamental polynomials of Lagrange&#45;&gt;Lagrange Interpolation Problem -->
 <g id="edge2" class="edge">
 <title>Fundamental polynomials of Lagrange&#45;&gt;Lagrange Interpolation Problem</title>
-<path fill="none" stroke="#ffffff" d="M246.15,-68.06C287.61,-69.34 325.44,-70.28 358.9,-71.03"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="246.21,-64.56 236.1,-67.74 245.99,-71.56 246.21,-64.56"/>
+<path fill="none" stroke="#ffffff" d="M246.15,-82.06C287.61,-83.34 325.44,-84.28 358.9,-85.03"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="246.21,-78.56 236.1,-81.74 245.99,-85.56 246.21,-78.56"/>
 </g>
 <!-- Kronecker Delta&#45;&gt;Fundamental polynomials of Lagrange -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>Kronecker Delta&#45;&gt;Fundamental polynomials of Lagrange</title>
-<path fill="none" stroke="#ffffff" d="M236.87,-57.07C236.71,-57.08 236.56,-57.09 236.41,-57.1"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="233.87,-60.76 243.65,-56.67 233.46,-53.77 233.87,-60.76"/>
+<path fill="none" stroke="#ffffff" d="M236.87,-71.07C236.71,-71.08 236.56,-71.09 236.41,-71.1"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="233.87,-74.76 243.65,-70.67 233.46,-67.77 233.87,-74.76"/>
 </g>
 <!-- Kronecker Delta&#45;&gt;Lagrange Interpolation Problem -->
-<g id="edge6" class="edge">
+<g id="edge5" class="edge">
 <title>Kronecker Delta&#45;&gt;Lagrange Interpolation Problem</title>
-<path fill="none" stroke="#ffffff" d="M358.74,-60.58C358.82,-60.59 358.91,-60.6 358.99,-60.61"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="361.36,-57.38 351,-59.6 360.49,-64.32 361.36,-57.38"/>
+<path fill="none" stroke="#ffffff" d="M358.74,-74.58C358.82,-74.59 358.91,-74.6 358.99,-74.61"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="361.36,-71.38 351,-73.6 360.49,-78.32 361.36,-71.38"/>
+</g>
+<!-- Linear Algebra -->
+<g id="node4" class="node">
+<title>Linear Algebra</title>
+<g id="a_node4"><a xlink:href="/Knowledge/Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
+<path fill="none" stroke="#b75867" d="M495.5,-68C495.5,-68 421.5,-68 421.5,-68 415.5,-68 409.5,-62 409.5,-56 409.5,-56 409.5,-44 409.5,-44 409.5,-38 415.5,-32 421.5,-32 421.5,-32 495.5,-32 495.5,-32 501.5,-32 507.5,-38 507.5,-44 507.5,-44 507.5,-56 507.5,-56 507.5,-62 501.5,-68 495.5,-68"/>
+<text text-anchor="middle" x="458.5" y="-46.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
+</a>
+</g>
+</g>
+<!-- Kronecker Delta&#45;&gt;Linear Algebra -->
+<g id="edge3" class="edge">
+<title>Kronecker Delta&#45;&gt;Linear Algebra</title>
+<path fill="none" stroke="#ffffff" d="M361.34,-60.28C377.32,-58.57 394.23,-56.76 409.35,-55.15"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="360.57,-56.84 351,-61.39 361.32,-63.8 360.57,-56.84"/>
 </g>
 <!-- Formula of Lagrange for Interpolation -->
-<g id="node4" class="node">
+<g id="node5" class="node">
 <title>Formula of Lagrange for Interpolation</title>
-<g id="a_node4"><a xlink:href="/Knowledge/Formula of Lagrange for Interpolation.html" xlink:title="Formula of Lagrange for Interpolation" target="_parent">
+<g id="a_node5"><a xlink:href="/Knowledge/Formula of Lagrange for Interpolation.html" xlink:title="Formula of Lagrange for Interpolation" target="_parent">
 <path fill="none" stroke="#b75867" d="M855.5,-36C855.5,-36 648.5,-36 648.5,-36 642.5,-36 636.5,-30 636.5,-24 636.5,-24 636.5,-12 636.5,-12 636.5,-6 642.5,0 648.5,0 648.5,0 855.5,0 855.5,0 861.5,0 867.5,-6 867.5,-12 867.5,-12 867.5,-24 867.5,-24 867.5,-30 861.5,-36 855.5,-36"/>
 <text text-anchor="middle" x="752" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Formula of Lagrange for Interpolation</text>
 </a>
 </g>
 </g>
 <!-- Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation -->
-<g id="edge3" class="edge">
+<g id="edge6" class="edge">
 <title>Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation</title>
-<path fill="none" stroke="#ffffff" d="M361.45,-54.24C432.47,-55.24 540.44,-55.47 558,-48 562.63,-46.03 561.48,-42.2 566,-40 587.53,-29.55 612.07,-23.3 636.09,-19.7"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="361.3,-50.73 351.25,-54.08 361.2,-57.73 361.3,-50.73"/>
-</g>
-<!-- Linear Algebra -->
-<g id="node5" class="node">
-<title>Linear Algebra</title>
-<g id="a_node5"><a xlink:href="/Knowledge/Linear Algebra.html" xlink:title="Linear Algebra" target="_parent">
-<path fill="none" stroke="#b75867" d="M495.5,-51C495.5,-51 421.5,-51 421.5,-51 415.5,-51 409.5,-45 409.5,-39 409.5,-39 409.5,-27 409.5,-27 409.5,-21 415.5,-15 421.5,-15 421.5,-15 495.5,-15 495.5,-15 501.5,-15 507.5,-21 507.5,-27 507.5,-27 507.5,-39 507.5,-39 507.5,-45 501.5,-51 495.5,-51"/>
-<text text-anchor="middle" x="458.5" y="-29.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Linear Algebra</text>
-</a>
-</g>
-</g>
-<!-- Kronecker Delta&#45;&gt;Linear Algebra -->
-<g id="edge4" class="edge">
-<title>Kronecker Delta&#45;&gt;Linear Algebra</title>
-<path fill="none" stroke="#ffffff" d="M361.34,-45.1C377.32,-43.09 394.23,-40.96 409.35,-39.06"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="360.49,-41.68 351,-46.4 361.36,-48.62 360.49,-41.68"/>
+<path fill="none" stroke="#ffffff" d="M331.14,-43.55C339.8,-38.48 349.42,-33.81 359,-31 449.51,-4.49 556.82,-2.86 636.26,-6.95"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="329.15,-40.67 322.5,-48.92 332.84,-46.62 329.15,-40.67"/>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Fundamental polynomials of Lagrange -->
 <g id="edge9" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Fundamental polynomials of Lagrange</title>
-<path fill="none" stroke="#b75867" d="M358.9,-71.97C325.44,-71.28 287.61,-70.34 246.15,-69.06"/>
-<polygon fill="#b75867" stroke="#b75867" points="246.21,-65.56 236.1,-68.74 245.99,-72.56 246.21,-65.56"/>
+<path fill="none" stroke="#b75867" d="M358.9,-85.97C325.44,-85.28 287.61,-84.34 246.15,-83.06"/>
+<polygon fill="#b75867" stroke="#b75867" points="246.21,-79.56 236.1,-82.74 245.99,-86.56 246.21,-79.56"/>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Kronecker Delta -->
 <g id="edge7" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Kronecker Delta</title>
-<path fill="none" stroke="#b75867" d="M358.99,-61.34C358.91,-61.33 358.82,-61.32 358.74,-61.31"/>
-<polygon fill="#b75867" stroke="#b75867" points="361.37,-58.12 351,-60.31 360.48,-65.06 361.37,-58.12"/>
+<path fill="none" stroke="#b75867" d="M358.99,-75.34C358.91,-75.33 358.82,-75.32 358.74,-75.31"/>
+<polygon fill="#b75867" stroke="#b75867" points="361.37,-72.12 351,-74.31 360.48,-79.06 361.37,-72.12"/>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Formula of Lagrange for Interpolation -->
 <g id="edge8" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Formula of Lagrange for Interpolation</title>
-<path fill="none" stroke="#b75867" d="M551.65,-54.8C553.83,-53.61 555.95,-52.35 558,-51 563.05,-47.68 560.78,-43.06 566,-40 584.19,-29.34 605.11,-22.68 626.19,-18.68"/>
-<polygon fill="#b75867" stroke="#b75867" points="626.93,-22.1 636.2,-16.97 625.76,-15.2 626.93,-22.1"/>
+<path fill="none" stroke="#b75867" d="M553.56,-68.69C555.09,-67.53 556.58,-66.3 558,-65 566.61,-57.13 557,-47.42 566,-40 583.09,-25.9 604.29,-17.77 626.16,-13.43"/>
+<polygon fill="#b75867" stroke="#b75867" points="626.99,-16.84 636.25,-11.69 625.8,-9.94 626.99,-16.84"/>
 </g>
 <!-- Fundamental Theorem of Algebra -->
 <g id="node6" class="node">
 <title>Fundamental Theorem of Algebra</title>
 <g id="a_node6"><a xlink:href="/Knowledge/Fundamental Theorem of Algebra.html" xlink:title="Fundamental Theorem of Algebra" target="_parent">
-<path fill="#273434" stroke="#b75867" d="M844.5,-147C844.5,-147 659.5,-147 659.5,-147 653.5,-147 647.5,-141 647.5,-135 647.5,-135 647.5,-123 647.5,-123 647.5,-117 653.5,-111 659.5,-111 659.5,-111 844.5,-111 844.5,-111 850.5,-111 856.5,-117 856.5,-123 856.5,-123 856.5,-135 856.5,-135 856.5,-141 850.5,-147 844.5,-147"/>
-<text text-anchor="middle" x="752" y="-125.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental Theorem of Algebra</text>
+<path fill="#273434" stroke="#b75867" d="M844.5,-184C844.5,-184 659.5,-184 659.5,-184 653.5,-184 647.5,-178 647.5,-172 647.5,-172 647.5,-160 647.5,-160 647.5,-154 653.5,-148 659.5,-148 659.5,-148 844.5,-148 844.5,-148 850.5,-148 856.5,-154 856.5,-160 856.5,-160 856.5,-172 856.5,-172 856.5,-178 850.5,-184 844.5,-184"/>
+<text text-anchor="middle" x="752" y="-162.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental Theorem of Algebra</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Fundamental Theorem of Algebra -->
 <g id="edge10" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Fundamental Theorem of Algebra</title>
-<path fill="none" stroke="#b75867" d="M509.35,-91.08C527.04,-96.92 547.22,-102.93 566,-107 588.82,-111.95 613.48,-115.86 637.12,-118.92"/>
-<polygon fill="#b75867" stroke="#b75867" points="636.83,-122.41 647.19,-120.18 637.7,-115.46 636.83,-122.41"/>
+<path fill="none" stroke="#b75867" d="M486.71,-105.25C507.52,-118.27 537.39,-135 566,-144 588.54,-151.09 613.29,-155.93 637.14,-159.22"/>
+<polygon fill="#b75867" stroke="#b75867" points="636.93,-162.72 647.3,-160.54 637.83,-155.78 636.93,-162.72"/>
 </g>
 <!-- Lagrange Interpolation Polynomial -->
 <g id="node7" class="node">
 <title>Lagrange Interpolation Polynomial</title>
 <g id="a_node7"><a xlink:href="/Knowledge/Lagrange Interpolation Polynomial.html" xlink:title="Lagrange Interpolation Polynomial" target="_parent">
-<path fill="none" stroke="#b75867" d="M847.5,-110C847.5,-110 656.5,-110 656.5,-110 650.5,-110 644.5,-104 644.5,-98 644.5,-98 644.5,-86 644.5,-86 644.5,-80 650.5,-74 656.5,-74 656.5,-74 847.5,-74 847.5,-74 853.5,-74 859.5,-80 859.5,-86 859.5,-86 859.5,-98 859.5,-98 859.5,-104 853.5,-110 847.5,-110"/>
-<text text-anchor="middle" x="752" y="-88.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Polynomial</text>
+<path fill="none" stroke="#b75867" d="M847.5,-147C847.5,-147 656.5,-147 656.5,-147 650.5,-147 644.5,-141 644.5,-135 644.5,-135 644.5,-123 644.5,-123 644.5,-117 650.5,-111 656.5,-111 656.5,-111 847.5,-111 847.5,-111 853.5,-111 859.5,-117 859.5,-123 859.5,-123 859.5,-135 859.5,-135 859.5,-141 853.5,-147 847.5,-147"/>
+<text text-anchor="middle" x="752" y="-125.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Polynomial</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Lagrange Interpolation Polynomial -->
 <g id="edge11" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Lagrange Interpolation Polynomial</title>
-<path fill="none" stroke="#ffffff" d="M568.37,-80.1C593.24,-81.72 619.65,-83.44 644.42,-85.05"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="568.4,-76.59 558.19,-79.43 567.94,-83.58 568.4,-76.59"/>
+<path fill="none" stroke="#ffffff" d="M563.69,-106.64C564.46,-106.76 565.23,-106.88 566,-107 591.26,-110.87 618.54,-114.45 644.2,-117.54"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="563.95,-103.14 553.52,-105.01 562.84,-110.05 563.95,-103.14"/>
 </g>
 <!-- Lagrange Interpolation -->
 <g id="node8" class="node">
 <title>Lagrange Interpolation</title>
 <g id="a_node8"><a xlink:href="/Knowledge/Lagrange Interpolation.html" xlink:title="Lagrange Interpolation" target="_parent">
-<path fill="none" stroke="#b75867" d="M813.5,-73C813.5,-73 690.5,-73 690.5,-73 684.5,-73 678.5,-67 678.5,-61 678.5,-61 678.5,-49 678.5,-49 678.5,-43 684.5,-37 690.5,-37 690.5,-37 813.5,-37 813.5,-37 819.5,-37 825.5,-43 825.5,-49 825.5,-49 825.5,-61 825.5,-61 825.5,-67 819.5,-73 813.5,-73"/>
-<text text-anchor="middle" x="752" y="-51.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation</text>
+<path fill="none" stroke="#b75867" d="M813.5,-110C813.5,-110 690.5,-110 690.5,-110 684.5,-110 678.5,-104 678.5,-98 678.5,-98 678.5,-86 678.5,-86 678.5,-80 684.5,-74 690.5,-74 690.5,-74 813.5,-74 813.5,-74 819.5,-74 825.5,-80 825.5,-86 825.5,-86 825.5,-98 825.5,-98 825.5,-104 819.5,-110 813.5,-110"/>
+<text text-anchor="middle" x="752" y="-88.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;Lagrange Interpolation -->
 <g id="edge12" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;Lagrange Interpolation</title>
-<path fill="none" stroke="#ffffff" d="M568.43,-66.27C605.07,-64.01 645.04,-61.54 678.22,-59.49"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="567.95,-62.8 558.19,-66.91 568.39,-69.78 567.95,-62.8"/>
+<path fill="none" stroke="#ffffff" d="M568.43,-88.87C605.07,-89.5 645.04,-90.18 678.22,-90.75"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="568.25,-85.36 558.19,-88.69 568.13,-92.36 568.25,-85.36"/>
 </g>
 <!-- The Lagrange Interpolation Polynomial of a Polynomial is itself -->
 <g id="node9" class="node">
 <title>The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
 <g id="a_node9"><a xlink:href="/Knowledge/The Lagrange Interpolation Polynomial of a Polynomial is itself.html" xlink:title="The Lagrange Interpolation Polynomial of a Polynomial is itself" target="_parent">
-<path fill="none" stroke="#b75867" d="M926,-184C926,-184 578,-184 578,-184 572,-184 566,-178 566,-172 566,-172 566,-160 566,-160 566,-154 572,-148 578,-148 578,-148 926,-148 926,-148 932,-148 938,-154 938,-160 938,-160 938,-172 938,-172 938,-178 932,-184 926,-184"/>
-<text text-anchor="middle" x="752" y="-162.9" font-family="sans" font-size="12.00" fill="#c4c7c7">The Lagrange Interpolation Polynomial of a Polynomial is itself</text>
+<path fill="none" stroke="#b75867" d="M926,-73C926,-73 578,-73 578,-73 572,-73 566,-67 566,-61 566,-61 566,-49 566,-49 566,-43 572,-37 578,-37 578,-37 926,-37 926,-37 932,-37 938,-43 938,-49 938,-49 938,-61 938,-61 938,-67 932,-73 926,-73"/>
+<text text-anchor="middle" x="752" y="-51.9" font-family="sans" font-size="12.00" fill="#c4c7c7">The Lagrange Interpolation Polynomial of a Polynomial is itself</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation Problem&#45;&gt;The Lagrange Interpolation Polynomial of a Polynomial is itself -->
 <g id="edge13" class="edge">
 <title>Lagrange Interpolation Problem&#45;&gt;The Lagrange Interpolation Polynomial of a Polynomial is itself</title>
-<path fill="none" stroke="#ffffff" d="M488.19,-97.59C508.53,-113.59 537.23,-133.39 566,-144 569.79,-145.4 573.66,-146.71 577.58,-147.95"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="490.26,-94.77 480.28,-91.23 485.87,-100.22 490.26,-94.77"/>
+<path fill="none" stroke="#ffffff" d="M568.35,-75.05C574.45,-74.38 580.64,-73.7 586.87,-73.02"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="567.75,-71.6 558.19,-76.17 568.51,-78.55 567.75,-71.6"/>
 </g>
 </g>
 </svg>

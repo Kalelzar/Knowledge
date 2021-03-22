@@ -1,4 +1,5 @@
 #+title: kaltemplate
+#+startup: latexpreview
 #+roam_alias: "kaltemplate"
 #+roam_tags: "Project"
 * kaltemplate

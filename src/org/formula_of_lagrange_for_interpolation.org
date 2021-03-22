@@ -1,0 +1,58 @@
+#+title: Formula of Lagrange for Interpolation
+#+startup: latexpreview
+#+roam_alias: "Formula of Lagrange for Interpolation"
+#+roam_tags: "Numeric Methods" "Theorem" "Lagrange" "Interpolation"
+
+$L_{n}(f;x) = \sum_{k=0}^{n}l_k(x)f(x_k)$
+
+$l_k(x_i) = \delta_{ik}$ ([[file:Kronecker Delta.org][Kronecker Delta]]).
+
+* Formula of Lagrange for Interpolation
+
+Let $x_0, \dots, x_n$ ($x_i \neq x_j, i \neq j$)
+
+and the function $f$ is defined for $x_i$.
+
+
+Then $\exists!$ algebraic polynomial of degree $\leq n$ $L_n(f;x)$
+for which
+
+\[L_{n}(f;x_{i}) = f(x_{i}) \qquad i = \overline{0,n}\]
+
+
+For $L_n(f;x)$ is true:
+
+$L_{n}(f;x) = \sum_{k=0}^{n}l_k(x)f(x_k)$
+
+$l_{k}(x_{i}) = \delta_{ik} = \frac{\omega(x)}{(x-x_{k})\omega'(x_{k})}$ for $\omega(x) = (x - x_{0})\dots(x-x_{n})$
+
+** Critique
+
+
+1) It takes $\approx 2n^2$ multiplications
+2) It's very difficult to go from $L_n \rightarrow L_{n+1}$
+
+It would be nice to have some representation $L_{n}(f;x) = a_{0} + a_{1}(x-x_{0}) + \dots + a_{n}(x-x_{0})\dots(x -x_{n-1})$
+as going from $L_n \rightarrow L_{n+1}$ would only be a matter of adding $a_{n+1}(x-x_{0})\dots(x-x_n)$ to $L_{n}$
+
+
+Thankfully such a representation exists and it's called[[file:Formula of Newton for Interpolation.org][Formula of Newton for Interpolation]]
+
+* Solved Problems
+** Problem 1
+Let f(x) = \frac{1}{1+x}
+
+Let L_n(f; x)  \in \pi_3 interpolate f(x) in the points x = {-0.5, 0, 0.5, 1}
+
+Find f(0.75)
+
+Find the error between the exact and interpolated value.
+*** Solution
+
+$L_n(f;x) = \sum_{k=0}^{3}f(x_k)l_{k}(x) = f(x_0)l_0(x) + f(x_1)l_1(x) + f(x_2)l_2(x) + f(x_3)l_3(x)
+        = 2l_0(x) + 1l_1(x) + 2/3l_2(x) + 1/2l_3(x)$
+
+$l_0(x) = \prod_{i=1}^{3}\frac{(x-x_i)}{(x_0-x_i)} = \frac{x(x-0.5)(x-1)}{-0.5*1*1.5}$
+$l_1(x) = \prod_{i=0,i\neq1}^{3}(x-x_i)(x_1-x_i) = \frac{(x+0.5)(x-0.5)(x-1)}{0.5*0.5*1}$
+$l_2(x) = \prod_{i=0,i\neq2}^{3}(x-x_i)(x_2-x_i) = \frac{(x+0.5)(x)(x-1)}{-1*0.5*0.5}$
+$l_3(x) = \prod_{i=0}^{2}(x-x_i)(x_2-x_i) = \frac{(x+0.5)(x)(x-0.5)}{1.5*1*0.5}$

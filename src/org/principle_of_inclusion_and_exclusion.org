@@ -1,0 +1,15 @@
+#+title: Principle of inclusion and exclusion
+#+startup: latexpreview
+#+roam_alias: "Principle of inclusion and exclusion"
+#+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
+* Principle of inclusion and exclusion
+$\forall{}n\geq1, \forall$ [[file:Set.org][sets]] $A_{1}, A_{2}, \dots, A_{n}:$
+
+\begin{equation*}
+  \begin{aligned}
+  |A_1 \cup \cdots \cup A_{n}| &= \sum_{1\leq i \leq n}\limits|A_{i}| -\\
+  &- \sum_{1\leq i \leq j \leq n}\limits|A_{i}\cap{}A_{j}| +\\
+  &+ \cdots +\\
+  &+ (-1)^{n-1}|A_1 \cap \cdots \cap A_n|
+  \end{aligned}
+\end{equation*}

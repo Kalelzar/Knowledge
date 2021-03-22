@@ -1,4 +1,0 @@
-#+title: Logic Programming
-#+roam_alias: "Logic Programming"
-#+roam_tags: "Logic Programming" "Lecture"
-* Logic Programming

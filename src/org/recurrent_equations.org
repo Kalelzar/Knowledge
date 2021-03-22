@@ -1,0 +1,178 @@
+#+title: Recurrent Equations
+#+startup: latexpreview
+#+roam_alias: "Recurrent Equations"
+#+roam_tags: "Discrete Structures" "Lecture" "Recursion"
+* Recurrent Equations
+** Definition
+
+A recurrent equation is any equation that is defined by
+itself i.e a recursive function.
+
+That is any
+$L(a) = f(l(a), \alpha(a))$
+
+Where $\alpha(a)$ is defined for all $a$ and it is not recursive.
+and $l(a)$ is defined for all $a$ and is defined via at least one reference to $L$
+
+$L(a-1) = f(L(a-2), \alpha(a-1))$
+
+...
+
+$L(a-a) = f(L(a-a-1), \alpha(a-a))$
+
+There is a problem in that the recursion has no base.
+
+Let $L(0) = 1$
+
+Let $f : R^{2} \rightarrow R := (a,b) \Rightarrow a + b$
+
+Let $\alpha: R \rightarrow R := a \Rightarrow a$
+
+Then
+
+#+NAME: L
+#+begin_src emacs-lisp :var n=2 :exports none
+(defun L (a)
+     (if (= a 0)
+         1
+         (+ (L (- a 1)) a)))
+
+(L n)
+#+end_src
+
+L(0) = 1
+
+L(1) = L(0) + 1 = call_L(1)
+
+L(2) = L(1) + 2 = call_L(2)
+
+L(3) = L(2) + 3 = call_L(3)
+
+L(4) = L(3) + 4 = call_L(4)
+
+L(5) = L(4) + 5 = call_L(5)
+
+L(6) = L(5) + 6 = call_L(6)
+** Method for solving homogeneous recurrent equations
+
+$a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k}$
+
+$(c_{1}, \cdots, c_{k}) \in \mathbb{N}$ - const
+
+$c_{k} \neq 0$
+
+$k$ - const
+
+
+There should be $k$ base cases given.
+
+\[a_0 = q_0\\
+\cdots\\
+a_{k-1} = q_{k-1}\]
+*** Characteristic equation
+
+We find/replace a_(n-[0-9|k]+) with x^\1
+
+$x^{n} = c_{1}x^{n-1} + c_{2}x^{n-2}+ \cdots + c_{k-1}x^{n-k+1} + c_{k}x^{n-k}$
+
+We divide by $x^{n-k}$:
+
+ $x^{k} = c_{1}x^{k-1} + c_{2}x^{k-2} + \cdots + c_{k-1}x + c_{k}$
+
+This is the characteristic equation.
+*** Finding the roots of the characteristic equation
+
+From the '[[file:Fundamental Theorem of Algebra.org][Fundamental theorem of algebra]]' the
+characteristic equation has exactly k complex (potentially equal) roots.
+
+Let \alpha={\alpha_1, \alpha_2, \dots, \alpha_k}_M be the [[file:Multiset.org][multiset]] of the roots.
+It is important that a multiset is used due to the possibility of equal roots.
+*** General solution
+**** For roots that are all unique
+
+\[a_n = A_{1}\alpha_1^n + A_{2}\alpha_2^{n} + \cdots + A_{k}\alpha_k^{n}\]
+
+Where A_1, \dots, A_k are unknown constants.
+
+If the base cases are unknown it is impossible to find those constants.
+
+If they are given, we can replace $n$ in the
+general solution with the indexes of the base cases.
+
+We get a system of $k$ linear equations with $k$ unknown variables.
+Which are trivial to solve.
+
+And by doing so we can find the *precise* solution of the recurrent equation.
+**** When some roots are equal
+
+Let the [[file:Set.org][set]] (not multiset) of roots is $\{\beta_i\}_{i=1}^t$ where t \leq k.
+
+Let $r_i$ be the number of times $\beta_i$ is found in $\alpha$
+for $1 \leq i \leq t$.
+
+Obviously $\sum_{i=1}^{t}\limits r_{i} = k$
+
+
+Then the general solution is:
+
+\begin{equation*}
+\begin{aligned}
+a_{n} = &A_{1,1}\beta_{1}^{n} + A_{1,2}n\beta_{1}^{n} + \cdots + A_{1,r_{1}}n^{r_{1}-1}\beta_{1}^{n} +\\
+&A_{2,1}\beta_{2}^{n} + A_{2,2}n\beta_{2}^{n} + \cdots + A_{2,r_{2}}n^{r_{2}-1}\beta_{2}^{n} +\\
+&\cdots\\
+&A_{t,1}\beta_{t}^{n} + A_{t,2}n\beta_{t}^{n} + \cdots + A_{t,r_{t}}n^{r_{t}-1}\beta_{t}^{n} +\\
+\end{aligned}
+\end{equation*}
+
+
+This looks intimidating but is actually quite simple.
+
+If \alpha = {1, 1, 2, 3}_M
+
+Then \beta = {1, 2, 3}
+
+or $a_n = A_{1,1}1^n + A_{1,2}n1^{n} + A_{2,1}2^{n} + A_{3,1}3^{n} = A_{1} + A_{2}n + A_{3}2^{n} + A_{3}3^{n}$
+
+The *precise* solution is found equivalently to the
+previous case since there are exactly $k$ indexed constants $A_{i,j}$.
+** Solving non-homogeneous recurrent equations.
+
+$a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k} + p_{1}(n)*b_{1}^{n} + \cdots + p_{l}(n)*b_{l}^{n}$
+
+$(c_{1}, \cdots, c_{k}) \in \mathbb{N}$ - const
+
+$(b_{1}, \cdots, b_{l}) \in \mathbb{N}$ - const
+
+$\forall{}i,j, i\neq{}j: b_{i} \neq b_{j}$
+
+$c_{k} \neq 0$
+
+$k,l$ - const
+
+$p_i(n)$ are polynomials of $n$
+
+There should be $k$ base cases given.
+
+\[a_0 = q_0\\
+\cdots\\
+a_{k-1} = q_{k-1}\]
+
+
+
+Firstly we forget about the non-homogeneous part and
+solve it as if it were a homogeneous equation.
+
+We find the multiset $\alpha$ of roots of the characteristic equation.
+
+Let $\beta$ be the multiset of the numbers $b_1, \dots, b_l$ each
+of which appears $deg(p_i) + 1 (i \in [1, l])$ amount of times.
+
+We find $\gamma = \beta \cup \alpha$ and we write the general solution in
+accordance to $\gamma$.
+
+We use the base cases to find the constants $A_i$,
+but there are $k$ base cases and $k+l$ roots.
+
+The missing base cases are calculated via the recurrent equation.
+
+The rest proceeds as normal.

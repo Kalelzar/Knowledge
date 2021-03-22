@@ -1,0 +1,11 @@
+#+title: Linear Algebra
+#+startup: latexpreview
+#+roam_alias: "Linear Algebra"
+#+roam_tags: "Linear Algebra" "Lecture"
+* Linear Algebra
+** [[file:Fundamental Theorem of Algebra.org][Fundamental Theorem of Algebra]]
+** [[file:Kronecker Delta.org][Kronecker Delta]]
+** [[file:Surjective function.org][Surjective function]]
+** [[file:Injective function.org][Injective function]]
+** [[file:Bijective function.org][Bijective function]]
+** [[file:Matrix.org][Matrix]]

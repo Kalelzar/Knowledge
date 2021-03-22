@@ -1,4 +1,5 @@
 #+TITLE: index
+#+STARTUP: latexpreview
 #+roam_alias: index
 #+roam_tags: "index"
 

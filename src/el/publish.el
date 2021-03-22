@@ -311,7 +311,7 @@
              ;;   (insert-file-contents "~/Documents/Knowledge/graph.json")
              ;;   (buffer-string))
              ;; "</script>"
-             (format "<section class=\"outline-2 graph\">\n<object data=\"../..//res/graph/%s.svg\" type=\"image/svg+xml\"></object></section>"
+             (format "<section class=\"outline-2 graph\">\n<object data=\"../../res/graph/%s.svg\" type=\"image/svg+xml\"></object></section>"
                      (f-base (plist-get info :output-file)))
              (if (string= (org-export-data (plist-get info :title) info) "The Map")
                  (with-temp-buffer

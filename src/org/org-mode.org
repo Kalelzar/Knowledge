@@ -1,0 +1,5 @@
+#+title: Org-mode
+#+startup: latexpreview
+#+roam_alias: "Org-mode"
+#+roam_tags: "Emacs" "Org-mode"
+* Org-mode

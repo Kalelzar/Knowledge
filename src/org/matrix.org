@@ -1,0 +1,5 @@
+#+title: Matrix
+#+startup: latexpreview
+#+roam_alias: "Matrix"
+#+roam_tags: "Linear Algebra" "Definition"
+* Matrix

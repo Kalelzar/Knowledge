@@ -1,0 +1,19 @@
+#+title: Partial order
+#+startup: latexpreview
+#+roam_alias: "Partial order"
+#+roam_tags: "Discrete Structures" "Definition" "Relation" "Order"
+* Partial order
+A [[file:Relation.org][Relation]] is a partial order when it is [[file:Reflexive Relation.org][reflexive]],
+[[file:Anti-symmetric Relation.org][anti-symmetric]] and [[file:Transitive Relation.org][transitive]].
+** Maximum and minimum in a partial order
+Let $R \subseteq A^{2}$
+
+$\forall a \in A$ we say that it is *minimum* in R if
+$\lnot\exists{}b\in{}A,b\neq{}a: bRa$
+
+$\forall a \in A$ we say that it is *maximum* in R if
+$\lnot\exists{}b\in{}A,b\neq{}a: aRb$
+
+There may be more than one minimum/maximum elements
+
+There also may be none

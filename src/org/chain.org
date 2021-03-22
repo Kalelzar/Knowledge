@@ -1,0 +1,18 @@
+#+title: Chain
+#+startup: latexpreview
+#+roam_alias: "Chain"
+#+roam_tags: "Discrete Structures" "Definition" "Relation"
+* Chain
+Let $R \subseteq A^{2}$ is a *random* [[file:Relation.org][Relation]] and $A = \{a_1,\cdots,a_{n}\}$.
+
+A chain is any sequence
+
+\[ a_{i_{0}}, a_{i_{1}}, \cdots, a_{i_{k}} \]
+
+where $i_0, \cdots, i_k \in \{1, \cdots, m\}$, if $a_{i_{j}}Ra_{i_{j+1}}$
+and $a_{i_{j}}\neq{}a_{i_{j+1}}$ for $0\leq j < k$, $k\geq0$.
+
+A single element is also a chain.
+
+** [[file:Contour.org][Contour]]
+** [[file:Partial orders have no contours.org][Theorem - Partial orders have no contours]].

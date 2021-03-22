@@ -1,0 +1,5 @@
+#+title: Computer Architectures
+#+startup: latexpreview
+#+roam_alias: "Computer Architectures"
+#+roam_tags: "Computer Architectures" "Lecture"
+* Computer Architectures

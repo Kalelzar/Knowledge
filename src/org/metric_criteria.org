@@ -1,0 +1,9 @@
+#+title: Metric Criteria
+#+startup: latexpreview
+#+roam_alias: "Metric Criteria"
+#+roam_tags: "Approximation" "Criteria" "Metric" "Definition" "Numeric Methods"
+
+* Metric Criteria
+
+We introduce a [[file:Metric.org][Metric]] $\rho(f,g)$:
+Then $f\approx{}g$ ($f$ approximates $g$) if $\rho(f, g) \approx 0$

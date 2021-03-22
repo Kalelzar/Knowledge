@@ -154,6 +154,7 @@
 
 
 (defun roam-note-make-dot (roam-note)
+  (message (format "Generating dot graph for %s" roam-note))
   (f-write-text (export-clusters-as-dot-graph
                  (-cluster-fork (build-cluster (f-base roam-note)))
                  (make-cluster-node-format :fillcolor "#273434"

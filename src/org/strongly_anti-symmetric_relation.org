@@ -1,0 +1,9 @@
+#+title: Strongly Anti-symmetric Relation
+#+startup: latexpreview
+#+roam_alias: "Strongly Anti-symmetric Relation"
+#+roam_tags: "Discrete Structures" "Definition" "Relation"
+* Strongly Anti-symmetric Relation
+A [[file:Relation.org][relation]] is strongly anti-symmetric
+if for $R \in A^{2 }$
+
+$\forall x \in A \forall y \in A, x \neq y: xRy \oplus yRx$

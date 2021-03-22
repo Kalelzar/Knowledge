@@ -1,0 +1,8 @@
+#+title: Org Roam
+#+startup: latexpreview
+#+roam_alias: "Org Roam"
+#+roam_tags: "Org" "Definition"
+
+* Org Roam
+A Zettelkasten implementation for Org Mode.
+This whole thing runs on it.

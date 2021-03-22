@@ -1,0 +1,19 @@
+#+title: Divided Differences
+#+roam_alias: "Divided Differences"
+#+roam_tags: "Numeric Methods" "Definition"
+* Divided Differences
+Let $x_0,\dots,x_n$ be different points
+Let $f$ be defined for $x_0,\dots,x_n$
+
+The divided difference of $f$ in $x_0,...,x_n$ is $f[x_0,\dots,x_n]$
+
+It's [[file:Recurrent Equations.org][recurrently]] defined as:
+\begin{align*}
+ f[x_0,\dots,x_n] &= \frac{f[x_1,\dots,x_n] - f[x_0,\dots,x_{n-1}]}{x_n-x_0} \tag{$n \geq 1$} \\
+ f[x_i] &= f(x_{i}) \tag{$i = \overline{0, n}$} \\
+\end{align*}
+
+#+latex_caption: n=1
+#+begin_src latex :exports results
+\[f[x_0, x_1] = \frac{f[x_{1}] - f[x_{0}]}{x_{1}-x_{0}} = \frac{f(x_{1}) - f(x_{0})}{x_{1}-x_{0}}\]
+#+end_src

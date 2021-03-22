@@ -1,0 +1,80 @@
+#+title: Logical Operators
+#+startup: latexpreview
+#+roam_alias: "Logical Operators"
+#+roam_tags: "Discrete Structures" "Lecture" "Logic" "Operators"
+* Logical Operators
+*** Overview
+
+|-----+----------------+---------------+---|
+| \neg   | Negation       | Not           | 1 |
+| \wedge   | Conjunction    | Logical And   | 2 |
+| v   | Disjunction    | Logical Or    | 3 |
+| \oplus   | Exclusive Or   | Logical  Xor  | 3 |
+| --> | Implication    | =p= implies =q=   | 4 |
+| <-> | Bi-implication | =p= only when =q= | 5 |
+|-----+----------------+---------------+---|
+
+*** Negation
+
+ |---+-------|
+ | =p= | \no =p= |
+ |---+-------|
+ | =T= | =F=     |
+ | =F= | =T=     |
+ |---+-------|
+ |   |       |
+
+*** Conjunction
+
+|---+---+-------|
+| =p= | =q= | =p= \wedge =q= |
+|---+---+-------|
+| =F= | =F= | =F=     |
+| =F= | =T= | =F=     |
+| =T= | =F= | =F=     |
+| =T= | =T= | =T=     |
+|---+---+-------|
+
+*** Disjunction
+
+ |---+---+-------|
+ | =p= | =q= | =p= \vee =q= |
+ |---+---+-------|
+ | =F= | =F= | =F=     |
+ | =F= | =T= | =T=     |
+ | =T= | =F= | =T=     |
+ | =T= | =T= | =T=     |
+ |---+---+-------|
+
+*** Xor
+
+|---+---+-------|
+| =p= | =q= | =p= \oplus =q= |
+|---+---+-------|
+| =F= | =F= | =F=     |
+| =F= | =T= | =T=     |
+| =T= | =F= | =T=     |
+| =T= | =T= | =F=     |
+|---+---+-------|
+
+*** Implication
+
+|---+---+---------|
+| =p= | =q= | =p= -> =q=  |
+|---+---+---------|
+| =F= | =F= | =T=       |
+| =F= | =T= | =T=       |
+| =T= | =F= | =F=       |
+| =T= | =T= | =T=       |
+|---+---+---------|
+
+*** Bi-implication
+
+|---+---+---------|
+| =p= | =q= | =p= -> =q=  |
+|---+---+---------|
+| =F= | =F= | =T=       |
+| =F= | =T= | =F=       |
+| =T= | =F= | =F=       |
+| =T= | =T= | =T=       |
+|---+---+---------|

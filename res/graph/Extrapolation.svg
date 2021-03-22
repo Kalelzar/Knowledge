@@ -34,7 +34,7 @@
 <polygon fill="#b75867" stroke="#b75867" points="90.61,-58.5 100.61,-55 90.61,-51.5 90.61,-58.5"/>
 </g>
 <!-- Lagrange Interpolation&#45;&gt;Extrapolation -->
-<g id="edge5" class="edge">
+<g id="edge4" class="edge">
 <title>Lagrange Interpolation&#45;&gt;Extrapolation</title>
 <path fill="none" stroke="#ffffff" d="M93.79,-55.73C93.64,-55.73 93.49,-55.73 93.35,-55.72"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="90.61,-59.22 100.61,-55.74 90.62,-52.22 90.61,-59.22"/>
@@ -54,34 +54,34 @@
 <path fill="none" stroke="#b75867" d="M248.05,-70C251.1,-70.63 254.18,-71.26 257.27,-71.9"/>
 <polygon fill="#b75867" stroke="#b75867" points="256.66,-75.35 267.16,-73.95 258.08,-68.5 256.66,-75.35"/>
 </g>
-<!-- Evaluating Interpolation Error -->
-<g id="node4" class="node">
-<title>Evaluating Interpolation Error</title>
-<g id="a_node4"><a xlink:href="/Knowledge/Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
-<path fill="none" stroke="#b75867" d="M436,-73C436,-73 275,-73 275,-73 269,-73 263,-67 263,-61 263,-61 263,-49 263,-49 263,-43 269,-37 275,-37 275,-37 436,-37 436,-37 442,-37 448,-43 448,-49 448,-49 448,-61 448,-61 448,-67 442,-73 436,-73"/>
-<text text-anchor="middle" x="355.5" y="-51.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Evaluating Interpolation Error</text>
-</a>
-</g>
-</g>
-<!-- Lagrange Interpolation&#45;&gt;Evaluating Interpolation Error -->
-<g id="edge3" class="edge">
-<title>Lagrange Interpolation&#45;&gt;Evaluating Interpolation Error</title>
-<path fill="none" stroke="#ffffff" d="M258.12,-55C259.66,-55 261.19,-55 262.73,-55"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="258.05,-51.5 248.05,-55 258.05,-58.5 258.05,-51.5"/>
-</g>
 <!-- Numeric Methods -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>Numeric Methods</title>
-<g id="a_node5"><a xlink:href="/Knowledge/Numeric Methods.html" xlink:title="Numeric Methods" target="_parent">
-<path fill="none" stroke="#b75867" d="M401.5,-36C401.5,-36 309.5,-36 309.5,-36 303.5,-36 297.5,-30 297.5,-24 297.5,-24 297.5,-12 297.5,-12 297.5,-6 303.5,0 309.5,0 309.5,0 401.5,0 401.5,0 407.5,0 413.5,-6 413.5,-12 413.5,-12 413.5,-24 413.5,-24 413.5,-30 407.5,-36 401.5,-36"/>
-<text text-anchor="middle" x="355.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
+<g id="a_node4"><a xlink:href="/Knowledge/Numeric Methods.html" xlink:title="Numeric Methods" target="_parent">
+<path fill="none" stroke="#b75867" d="M401.5,-73C401.5,-73 309.5,-73 309.5,-73 303.5,-73 297.5,-67 297.5,-61 297.5,-61 297.5,-49 297.5,-49 297.5,-43 303.5,-37 309.5,-37 309.5,-37 401.5,-37 401.5,-37 407.5,-37 413.5,-43 413.5,-49 413.5,-49 413.5,-61 413.5,-61 413.5,-67 407.5,-73 401.5,-73"/>
+<text text-anchor="middle" x="355.5" y="-51.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Numeric Methods</text>
 </a>
 </g>
 </g>
 <!-- Lagrange Interpolation&#45;&gt;Numeric Methods -->
-<g id="edge4" class="edge">
+<g id="edge3" class="edge">
 <title>Lagrange Interpolation&#45;&gt;Numeric Methods</title>
-<path fill="none" stroke="#ffffff" d="M258.11,-37.92C271.34,-35.19 284.77,-32.41 297.24,-29.84"/>
+<path fill="none" stroke="#ffffff" d="M258.11,-55C271.34,-55 284.77,-55 297.24,-55"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="258.05,-51.5 248.05,-55 258.05,-58.5 258.05,-51.5"/>
+</g>
+<!-- Evaluating Interpolation Error -->
+<g id="node5" class="node">
+<title>Evaluating Interpolation Error</title>
+<g id="a_node5"><a xlink:href="/Knowledge/Evaluating Interpolation Error.html" xlink:title="Evaluating Interpolation Error" target="_parent">
+<path fill="none" stroke="#b75867" d="M436,-36C436,-36 275,-36 275,-36 269,-36 263,-30 263,-24 263,-24 263,-12 263,-12 263,-6 269,0 275,0 275,0 436,0 436,0 442,0 448,-6 448,-12 448,-12 448,-24 448,-24 448,-30 442,-36 436,-36"/>
+<text text-anchor="middle" x="355.5" y="-14.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Evaluating Interpolation Error</text>
+</a>
+</g>
+</g>
+<!-- Lagrange Interpolation&#45;&gt;Evaluating Interpolation Error -->
+<g id="edge5" class="edge">
+<title>Lagrange Interpolation&#45;&gt;Evaluating Interpolation Error</title>
+<path fill="none" stroke="#ffffff" d="M257.87,-37.97C260.96,-37.34 264.06,-36.69 267.16,-36.05"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="257.13,-34.55 248.05,-40 258.55,-41.41 257.13,-34.55"/>
 </g>
 </g>

@@ -1,4 +1,0 @@
-#+title: Introduction to programming
-#+roam_alias: "Introduction to programming"
-#+roam_tags: "Introduction to programming" "Lecture"
-* Introduction to programming

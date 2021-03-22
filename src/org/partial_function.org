@@ -1,0 +1,8 @@
+#+title: Partial function
+#+startup: latexpreview
+#+roam_alias: "Partial function"
+#+roam_tags: "Discrete Structures" "Definition" "Relation" "Function"
+* Partial function
+Partial functions $f : X \rightarrow Y$ are all [[file:Relation.org][Relations]] $f \subseteq X \times Y$
+such that $\forall x \in X, \exists$ not more than one $y \in Y$
+such that $(x,y)\in f$.

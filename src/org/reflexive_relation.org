@@ -1,0 +1,9 @@
+#+title: Reflexive Relation
+#+startup: latexpreview
+#+roam_alias: "Reflexive Relation"
+#+roam_tags: "Discrete Structures" "Definition" "Relation"
+* Reflexive Relation
+A [[file:Relation.org][Relation]] is reflexive
+if for $R \in A^n$
+
+$\forall x \in A: (x,\cdots, x) \in R$

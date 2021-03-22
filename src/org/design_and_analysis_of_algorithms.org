@@ -1,0 +1,5 @@
+#+title: Design and Analysis of Algorithms
+#+startup: latexpreview
+#+roam_alias: "Design and Analysis of Algorithms"
+#+roam_tags: "Design and Analysis of Algorithms" "Lecture"
+* Design and Analysis of Algorithms

@@ -247,55 +247,55 @@
 <polygon fill="#ffffff" stroke="#ffffff" points="372.64,-836.5 382.61,-832.93 372.59,-829.5 372.64,-836.5"/>
 </g>
 <!-- Kronecker Delta&#45;&gt;Linear Algebra -->
-<g id="edge22" class="edge">
+<g id="edge21" class="edge">
 <title>Kronecker Delta&#45;&gt;Linear Algebra</title>
 <path fill="none" stroke="#ffffff" d="M146.55,-797.68C130.49,-798.72 113.48,-799.77 98.29,-800.67"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="147.18,-801.15 156.93,-797.01 146.72,-794.16 147.18,-801.15"/>
 </g>
-<!-- Formula of Lagrange for Interpolation -->
-<g id="node14" class="node">
-<title>Formula of Lagrange for Interpolation</title>
-<g id="a_node14"><a xlink:href="/Knowledge/Formula of Lagrange for Interpolation.html" xlink:title="Formula of Lagrange for Interpolation" target="_parent">
-<path fill="none" stroke="#b75867" d="M547.5,-776C547.5,-776 340.5,-776 340.5,-776 334.5,-776 328.5,-770 328.5,-764 328.5,-764 328.5,-752 328.5,-752 328.5,-746 334.5,-740 340.5,-740 340.5,-740 547.5,-740 547.5,-740 553.5,-740 559.5,-746 559.5,-752 559.5,-752 559.5,-764 559.5,-764 559.5,-770 553.5,-776 547.5,-776"/>
-<text text-anchor="middle" x="444" y="-754.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Formula of Lagrange for Interpolation</text>
-</a>
-</g>
-</g>
-<!-- Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation -->
-<g id="edge21" class="edge">
-<title>Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation</title>
-<path fill="none" stroke="#ffffff" d="M274.22,-783.52C290.99,-780.98 309.67,-778.16 328.31,-775.34"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="273.4,-780.1 264.03,-785.06 274.44,-787.02 273.4,-780.1"/>
-</g>
 <!-- Fundamental polynomials of Lagrange -->
-<g id="node15" class="node">
+<g id="node14" class="node">
 <title>Fundamental polynomials of Lagrange</title>
-<g id="a_node15"><a xlink:href="/Knowledge/Fundamental polynomials of Lagrange.html" xlink:title="Fundamental polynomials of Lagrange" target="_parent">
-<path fill="none" stroke="#b75867" d="M550,-813C550,-813 338,-813 338,-813 332,-813 326,-807 326,-801 326,-801 326,-789 326,-789 326,-783 332,-777 338,-777 338,-777 550,-777 550,-777 556,-777 562,-783 562,-789 562,-789 562,-801 562,-801 562,-807 556,-813 550,-813"/>
-<text text-anchor="middle" x="444" y="-791.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental polynomials of Lagrange</text>
+<g id="a_node14"><a xlink:href="/Knowledge/Fundamental polynomials of Lagrange.html" xlink:title="Fundamental polynomials of Lagrange" target="_parent">
+<path fill="none" stroke="#b75867" d="M550,-776C550,-776 338,-776 338,-776 332,-776 326,-770 326,-764 326,-764 326,-752 326,-752 326,-746 332,-740 338,-740 338,-740 550,-740 550,-740 556,-740 562,-746 562,-752 562,-752 562,-764 562,-764 562,-770 556,-776 550,-776"/>
+<text text-anchor="middle" x="444" y="-754.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Fundamental polynomials of Lagrange</text>
 </a>
 </g>
 </g>
 <!-- Kronecker Delta&#45;&gt;Fundamental polynomials of Lagrange -->
-<g id="edge23" class="edge">
+<g id="edge22" class="edge">
 <title>Kronecker Delta&#45;&gt;Fundamental polynomials of Lagrange</title>
-<path fill="none" stroke="#ffffff" d="M274.31,-793.54C290.36,-793.68 308.14,-793.83 325.97,-793.99"/>
-<polygon fill="#ffffff" stroke="#ffffff" points="274.06,-790.04 264.03,-793.45 274,-797.04 274.06,-790.04"/>
+<path fill="none" stroke="#ffffff" d="M274.31,-783.5C290.36,-781.08 308.14,-778.39 325.97,-775.69"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="273.4,-780.1 264.03,-785.06 274.44,-787.02 273.4,-780.1"/>
 </g>
 <!-- Lagrange Interpolation Problem -->
-<g id="node16" class="node">
+<g id="node15" class="node">
 <title>Lagrange Interpolation Problem</title>
-<g id="a_node16"><a xlink:href="/Knowledge/Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
+<g id="a_node15"><a xlink:href="/Knowledge/Lagrange Interpolation Problem.html" xlink:title="Lagrange Interpolation Problem" target="_parent">
 <path fill="none" stroke="#b75867" d="M531.5,-739C531.5,-739 356.5,-739 356.5,-739 350.5,-739 344.5,-733 344.5,-727 344.5,-727 344.5,-715 344.5,-715 344.5,-709 350.5,-703 356.5,-703 356.5,-703 531.5,-703 531.5,-703 537.5,-703 543.5,-709 543.5,-715 543.5,-715 543.5,-727 543.5,-727 543.5,-733 537.5,-739 531.5,-739"/>
 <text text-anchor="middle" x="444" y="-717.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Lagrange Interpolation Problem</text>
 </a>
 </g>
 </g>
 <!-- Kronecker Delta&#45;&gt;Lagrange Interpolation Problem -->
-<g id="edge24" class="edge">
+<g id="edge23" class="edge">
 <title>Kronecker Delta&#45;&gt;Lagrange Interpolation Problem</title>
 <path fill="none" stroke="#ffffff" d="M273.74,-779.38C288.36,-774.1 303.12,-766.87 315,-757 320.51,-752.42 317.15,-747.14 323,-743 329.57,-738.35 336.83,-734.59 344.43,-731.57"/>
 <polygon fill="#ffffff" stroke="#ffffff" points="272.57,-776.08 264.19,-782.57 274.78,-782.72 272.57,-776.08"/>
+</g>
+<!-- Formula of Lagrange for Interpolation -->
+<g id="node16" class="node">
+<title>Formula of Lagrange for Interpolation</title>
+<g id="a_node16"><a xlink:href="/Knowledge/Formula of Lagrange for Interpolation.html" xlink:title="Formula of Lagrange for Interpolation" target="_parent">
+<path fill="none" stroke="#b75867" d="M547.5,-813C547.5,-813 340.5,-813 340.5,-813 334.5,-813 328.5,-807 328.5,-801 328.5,-801 328.5,-789 328.5,-789 328.5,-783 334.5,-777 340.5,-777 340.5,-777 547.5,-777 547.5,-777 553.5,-777 559.5,-783 559.5,-789 559.5,-789 559.5,-801 559.5,-801 559.5,-807 553.5,-813 547.5,-813"/>
+<text text-anchor="middle" x="444" y="-791.9" font-family="sans" font-size="12.00" fill="#c4c7c7">Formula of Lagrange for Interpolation</text>
+</a>
+</g>
+</g>
+<!-- Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation -->
+<g id="edge24" class="edge">
+<title>Kronecker Delta&#45;&gt;Formula of Lagrange for Interpolation</title>
+<path fill="none" stroke="#ffffff" d="M274.22,-793.54C290.99,-793.69 309.67,-793.85 328.31,-794.01"/>
+<polygon fill="#ffffff" stroke="#ffffff" points="274.06,-790.04 264.03,-793.45 274,-797.04 274.06,-790.04"/>
 </g>
 <!-- Fundamental Theorem of Algebra&#45;&gt;Linear Algebra -->
 <g id="edge26" class="edge">

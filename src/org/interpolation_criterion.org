@@ -1,0 +1,15 @@
+#+title: Interpolation Criteria
+#+startup: latexpreview
+#+roam_alias: "Interpolation Criteria"
+#+roam_tags: "Interpolation" "Approximation" "Criteria" "Definition" "Numeric Methods"
+
+* Interpolation Criteria
+We pick a finite amount of criteria of the functions
+$L_0(f), ..., L_n(f)$
+
+We say that $f\approx{}g$ ($f$ approximates $g$) if $L_{k}(f) = L_{k}(g)$, $k = \overline{0,n}$
+
+** Examples
+
+1. $L_k(f) = f(x_k)$, $k = \overline{0,n}$ ( $(x_{k})_{0}^{n}$ - given points )
+2. $L_k(f) = \int_{a}^{b}f(x)x^{k}dx$, $k = \overline{0,n}$, (moments)

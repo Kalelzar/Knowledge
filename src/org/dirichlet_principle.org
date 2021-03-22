@@ -1,0 +1,11 @@
+#+title: Dirichlet principle
+#+startup: latexpreview
+#+roam_alias: "Dirichlet principle"
+#+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
+
+* Dirichlet's principle
+If $X$ and $Y$ are finite [[file:Set.org][sets]] and $|X| > |Y|$
+then an [[file:Injective function.org][injection]] $f: X \rightarrow Y$ does not exist.
+
+(put simply: If there are $m$ apples in $n$ boxes and $m > n$
+then in at least one box there is more than one apple.)

@@ -1,0 +1,4 @@
+#+title: The Divided Difference matches the coefficient of the first term of Lagrange Polynomial
+#+roam_alias: "The Divided Difference matches the coefficient of the first term of Lagrange Polynomial"
+#+roam_tags: "Numeric Methods" "Theorem"
+* The Divided Difference matches the coefficient of the first term of Lagrange Polynomial

@@ -1,0 +1,5 @@
+#+title: Introduction to programming
+#+startup: latexpreview
+#+roam_alias: "Introduction to programming"
+#+roam_tags: "Introduction to programming" "Lecture"
+* Introduction to programming

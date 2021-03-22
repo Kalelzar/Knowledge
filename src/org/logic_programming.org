@@ -1,0 +1,5 @@
+#+title: Logic Programming
+#+startup: latexpreview
+#+roam_alias: "Logic Programming"
+#+roam_tags: "Logic Programming" "Lecture"
+* Logic Programming

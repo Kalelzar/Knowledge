@@ -1,0 +1,5 @@
+#+title: Operations Research
+#+startup: latexpreview
+#+roam_alias: "Operations Research"
+#+roam_tags: "Operations Research" "Lecture"
+* Operations Research

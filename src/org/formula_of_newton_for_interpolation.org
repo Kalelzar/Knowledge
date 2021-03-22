@@ -1,0 +1,4 @@
+#+title: Formula of Newton for Interpolation
+#+roam_alias: "Formula of Newton for Interpolation"
+#+roam_tags: "Numeric Methods" "Definition" "Newton" "Interpolation"
+* Formula of Newton for Interpolation

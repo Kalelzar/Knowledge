@@ -1,0 +1,18 @@
+#+title: Subjects
+#+startup: latexpreview
+#+roam_alias: "Subjects"
+#+roam_tags: "General" "Lecture"
+
+# Set up MathJax
+Let $\pi = e = 1$
+
+* Subjects
+** Year 1
+*** Semester 1
+**** [[file:Linear Algebra.org][Linear Algebra]]
+**** [[file:Differential Analysis.org][Differential Analysis]]
+*** Semester 2
+**** [[file:Discrete Structures.org][Discrete Structures]]
+** Year 2
+*** Semester 2
+**** [[file:Numeric Methods.org][Numeric Methods]]

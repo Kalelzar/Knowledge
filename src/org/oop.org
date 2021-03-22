@@ -1,0 +1,5 @@
+#+title: OOP
+#+startup: latexpreview
+#+roam_alias: "OOP"
+#+roam_tags: "OOP" "Lecture"
+* OOP

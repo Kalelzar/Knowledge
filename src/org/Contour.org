@@ -1,7 +1,0 @@
-#+title: Contour
-#+roam_alias: "Contour"
-#+roam_tags: "Discrete Structures" "Definition" "Relation"
-* Contour
-For any [[file:Chain.org][Chain]] if $a_{i_0} = a_{i_k}$ and $k>1$ then
-the chain is a contour.
-A single element is not a contour.

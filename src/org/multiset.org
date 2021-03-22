@@ -1,0 +1,5 @@
+#+title: Multiset
+#+startup: latexpreview
+#+roam_alias: "Multiset"
+#+roam_tags: "Discrete Structures" "Definition" "Set"
+* Multiset

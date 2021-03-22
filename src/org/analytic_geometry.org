@@ -1,0 +1,5 @@
+#+title: Analytic Geometry
+#+startup: latexpreview
+#+roam_alias: "Analytic Geometry"
+#+roam_tags: "Analytic Geometry" "Lecture"
+* Analytic Geometry

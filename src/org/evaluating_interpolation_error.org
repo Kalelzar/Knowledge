@@ -1,0 +1,112 @@
+#+title: Evaluating Interpolation Error
+#+startup: latexpreview
+#+roam_alias: "Evaluating Interpolation Error"
+#+roam_tags: "Numeric Methods" "Theorem" "Interpolation"
+
+* Evaluating Interpolation Error
+
+Let $[a,b]$ be a finite interval and $x_0, \dots, x_n \in [a,b], x_i \ne x_j, i\ne{}j$.
+
+Let $L_n(f;x)$ interpolate $f$ in $x_o, \dots, x_n$.
+
+Let $R_n(f;x) := f(x) - L_n(f;x)$ be the interpolation error in point $x$.
+
+Let $f \in C^m[a,b]$.
+
+Then $(\forall{}x \in [a,b])[\exists{}\xi = \xi(x) \in [a,b]]$ such that
+
+\[f(x) - L_{n}(f;x) = \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})\dots(x - x_n)\qquad(1)\]
+
+$\xi \in [ \min\{x, x_{0}, \dots, x_{n}\}, \max\{x, x_{0}, \dots, x_{n}\}]$
+
+
+$|f^{(n+1)}(\xi)| \leq M_{n+1}$, $M_{n+1} \in R$
+
+\[|f(x) - L_{n}(f;x)| \le \frac{M_{(n+1)}}{(n+1)!}|(x-x_0)(x-x_{1})\dots(x - x_n)|\]
+
+** Proof
+Let $x \in [a, b]$
+
+Let $F(t) = f(t) - L_{n}(f;t) - C\omega(t)$
+
+$\omega(t) = \prod_{i=0}^{n}\limits{}(t - x_{i})$
+
+
+Then:
+
+\[F(x_{i}) = f(x_{i}) - f(x_{i}) - C \Leftrightarrow 0 = 0 i=\overline{0,n}\]
+
+We will define $C$ such that $F(x) = 0$
+
+$0 = f(x) - L_{n}(f;x) - C\omega(x) \Rightarrow C = \frac{f(x)-L_{n}(f;x)}{\omega(x)}$ $(2)$
+
+
+As such the function $F$ has $n+2$ zeroes $x_{0}, \dots, x_{n}, x$
+
+By [[file:Rolle Theorem.org][Rolle Theorem]] \Rightarrow $F'(t)$ has atleast
+$n + 1$ zeros in $[a,b]$.
+
+Equivalently F^(n+1)(t) has at least one zero in $[a,b]$.
+Let's call it $\xi$.
+
+We will prove that $\xi$ is the one we are looking for.
+
+
+\[\begin{align*}
+0 &= F^{(n+1)}(\xi)=f^{(n+1)}(\xi) - 0 - C\omega^{(n+1)}(\xi)=\\
+  &= f^{(n+1)}(\xi) - C(n+1)!\\
+  &\Rightarrow C = \frac{f^{(n+1)}(\xi)}{(n+1)!} & (3)
+\end{align*}\]
+
+\[\begin{gather*}
+\omega(t) = t^{n+1} + q(t) \tag*{$q \in \pi_{n}$}\\
+\Rightarrow \omega^{(n+1)}(t) \equiv (n+1)!
+\end{gather*}\]
+
+
+from $(2), (3) \Rightarrow (1)$
+
+** In regards to $R_{n}(f;x)$
+
+Let \[\lvert{}f^{(n+1)}(t)\rvert{}\leq{}M_{n+1} \tag{$\forall{}t \in [a,b]$}\]
+Then:
+
+- \[\lvert{}R_{n}(f;x)\rvert{}\leq{}\frac{M_{n+1}}{(n+1)!} \lvert{}\omega(x)\rvert{} \tag{$\forall{}x \in [a,b]$}\]
+- Let $R_n(f) := \max_{x\in[a,b]}\limits{}\lvert{}R_{n}(f;x)\rvert{}$
+  then $R_{n}(f) \leq \frac{M_{n+1}}{(n+1)!}\max_{x\in[a,b]}\limits{}\lvert{}\omega(x)\rvert{}$
+
+
+* Solved Problems
+** Problem 1
+Find the error when approximating f(x) = 1/(1+x) in the interval [0, 1]
+with [[file:Lagrange Interpolation.org][Lagrange Interpolation]] using
+two reference points 0, 1.
+
+Evaluate the (abs) error from above in [0, 1]
+
+
+\[|R(x)| = |f(x) - L_{1}_{}(f;x)| = |\frac{f^{''}(\xi)}{(n+1)!}(x-x_0)(x-x_{1})|\]
+
+A) $R(0.75) = ?$
+
+$f'(x) = -(1+x)^{-2}, f''(x) = 2(1+x)^{-3}$
+
+$|R(x) | = |(1+\xi)^{-3}x(x-1)|$
+
+$|R(\frac{3}{4})| = |(1 + \xi)^{-3}||\frac{-3}{16}|$, $\xi \in [0,1]$
+
+$|R(\frac{3}{4})| <= \max_{x\in[0,1]}\limits{}|(1 + x)^{-3}|\frac{3}{16} = \frac{3}{16}$
+
+
+
+$L_n(f,x) = \sum_{k=0}^{1}f(x_k)l_k(x)$
+
+$l_0(x) = \frac{x - x_1}{x_0 - x_1} = -(x-1)$
+$l_1(x) = \frac{x - x_0}{x_1 - x_0} = x$
+
+$L_n(f,x) = -f(x_0)(x-1) + f(x_1)x = -(x-1) + \frac{1}{2x} = 1 - \frac{1}{2x}$
+
+$L_n(f, 0.75) = 1 - \frac{1}{2}\frac{3}{4} = 1 - \frac{3}{8} = \frac{5}{8}$
+$f(0.75) = \frac{1}{(\frac{7}{4})} = \frac{4}{7}$
+
+$|L_n(f,0.75) - f(0.75)| = |\frac{5}{8} - \frac{4}{7}| = |\frac{35}{56} - \frac{32}{56}| = \frac{3}{56}$

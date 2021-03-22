@@ -1,0 +1,18 @@
+#+title: Principle of partitions
+#+startup: latexpreview
+#+roam_alias: "Principle of partitions" "Principle of sums"
+#+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
+* Principle of partitions
+If $X$ is a [[file:Set.org][set]] and
+$\gamma = \{Y_{1}, Y_{2}, \cdots, Y_{k}\}$ is a [[file:Partition.org][Partition]] of $X$.
+
+then $|X| = |Y_1| + |Y_2| + |Y_3| + \cdots + |Y_k|$
+
+*** Alternative Formulation
+
+If $A, B$ are sets
+$A \cap B = \emptyset$ and
+$|A|=n, |B|=m$
+then $|A \cup B| = |A|+|B| = n + m$
+
+By induction this is true for $\forall{}k \in N$

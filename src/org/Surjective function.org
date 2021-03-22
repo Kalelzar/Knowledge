@@ -1,6 +1,0 @@
-#+title: Surjective function
-#+roam_alias: "Surjective function"
-#+roam_tags: "Linear Algebra" "Definition" "Function"
-* Surjective function
-A function $f: A \rightarrow B$ is surjective when:
-$(\forall{}b\in{}B)[\exists{}a\in{}A | f(a) = b]$

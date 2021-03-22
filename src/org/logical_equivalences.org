@@ -1,0 +1,67 @@
+#+title: Logical Equivalences
+#+startup: latexpreview
+#+roam_alias: "Logical Equivalences"
+#+roam_tags: "Discrete Structures" "Lecture"
+* Logical Equivalences
+
+*** Constant's Rule
+
+$p \wedge T \equiv p$
+
+
+$p \vee F \equiv p$
+
+$p \vee T \equiv T$
+
+$p \wedge F \equiv F$
+
+*** Negation Rule
+
+$p \land \neg p \equiv F$
+
+$p \lor \neg{}p \equiv T$
+*** Identitity
+
+$p \lor p \equiv p$
+
+$p \land p \equiv p$
+
+*** Double Negation Rule
+
+$\neg(\neg p)) \equiv p$
+*** Commutativity
+
+$p \lor q \equiv q \lor p$
+
+$p \land q \equiv q \land p$
+*** Associativity
+
+$(p \land q) \land r \equiv p \land ( q \land r)$
+
+$(p \lor q) \lor r \equiv p \lor ( q \lor r)$
+*** Distributivity
+
+ $p \lor ( q \land r) \equiv (p \lor q) \land (p \lor r)$
+
+ $p \land ( q \lor r) \equiv (p \land q) \lor (p \land r)$
+*** Law of De Morgan
+
+$\neg (p \lor q) \equiv \neg p \land \neg q$
+
+$\neg (p \land q) \equiv \neg p \lor \neg q$
+
+*** Swallowing
+
+$p \lor ( p \land q) \equiv p$
+
+$p \land ( p \lor q) \equiv p$
+*** Property of the implication
+
+$p \rightarrow q \equiv \neg p \lor q$
+
+*** Property of the Bi-implication
+$p \Leftrightarrow q \equiv (p \rightarrow q) \land (q \rightarrow p)$
+
+Or also
+
+$p \Leftrightarrow q \equiv (\neg p \lor q) \land (\neg q \lor p)$

@@ -1,0 +1,11 @@
+#+title: Discrete Structures
+#+startup: latexpreview
+#+roam_alias: "Discrete Structures"
+#+roam_tags: "Discrete Structures" "Lecture"
+* Discrete Structures
+** [[file:Logical Operators.org][Logical Operators]]
+** [[file:Logical Equivalences.org][Logical Equivalences]]
+** [[file:Relations.org][Relations]]
+** [[file:Functions.org][Functions]]
+** [[file:Combinatorics.org][Combinatorics]]
+** [[file:Recurrent Equations.org][Recurrent Equations]]
