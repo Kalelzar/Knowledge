@@ -1,9 +1,7 @@
 org-roam.db
 ltximg
-graph.svg
-graph.json
-graph.dot
-/dot/*.dot
 /.parcel-cache/
 /node_modules/
-/res/graph/complex_function.svg
+/res/graph/
+/src/html
+/src/dot

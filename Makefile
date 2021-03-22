@@ -5,29 +5,26 @@
 
 
 # Make really hates spaces
-s+ = $(subst \\ ,+,$1)
-+s = $(subst +,\\ ,$1)
 
-ORG_FILES := $(shell find "src/org/" -name "*.org" | sed 's: :\\ :g')
-ORG_FILES := $(call s+,$(ORG_FILES))
-DOT_FILES := $(subst src/org,src/dot,$(ORG_FILES:.org=.dot))
-SVG_FILES := $(subst src/dot,res/graph,$(DOT_FILES:.dot=.svg))
+ORG_FILES := $(shell find "src/org/" -name "*.org")
+DOT_FILES := $(patsubst src/org/%.org, src/dot/%.dot, $(ORG_FILES))
+SVG_FILES := $(patsubst src/dot/%.dot,res/graph/%.svg,$(DOT_FILES))
 
 
 
-$(call +s,$(DOT_FILES)): $(call +s,$(ORG_FILES))
+$(DOT_FILES): src/dot/%.dot: src/org/%.org
 	@echo "Generating dot file for $@"
 	@mkdir -p $(dir $@)
 	@emacsclient -e "(progn (load \"${PWD}/src/el/graph.el\")\
-	 (roam-note-make-dot \"$(subst src/dot,src/org,${@:.dot=.org})\"))"
+	 (roam-note-make-dot \"$(patsubst src/dot/%.dot,%.org,$@)\"))"
 
-dot: $(call +s,$(DOT_FILES))
+dot: $(DOT_FILES)
 
-$(call +s,$(SVG_FILES)): $(call +s,$(DOT_FILES))
+$(SVG_FILES): res/graph/%.svg : src/dot/%.dot
 	@echo "Generating svg graphs $@"
-	dot "$(subst res/graph,src/dot,${@:.svg=.dot})" -Tsvg -o "$@"
+	@dot "$(patsubst res/graph/%.svg,src/dot/%.dot,$@)" -Tsvg -o "$@"
 
-svg: $(call +s,$(SVG_FILES))
+svg: $(SVG_FILES)
 
 .PHONY: all publish
 
