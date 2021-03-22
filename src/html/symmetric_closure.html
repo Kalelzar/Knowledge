@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="en">
+                <head><!-- 2021-03-22 Mon 12:58 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Symmetric Closure</title>
+<meta name="generator" content="Org mode">
+
+<link href='https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap' rel='stylesheet'>
+<link href='https://unpkg.com/tippy.js@6.2.3/themes/light.css' rel='stylesheet'>
+<link rel='stylesheet' href='https://unpkg.com/modern-css-reset/dist/reset.min.css'/>
+<link rel='stylesheet' href='../scss/style.scss'/>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
+<script src='https://unpkg.com/@popperjs/core@2'></script>
+<script src='../js/page.js'></script>
+<script src='https://unpkg.com/tippy.js@6'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+		<div class='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
+        <span class='flex flex-row sm:flex-row items-center sm:justify-between'>
+
+                <a href='index.html' aria-label="Return to index"><img alt"The Emacs logo with an integral symbol" src='../../res/img/home.png' /></a>
+
+                <nav id='site-navigation' class='main-navigation sm:pl-2 ml-5'>
+                <div class='menu-main-container'><ul id='primary-menu' class='menu'>
+</ul></div>                </nav><!-- #site-navigation -->
+            </span>
+
+            				    <p class='text-lg w-full hidden sm:block sm:w-1/2 sm:text-right ml-5 sm:ml-0 mr-1'>tech</p>
+					</div><!-- .site-branding -->
+</div>
+<div class='grid-container'><div class='ds-grid'><div class='page'><div id="content">
+<header>
+<a aria-label="Edit in emacs" class='circle emacs-edit' href='org-protocol://roam-by-title?title=Symmetric Closure'></a>
+<a aria-label="Set page as root" class='circle rooter' href='symmetric_closure.html'></a> <h1 class="title">Symmetric Closure</h1>
+<div class="tags">
+<a class="tag" href="tag_Closure.html">Closure</a>
+<a class="tag" href="tag_Definition.html">Definition</a>
+<a class="tag" href="tag_Discrete Structures.html">Discrete Structures</a>
+<a class="tag" href="tag_Relation.html">Relation</a>
+</div>
+</header><section class="outline-2 graph">
+<object data="../../res/graph/symmetric_closure.svg" type="image/svg+xml"></object></section><section id="outline-container-orgf2d5dfe" class="outline-2">
+<h2 id="orgf2d5dfe"><span class="section-number-2">1</span> Symmetric Closure</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Let \(R \in A^n\)
+</p>
+
+<p>
+The symmetric closure of R is the smallest set
+\(R' \subseteq A^{n}\) such that \(R' \supseteq R\) and \(R'\) is a
+<a href="Symmetric Relation.html">symmetric relation</a>.
+</p>
+</div>
+</section>
+
+<section id="outline-container-org9642282" class="outline-2">
+<h2 id="org9642282"><span class="section-number-2">2</span> Algorithm for construction</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Let \(A\) be a finite <a href="Set.html">set</a> and
+\(R \in A^n\) is a <a href="Relation.html">relation</a> represented by a <a href="Matrix.html">matrix</a>
+</p>
+
+<p>
+Check for pairs (0,1) (1,0) in cells symmetric along
+the main diagonal.
+Turn all 0 to 1
+</p>
+</div>
+
+<div id="outline-container-org0929e4b" class="outline-3">
+<h3 id="org0929e4b"><span class="section-number-3">2.1</span> Example</h3>
+<div class="outline-text-3" id="text-2-1">
+<table>
+
+
+<colgroup>
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-left">
+
+<col  class="org-right">
+
+<col  class="org-right">
+
+<col  class="org-right">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-left">&rArr;</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-right">0</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">1</td>
+<td class="org-right">1</td>
+<td class="org-right">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orgf114858" class="outline-2">
+<h2 id="orgf114858"><span class="section-number-2">3</span> Backlinks</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li><a href="recentchanges.html">Recent changes</a></li>
+<li><a href="relations.html">Relations</a></li>
+</ul>
+</div>
+</section>
+</div>
+<div id='temp-network' style='display:none'></div></div></div></div></body>
+              </html>
