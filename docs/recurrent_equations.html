@@ -1,0 +1,394 @@
+<!DOCTYPE html><html lang="en">
+                <head><!-- 2021-03-22 Mon 14:42 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recurrent Equations</title>
+<meta name="generator" content="Org mode">
+
+<link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/tippy.js@6.2.3/themes/light.css" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+<link rel="stylesheet" href="/Knowledge/index.1c0f4e9a.css">
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="/Knowledge/index.a2f8032e.js"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+		<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+        <span class="flex flex-row sm:flex-row items-center sm:justify-between">
+
+                <a href="/Knowledge/index.html" aria-label="Return to index"><img alt"the="" emacs="" logo="" with="" an="" integral="" symbol"="" src="/Knowledge/home.d9709cf3.png"></a>
+
+                <nav id="site-navigation" class="main-navigation sm:pl-2 ml-5">
+                <div class="menu-main-container"><ul id="primary-menu" class="menu">
+</ul></div>                </nav><!-- #site-navigation -->
+            </span>
+
+            				    <p class="text-lg w-full hidden sm:block sm:w-1/2 sm:text-right ml-5 sm:ml-0 mr-1">tech</p>
+					</div><!-- .site-branding -->
+</div>
+<div class="grid-container"><div class="ds-grid"><div class="page"><div id="content">
+<header>
+<a aria-label="Edit in emacs" class="circle emacs-edit" href="org-protocol://roam-by-title?title=Recurrent Equations"></a>
+<a aria-label="Set page as root" class="circle rooter" href="/Knowledge/recurrent_equations.html"></a> <h1 class="title">Recurrent Equations</h1>
+<div class="tags">
+<a class="tag" href="/Knowledge/tag_Discrete%20Structures.html">Discrete Structures</a>
+<a class="tag" href="/Knowledge/tag_Lecture.html">Lecture</a>
+<a class="tag" href="/Knowledge/tag_Recursion.html">Recursion</a>
+</div>
+</header><section class="outline-2 graph">
+<object data="/Knowledge/recurrent_equations.29fec25f.svg" type="image/svg+xml"></object></section><section id="outline-container-org7aba131" class="outline-2">
+<h2 id="org7aba131"><span class="section-number-2">1</span> Recurrent Equations</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org5bfe30a" class="outline-3">
+<h3 id="org5bfe30a"><span class="section-number-3">1.1</span> Definition</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+A recurrent equation is any equation that is defined by
+itself i.e a recursive function.
+</p>
+
+<p>
+That is any
+\(L(a) = f(l(a), \alpha(a))\)
+</p>
+
+<p>
+Where \(\alpha(a)\) is defined for all \(a\) and it is not recursive.
+and \(l(a)\) is defined for all \(a\) and is defined via at least one reference to \(L\)
+</p>
+
+<p>
+\(L(a-1) = f(L(a-2), \alpha(a-1))\)
+</p>
+
+<p>
+&#x2026;
+</p>
+
+<p>
+\(L(a-a) = f(L(a-a-1), \alpha(a-a))\)
+</p>
+
+<p>
+There is a problem in that the recursion has no base.
+</p>
+
+<p>
+Let \(L(0) = 1\)
+</p>
+
+<p>
+Let \(f : R^{2} \rightarrow R := (a,b) \Rightarrow a + b\)
+</p>
+
+<p>
+Let \(\alpha: R \rightarrow R := a \Rightarrow a\)
+</p>
+
+<p>
+Then
+</p>
+
+<p>
+L(0) = 1
+</p>
+
+<p>
+L(1) = L(0) + 1 = <code>2</code>
+</p>
+
+<p>
+L(2) = L(1) + 2 = <code>4</code>
+</p>
+
+<p>
+L(3) = L(2) + 3 = <code>7</code>
+</p>
+
+<p>
+L(4) = L(3) + 4 = <code>11</code>
+</p>
+
+<p>
+L(5) = L(4) + 5 = <code>16</code>
+</p>
+
+<p>
+L(6) = L(5) + 6 = <code>22</code>
+</p>
+</div>
+</div>
+<div id="outline-container-org82519fe" class="outline-3">
+<h3 id="org82519fe"><span class="section-number-3">1.2</span> Method for solving homogeneous recurrent equations</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+\(a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k}\)
+</p>
+
+<p>
+\((c_{1}, \cdots, c_{k}) \in \mathbb{N}\) - const
+</p>
+
+<p>
+\(c_{k} \neq 0\)
+</p>
+
+<p>
+\(k\) - const
+</p>
+
+
+<p>
+There should be \(k\) base cases given.
+</p>
+
+<p>
+\[a_0 = q_0\\
+\cdots\\
+a_{k-1} = q_{k-1}\]
+</p>
+</div>
+<div id="outline-container-org199a089" class="outline-4">
+<h4 id="org199a089"><span class="section-number-4">1.2.1</span> Characteristic equation</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<p>
+We find/replace a<sub>(n-[0-9|k]+)</sub> with x^\1
+</p>
+
+<p>
+\(x^{n} = c_{1}x^{n-1} + c_{2}x^{n-2}+ \cdots + c_{k-1}x^{n-k+1} + c_{k}x^{n-k}\)
+</p>
+
+<p>
+We divide by \(x^{n-k}\):
+</p>
+
+<p>
+\(x^{k} = c_{1}x^{k-1} + c_{2}x^{k-2} + \cdots + c_{k-1}x + c_{k}\)
+</p>
+
+<p>
+This is the characteristic equation.
+</p>
+</div>
+</div>
+<div id="outline-container-orgc2596ae" class="outline-4">
+<h4 id="orgc2596ae"><span class="section-number-4">1.2.2</span> Finding the roots of the characteristic equation</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<p>
+From the '<a href="/Knowledge/fundamental_theorem_of_algebra.html">Fundamental theorem of algebra</a>' the
+characteristic equation has exactly k complex (potentially equal) roots.
+</p>
+
+<p>
+Let &alpha;={&alpha;<sub>1</sub>, &alpha;<sub>2</sub>, &hellip;, &alpha;<sub>k</sub>}<sub>M</sub> be the <a href="/Knowledge/multiset.html">multiset</a> of the roots.
+It is important that a multiset is used due to the possibility of equal roots.
+</p>
+</div>
+</div>
+<div id="outline-container-org3ef552e" class="outline-4">
+<h4 id="org3ef552e"><span class="section-number-4">1.2.3</span> General solution</h4>
+<div class="outline-text-4" id="text-1-2-3">
+</div>
+<div id="outline-container-orgd7dd770" class="outline-5">
+<h5 id="orgd7dd770"><span class="section-number-5">1.2.3.1</span> For roots that are all unique</h5>
+<div class="outline-text-5" id="text-1-2-3-1">
+<p>
+\[a_n = A_{1}\alpha_1^n + A_{2}\alpha_2^{n} + \cdots + A_{k}\alpha_k^{n}\]
+</p>
+
+<p>
+Where A<sub>1</sub>, &hellip;, A<sub>k</sub> are unknown constants.
+</p>
+
+<p>
+If the base cases are unknown it is impossible to find those constants.
+</p>
+
+<p>
+If they are given, we can replace \(n\) in the
+general solution with the indexes of the base cases.
+</p>
+
+<p>
+We get a system of \(k\) linear equations with \(k\) unknown variables.
+Which are trivial to solve.
+</p>
+
+<p>
+And by doing so we can find the <b>precise</b> solution of the recurrent equation.
+</p>
+</div>
+</div>
+<div id="outline-container-org4d44c9b" class="outline-5">
+<h5 id="org4d44c9b"><span class="section-number-5">1.2.3.2</span> When some roots are equal</h5>
+<div class="outline-text-5" id="text-1-2-3-2">
+<p>
+Let the <a href="/Knowledge/set.html">set</a> (not multiset) of roots is \(\{\beta_i\}_{i=1}^t\) where t &le; k.
+</p>
+
+<p>
+Let \(r_i\) be the number of times \(\beta_i\) is found in \(\alpha\)
+for \(1 \leq i \leq t\).
+</p>
+
+<p>
+Obviously \(\sum_{i=1}^{t}\limits r_{i} = k\)
+</p>
+
+
+<p>
+Then the general solution is:
+</p>
+
+\begin{equation*}
+\begin{aligned}
+a_{n} = &A_{1,1}\beta_{1}^{n} + A_{1,2}n\beta_{1}^{n} + \cdots + A_{1,r_{1}}n^{r_{1}-1}\beta_{1}^{n} +\\
+&A_{2,1}\beta_{2}^{n} + A_{2,2}n\beta_{2}^{n} + \cdots + A_{2,r_{2}}n^{r_{2}-1}\beta_{2}^{n} +\\
+&\cdots\\
+&A_{t,1}\beta_{t}^{n} + A_{t,2}n\beta_{t}^{n} + \cdots + A_{t,r_{t}}n^{r_{t}-1}\beta_{t}^{n} +\\
+\end{aligned}
+\end{equation*}
+
+
+<p>
+This looks intimidating but is actually quite simple.
+</p>
+
+<p>
+If &alpha; = {1, 1, 2, 3}<sub>M</sub>
+</p>
+
+<p>
+Then &beta; = {1, 2, 3}
+</p>
+
+<p>
+or \(a_n = A_{1,1}1^n + A_{1,2}n1^{n} + A_{2,1}2^{n} + A_{3,1}3^{n} = A_{1} + A_{2}n + A_{3}2^{n} + A_{3}3^{n}\)
+</p>
+
+<p>
+The <b>precise</b> solution is found equivalently to the
+previous case since there are exactly \(k\) indexed constants \(A_{i,j}\).
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org5320500" class="outline-3">
+<h3 id="org5320500"><span class="section-number-3">1.3</span> Solving non-homogeneous recurrent equations.</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+\(a_n = c_{1}a_{n-1} + c_{2} a_{n-1} + \cdots + c_{k}a_{n-k} + p_{1}(n)*b_{1}^{n} + \cdots + p_{l}(n)*b_{l}^{n}\)
+</p>
+
+<p>
+\((c_{1}, \cdots, c_{k}) \in \mathbb{N}\) - const
+</p>
+
+<p>
+\((b_{1}, \cdots, b_{l}) \in \mathbb{N}\) - const
+</p>
+
+<p>
+\(\forall{}i,j, i\neq{}j: b_{i} \neq b_{j}\)
+</p>
+
+<p>
+\(c_{k} \neq 0\)
+</p>
+
+<p>
+\(k,l\) - const
+</p>
+
+<p>
+\(p_i(n)\) are polynomials of \(n\)
+</p>
+
+<p>
+There should be \(k\) base cases given.
+</p>
+
+<p>
+\[a_0 = q_0\\
+\cdots\\
+a_{k-1} = q_{k-1}\]
+</p>
+
+
+
+<p>
+Firstly we forget about the non-homogeneous part and
+solve it as if it were a homogeneous equation.
+</p>
+
+<p>
+We find the multiset \(\alpha\) of roots of the characteristic equation.
+</p>
+
+<p>
+Let \(\beta\) be the multiset of the numbers \(b_1, \dots, b_l\) each
+of which appears \(deg(p_i) + 1 (i \in [1, l])\) amount of times.
+</p>
+
+<p>
+We find \(\gamma = \beta \cup \alpha\) and we write the general solution in
+accordance to \(\gamma\).
+</p>
+
+<p>
+We use the base cases to find the constants \(A_i\),
+but there are \(k\) base cases and \(k+l\) roots.
+</p>
+
+<p>
+The missing base cases are calculated via the recurrent equation.
+</p>
+
+<p>
+The rest proceeds as normal.
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org6e42684" class="outline-2">
+<h2 id="org6e42684"><span class="section-number-2">2</span> Backlinks</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><a href="/Knowledge/recentchanges.html">Recent changes</a></li>
+<li><a href="/Knowledge/discrete_structures.html">Discrete Structures</a></li>
+<li><a href="/Knowledge/divided_differences.html">Divided Differences</a></li>
+<li><a href="/Knowledge/chebyshev_polynomial.html">Chebyshev Polynomial</a></li>
+</ul>
+</div>
+</section>
+</div>
+<div id="temp-network" style="display:none
+"></div></div></div></div></body>
+              </html>
