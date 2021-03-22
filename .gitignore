@@ -6,3 +6,4 @@ graph.dot
 /dot/*.dot
 /.parcel-cache/
 /node_modules/
+/res/graph/complex_function.svg
