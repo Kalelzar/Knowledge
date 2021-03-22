@@ -4,5 +4,5 @@
 #+roam_tags: "Numeric Methods" "Definition"
 * Extrapolation
 
-Using [[file:Lagrange Interpolation.org][interpolation]] on a function for a value outside of the defined range of
+Using [[file:lagrange_interpolation.org][interpolation]] on a function for a value outside of the defined range of
 interpolation knots is called extrapolation

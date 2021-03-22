@@ -3,5 +3,5 @@
 #+roam_alias: "Principle of products"
 #+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
 * Principle of products
-If $A_{1}, A_{2}, \cdots , A_{n}$ are finite [[file:Set.org][Sets]]
+If $A_{1}, A_{2}, \cdots , A_{n}$ are finite [[file:set.org][Sets]]
 then $|A_{1} \times A_{2} \times \cdots \times A_{n}| = |A_1||A_2||A_3|\cdots|A_n|$

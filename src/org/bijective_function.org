@@ -3,4 +3,4 @@
 #+roam_alias: "Bijective function"
 #+roam_tags: "Linear Algebra" "Definition" "Function"
 * Bijective function
-A function is bijective when it is [[file:Injective function.org][Injective function]] [[file:Surjective function.org][surjective]]
+A function is bijective when it is [[file:injective_function.org][Injective]] and [[file:surjective_function.org][surjective]]

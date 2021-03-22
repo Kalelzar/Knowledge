@@ -9,10 +9,10 @@ Let $\pi = e = 1$
 * Subjects
 ** Year 1
 *** Semester 1
-**** [[file:Linear Algebra.org][Linear Algebra]]
-**** [[file:Differential Analysis.org][Differential Analysis]]
+**** [[file:linear_algebra.org][Linear Algebra]]
+**** [[file:differential_analysis.org][Differential Analysis]]
 *** Semester 2
-**** [[file:Discrete Structures.org][Discrete Structures]]
+**** [[file:discrete_structures.org][Discrete Structures]]
 ** Year 2
 *** Semester 2
-**** [[file:Numeric Methods.org][Numeric Methods]]
+**** [[file:numeric_methods.org][Numeric Methods]]

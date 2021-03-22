@@ -43,7 +43,7 @@ $0 = f(x) - L_{n}(f;x) - C\omega(x) \Rightarrow C = \frac{f(x)-L_{n}(f;x)}{\omeg
 
 As such the function $F$ has $n+2$ zeroes $x_{0}, \dots, x_{n}, x$
 
-By [[file:Rolle Theorem.org][Rolle Theorem]] \Rightarrow $F'(t)$ has atleast
+By [[file:rolle_theorem.org][Rolle Theorem]] \Rightarrow $F'(t)$ has atleast
 $n + 1$ zeros in $[a,b]$.
 
 Equivalently F^(n+1)(t) has at least one zero in $[a,b]$.
@@ -79,7 +79,7 @@ Then:
 * Solved Problems
 ** Problem 1
 Find the error when approximating f(x) = 1/(1+x) in the interval [0, 1]
-with [[file:Lagrange Interpolation.org][Lagrange Interpolation]] using
+with [[file:lagrange_interpolation.org][Lagrange Interpolation]] using
 two reference points 0, 1.
 
 Evaluate the (abs) error from above in [0, 1]

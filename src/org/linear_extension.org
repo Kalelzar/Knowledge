@@ -3,8 +3,8 @@
 #+roam_alias: "Linear extension"
 #+roam_tags: "Discrete Structures" "Definition" "Order" "Relation"
 * Linear extension
-Let $R \subseteq A^{2}$ be a [[file:Partial order.org][Partial order]], $R' \subseteq A^{2}$
-is a [[file:Linear order.org][Linear order]] and $R\subseteq R'$.
+Let $R \subseteq A^{2}$ be a [[file:partial_order.org][Partial order]], $R' \subseteq A^{2}$
+is a [[file:linear_order.org][Linear order]] and $R\subseteq R'$.
 
 Then R' is a linear extension of R.
 

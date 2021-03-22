@@ -5,5 +5,5 @@
 
 * Numeric Methods
 ** Lectures
-*** [[file:Function Approximation.org][Function Approximation]]
-*** [[file:Lagrange Interpolation.org][Lagrange Interpolation]]
+*** [[file:function_approximation.org][Function Approximation]]
+*** [[file:lagrange_interpolation.org][Lagrange Interpolation]]

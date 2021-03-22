@@ -3,7 +3,7 @@
 #+roam_alias: "Symmetric Relation"
 #+roam_tags: "Discrete Structures" "Definition" "Relation"
 * Symmetric Relation
-A [[file:Relation.org][relation]] is symmetric
+A [[file:relation.org][relation]] is symmetric
 if for $R \in A^{2 }$
 
 $\forall x \in A \forall y \in A, x \neq y: xRy \rightarrow yRx$

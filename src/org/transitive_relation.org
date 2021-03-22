@@ -3,7 +3,7 @@
 #+roam_alias: "Transitive Relation"
 #+roam_tags: "Discrete Structures" "Definition" "Relation"
 * Transitive Relation
-A [[file:Relation.org][relation]] is transitive
+A [[file:relation.org][relation]] is transitive
 if for $R \in A^{2}$
 
 $a,b,c\in A: aRb \land bRc \rightarrow aRc$

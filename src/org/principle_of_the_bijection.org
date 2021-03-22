@@ -3,6 +3,6 @@
 #+roam_alias: "Principle of the bijection"
 #+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
 * Principle of the bijection
-Let $A$ and $B$ be [[file:Set.org][sets]].
+Let $A$ and $B$ be [[file:set.org][sets]].
 
-$|A| = |B| \Leftrightarrow \exists{} f: A -> B$ for $f$ - [[file:Bijective function.org][bijection]]
+$|A| = |B| \Leftrightarrow \exists{} f: A -> B$ for $f$ - [[file:bijective_function.org][bijection]]

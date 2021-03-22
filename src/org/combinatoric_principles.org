@@ -2,10 +2,11 @@
 #+startup: latexpreview
 #+roam_alias: "Combinatoric principles"
 #+roam_tags: "Discrete Structures" "Definition" "Combinatorics" "Meta:Collection"
+
 * Combinatoric principles
-** [[file:Dirichlet principle.org][Dirichlet principle]]
-** [[file:Principle of partitions.org][Principle of partitions]]
-** [[file:Principle of products.org][Principle of products]]
-** [[file:Principle of the bijection.org][Principle of the bijection]]
-** [[file:Principle of division.org][Principle of division]]
-** [[file:Principle of inclusion and exclusion.org][Principle of inclusion and exclusion]]
+** [[file:dirichlet_principle.org][Dirichlet principle]]
+** [[file:principle_of_partitions.org][Principle of partitions]]
+** [[file:principle_of_products.org][Principle of products]]
+** [[file:principle_of_the_bijection.org][Principle of the bijection]]
+** [[file:principle_of_division.org][Principle of division]]
+** [[file:principle_of_inclusion_and_exclusion.org][Principle of inclusion and exclusion]]

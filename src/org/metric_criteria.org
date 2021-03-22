@@ -5,5 +5,5 @@
 
 * Metric Criteria
 
-We introduce a [[file:Metric.org][Metric]] $\rho(f,g)$:
+We introduce a [[file:metric.org][Metric]] $\rho(f,g)$:
 Then $f\approx{}g$ ($f$ approximates $g$) if $\rho(f, g) \approx 0$

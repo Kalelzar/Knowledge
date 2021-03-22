@@ -3,7 +3,7 @@
 #+roam_alias: "Anti-reflexive relation"
 #+roam_tags: "Discrete Structures" "Definition" "Relation"
 * Anti-reflexive relation
-A [[file:Relation.org][relation]] is anti-reflexive
+A [[file:relation.org][relation]] is anti-reflexive
 if for $R \in A^{n}$
 
 $\forall{x} \in A : (x, \cdots, x) \not\in R$

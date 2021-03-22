@@ -7,6 +7,6 @@ Let $f$ be a function
 
 Let $y_i = f(x), i\in\overline{0,n}$,
 
-Then the solution to [[file:Lagrange Interpolation Problem.org][Lagrange Interpolation Problem]]
+Then the solution to [[file:lagrange_interpolation_problem.org][Lagrange Interpolation Problem]]
 $L_n(f;x)$ is called the Lagrange Interpolation Polynomial of degree $\leq n$
 for the function $f$ and the knots of interpolation $x_0, \dots, x_n$

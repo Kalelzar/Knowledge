@@ -3,7 +3,7 @@
 #+roam_alias: "Bad Habit"
 #+roam_tags: "General"
 
-* Bad Habit.org
+* Bad Habit
 I have the bad habit to start projects that I never finish.
 
 It's really starting to irk me as some of those projects would be nice to have.
@@ -26,7 +26,7 @@ but that I forget about them. I forget why I needed them, planned features
 and sometimes I forget about their existance entirely.
 
 
-Recently the thing that occupies my attention is [[file:Org Roam.org][org-roam]]
+Recently the thing that occupies my attention is [[file:org_roam.org][Org Roam]]
 and the publishing system for it.
 
 And so I thought up a thing. I already have all these files here, why not make
@@ -37,4 +37,4 @@ the implicit creation of a new project).
 I could also take notes for project ideas. Stuff that I've thought about
 but for some reason or another decided not to try and do.
 
-Without further ado: [[file:Projects.org][Projects]]
+Without further ado: [[file:projects.org][Projects]]

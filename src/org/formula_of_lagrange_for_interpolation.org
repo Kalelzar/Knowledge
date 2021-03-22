@@ -5,7 +5,7 @@
 
 $L_{n}(f;x) = \sum_{k=0}^{n}l_k(x)f(x_k)$
 
-$l_k(x_i) = \delta_{ik}$ ([[file:Kronecker Delta.org][Kronecker Delta]]).
+$l_k(x_i) = \delta_{ik}$ ([[file:kronecker_delta.org][Kronecker Delta]]).
 
 * Formula of Lagrange for Interpolation
 
@@ -36,7 +36,7 @@ It would be nice to have some representation $L_{n}(f;x) = a_{0} + a_{1}(x-x_{0}
 as going from $L_n \rightarrow L_{n+1}$ would only be a matter of adding $a_{n+1}(x-x_{0})\dots(x-x_n)$ to $L_{n}$
 
 
-Thankfully such a representation exists and it's called[[file:Formula of Newton for Interpolation.org][Formula of Newton for Interpolation]]
+Thankfully such a representation exists and it's called[[file:formula_of_newton_for_interpolation.org][Formula of Newton for Interpolation]]
 
 * Solved Problems
 ** Problem 1

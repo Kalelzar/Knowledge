@@ -3,8 +3,8 @@
 #+roam_alias: "Partial order"
 #+roam_tags: "Discrete Structures" "Definition" "Relation" "Order"
 * Partial order
-A [[file:Relation.org][Relation]] is a partial order when it is [[file:Reflexive Relation.org][reflexive]],
-[[file:Anti-symmetric Relation.org][anti-symmetric]] and [[file:Transitive Relation.org][transitive]].
+A [[file:relation.org][Relation]] is a partial order when it is [[file:reflexive_relation.org][reflexive]],
+[[file:anti-symmetric_relation.org][anti-symmetric]] and [[file:transitive_relation.org][transitive]].
 ** Maximum and minimum in a partial order
 Let $R \subseteq A^{2}$
 

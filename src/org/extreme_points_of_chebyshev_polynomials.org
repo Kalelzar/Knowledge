@@ -2,7 +2,7 @@
 #+startup: latexpreview
 #+roam_alias: "Extreme points of Chebyshev polynomials"
 #+roam_tags: "Numeric Methods" "Definition"
-* Extreme points of [[file:Chebyshev Polynomial.org][Chebyshev polynomials]]
+* Extreme points of [[file:chebyshev_polynomial.org][Chebyshev polynomials]]
 By definition $\lvert{}T_{n}(x)\rvert{} \leq 1 \qquad \forall{x} \in [-1, 1]$
 
 The points in which $\lvert{}T_{n}(x)\rvert{} = 1|0$ are extreme points.

@@ -3,7 +3,7 @@
 #+roam_alias: "Chain"
 #+roam_tags: "Discrete Structures" "Definition" "Relation"
 * Chain
-Let $R \subseteq A^{2}$ is a *random* [[file:Relation.org][Relation]] and $A = \{a_1,\cdots,a_{n}\}$.
+Let $R \subseteq A^{2}$ is a *random* [[file:relation.org][Relation]] and $A = \{a_1,\cdots,a_{n}\}$.
 
 A chain is any sequence
 
@@ -14,5 +14,5 @@ and $a_{i_{j}}\neq{}a_{i_{j+1}}$ for $0\leq j < k$, $k\geq0$.
 
 A single element is also a chain.
 
-** [[file:Contour.org][Contour]]
-** [[file:Partial orders have no contours.org][Theorem - Partial orders have no contours]].
+** [[file:contour.org][Contour]]
+** [[file:partial_orders_have_no_contours.org][Theorem - Partial orders have no contours]].

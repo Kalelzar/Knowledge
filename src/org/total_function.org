@@ -3,6 +3,6 @@
 #+roam_alias: "Total function"
 #+roam_tags: "Discrete Structures" "Definition" "Relation" "Function"
 * Total function
-Total functions $f : X \rightarrow Y$ are all [[file:Relation.org][Relations]] $f \subseteq X \times Y$
+Total functions $f : X \rightarrow Y$ are all [[file:relation.org][Relations]] $f \subseteq X \times Y$
 such that $\forall x \in X, \exists! y \in Y$
 such that $(x,y)\in f$

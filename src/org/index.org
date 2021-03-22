@@ -3,9 +3,9 @@
 #+roam_alias: index
 #+roam_tags: "index"
 
-A personal wiki powered by org-publish and [[file:Org Roam.org][org-roam]].
+A personal wiki powered by org-publish and [[file:org_roam.org][Org Roam]].
 
-I store notes from lectures and seminars in [[file:Subjects.org][Subjects]].
+I store notes from lectures and seminars in [[file:subjects.org][Subjects]].
 
 * TODO
 ** Add short description to Tag files

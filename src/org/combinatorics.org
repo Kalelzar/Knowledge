@@ -2,8 +2,9 @@
 #+startup: latexpreview
 #+roam_alias: "Combinatorics"
 #+roam_tags: "Discrete Structures" "Lecture" "Combinatorics"
+
 * Combinatorics
-** [[file:Combinatoric principles.org][Combinatoric principles]]
+** [[file:combinatoric_principles.org][Combinatoric principles]]
 ** Types of combinatorial constructs
 
 $A = \{1, 2, 3\}$

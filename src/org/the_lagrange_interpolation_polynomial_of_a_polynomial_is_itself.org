@@ -5,7 +5,7 @@
 
 If $f \in \pi_{n}$ then $L_{n}(f;x) = f(x)$
 
-* The [[file:Lagrange Interpolation Polynomial.org][Lagrange Interpolation Polynomial]] of a Polynomial is itself
+* The [[file:lagrange_interpolation_polynomial.org][Lagrange Interpolation Polynomial]] of a Polynomial is itself
 
 If $f \in \pi_{n}$ then $L_{n}(f;x) = f(x)$
 

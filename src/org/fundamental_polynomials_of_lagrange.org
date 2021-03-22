@@ -4,7 +4,7 @@
 #+roam_tags: "Numeric Methods" "Definition" "Polynomials" "Lagrange"
 
 * Fundamental polynomials of Lagrange
-$l_{k,n}(x_i) = \delta_{ki}$ ([[file:Kronecker Delta.org][Kronecker Delta)]]
+$l_{k,n}(x_i) = \delta_{ki}$ ([[file:kronecker_delta.org][Kronecker Delta)]]
 
 * Solved Problems
 

@@ -8,7 +8,7 @@ Let $n=0,1,2,\dots$ then:
 is called a Chebyshev polynomial of degree $n$
 
 Obviously $T_0(x) = 1,\quad T_1(x) = x$
-** [[file:Recurrent Equations.org][Recurrent]] Connection
+** [[file:recurrent_equations.org][Recurrent]] Connection
 \[T_{n+1}(x) = 2xT_n(x) - T_{n-1}(x) \tag{$n=1,2,\dots$}\]
 *** Proof
 Let $\theta=\arccos(x)$

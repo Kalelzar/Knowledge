@@ -8,7 +8,7 @@ Let $R \in A^n$
 
 The reflexive closure of R is the smallest set
 $R' \subseteq A^{n}$ such that $R' \supseteq R$ and $R'$ is a
-[[file:Reflexive Relation.org][reflexive relation]].
+[[file:reflexive_relation.org][reflexive relation]].
 
 (Smallest set means that $\forall{}R'' \subseteq  A^{n}$ such that
  $R'' \supseteq R$ and $R''$ is a reflexive relation
@@ -18,8 +18,8 @@ $R' \subseteq A^{n}$ such that $R' \supseteq R$ and $R'$ is a
 :PROPERTIES:
 :ID:       4415fce8-7a8d-41b0-b465-3c1ac77095bc
 :END:
-Let $A$ be a finite [[file:Set.org][set]] and
-$R \in A^n$ is a [[file:Relation.org][relation]] represented by a [[file:Matrix.org][matrix]]
+Let $A$ be a finite [[file:set.org][set]] and
+$R \in A^n$ is a [[file:relation.org][relation]] represented by a [[file:matrix.org][matrix]]
 
 To get the reflexive closure of $R$ all you need to do is
 convert all '0's along the main diagonal to '1's

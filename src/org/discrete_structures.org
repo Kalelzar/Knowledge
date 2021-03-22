@@ -3,9 +3,9 @@
 #+roam_alias: "Discrete Structures"
 #+roam_tags: "Discrete Structures" "Lecture"
 * Discrete Structures
-** [[file:Logical Operators.org][Logical Operators]]
-** [[file:Logical Equivalences.org][Logical Equivalences]]
-** [[file:Relations.org][Relations]]
-** [[file:Functions.org][Functions]]
-** [[file:Combinatorics.org][Combinatorics]]
-** [[file:Recurrent Equations.org][Recurrent Equations]]
+** [[file:logical_operators.org][Logical Operators]]
+** [[file:logical_equivalences.org][Logical Equivalences]]
+** [[file:relations.org][Relations]]
+** [[file:functions.org][Functions]]
+** [[file:combinatorics.org][Combinatorics]]
+** [[file:recurrent_equations.org][Recurrent Equations]]

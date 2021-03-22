@@ -3,7 +3,7 @@
 #+roam_alias: "Principle of inclusion and exclusion"
 #+roam_tags: "Discrete Structures" "Definition" "Combinatorics"
 * Principle of inclusion and exclusion
-$\forall{}n\geq1, \forall$ [[file:Set.org][sets]] $A_{1}, A_{2}, \dots, A_{n}:$
+$\forall{}n\geq1, \forall$ [[file:set.org][sets]] $A_{1}, A_{2}, \dots, A_{n}:$
 
 \begin{equation*}
   \begin{aligned}

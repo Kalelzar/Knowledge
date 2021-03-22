@@ -82,10 +82,10 @@ We divide by $x^{n-k}$:
 This is the characteristic equation.
 *** Finding the roots of the characteristic equation
 
-From the '[[file:Fundamental Theorem of Algebra.org][Fundamental theorem of algebra]]' the
+From the '[[file:fundamental_theorem_of_algebra.org][Fundamental theorem of algebra]]' the
 characteristic equation has exactly k complex (potentially equal) roots.
 
-Let \alpha={\alpha_1, \alpha_2, \dots, \alpha_k}_M be the [[file:Multiset.org][multiset]] of the roots.
+Let \alpha={\alpha_1, \alpha_2, \dots, \alpha_k}_M be the [[file:multiset.org][multiset]] of the roots.
 It is important that a multiset is used due to the possibility of equal roots.
 *** General solution
 **** For roots that are all unique
@@ -105,7 +105,7 @@ Which are trivial to solve.
 And by doing so we can find the *precise* solution of the recurrent equation.
 **** When some roots are equal
 
-Let the [[file:Set.org][set]] (not multiset) of roots is $\{\beta_i\}_{i=1}^t$ where t \leq k.
+Let the [[file:set.org][set]] (not multiset) of roots is $\{\beta_i\}_{i=1}^t$ where t \leq k.
 
 Let $r_i$ be the number of times $\beta_i$ is found in $\alpha$
 for $1 \leq i \leq t$.
