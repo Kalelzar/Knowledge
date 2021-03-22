@@ -67,7 +67,7 @@
   (-reduce
    #'s-concat
    (--map
-    (format "\"%s\" -> \"%s\";" (car it) (cdr it))
+    (format "\"%s\" -> \"%s\";" (slug-to-title (car it)) (slug-to-title (cdr it)))
     pairs)))
 
 (defun -cluster-format-forward-nodes (cluster)
@@ -110,10 +110,6 @@
     (error "Expected a node-format"))
   (unless (cluster-edge-format-p backward-edge-format)
     (error "Expected a edge-format"))
-
-  (message (format "Exporting cluster of %s"
-                   (slug-to-title
-                    (cluster-center-node cluster))))
 
   (s-concat
    (format "node [%s];" (format-to-dot forward-node-format))
@@ -161,6 +157,7 @@
                             backward-edge-format)
      clusters))
    "}"))
+
 
 
 (defun roam-note-make-dot (roam-note)
@@ -212,18 +209,19 @@
 
 
 
-(defvar cluster-backlinks-exclude-filter '("recentchanges" "readme" "knowledge_base"))
+(defvar cluster-backlinks-exclude-filter '("Recent changes" "Knowledge Base"))
 
+;;;(roam-note-make-dot "chain.org")
 (defun build-cluster (center-node)
   "Construct a cluster around CENTER-NODE."
   (let* ((forward (--map
-                   (f-filename (title-to-slug (f-base it)))
+                   (f-filename it)
                    (-flatten
                     (org-roam-db-query [:select dest
                                                 :from links
                                                 :where (= source $s1)]
                                        (f-join org-roam-directory
-                                               (concat center-node)))))))
+                                               center-node))))))
     (make-cluster
    :forward-links
    forward
@@ -231,15 +229,17 @@
    (let ((-compare-fn #'string=))
      (-difference
       (--map
-       (f-filename (title-to-slug (f-base it)))
+       (f-filename it)
        (-flatten
         (org-roam-db-query [:select source
                                     :from links
                                     :where (= dest $s1)]
                            (f-join org-roam-directory
-                                   (concat center-node ".org")))))
+                                   center-node))))
       (-concat
-       cluster-backlinks-exclude-filter
+       (-map
+        #'title-to-slug
+        cluster-backlinks-exclude-filter)
        forward)))
    :center-node
    center-node)))
